@@ -1,0 +1,1233 @@
+/* methodology: http://smacss.com/ */
+/* special announcements not stickied */
+/* line 5, ../sass/main.sass */
+.id-t3_zqole {
+  padding: 4px 0px;
+}
+/* line 7, ../sass/main.sass */
+.id-t3_zqole p.title a.title {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* line 1, ../sass/_base.sass */
+body {
+  background-color: black;
+}
+
+/* line 4, ../sass/_base.sass */
+a {
+  text-decoration: none;
+  color: #aa6600;
+}
+
+/* line 8, ../sass/_base.sass */
+a:hover {
+  color: #ffcc00;
+}
+
+/* line 11, ../sass/_base.sass */
+::selection {
+  color: white;
+  background-color: #1111aa !important;
+}
+
+/* line 15, ../sass/_base.sass */
+code {
+  color: #37df37;
+}
+
+/* line 3, ../sass/_layout.sass */
+body {
+  background: black;
+  background: url(%%background%%);
+  background-repeat: repeat;
+}
+
+/* line 7, ../sass/_layout.sass */
+body > .content {
+  margin: 0px;
+  padding: 7px 5px 0px 5px;
+  background: none;
+  color: #eeeeee;
+}
+
+/* line 14, ../sass/_layout.sass */
+.thing.spam {
+  background: none;
+  border-color: salmon;
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+}
+/* line 19, ../sass/_layout.sass */
+.thing.reported {
+  background: none;
+  border-color: yellow;
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  margin-left: 10px;
+  padding-left: 15px;
+}
+
+/* line 28, ../sass/_layout.sass */
+.listing-page .thing .title {
+  height: 22px;
+  margin: 0px;
+  height: 19px;
+  overflow: hidden;
+  display: inline-block;
+  max-width: 800px;
+}
+
+/* line 38, ../sass/_layout.sass */
+.compressed .rank {
+  margin-top: 13px;
+}
+
+/* line 41, ../sass/_layout.sass */
+.listing-page .link {
+  margin-bottom: 15px;
+}
+/* line 43, ../sass/_layout.sass */
+.listing-page .link .rank {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+/* line 46, ../sass/_layout.sass */
+.listing-page .link .entry {
+  position: relative;
+  min-height: 64px;
+}
+
+/*sidebar */
+/* line 2, ../sass/_modules.sass */
+.side {
+  color: #eeeeee !important;
+  background: none;
+  z-index: 500;
+}
+
+/* line 7, ../sass/_modules.sass */
+.side .titlebox {
+  color: #eeeeee;
+}
+/* line 9, ../sass/_modules.sass */
+.side .titlebox .redditname a {
+  text-transform: uppercase;
+  color: #eeeeee !important;
+}
+/* line 13, ../sass/_modules.sass */
+.side .titlebox .word {
+  display: none;
+}
+/* line 15, ../sass/_modules.sass */
+.side .titlebox .number::after {
+  content: " broodlings";
+}
+/* line 18, ../sass/_modules.sass */
+.side .titlebox.create {
+  display: none;
+}
+/* line 20, ../sass/_modules.sass */
+.side .titlebox .spacer {
+  background: none;
+}
+/* line 23, ../sass/_modules.sass */
+.side .titlebox .titlebox form.toggle {
+  background: none;
+}
+/* line 27, ../sass/_modules.sass */
+.side .titlebox .leavemoderator {
+  background: none;
+}
+/* line 31, ../sass/_modules.sass */
+.side .titlebox .flairtoggle {
+  background: none;
+}
+/* line 34, ../sass/_modules.sass */
+.side .titlebox .bottom {
+  display: none;
+}
+/* line 37, ../sass/_modules.sass */
+.side .titlebox .tagline {
+  background-color: black;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 5px 0 5px 20px;
+}
+
+/* line 44, ../sass/_modules.sass */
+.side .sidecontentbox .content {
+  background-color: black;
+}
+
+/* line 47, ../sass/_modules.sass */
+.icon-menu a {
+  background: none;
+}
+
+/* line 53, ../sass/_modules.sass */
+#search input[type="text"] {
+  border: 0px solid white;
+  border-radius: 3px;
+  outline: none;
+  background: black;
+  color: white;
+  padding: 3px 6px;
+  opacity: 0.75;
+  width: 290px;
+}
+/* line 62, ../sass/_modules.sass */
+#search input[type="text"]:hover {
+  box-shadow: 0px 0px 5px 0px #ffcc00;
+}
+/* line 64, ../sass/_modules.sass */
+#search input[type="text"]:focus {
+  padding: 2px 5px;
+  border: 1px solid white;
+  opacity: 1;
+}
+
+/* line 69, ../sass/_modules.sass */
+#sr-header-area {
+  position: relative;
+  z-index: 901;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+/* line 75, ../sass/_modules.sass */
+#sr-header-area .sr-bar a {
+  color: #aa6600;
+}
+
+/* line 78, ../sass/_modules.sass */
+#header {
+  border-bottom: 1px solid #b67d27;
+  background-color: black;
+  height: 145px;
+  overflow: hidden;
+}
+/* line 85, ../sass/_modules.sass */
+#header .pagename.redditname a {
+  background: url(%%banneroff%%);
+  width: 1670px;
+  height: 125px;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+  text-indent: -9999px;
+  z-index: 100;
+  background-repeat: no-repeat;
+}
+/* line 96, ../sass/_modules.sass */
+#header .pagename.redditname a:hover {
+  background: url(%%banneron%%);
+}
+/* line 101, ../sass/_modules.sass */
+#header #header-bottom-left #header-img {
+  opacity: 0.4;
+  position: absolute;
+  bottom: 40px;
+  left: -35px;
+  z-index: 300;
+  height: 44px;
+  width: 66px;
+}
+/* line 110, ../sass/_modules.sass */
+#header #header-bottom-left #header-img:hover {
+  opacity: 1;
+  left: -15px;
+}
+/* line 114, ../sass/_modules.sass */
+#header #header-bottom-left ul.tabmenu {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 200;
+}
+/* line 119, ../sass/_modules.sass */
+#header #header-bottom-left ul.tabmenu li {
+  font-weight: normal;
+}
+/* line 121, ../sass/_modules.sass */
+#header #header-bottom-left ul.tabmenu li a {
+  background-color: black;
+}
+/* line 123, ../sass/_modules.sass */
+#header #header-bottom-left ul.tabmenu li.selected a {
+  background-color: black;
+  border: 1px solid #b67d27;
+  box-shadow: 0px 0px 10px #b67d27;
+}
+/* line 127, ../sass/_modules.sass */
+#header #header-bottom-left ul.tabmenu li #viewImagesButton {
+  display: none;
+}
+/* line 132, ../sass/_modules.sass */
+#header #header-bottom-right {
+  z-index: 200;
+  background: none;
+}
+
+/*remove display images to fit in nicer */
+/* line 19, ../sass/main.sass */
+.comment .md p > a:visited {
+  color: #aa6600 !important;
+}
+
+/* line 22, ../sass/main.sass */
+.comment .md p > a:hover {
+  color: #ffcc00 !important;
+}
+
+/* line 25, ../sass/main.sass */
+.newComments {
+  color: #ffcc00 !important;
+}
+
+/* line 29, ../sass/main.sass */
+.entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
+  color: black;
+}
+
+/* line 33, ../sass/main.sass */
+.tagline a {
+  color: #aa6600;
+  text-decoration: none;
+}
+/* line 36, ../sass/main.sass */
+.tagline a:hover {
+  color: #ffcc00;
+  text-decoration: none;
+}
+/* line 39, ../sass/main.sass */
+.tagline .submitter {
+  color: #ffcc00;
+}
+
+/* line 42, ../sass/main.sass */
+a.author.submitter {
+  color: #ffcc00 !important;
+  background: none !important;
+}
+/* line 45, ../sass/main.sass */
+a.author.submitter:hover {
+  color: yellow !important;
+  background: none !important;
+}
+
+/* line 49, ../sass/main.sass */
+h2 {
+  color: #dddddd;
+}
+/* line 51, ../sass/main.sass */
+h2 a {
+  color: #aa6600;
+}
+
+/* line 54, ../sass/main.sass */
+p.tagline em {
+  color: #eeeeee;
+  display: none;
+}
+
+/* line 58, ../sass/main.sass */
+.usertext.grayed .usertext-body {
+  color: red;
+  background: none;
+}
+
+/* line 62, ../sass/main.sass */
+.linefield {
+  background: none;
+}
+
+/* line 65, ../sass/main.sass */
+.roundfield {
+  background-color: black;
+}
+
+/* line 70, ../sass/main.sass */
+#header #RESShortcuts .RESShortcutsCurrentSub:visited {
+  color: #ffcc00 !important;
+}
+/* line 72, ../sass/main.sass */
+#header #RESShortcuts .RESShortcutsCurrentSub:hover {
+  color: yellow !important;
+}
+
+/* line 75, ../sass/main.sass */
+.dropdown.srdrop .selected {
+  color: #eeeeee;
+}
+
+/* line 78, ../sass/main.sass */
+#sr-more-link {
+  color: #eeeeee;
+  background-color: black;
+}
+
+/*thing */
+/* line 87, ../sass/main.sass */
+.link .rank {
+  color: #3d3d3d;
+}
+
+/* line 90, ../sass/main.sass */
+.keyHighlight {
+  background-color: #000022 !important;
+}
+
+/* line 93, ../sass/main.sass */
+.thing .title {
+  color: #ffcc00 !important;
+}
+/* line 95, ../sass/main.sass */
+.thing .title:hover {
+  color: yellow !important;
+}
+/* line 97, ../sass/main.sass */
+.thing .title:visited, .thing .title.click {
+  color: #aa6600 !important;
+}
+/* line 99, ../sass/main.sass */
+.thing .title:visited:hover, .thing .title.click:hover {
+  color: #ffcc00 !important;
+}
+
+/* line 103, ../sass/main.sass */
+.listing-page .thing .title .title[href*="drop.sc"]::after {
+  content: url(%%Video%%);
+  position: absolute;
+  left: -4px;
+  top: 19px;
+}
+
+/* line 110, ../sass/main.sass */
+.thing .domain {
+  font-size: 0px;
+  top: -2px;
+  position: relative;
+  padding: 5px;
+  height: 10px;
+  display: inline-block;
+}
+/* line 117, ../sass/main.sass */
+.thing .domain a {
+  font-size: x-small;
+}
+/* line 119, ../sass/main.sass */
+.thing .domain::before {
+  content: "► ";
+  font-size: x-small;
+}
+/* line 123, ../sass/main.sass */
+.thing.self .domain::before {
+  content: "◄";
+  /*★ */
+}
+/* line 126, ../sass/main.sass */
+.thing.self .domain a {
+  display: none;
+}
+
+/*self posts */
+/* self versus link posts */
+/* line 134, ../sass/main.sass */
+.listing-page .thing .tagline {
+  background-image: url(%%Video%%);
+  background-repeat: no-repeat;
+  background-position: -5px -3px;
+  background: none;
+  padding: 0px;
+  position: absolute;
+  height: 14px;
+  left: 30px;
+  top: 19px;
+}
+/* line 144, ../sass/main.sass */
+.listing-page .thing .flat-list {
+  position: absolute;
+  top: 33px;
+  left: 30px;
+  height: 14px;
+  padding: 0px;
+}
+
+/* line 151, ../sass/main.sass */
+.voteWeight {
+  color: #eeeeee !important;
+  background: none !important;
+}
+
+/* expando button */
+/* line 157, ../sass/main.sass */
+html[lang="en"] .entry .expando-button {
+  background: none !important;
+  cursor: pointer !important;
+}
+/* line 160, ../sass/main.sass */
+html[lang="en"] .entry .expando-button.collapsed {
+  /*.expando-button.selftext.collapsed */
+  background-image: url(%%egg-plus-off%%) !important;
+  background-position: -1px -1px !important;
+}
+/* line 164, ../sass/main.sass */
+html[lang="en"] .entry .expando-button.collapsed:hover {
+  background-image: url(%%egg-plus-on%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* line 168, ../sass/main.sass */
+.eb-sch {
+  background-image: url(%%egg-plus-on%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* line 172, ../sass/main.sass */
+html[lang="en"] .entry .expando-button.expanded, .eb-se {
+  background-image: url(%%egg-minus-off%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* line 176, ../sass/main.sass */
+html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh {
+  background-image: url(%%egg-minus-on%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/*arrows */
+/* line 182, ../sass/main.sass */
+.midcol {
+  width: 22px !important;
+}
+
+/* line 185, ../sass/main.sass */
+html[lang="en"] .arrow {
+  height: 22px;
+  width: 22px;
+  background-position: 0px 0px !important;
+}
+/* line 189, ../sass/main.sass */
+html[lang="en"] .arrow.down {
+  background-image: url(%%arrow-down-off%%);
+}
+/* line 191, ../sass/main.sass */
+html[lang="en"] .arrow.downmod {
+  background-image: url(%%arrow-down%%);
+}
+/* line 193, ../sass/main.sass */
+html[lang="en"] .arrow.up {
+  background-image: url(%%arrow-up-off%%);
+}
+/* line 195, ../sass/main.sass */
+html[lang="en"] .arrow.upmod {
+  background-image: url(%%arrow-up%%);
+}
+
+/*flair */
+/* line 200, ../sass/main.sass */
+.flair {
+  background: none;
+  color: #eeeeee;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 207, ../sass/main.sass */
+.flair-Mod {
+  border: red solid 1px;
+  border-radius: 0px;
+  border-width: 0px 0px 0px 1px;
+  margin-right: 5px;
+  margin-left: 1px;
+  padding-left: 2px;
+}
+
+/* line 216, ../sass/main.sass */
+.flair.flair-Master, .flair.flair-Master2 {
+  background-image: url(%%master%%);
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  background-position: -1px -1px;
+  height: 14px;
+  width: 1px;
+  overflow: hidden;
+  margin: 0px;
+  margin-left: 2px;
+  text-indent: 2px;
+}
+/* line 227, ../sass/main.sass */
+.flair.flair-Grandmaster {
+  background-image: url(%%grandmaster%%);
+}
+/* line 229, ../sass/main.sass */
+.flair.flair-Master2 {
+  background: none;
+  padding-left: 0px;
+  width: 10px;
+}
+/* line 233, ../sass/main.sass */
+.flair.flair-Master2::before {
+  content: "?";
+  text-indent: 0px;
+  padding-right: 10px;
+}
+/* line 237, ../sass/main.sass */
+.flair.flair-Master2:hover::before {
+  content: "";
+  padding-right: 0px;
+}
+/* line 240, ../sass/main.sass */
+.flair.flair-Master:hover, .flair.flair-Master2:hover {
+  width: auto;
+}
+/* line 242, ../sass/main.sass */
+.flair.flair-EU:hover::after {
+  content: " (EU)";
+  color: grey;
+}
+/* line 245, ../sass/main.sass */
+.flair.flair-Bitch:hover::before {
+  content: "(bitch) ";
+  color: red;
+}
+/* line 248, ../sass/main.sass */
+.flair.flair-NA:hover::after, .flair.flair-AM:hover::after {
+  content: " (AM)";
+  color: grey;
+}
+/* line 251, ../sass/main.sass */
+.flair.flair-KR:hover::after {
+  content: " (KR)";
+  color: grey;
+}
+/* line 254, ../sass/main.sass */
+.flair.flair-SEA:hover::after {
+  content: " (SEA)";
+  color: grey;
+}
+
+/*flair menu */
+/* line 260, ../sass/main.sass */
+.drop-choices {
+  background: black;
+}
+
+/* line 263, ../sass/main.sass */
+.flairselector li {
+  border: none;
+}
+
+/*side expandos */
+/* line 271, ../sass/main.sass */
+.side blockquote {
+  border: none !important;
+  padding: 0px;
+  margin: 0px !important;
+  padding-top: 10px;
+}
+/* line 276, ../sass/main.sass */
+.side blockquote blockquote {
+  /*display:none; */
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 25px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+/* line 283, ../sass/main.sass */
+.side blockquote:hover {
+  padding-bottom: 0px;
+}
+/* line 284, ../sass/main.sass */
+.side blockquote:hover blockquote {
+  display: block;
+  height: auto;
+  opacity: 1;
+  padding-bottom: 5px;
+  /*easier to stay in */
+}
+/* line 291, ../sass/main.sass */
+.side hr {
+  display: none;
+}
+/* line 293, ../sass/main.sass */
+.side h6 {
+  border: none !important;
+  padding: 4px;
+  margin: 0px;
+  position: absolute;
+  top: 25px;
+  background: white;
+  left: 295px;
+  z-index: 100;
+  border-radius: 5px;
+  font-size: small;
+  color: black;
+  max-width: 450px;
+  box-shadow: 0px 0px 15px 0px white;
+}
+/* line 307, ../sass/main.sass */
+.side h6 a:hover {
+  text-decoration: underline;
+}
+/* line 309, ../sass/main.sass */
+.side h5 {
+  padding: 2px 6px 0 6px;
+  margin: 0px;
+  position: absolute;
+  top: 129px;
+  left: 345px;
+  z-index: 100;
+  font-size: 12px;
+  background: black;
+  color: white;
+  font-weight: normal;
+  display: none;
+}
+
+/* sticky */
+/* mod */
+/* line 326, ../sass/main.sass */
+body.moderator.listing-page h5 {
+  display: block;
+}
+
+/* subscribed */
+/* line 331, ../sass/main.sass */
+.side h4 {
+  padding: 2px 6px 0 6px;
+  margin: 0px;
+  position: absolute;
+  top: 129px;
+  left: 450px;
+  z-index: 100;
+  font-size: 12px;
+  background: black;
+  color: white;
+  font-weight: normal;
+  display: none;
+  opacity: 0.8;
+}
+
+/* line 345, ../sass/main.sass */
+body.subscriber h4 {
+  display: block;
+}
+
+/* line 348, ../sass/main.sass */
+.linkinfo {
+  background: none;
+}
+
+/*comment page */
+/* line 353, ../sass/main.sass */
+.link .usertext .md {
+  background-color: black;
+  max-width: 90em;
+  margin: 0 5px;
+}
+
+/* line 358, ../sass/main.sass */
+.md blockquote, .help blockquote {
+  border-left: 2px solid #aa6600;
+}
+
+/* line 361, ../sass/main.sass */
+.commentarea .comment {
+  background: none !important;
+}
+/* line 363, ../sass/main.sass */
+.commentarea .comment .comment {
+  background: none !important;
+}
+/* line 365, ../sass/main.sass */
+.commentarea .comment .comment .comment {
+  background: none !important;
+}
+/* line 367, ../sass/main.sass */
+.commentarea .comment .comment .comment .comment {
+  background: none !important;
+}
+/* line 369, ../sass/main.sass */
+.commentarea .comment .comment .comment .comment .comment {
+  background: none !important;
+}
+/* line 371, ../sass/main.sass */
+.commentarea .comment .comment .comment .comment .comment .comment {
+  background: none !important;
+}
+/* line 373, ../sass/main.sass */
+.commentarea .comment .comment .comment .comment .comment .comment .comment {
+  background: none !important;
+}
+/* line 375, ../sass/main.sass */
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
+  background: none !important;
+}
+/* line 377, ../sass/main.sass */
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  background: none !important;
+}
+/* line 379, ../sass/main.sass */
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  background: none !important;
+}
+
+/* line 382, ../sass/main.sass */
+.parentComment.comment {
+  color: white !important;
+  background-color: black !important;
+  overflow: visible !important;
+  z-index: 2147483649 !important;
+  box-shadow: 0px 0px 250px 200px black;
+}
+
+/* left */
+/* .parentComment.comment::before{
+ *   content: "";
+ *   position: absolute;
+ *   top: 4px;
+ *   left: -10001px;
+ *   width: 10000px;
+ *   height: 10000px;
+ *   display: block;
+ *   background: $background;
+ *   opacity: .85;
+ *   z-index: 2147483648 !important;
+ *   box-shadow: 0px -5px 0px $background;
+ * } */
+/* right */
+/* .parentComment.comment::after{
+ *   content: "";
+ *   position: absolute;
+ *   top: -1px;
+ *   right: -10001px;
+ *   width: 10000px;
+ *   height: 1000px;
+ *   display: block;
+ *   background: $background;
+ *   opacity: .85;
+ *   z-index: 2147483648 !important;
+ * } */
+/*.parentComment.comment .child{
+ *  content: "";
+ *  position: absolute;
+ *  top: 0px;
+ *  left: 0px;
+ *  right: 0px;
+ *  bottom: 0px;
+ *  display: block;
+ *  background: none;
+ *  opacity: .85;
+ *  margin: 0px;
+ *  z-index: 2147483648 !important;
+ *} */
+/* bot middle */
+/*.parentComment.comment .child::before{
+ *  content: "";
+ *  position: absolute;
+ *  top: 100%;
+ *  left: -1px;
+ *  right: -1px;
+ *  height: 1000%;
+ *  display: block;
+ *  background: $background;
+ *  margin: 0px;
+ *  margin-top: 1px;
+ *  z-index: 2147483648 !important;
+ *} */
+/* top */
+/*.parentComment.comment .child::after{
+ *  content: "";
+ *  position: absolute;
+ *  bottom: 21px;
+ *  left: -10000px;
+ *  right: -10000px;
+ *  height: 10000%;
+ *  display: block;
+ *  background: $background;
+ *  margin: 0px;
+ *  margin-bottom: 100%;
+ *  z-index: 2147483648 !important;
+ *  box-shadow: 0px 0px 500px 400px rgba(0, 0, 0, 0.9)
+ *} */
+/* line 467, ../sass/main.sass */
+.usertext.border .usertext-body {
+  background: none;
+  /*background-color: #0E193C; */
+}
+
+/* line 471, ../sass/main.sass */
+.infobar {
+  background: none;
+}
+
+/*res extension fixes */
+/* line 476, ../sass/main.sass */
+.NERPageMarker {
+  background: none !important;
+  border-width: 0px 0px 1px 0px !important;
+  border-radius: 0px !important;
+  border-style: dashed !important;
+  padding-top: 0px !important;
+  border-color: gray !important;
+  color: #eeeeee !important;
+}
+
+/* line 485, ../sass/main.sass */
+.neverEndingReddit {
+  background: none !important;
+  border-width: 0px 0px 1px 0px !important;
+  border-radius: 0px !important;
+  border-style: dashed !important;
+  padding-top: 0px !important;
+  border-color: gray !important;
+  color: #eeeeee !important;
+}
+/* line 493, ../sass/main.sass */
+.neverEndingReddit img {
+  display: none;
+}
+
+/* author info tool tip */
+/* line 498, ../sass/main.sass */
+.RESDialogSmall {
+  background-color: black !important;
+  color: #eeeeee !important;
+}
+/* line 501, ../sass/main.sass */
+.RESDialogSmall > h3 {
+  background-color: #222222 !important;
+  color: #eeeeee !important;
+}
+
+/* line 505, ../sass/main.sass */
+#authorInfoToolTip .blueButton {
+  background-color: #21587e !important;
+}
+
+/* line 508, ../sass/main.sass */
+.fancy-toggle-button .add {
+  background: #116428 !important;
+}
+
+/* line 511, ../sass/main.sass */
+.RESCloseButton {
+  background: black !important;
+}
+/* line 513, ../sass/main.sass */
+.RESCloseButton:hover {
+  background: #444444 !important;
+}
+
+/*reddit gold fixes */
+/* line 518, ../sass/main.sass */
+.new-comment .usertext-body {
+  background: none !important;
+  border: none !important;
+}
+
+/* reddit give gold fixes */
+/* old */
+/* line 525, ../sass/main.sass */
+.give-gold {
+  visibility: hidden;
+}
+
+/* line 528, ../sass/main.sass */
+.entry:hover .give-gold {
+  visibility: visible;
+}
+
+/* experimental */
+/* .flat-list.buttons{ display: none;}
+ *.entry:hover .flat-list.buttons{ display: inline;} */
+/* line 535, ../sass/main.sass */
+.give-gold {
+  float: right;
+}
+
+/* submit a link */
+/* line 540, ../sass/main.sass */
+.morelink {
+  background: none;
+  border: 1px solid gray;
+}
+/* line 543, ../sass/main.sass */
+.morelink:hover {
+  background: none;
+  border: 1px solid gray;
+}
+/* line 546, ../sass/main.sass */
+.morelink a {
+  color: #aa6600;
+}
+/* line 548, ../sass/main.sass */
+.morelink .nub {
+  display: none;
+}
+/* line 550, ../sass/main.sass */
+.morelink + .spacer {
+  display: none;
+  padding: 0px;
+}
+/* line 553, ../sass/main.sass */
+.morelink + .spacer a {
+  display: none;
+}
+/* line 555, ../sass/main.sass */
+.morelink:hover + .spacer {
+  display: block;
+}
+
+/* /submit */
+/* line 560, ../sass/main.sass */
+.content.submit .info-notice, .tabmenu.formtab .selected a {
+  background: none;
+}
+
+/* line 563, ../sass/main.sass */
+.formtabs-content {
+  border-top: 2px solid white;
+}
+
+/* sidebar */
+/* about */
+/* line 570, ../sass/main.sass */
+.side .usertext-body {
+  border: 1px solid gray;
+  padding: 5px;
+}
+/* line 573, ../sass/main.sass */
+.side .usertext {
+  margin-top: 5px;
+}
+/* line 575, ../sass/main.sass */
+.side .usertext::before {
+  content: "INFORMATION";
+  color: gray;
+  font-size: 13px;
+}
+
+/* line 580, ../sass/main.sass */
+.tabmenu.formtab a {
+  border: none;
+}
+
+/* line 583, ../sass/main.sass */
+.footer {
+  border: 1px solid gray;
+  border-radius: 0px;
+}
+
+/* line 587, ../sass/main.sass */
+.md ul {
+  margin: 10px 20px;
+  list-style-image: url(%%arrow%%) !important;
+}
+
+/* line 591, ../sass/main.sass */
+.nextprev a {
+  background: none;
+}
+
+/* line 594, ../sass/main.sass */
+.choice:hover {
+  background: #333333 !important;
+}
+
+/* line 597, ../sass/main.sass */
+.link.last-clicked {
+  border: none;
+}
+/* line 599, ../sass/main.sass */
+.link.last-clicked::after {
+  content: "< last clicked";
+  display: inline-block;
+  right: 0px;
+  position: absolute;
+  top: 0px;
+  color: gray;
+}
+
+/* wiki specifics */
+/* wiki divs */
+/* wiki title */
+/* line 611, ../sass/main.sass */
+.wiki-page > .content > span {
+  display: inline-block;
+  border-top: 1px solid #b67d27;
+  padding-right: 13px;
+}
+
+/* line 616, ../sass/main.sass */
+.wikititle {
+  font-size: 16px;
+  font-size: 14px;
+  font-family: courier, fixed-width;
+}
+/* line 617, ../sass/main.sass */
+.wikititle::before {
+  content: "wiki/";
+}
+/* line 622, ../sass/main.sass */
+.wikititle strong {
+  font-weight: normal !important;
+}
+
+/* page actions */
+/* line 627, ../sass/main.sass */
+.pageactions {
+  border: 1px solid gray;
+  /* alt */
+  border: none;
+  border-radius: 0px;
+  /* alt */
+  /* second alt */
+  padding-left: 15px;
+  margin: 0px;
+}
+/* line 636, ../sass/main.sass */
+.pageactions .wikiaction-current {
+  background: none;
+  color: orangered;
+  border: 1px solid #b67d27;
+  border-top: none;
+  border-radius: 0px;
+}
+/* line 642, ../sass/main.sass */
+.pageactions .wikiaction {
+  margin-top: 0px;
+}
+/* line 644, ../sass/main.sass */
+.pageactions .wikiaction:hover {
+  background: none;
+}
+
+/* main content area */
+/* line 649, ../sass/main.sass */
+.wiki-page-content > hr {
+  border: none;
+  margin-bottom: 20px;
+}
+
+/* bottom line */
+/* table of contents */
+/* line 657, ../sass/main.sass */
+div.wiki div.toc > ul {
+  width: 300px;
+  overflow: hidden;
+  background: none !important;
+  border: 1px solid gray;
+  margin-top: 20px;
+  padding: 4px 10px !important;
+  list-style: none !important;
+}
+
+/* line 666, ../sass/main.sass */
+.md.wiki > .toc > ul ul {
+  border: none;
+}
+
+/* line 669, ../sass/main.sass */
+.wiki .toc > ul::before {
+  display: block !important;
+  content: "INDEX";
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  color: gray;
+  text-align: left;
+  margin-top: -21px;
+  margin-left: -11px;
+  width: 300px;
+  position: absolute !important;
+}
+
+/* headings */
+/* line 684, ../sass/main.sass */
+.md.wiki h1, .md.wiki h2, .md.wiki h3, .md.wiki h4, .md.wiki h5, .md.wiki h6 {
+  color: #eeeeee;
+}
+
+/* light theme */
+/* line 701, ../sass/main.sass */
+html[lang="ll"] body > .content {
+  background: white;
+  color: black;
+}
+/* line 704, ../sass/main.sass */
+html[lang="ll"] .side {
+  background-color: white;
+  color: black !important;
+}
+/* line 707, ../sass/main.sass */
+html[lang="ll"] h1, html[lang="ll"] h2, html[lang="ll"] h3, html[lang="ll"] h4, html[lang="ll"] h5, html[lang="ll"] h6 {
+  color: #222222;
+}
+/* line 709, ../sass/main.sass */
+html[lang="ll"] .titlebox h1 a {
+  color: #222222;
+}
+/* line 711, ../sass/main.sass */
+html[lang="ll"] body {
+  background-color: white;
+}
+/* line 714, ../sass/main.sass */
+html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
+  color: black;
+  background-color: white;
+}
+/* line 717, ../sass/main.sass */
+html[lang="ll"] .sidecontentbox .content, html[lang="ll"] .tabmenu li a {
+  background-color: white;
+}
+/* line 719, ../sass/main.sass */
+html[lang="ll"] #search input[type="text"] {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+/* line 723, ../sass/main.sass */
+html[lang="ll"] .listing-page .thing .title .title {
+  text-shadow: 1px 1px 0px black;
+}
+/* line 725, ../sass/main.sass */
+html[lang="ll"] .morelink:hover a {
+  color: black;
+}
+/* line 727, ../sass/main.sass */
+html[lang="ll"] .link .usertext .md {
+  background-color: white;
+}
+/* line 729, ../sass/main.sass */
+html[lang="ll"] .flair {
+  color: black;
+}
+/* line 731, ../sass/main.sass */
+html[lang="ll"] .titlebox .tagline {
+  background-color: white;
+}
+
+/* line 734, ../sass/main.sass */
+.comment .md p > a[href$="#spoiler"] {
+  background: black !important;
+  color: black !important;
+  border-bottom: 1px dashed red;
+}
+/* line 738, ../sass/main.sass */
+.comment .md p > a[href$="#spoiler"]::before {
+  color: white !important;
+  content: "Spoiler:";
+  border-bottom: 1px solid black;
+  margin-right: 5px;
+}
+/* line 743, ../sass/main.sass */
+.comment .md p > a[href$="#spoiler"]:hover {
+  color: white !important;
+  border-bottom: 0px solid red;
+}
