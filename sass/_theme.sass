@@ -1,0 +1,91 @@
+.comment .md p > a:visited
+  color: $linkVisited !important
+
+.comment .md p > a:hover
+  color: $linkNormal !important
+
+.newComments
+  color: $linkNormal !important
+
+.entry .buttons li
+  &.trial-stamp, &.reported-stamp
+    color: $background
+    
+a.author.submitter
+  color: $linkNormal !important
+  background: none !important
+  &:hover
+    color: $linkHover !important
+    background: none !important
+    
+h2
+  color: $headerColor
+  a
+    color: $linkVisited
+
+p.tagline em
+  color: $textFace
+  display: none
+
+
+.usertext.grayed .usertext-body
+  color: red
+  background: none
+  
+.linefield
+  background: none
+
+.roundfield
+  background-color: $background
+  
+.tagline
+  a
+    color: $linkVisited
+    text-decoration: none
+    &:hover
+      color: $linkNormal
+      text-decoration: none
+  .submitter
+    color: $linkNormal
+
+#header #RESShortcuts .RESShortcutsCurrentSub
+  &:visited
+    color: $linkNormal !important
+  &:hover
+    color: $linkHover !important
+
+.dropdown.srdrop .selected
+  color: $textFace
+
+#sr-more-link
+  color: $textFace
+  background-color: $background
+  
+  
+.keyHighlight
+  background-color: $thingSelected !important
+  
+  
+
+.thing .title
+  color: $linkNormal !important
+  &:hover
+    color: $linkHover !important
+  &:visited, &.click
+    color: $linkVisited !important
+    &:hover
+      color: $linkNormal !important
+
+      
+
+.listing-page .thing .title .title[href*="drop.sc"]::after
+  content: url(%%Video%%)
+  
+  
+/*flair menu
+
+.drop-choices
+  background: $background
+
+.flairselector li
+  border: none

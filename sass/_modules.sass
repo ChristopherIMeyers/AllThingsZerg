@@ -65,6 +65,10 @@
     padding: 2px 5px
     border: 1px solid white
     opacity: 1
+//search helper
+.infobar
+  background: none
+  
 //subreddit links header stuff
 #sr-header-area
   position: relative
@@ -138,3 +142,268 @@
     
 
 /*remove display images to fit in nicer
+
+
+
+/* thing expando button for selftext
+
+html[lang="en"] .entry .expando-button
+  background: none !important
+  cursor: pointer !important
+  &.collapsed
+    /*.expando-button.selftext.collapsed
+    background-image: url(%%egg-plus-off%%) !important
+    background-position: -1px -1px !important
+    &:hover
+      background-image: url(%%egg-plus-on%%) !important
+      background-position: -1px -1px !important
+    
+html[lang="en"] .entry .expando-button.expanded, .eb-se
+  background-image: url(%%egg-minus-off%%) !important
+  background-position: -1px -1px !important
+
+html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh
+  background-image: url(%%egg-minus-on%%)  !important
+  background-position: -1px -1px !important
+  
+/* expando button alternative (in-line video)
+html[lang="en"] .thing .entry .expando-button.video
+  background-image: url(%%Video%%) !important
+  background-position: -8px -3px !important
+
+/* expando button alternative (replays)
+.listing-page .thing .title .title[href*="drop.sc"]::after
+  position: absolute
+  left: -4px
+  top: 19px
+
+/* inline flair
+
+.flair
+  background: none
+  color: $textFace
+  border: none
+  margin: 0px
+  padding: 0px 
+
+
+
+.flair
+  &.flair-Mod
+    border: red solid 1px
+    border-radius: 0px
+    border-width: 0px 0px 0px 1px
+    margin-right: 5px
+    margin-left: 1px
+    padding-left: 2px
+  &.flair-Master, &.flair-Master2
+    background-image: url(%%master%%)
+    background-repeat: no-repeat
+    padding-left: 15px
+    background-position: -1px -1px
+    height: 14px
+    width: 1px
+    overflow: hidden
+    margin: 0px
+    margin-left: 2px
+    text-indent: 2px
+  &.flair-Grandmaster
+    background-image: url(%%grandmaster%%)
+  &.flair-Master2
+    background: none
+    padding-left: 0px
+    width: 10px
+    &::before
+      content: "?"
+      text-indent: 0px
+      padding-right: 10px
+    &:hover::before
+      content: ""
+      padding-right: 0px
+  &.flair-Master:hover, &.flair-Master2:hover
+    width: auto
+  &.flair-EU:hover::after
+    content: " (EU)"
+    color: grey
+  &.flair-Bitch:hover::before
+    content: "(bitch) "
+    color: red
+  &.flair-NA:hover::after, &.flair-AM:hover::after
+    content: " (AM)"
+    color: grey
+  &.flair-KR:hover::after
+    content: " (KR)"
+    color: grey
+  &.flair-SEA:hover::after
+    content: " (SEA)"
+    color: grey
+  
+
+  
+/*side expandos
+.side
+  blockquote
+    border: none !important
+    padding: 0px
+    margin: 0px !important
+    padding-top: 10px
+    blockquote
+      /*display:none;
+      padding-bottom: 0px
+      padding-top: 0px
+      height: 25px
+      overflow: hidden
+      opacity: .5
+    &:hover
+      blockquote
+        display: block
+        height: auto
+        opacity: 1
+        padding-bottom: 5px
+      
+/*mostly a helper for the side expandos
+.side hr
+  display: none
+
+/* sticky (for all)
+.side h6
+  border: none !important
+  padding: 4px
+  margin: 0px
+  position: absolute
+  top: 25px
+  background: white
+  left: 295px
+  z-index: 100
+  border-radius: 5px
+  font-size: small
+  color: $background
+  max-width: 450px
+  box-shadow: 0px 0px 15px 0px white
+  a:hover
+    text-decoration: underline
+    
+/* sticky for subscribers
+.side h4
+  padding: 2px 6px 0 6px
+  margin: 0px
+  position: absolute
+  top: 129px
+  left: 450px
+  z-index: 100
+  font-size: 12px
+  background: $background
+  color: white
+  font-weight: normal
+  display: none
+  opacity: .8
+  
+/* sticky for mods
+.side h5
+  padding: 2px 6px 0 6px
+  margin: 0px
+  position: absolute
+  top: 129px
+  left: 345px
+  z-index: 100
+  font-size: 12px
+  background: $background
+  color: white
+  font-weight: normal
+  display: none
+
+    
+    
+    
+/* parent comment popup dimmer
+.parentComment.comment
+  color: white !important
+  background-color: $background !important
+  overflow: visible !important
+  z-index: 2147483649 !important
+  box-shadow: 0px 0px 250px 200px $background
+  
+  
+  
+  
+  
+  
+/* wiki stuff
+
+/* headings
+.md.wiki
+  h1, h2, h3, h4, h5, h6
+    color: $textFace
+    
+    
+/* wiki specifics
+
+.wiki-page > .content > span
+  display: inline-block
+  border-top: 1px solid #B67D27
+  padding-right: 13px
+
+.wikititle
+  &::before
+    content: "wiki/"
+  font-size: 16px
+  font-size: 14px
+  font-family: courier,fixed-width
+  strong
+    font-weight: normal !important
+
+/* page actions
+
+.pageactions
+  border: 1px solid gray
+  /* alt
+  border: none
+  border-radius: 0px
+  /* alt
+  /* second alt
+  padding-left: 15px
+  margin: 0px
+  .wikiaction-current
+    background: none
+    color: orangeRed
+    border: 1px solid #B67D27
+    border-top: none
+    border-radius: 0px
+  .wikiaction
+    margin-top: 0px
+    &:hover
+      background: none
+
+/* main content area
+
+.wiki-page-content > hr
+  border: none
+  margin-bottom: 20px
+
+/* bottom line
+
+/* table of contents
+
+div.wiki div.toc > ul
+  width: 300px
+  overflow: hidden
+  background: none !important
+  border: 1px solid gray
+  margin-top: 20px
+  padding: 4px 10px !important
+  list-style: none !important
+
+.md.wiki > .toc > ul ul
+  border: none
+
+.wiki .toc > ul::before
+  display: block!important
+  content: "INDEX"
+  font-family: verdana, arial, helvetica, sans-serif
+  font-size: 13px
+  color: gray
+  text-align: left
+  margin-top: -21px
+  margin-left: -11px
+  width: 300px
+  position: absolute!important

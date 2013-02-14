@@ -31,9 +31,25 @@ body > .content
   margin: 0px
   height: 19px
   overflow: hidden
-  display: inline-block
   max-width: 800px
-    
+  .domain
+    font-size: 0px
+    top: -2px
+    position: relative
+    padding: 5px
+    height: 10px
+    display: inline-block
+    a
+      font-size: x-small
+    &::before
+      content: "► "
+      font-size: x-small
+  &.self .domain
+    &::before
+      content: "◄"
+      /*★
+    a
+      display: none
 
 .compressed .rank
   margin-top: 13px
@@ -46,3 +62,5 @@ body > .content
     .entry
       position: relative
       min-height: 64px
+      
+      
