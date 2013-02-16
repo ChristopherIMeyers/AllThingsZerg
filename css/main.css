@@ -144,7 +144,7 @@ body > .content {
 }
 
 /*res extension fixes */
-/* line 5, ../sass/_modules_res.sass */
+/* line 5, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .NERPageMarker {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -155,7 +155,7 @@ body > .content {
   color: #eeeeee !important;
 }
 
-/* line 14, ../sass/_modules_res.sass */
+/* line 14, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .neverEndingReddit {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -165,92 +165,92 @@ body > .content {
   border-color: gray !important;
   color: #eeeeee !important;
 }
-/* line 22, ../sass/_modules_res.sass */
+/* line 22, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .neverEndingReddit img {
   display: none;
 }
 
 /* author info tool tip */
-/* line 27, ../sass/_modules_res.sass */
+/* line 27, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .RESDialogSmall {
   background-color: black !important;
   color: #eeeeee !important;
 }
-/* line 30, ../sass/_modules_res.sass */
+/* line 30, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .RESDialogSmall > h3 {
   background-color: #222222 !important;
   color: #eeeeee !important;
 }
 
-/* line 34, ../sass/_modules_res.sass */
+/* line 34, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 #authorInfoToolTip .blueButton {
   background-color: #21587e !important;
 }
 
-/* line 37, ../sass/_modules_res.sass */
+/* line 37, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .fancy-toggle-button .add {
   background: #116428 !important;
 }
 
-/* line 40, ../sass/_modules_res.sass */
+/* line 40, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .RESCloseButton {
   background: black !important;
 }
-/* line 42, ../sass/_modules_res.sass */
+/* line 42, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .RESCloseButton:hover {
   background: #444444 !important;
 }
 
 /*sidebar */
-/* line 2, ../sass/_modules_side.sass */
+/* line 2, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side {
   color: #eeeeee !important;
   background: none;
   z-index: 500;
 }
 
-/* line 7, ../sass/_modules_side.sass */
+/* line 7, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox {
   color: #eeeeee;
 }
-/* line 9, ../sass/_modules_side.sass */
+/* line 9, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .redditname a {
   text-transform: uppercase;
   color: #eeeeee !important;
 }
-/* line 13, ../sass/_modules_side.sass */
+/* line 13, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .word {
   display: none;
 }
-/* line 15, ../sass/_modules_side.sass */
+/* line 15, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .number::after {
   content: " broodlings";
 }
-/* line 18, ../sass/_modules_side.sass */
+/* line 18, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox.create {
   display: none;
 }
-/* line 20, ../sass/_modules_side.sass */
+/* line 20, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .spacer {
   background: none;
 }
-/* line 23, ../sass/_modules_side.sass */
+/* line 23, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 27, ../sass/_modules_side.sass */
+/* line 27, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 31, ../sass/_modules_side.sass */
+/* line 31, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 34, ../sass/_modules_side.sass */
+/* line 34, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .bottom {
   display: none;
 }
-/* line 37, ../sass/_modules_side.sass */
+/* line 37, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .tagline {
   background-color: black;
   margin: 2px;
@@ -258,26 +258,26 @@ body > .content {
   padding: 5px 0 5px 20px;
 }
 
-/* line 44, ../sass/_modules_side.sass */
+/* line 44, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .sidecontentbox .content {
   background-color: black;
 }
 
 /*mostly a helper for the side expandos */
-/* line 48, ../sass/_modules_side.sass */
+/* line 48, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side hr {
   display: none;
 }
 
 /*side expandos */
-/* line 54, ../sass/_modules_side.sass */
+/* line 54, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 59, ../sass/_modules_side.sass */
+/* line 59, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side blockquote blockquote {
   /*display:none; */
   padding-bottom: 0px;
@@ -286,7 +286,7 @@ body > .content {
   overflow: hidden;
   opacity: 0.5;
 }
-/* line 67, ../sass/_modules_side.sass */
+/* line 67, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -296,23 +296,23 @@ body > .content {
 
 /* sidebar */
 /* about */
-/* line 78, ../sass/_modules_side.sass */
+/* line 78, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
 }
-/* line 81, ../sass/_modules_side.sass */
+/* line 81, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .usertext {
   margin-top: 5px;
 }
-/* line 83, ../sass/_modules_side.sass */
+/* line 83, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
 
-/* line 4, ../sass/_modules_thing.sass */
+/* line 4, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .listing-page .thing .tagline {
   background-repeat: no-repeat;
   background-position: -5px -3px;
@@ -323,7 +323,7 @@ body > .content {
   left: 30px;
   top: 19px;
 }
-/* line 14, ../sass/_modules_thing.sass */
+/* line 14, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .listing-page .thing .flat-list {
   position: absolute;
   top: 33px;
@@ -333,55 +333,55 @@ body > .content {
 }
 
 /* thing expando button for selftext */
-/* line 27, ../sass/_modules_thing.sass */
+/* line 27, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 html[lang="en"] .entry .expando-button {
   background: none !important;
   cursor: pointer !important;
 }
-/* line 30, ../sass/_modules_thing.sass */
+/* line 30, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 html[lang="en"] .entry .expando-button.collapsed {
   /*.expando-button.selftext.collapsed */
   background-image: url(%%egg-plus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 34, ../sass/_modules_thing.sass */
+/* line 34, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 html[lang="en"] .entry .expando-button.collapsed:hover {
   background-image: url(%%egg-plus-on%%) !important;
   background-position: -1px -1px !important;
 }
 
-/* line 38, ../sass/_modules_thing.sass */
+/* line 38, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 html[lang="en"] .entry .expando-button.expanded, .eb-se {
   background-image: url(%%egg-minus-off%%) !important;
   background-position: -1px -1px !important;
 }
 
-/* line 42, ../sass/_modules_thing.sass */
+/* line 42, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh {
   background-image: url(%%egg-minus-on%%) !important;
   background-position: -1px -1px !important;
 }
 
 /* expando button alternative (in-line video) */
-/* line 47, ../sass/_modules_thing.sass */
+/* line 47, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 html[lang="en"] .thing .entry .expando-button.video {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
 
 /* expando button alternative (replays) */
-/* line 52, ../sass/_modules_thing.sass */
+/* line 52, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .listing-page .thing .title .title[href*="drop.sc"]::after {
   position: absolute;
   left: -4px;
   top: 19px;
 }
 
-/* line 58, ../sass/_modules_thing.sass */
+/* line 58, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .link.last-clicked {
   border: none;
 }
-/* line 60, ../sass/_modules_thing.sass */
+/* line 60, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .link.last-clicked::before {
   content: "<";
   color: gray;
@@ -389,18 +389,18 @@ html[lang="en"] .thing .entry .expando-button.video {
   float: right;
 }
 
-/* line 68, ../sass/_modules_thing.sass */
+/* line 68, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .midcol {
   width: 22px !important;
 }
 
-/* line 75, ../sass/_modules_thing.sass */
+/* line 75, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .link .rank {
   color: #3d3d3d;
 }
 
 /* sticky for subscribers */
-/* line 2, ../sass/_modules_stickies.sass */
+/* line 2, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h4 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -416,13 +416,13 @@ html[lang="en"] .thing .entry .expando-button.video {
   opacity: 0.8;
 }
 
-/* line 16, ../sass/_modules_stickies.sass */
+/* line 16, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 body.subscriber .side h4 {
   display: block;
 }
 
 /* sticky for mods */
-/* line 20, ../sass/_modules_stickies.sass */
+/* line 20, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h5 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -437,13 +437,13 @@ body.subscriber .side h4 {
   display: none;
 }
 
-/* line 33, ../sass/_modules_stickies.sass */
+/* line 33, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 body.moderator.listing-page .side h5 {
   display: block;
 }
 
 /* sticky (for all) */
-/* line 38, ../sass/_modules_stickies.sass */
+/* line 38, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h6 {
   border: none !important;
   padding: 4px;
@@ -459,25 +459,26 @@ body.moderator.listing-page .side h5 {
   max-width: 450px;
   box-shadow: 0px 0px 15px 0px white;
 }
-/* line 52, ../sass/_modules_stickies.sass */
+/* line 52, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h6 a:hover {
   text-decoration: underline;
 }
 
-/* line 4, ../sass/_modules_text_features.sass */
+/* line 4, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
 .md a[href$="#spoiler"] {
   background: black !important;
   color: black !important;
   border-bottom: 1px dashed red;
+  cursor: help;
 }
-/* line 8, ../sass/_modules_text_features.sass */
+/* line 9, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
 .md a[href$="#spoiler"]::before {
   color: white !important;
   content: "Spoiler:";
   border-bottom: 1px solid black;
   margin-right: 5px;
 }
-/* line 13, ../sass/_modules_text_features.sass */
+/* line 14, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
 .md a[href$="#spoiler"]:hover {
   color: white !important;
   border-bottom: 0px solid red;
