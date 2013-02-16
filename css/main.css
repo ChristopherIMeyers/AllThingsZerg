@@ -316,12 +316,186 @@ body > .content {
   font-size: 13px;
 }
 
-/* line 6, ../sass/_modules.sass */
+/* line 4, ../sass/_modules_thing.sass */
+.listing-page .thing .tagline {
+  background-repeat: no-repeat;
+  background-position: -5px -3px;
+  background: none;
+  padding: 0px;
+  position: absolute;
+  height: 14px;
+  left: 30px;
+  top: 19px;
+}
+/* line 14, ../sass/_modules_thing.sass */
+.listing-page .thing .flat-list {
+  position: absolute;
+  top: 33px;
+  left: 30px;
+  height: 14px;
+  padding: 0px;
+}
+
+/* thing expando button for selftext */
+/* line 27, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button {
+  background: none !important;
+  cursor: pointer !important;
+}
+/* line 30, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.collapsed {
+  /*.expando-button.selftext.collapsed */
+  background-image: url(%%egg-plus-off%%) !important;
+  background-position: -1px -1px !important;
+}
+/* line 34, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.collapsed:hover {
+  background-image: url(%%egg-plus-on%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* line 38, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.expanded, .eb-se {
+  background-image: url(%%egg-minus-off%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* line 42, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh {
+  background-image: url(%%egg-minus-on%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* expando button alternative (in-line video) */
+/* line 47, ../sass/_modules_thing.sass */
+html[lang="en"] .thing .entry .expando-button.video {
+  background-image: url(%%Video%%) !important;
+  background-position: -8px -3px !important;
+}
+
+/* expando button alternative (replays) */
+/* line 52, ../sass/_modules_thing.sass */
+.listing-page .thing .title .title[href*="drop.sc"]::after {
+  position: absolute;
+  left: -4px;
+  top: 19px;
+}
+
+/* line 58, ../sass/_modules_thing.sass */
+.link.last-clicked {
+  border: none;
+}
+/* line 60, ../sass/_modules_thing.sass */
+.link.last-clicked::before {
+  content: "<";
+  color: gray;
+  height: 20px;
+  float: right;
+}
+
+/* line 68, ../sass/_modules_thing.sass */
+.midcol {
+  width: 22px !important;
+}
+
+/* line 75, ../sass/_modules_thing.sass */
+.link .rank {
+  color: #3d3d3d;
+}
+
+/* line 4, ../sass/_modules_thing.sass */
+.listing-page .thing .tagline {
+  background-repeat: no-repeat;
+  background-position: -5px -3px;
+  background: none;
+  padding: 0px;
+  position: absolute;
+  height: 14px;
+  left: 30px;
+  top: 19px;
+}
+/* line 14, ../sass/_modules_thing.sass */
+.listing-page .thing .flat-list {
+  position: absolute;
+  top: 33px;
+  left: 30px;
+  height: 14px;
+  padding: 0px;
+}
+
+/* thing expando button for selftext */
+/* line 27, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button {
+  background: none !important;
+  cursor: pointer !important;
+}
+/* line 30, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.collapsed {
+  /*.expando-button.selftext.collapsed */
+  background-image: url(%%egg-plus-off%%) !important;
+  background-position: -1px -1px !important;
+}
+/* line 34, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.collapsed:hover {
+  background-image: url(%%egg-plus-on%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* line 38, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.expanded, .eb-se {
+  background-image: url(%%egg-minus-off%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* line 42, ../sass/_modules_thing.sass */
+html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh {
+  background-image: url(%%egg-minus-on%%) !important;
+  background-position: -1px -1px !important;
+}
+
+/* expando button alternative (in-line video) */
+/* line 47, ../sass/_modules_thing.sass */
+html[lang="en"] .thing .entry .expando-button.video {
+  background-image: url(%%Video%%) !important;
+  background-position: -8px -3px !important;
+}
+
+/* expando button alternative (replays) */
+/* line 52, ../sass/_modules_thing.sass */
+.listing-page .thing .title .title[href*="drop.sc"]::after {
+  position: absolute;
+  left: -4px;
+  top: 19px;
+}
+
+/* line 58, ../sass/_modules_thing.sass */
+.link.last-clicked {
+  border: none;
+}
+/* line 60, ../sass/_modules_thing.sass */
+.link.last-clicked::before {
+  content: "<";
+  color: gray;
+  height: 20px;
+  float: right;
+}
+
+/* line 68, ../sass/_modules_thing.sass */
+.midcol {
+  width: 22px !important;
+}
+
+/* line 75, ../sass/_modules_thing.sass */
+.link .rank {
+  color: #3d3d3d;
+}
+
+/* line 8, ../sass/_modules.sass */
 .icon-menu a {
   background: none;
 }
 
-/* line 12, ../sass/_modules.sass */
+/* line 14, ../sass/_modules.sass */
 #search input[type="text"] {
   border: 0px solid white;
   border-radius: 3px;
@@ -332,23 +506,23 @@ body > .content {
   opacity: 0.75;
   width: 290px;
 }
-/* line 21, ../sass/_modules.sass */
+/* line 23, ../sass/_modules.sass */
 #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #ffcc00;
 }
-/* line 23, ../sass/_modules.sass */
+/* line 25, ../sass/_modules.sass */
 #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
 
-/* line 28, ../sass/_modules.sass */
+/* line 30, ../sass/_modules.sass */
 .infobar {
   background: none;
 }
 
-/* line 32, ../sass/_modules.sass */
+/* line 34, ../sass/_modules.sass */
 #sr-header-area {
   position: relative;
   z-index: 901;
@@ -356,19 +530,19 @@ body > .content {
   background-color: black;
   color: white;
 }
-/* line 38, ../sass/_modules.sass */
+/* line 40, ../sass/_modules.sass */
 #sr-header-area .sr-bar a {
   color: #aa6600;
 }
 
-/* line 41, ../sass/_modules.sass */
+/* line 43, ../sass/_modules.sass */
 #header {
   border-bottom: 1px solid #b67d27;
   background-color: black;
   height: 145px;
   overflow: hidden;
 }
-/* line 48, ../sass/_modules.sass */
+/* line 50, ../sass/_modules.sass */
 #header .pagename.redditname a {
   background: url(%%banneroff%%);
   width: 1670px;
@@ -381,11 +555,11 @@ body > .content {
   z-index: 100;
   background-repeat: no-repeat;
 }
-/* line 59, ../sass/_modules.sass */
+/* line 61, ../sass/_modules.sass */
 #header .pagename.redditname a:hover {
   background: url(%%banneron%%);
 }
-/* line 64, ../sass/_modules.sass */
+/* line 66, ../sass/_modules.sass */
 #header #header-bottom-left #header-img {
   opacity: 0.4;
   position: absolute;
@@ -395,37 +569,37 @@ body > .content {
   height: 44px;
   width: 66px;
 }
-/* line 73, ../sass/_modules.sass */
+/* line 75, ../sass/_modules.sass */
 #header #header-bottom-left #header-img:hover {
   opacity: 1;
   left: -15px;
 }
-/* line 77, ../sass/_modules.sass */
+/* line 79, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 82, ../sass/_modules.sass */
+/* line 84, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 84, ../sass/_modules.sass */
+/* line 86, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li a {
   background-color: black;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 88, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: black;
   border: 1px solid #b67d27;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 90, ../sass/_modules.sass */
+/* line 92, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 95, ../sass/_modules.sass */
+/* line 97, ../sass/_modules.sass */
 #header #header-bottom-right {
   z-index: 200;
   background: none;
@@ -433,7 +607,7 @@ body > .content {
 
 /*remove display images to fit in nicer */
 /* inline flair */
-/* line 111, ../sass/_modules.sass */
+/* line 113, ../sass/_modules.sass */
 .flair {
   background: none;
   color: #eeeeee;
@@ -442,7 +616,7 @@ body > .content {
   padding: 0px;
 }
 
-/* line 119, ../sass/_modules.sass */
+/* line 121, ../sass/_modules.sass */
 .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -451,7 +625,7 @@ body > .content {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 126, ../sass/_modules.sass */
+/* line 128, ../sass/_modules.sass */
 .flair.flair-Master, .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -464,59 +638,59 @@ body > .content {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 137, ../sass/_modules.sass */
+/* line 139, ../sass/_modules.sass */
 .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 139, ../sass/_modules.sass */
+/* line 141, ../sass/_modules.sass */
 .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 143, ../sass/_modules.sass */
+/* line 145, ../sass/_modules.sass */
 .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 147, ../sass/_modules.sass */
+/* line 149, ../sass/_modules.sass */
 .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 150, ../sass/_modules.sass */
+/* line 152, ../sass/_modules.sass */
 .flair.flair-Master:hover, .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 154, ../sass/_modules.sass */
 .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 155, ../sass/_modules.sass */
+/* line 157, ../sass/_modules.sass */
 .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 158, ../sass/_modules.sass */
+/* line 160, ../sass/_modules.sass */
 .flair.flair-NA:hover::after, .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 161, ../sass/_modules.sass */
+/* line 163, ../sass/_modules.sass */
 .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 164, ../sass/_modules.sass */
+/* line 166, ../sass/_modules.sass */
 .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
 
 /* parent comment popup dimmer */
-/* line 174, ../sass/_modules.sass */
+/* line 176, ../sass/_modules.sass */
 .parentComment.comment {
   color: white !important;
   background-color: black !important;
@@ -527,36 +701,36 @@ body > .content {
 
 /* wiki stuff */
 /* headings */
-/* line 190, ../sass/_modules.sass */
+/* line 192, ../sass/_modules.sass */
 .md.wiki h1, .md.wiki h2, .md.wiki h3, .md.wiki h4, .md.wiki h5, .md.wiki h6 {
   color: #eeeeee;
 }
 
 /* wiki specifics */
-/* line 196, ../sass/_modules.sass */
+/* line 198, ../sass/_modules.sass */
 .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
 
-/* line 201, ../sass/_modules.sass */
+/* line 203, ../sass/_modules.sass */
 .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 202, ../sass/_modules.sass */
+/* line 204, ../sass/_modules.sass */
 .wikititle::before {
   content: "wiki/";
 }
-/* line 207, ../sass/_modules.sass */
+/* line 209, ../sass/_modules.sass */
 .wikititle strong {
   font-weight: normal !important;
 }
 
 /* page actions */
-/* line 212, ../sass/_modules.sass */
+/* line 214, ../sass/_modules.sass */
 .pageactions {
   border: 1px solid gray;
   /* alt */
@@ -567,7 +741,7 @@ body > .content {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 221, ../sass/_modules.sass */
+/* line 223, ../sass/_modules.sass */
 .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -575,17 +749,17 @@ body > .content {
   border-top: none;
   border-radius: 0px;
 }
-/* line 227, ../sass/_modules.sass */
+/* line 229, ../sass/_modules.sass */
 .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 229, ../sass/_modules.sass */
+/* line 231, ../sass/_modules.sass */
 .pageactions .wikiaction:hover {
   background: none;
 }
 
 /* main content area */
-/* line 234, ../sass/_modules.sass */
+/* line 236, ../sass/_modules.sass */
 .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
@@ -593,7 +767,7 @@ body > .content {
 
 /* bottom line */
 /* table of contents */
-/* line 242, ../sass/_modules.sass */
+/* line 244, ../sass/_modules.sass */
 div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -604,12 +778,12 @@ div.wiki div.toc > ul {
   list-style: none !important;
 }
 
-/* line 251, ../sass/_modules.sass */
+/* line 253, ../sass/_modules.sass */
 .md.wiki > .toc > ul ul {
   border: none;
 }
 
-/* line 254, ../sass/_modules.sass */
+/* line 256, ../sass/_modules.sass */
 .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -624,162 +798,162 @@ div.wiki div.toc > ul {
 }
 
 /*comment page specific styles */
-/* line 269, ../sass/_modules.sass */
+/* line 271, ../sass/_modules.sass */
 .linkinfo {
   background: none;
 }
 
-/* line 272, ../sass/_modules.sass */
+/* line 274, ../sass/_modules.sass */
 .link .usertext .md {
   background-color: black;
   max-width: 90em;
   margin: 0 5px;
 }
 
-/* line 277, ../sass/_modules.sass */
+/* line 279, ../sass/_modules.sass */
 .md blockquote, .help blockquote {
   border-left: 2px solid #aa6600;
 }
 
-/* line 280, ../sass/_modules.sass */
+/* line 282, ../sass/_modules.sass */
 .commentarea .comment {
   background: none !important;
 }
-/* line 282, ../sass/_modules.sass */
+/* line 284, ../sass/_modules.sass */
 .commentarea .comment .comment {
   background: none !important;
 }
-/* line 284, ../sass/_modules.sass */
+/* line 286, ../sass/_modules.sass */
 .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 286, ../sass/_modules.sass */
+/* line 288, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 288, ../sass/_modules.sass */
+/* line 290, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 290, ../sass/_modules.sass */
+/* line 292, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 292, ../sass/_modules.sass */
+/* line 294, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 294, ../sass/_modules.sass */
+/* line 296, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 296, ../sass/_modules.sass */
+/* line 298, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 298, ../sass/_modules.sass */
+/* line 300, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
 
-/* line 305, ../sass/_modules.sass */
+/* line 307, ../sass/_modules.sass */
 .usertext-body {
   background: none;
 }
 
 /* submit a link */
-/* line 310, ../sass/_modules.sass */
+/* line 312, ../sass/_modules.sass */
 .submit-link {
   display: none;
 }
 
-/* line 312, ../sass/_modules.sass */
+/* line 314, ../sass/_modules.sass */
 .morelink {
   background: none;
   border: 1px solid gray;
 }
-/* line 315, ../sass/_modules.sass */
+/* line 317, ../sass/_modules.sass */
 .morelink:hover {
   background: none;
   border: 1px solid gray;
 }
-/* line 318, ../sass/_modules.sass */
+/* line 320, ../sass/_modules.sass */
 .morelink a {
   color: #aa6600;
 }
-/* line 320, ../sass/_modules.sass */
+/* line 322, ../sass/_modules.sass */
 .morelink .nub {
   display: none;
 }
-/* line 322, ../sass/_modules.sass */
+/* line 324, ../sass/_modules.sass */
 .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 325, ../sass/_modules.sass */
+/* line 327, ../sass/_modules.sass */
 .morelink + .spacer a {
   display: none;
 }
-/* line 327, ../sass/_modules.sass */
+/* line 329, ../sass/_modules.sass */
 .morelink:hover + .spacer {
   display: block;
 }
 
-/* line 333, ../sass/_modules.sass */
+/* line 335, ../sass/_modules.sass */
 .content.submit .info-notice, .tabmenu.formtab .selected a {
   background: none;
 }
 
-/* line 336, ../sass/_modules.sass */
+/* line 338, ../sass/_modules.sass */
 .tabmenu.formtab a {
   border: none;
 }
 
-/* line 339, ../sass/_modules.sass */
+/* line 341, ../sass/_modules.sass */
 .formtab-content {
   border-top: 2px solid white;
 }
 
 /* reddit give gold */
-/* line 344, ../sass/_modules.sass */
+/* line 346, ../sass/_modules.sass */
 .give-gold {
   visibility: hidden;
   float: right;
 }
 
-/* line 347, ../sass/_modules.sass */
+/* line 349, ../sass/_modules.sass */
 .entry:hover .give-gold {
   visibility: visible;
 }
 
-/* line 350, ../sass/_modules.sass */
+/* line 352, ../sass/_modules.sass */
 .entry:hover .flat-list.buttons {
   display: inline;
 }
 
-/* line 356, ../sass/_modules.sass */
+/* line 358, ../sass/_modules.sass */
 .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
 
-/* line 365, ../sass/_modules.sass */
+/* line 367, ../sass/_modules.sass */
 .choice:hover {
   background: #333333 !important;
 }
 
-/* line 371, ../sass/_modules.sass */
+/* line 373, ../sass/_modules.sass */
 .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
 
-/* line 377, ../sass/_modules.sass */
+/* line 379, ../sass/_modules.sass */
 .nextprev a {
   background: none;
 }
 
-/* line 381, ../sass/_modules.sass */
+/* line 383, ../sass/_modules.sass */
 .footer {
   border: 1px solid gray;
   border-radius: 0px;
