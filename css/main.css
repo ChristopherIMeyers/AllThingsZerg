@@ -1,7 +1,3 @@
-/* methodology: http://smacss.com/ */
-/* this file should eventually be < 20 lines of code */
-/* it should just be a bunch of imports with maybe some logic for theming */
-/* */
 /* line 12, ../sass/_themeDark.sass */
 html[lang="en"] .arrow {
   height: 22px;
@@ -403,99 +399,96 @@ html[lang="en"] .thing .entry .expando-button.video {
   color: #3d3d3d;
 }
 
-/* line 4, ../sass/_modules_thing.sass */
-.listing-page .thing .tagline {
-  background-repeat: no-repeat;
-  background-position: -5px -3px;
-  background: none;
-  padding: 0px;
+/* sticky for subscribers */
+/* line 2, ../sass/_modules_stickies.sass */
+.side h4 {
+  padding: 2px 6px 0 6px;
+  margin: 0px;
   position: absolute;
-  height: 14px;
-  left: 30px;
-  top: 19px;
+  top: 129px;
+  left: 450px;
+  z-index: 100;
+  font-size: 12px;
+  background: black;
+  color: white;
+  font-weight: normal;
+  display: none;
+  opacity: 0.8;
 }
-/* line 14, ../sass/_modules_thing.sass */
-.listing-page .thing .flat-list {
+
+/* line 16, ../sass/_modules_stickies.sass */
+body.subscriber .side h4 {
+  display: block;
+}
+
+/* sticky for mods */
+/* line 20, ../sass/_modules_stickies.sass */
+.side h5 {
+  padding: 2px 6px 0 6px;
+  margin: 0px;
   position: absolute;
-  top: 33px;
-  left: 30px;
-  height: 14px;
-  padding: 0px;
+  top: 129px;
+  left: 345px;
+  z-index: 100;
+  font-size: 12px;
+  background: black;
+  color: white;
+  font-weight: normal;
+  display: none;
 }
 
-/* thing expando button for selftext */
-/* line 27, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button {
-  background: none !important;
-  cursor: pointer !important;
-}
-/* line 30, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.collapsed {
-  /*.expando-button.selftext.collapsed */
-  background-image: url(%%egg-plus-off%%) !important;
-  background-position: -1px -1px !important;
-}
-/* line 34, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.collapsed:hover {
-  background-image: url(%%egg-plus-on%%) !important;
-  background-position: -1px -1px !important;
+/* line 33, ../sass/_modules_stickies.sass */
+body.moderator.listing-page .side h5 {
+  display: block;
 }
 
-/* line 38, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.expanded, .eb-se {
-  background-image: url(%%egg-minus-off%%) !important;
-  background-position: -1px -1px !important;
-}
-
-/* line 42, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh {
-  background-image: url(%%egg-minus-on%%) !important;
-  background-position: -1px -1px !important;
-}
-
-/* expando button alternative (in-line video) */
-/* line 47, ../sass/_modules_thing.sass */
-html[lang="en"] .thing .entry .expando-button.video {
-  background-image: url(%%Video%%) !important;
-  background-position: -8px -3px !important;
-}
-
-/* expando button alternative (replays) */
-/* line 52, ../sass/_modules_thing.sass */
-.listing-page .thing .title .title[href*="drop.sc"]::after {
+/* sticky (for all) */
+/* line 38, ../sass/_modules_stickies.sass */
+.side h6 {
+  border: none !important;
+  padding: 4px;
+  margin: 0px;
   position: absolute;
-  left: -4px;
-  top: 19px;
+  top: 25px;
+  background: white;
+  left: 295px;
+  z-index: 100;
+  border-radius: 5px;
+  font-size: small;
+  color: black;
+  max-width: 450px;
+  box-shadow: 0px 0px 15px 0px white;
+}
+/* line 52, ../sass/_modules_stickies.sass */
+.side h6 a:hover {
+  text-decoration: underline;
 }
 
-/* line 58, ../sass/_modules_thing.sass */
-.link.last-clicked {
-  border: none;
+/* line 4, ../sass/_modules_text_features.sass */
+.md a[href$="#spoiler"] {
+  background: black !important;
+  color: black !important;
+  border-bottom: 1px dashed red;
 }
-/* line 60, ../sass/_modules_thing.sass */
-.link.last-clicked::before {
-  content: "<";
-  color: gray;
-  height: 20px;
-  float: right;
+/* line 8, ../sass/_modules_text_features.sass */
+.md a[href$="#spoiler"]::before {
+  color: white !important;
+  content: "Spoiler:";
+  border-bottom: 1px solid black;
+  margin-right: 5px;
 }
-
-/* line 68, ../sass/_modules_thing.sass */
-.midcol {
-  width: 22px !important;
-}
-
-/* line 75, ../sass/_modules_thing.sass */
-.link .rank {
-  color: #3d3d3d;
+/* line 13, ../sass/_modules_text_features.sass */
+.md a[href$="#spoiler"]:hover {
+  color: white !important;
+  border-bottom: 0px solid red;
 }
 
-/* line 8, ../sass/_modules.sass */
+/* line 9, ../sass/_modules.sass */
 .icon-menu a {
   background: none;
 }
 
-/* line 14, ../sass/_modules.sass */
+/* line 15, ../sass/_modules.sass */
 #search input[type="text"] {
   border: 0px solid white;
   border-radius: 3px;
@@ -506,23 +499,23 @@ html[lang="en"] .thing .entry .expando-button.video {
   opacity: 0.75;
   width: 290px;
 }
-/* line 23, ../sass/_modules.sass */
+/* line 24, ../sass/_modules.sass */
 #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #ffcc00;
 }
-/* line 25, ../sass/_modules.sass */
+/* line 26, ../sass/_modules.sass */
 #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
 
-/* line 30, ../sass/_modules.sass */
+/* line 31, ../sass/_modules.sass */
 .infobar {
   background: none;
 }
 
-/* line 34, ../sass/_modules.sass */
+/* line 35, ../sass/_modules.sass */
 #sr-header-area {
   position: relative;
   z-index: 901;
@@ -530,19 +523,19 @@ html[lang="en"] .thing .entry .expando-button.video {
   background-color: black;
   color: white;
 }
-/* line 40, ../sass/_modules.sass */
+/* line 41, ../sass/_modules.sass */
 #sr-header-area .sr-bar a {
   color: #aa6600;
 }
 
-/* line 43, ../sass/_modules.sass */
+/* line 44, ../sass/_modules.sass */
 #header {
   border-bottom: 1px solid #b67d27;
   background-color: black;
   height: 145px;
   overflow: hidden;
 }
-/* line 50, ../sass/_modules.sass */
+/* line 51, ../sass/_modules.sass */
 #header .pagename.redditname a {
   background: url(%%banneroff%%);
   width: 1670px;
@@ -555,11 +548,11 @@ html[lang="en"] .thing .entry .expando-button.video {
   z-index: 100;
   background-repeat: no-repeat;
 }
-/* line 61, ../sass/_modules.sass */
+/* line 62, ../sass/_modules.sass */
 #header .pagename.redditname a:hover {
   background: url(%%banneron%%);
 }
-/* line 66, ../sass/_modules.sass */
+/* line 67, ../sass/_modules.sass */
 #header #header-bottom-left #header-img {
   opacity: 0.4;
   position: absolute;
@@ -569,45 +562,44 @@ html[lang="en"] .thing .entry .expando-button.video {
   height: 44px;
   width: 66px;
 }
-/* line 75, ../sass/_modules.sass */
+/* line 76, ../sass/_modules.sass */
 #header #header-bottom-left #header-img:hover {
   opacity: 1;
   left: -15px;
 }
-/* line 79, ../sass/_modules.sass */
+/* line 80, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 84, ../sass/_modules.sass */
+/* line 85, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 87, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li a {
   background-color: black;
 }
-/* line 88, ../sass/_modules.sass */
+/* line 89, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: black;
   border: 1px solid #b67d27;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 92, ../sass/_modules.sass */
+/* line 93, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 97, ../sass/_modules.sass */
+/* line 98, ../sass/_modules.sass */
 #header #header-bottom-right {
   z-index: 200;
   background: none;
 }
 
-/*remove display images to fit in nicer */
 /* inline flair */
-/* line 113, ../sass/_modules.sass */
+/* line 105, ../sass/_modules.sass */
 .flair {
   background: none;
   color: #eeeeee;
@@ -616,7 +608,7 @@ html[lang="en"] .thing .entry .expando-button.video {
   padding: 0px;
 }
 
-/* line 121, ../sass/_modules.sass */
+/* line 113, ../sass/_modules.sass */
 .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -625,7 +617,7 @@ html[lang="en"] .thing .entry .expando-button.video {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 128, ../sass/_modules.sass */
+/* line 120, ../sass/_modules.sass */
 .flair.flair-Master, .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -638,59 +630,59 @@ html[lang="en"] .thing .entry .expando-button.video {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 139, ../sass/_modules.sass */
+/* line 131, ../sass/_modules.sass */
 .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 141, ../sass/_modules.sass */
+/* line 133, ../sass/_modules.sass */
 .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 145, ../sass/_modules.sass */
+/* line 137, ../sass/_modules.sass */
 .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 149, ../sass/_modules.sass */
+/* line 141, ../sass/_modules.sass */
 .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 144, ../sass/_modules.sass */
 .flair.flair-Master:hover, .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 154, ../sass/_modules.sass */
+/* line 146, ../sass/_modules.sass */
 .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 157, ../sass/_modules.sass */
+/* line 149, ../sass/_modules.sass */
 .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 160, ../sass/_modules.sass */
+/* line 152, ../sass/_modules.sass */
 .flair.flair-NA:hover::after, .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 163, ../sass/_modules.sass */
+/* line 155, ../sass/_modules.sass */
 .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 166, ../sass/_modules.sass */
+/* line 158, ../sass/_modules.sass */
 .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
 
 /* parent comment popup dimmer */
-/* line 176, ../sass/_modules.sass */
+/* line 168, ../sass/_modules.sass */
 .parentComment.comment {
   color: white !important;
   background-color: black !important;
@@ -701,36 +693,36 @@ html[lang="en"] .thing .entry .expando-button.video {
 
 /* wiki stuff */
 /* headings */
-/* line 192, ../sass/_modules.sass */
+/* line 184, ../sass/_modules.sass */
 .md.wiki h1, .md.wiki h2, .md.wiki h3, .md.wiki h4, .md.wiki h5, .md.wiki h6 {
   color: #eeeeee;
 }
 
 /* wiki specifics */
-/* line 198, ../sass/_modules.sass */
+/* line 190, ../sass/_modules.sass */
 .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
 
-/* line 203, ../sass/_modules.sass */
+/* line 195, ../sass/_modules.sass */
 .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 204, ../sass/_modules.sass */
+/* line 196, ../sass/_modules.sass */
 .wikititle::before {
   content: "wiki/";
 }
-/* line 209, ../sass/_modules.sass */
+/* line 201, ../sass/_modules.sass */
 .wikititle strong {
   font-weight: normal !important;
 }
 
 /* page actions */
-/* line 214, ../sass/_modules.sass */
+/* line 206, ../sass/_modules.sass */
 .pageactions {
   border: 1px solid gray;
   /* alt */
@@ -741,7 +733,7 @@ html[lang="en"] .thing .entry .expando-button.video {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 223, ../sass/_modules.sass */
+/* line 215, ../sass/_modules.sass */
 .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -749,17 +741,17 @@ html[lang="en"] .thing .entry .expando-button.video {
   border-top: none;
   border-radius: 0px;
 }
-/* line 229, ../sass/_modules.sass */
+/* line 221, ../sass/_modules.sass */
 .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 231, ../sass/_modules.sass */
+/* line 223, ../sass/_modules.sass */
 .pageactions .wikiaction:hover {
   background: none;
 }
 
 /* main content area */
-/* line 236, ../sass/_modules.sass */
+/* line 228, ../sass/_modules.sass */
 .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
@@ -767,7 +759,7 @@ html[lang="en"] .thing .entry .expando-button.video {
 
 /* bottom line */
 /* table of contents */
-/* line 244, ../sass/_modules.sass */
+/* line 236, ../sass/_modules.sass */
 div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -778,12 +770,12 @@ div.wiki div.toc > ul {
   list-style: none !important;
 }
 
-/* line 253, ../sass/_modules.sass */
+/* line 245, ../sass/_modules.sass */
 .md.wiki > .toc > ul ul {
   border: none;
 }
 
-/* line 256, ../sass/_modules.sass */
+/* line 248, ../sass/_modules.sass */
 .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -798,162 +790,162 @@ div.wiki div.toc > ul {
 }
 
 /*comment page specific styles */
-/* line 271, ../sass/_modules.sass */
+/* line 263, ../sass/_modules.sass */
 .linkinfo {
   background: none;
 }
 
-/* line 274, ../sass/_modules.sass */
+/* line 266, ../sass/_modules.sass */
 .link .usertext .md {
   background-color: black;
   max-width: 90em;
   margin: 0 5px;
 }
 
-/* line 279, ../sass/_modules.sass */
+/* line 271, ../sass/_modules.sass */
 .md blockquote, .help blockquote {
   border-left: 2px solid #aa6600;
 }
 
-/* line 282, ../sass/_modules.sass */
+/* line 274, ../sass/_modules.sass */
 .commentarea .comment {
   background: none !important;
 }
-/* line 284, ../sass/_modules.sass */
+/* line 276, ../sass/_modules.sass */
 .commentarea .comment .comment {
   background: none !important;
 }
-/* line 286, ../sass/_modules.sass */
+/* line 278, ../sass/_modules.sass */
 .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 288, ../sass/_modules.sass */
+/* line 280, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 290, ../sass/_modules.sass */
+/* line 282, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 292, ../sass/_modules.sass */
+/* line 284, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 294, ../sass/_modules.sass */
+/* line 286, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 296, ../sass/_modules.sass */
+/* line 288, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 298, ../sass/_modules.sass */
+/* line 290, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 300, ../sass/_modules.sass */
+/* line 292, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
 
-/* line 307, ../sass/_modules.sass */
+/* line 299, ../sass/_modules.sass */
 .usertext-body {
   background: none;
 }
 
 /* submit a link */
-/* line 312, ../sass/_modules.sass */
+/* line 304, ../sass/_modules.sass */
 .submit-link {
   display: none;
 }
 
-/* line 314, ../sass/_modules.sass */
+/* line 306, ../sass/_modules.sass */
 .morelink {
   background: none;
   border: 1px solid gray;
 }
-/* line 317, ../sass/_modules.sass */
+/* line 309, ../sass/_modules.sass */
 .morelink:hover {
   background: none;
   border: 1px solid gray;
 }
-/* line 320, ../sass/_modules.sass */
+/* line 312, ../sass/_modules.sass */
 .morelink a {
   color: #aa6600;
 }
-/* line 322, ../sass/_modules.sass */
+/* line 314, ../sass/_modules.sass */
 .morelink .nub {
   display: none;
 }
-/* line 324, ../sass/_modules.sass */
+/* line 316, ../sass/_modules.sass */
 .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 327, ../sass/_modules.sass */
+/* line 319, ../sass/_modules.sass */
 .morelink + .spacer a {
   display: none;
 }
-/* line 329, ../sass/_modules.sass */
+/* line 321, ../sass/_modules.sass */
 .morelink:hover + .spacer {
   display: block;
 }
 
-/* line 335, ../sass/_modules.sass */
+/* line 327, ../sass/_modules.sass */
 .content.submit .info-notice, .tabmenu.formtab .selected a {
   background: none;
 }
 
-/* line 338, ../sass/_modules.sass */
+/* line 330, ../sass/_modules.sass */
 .tabmenu.formtab a {
   border: none;
 }
 
-/* line 341, ../sass/_modules.sass */
+/* line 333, ../sass/_modules.sass */
 .formtab-content {
   border-top: 2px solid white;
 }
 
 /* reddit give gold */
-/* line 346, ../sass/_modules.sass */
+/* line 338, ../sass/_modules.sass */
 .give-gold {
   visibility: hidden;
   float: right;
 }
 
-/* line 349, ../sass/_modules.sass */
+/* line 341, ../sass/_modules.sass */
 .entry:hover .give-gold {
   visibility: visible;
 }
 
-/* line 352, ../sass/_modules.sass */
+/* line 344, ../sass/_modules.sass */
 .entry:hover .flat-list.buttons {
   display: inline;
 }
 
-/* line 358, ../sass/_modules.sass */
+/* line 350, ../sass/_modules.sass */
 .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
 
-/* line 367, ../sass/_modules.sass */
+/* line 359, ../sass/_modules.sass */
 .choice:hover {
   background: #333333 !important;
 }
 
-/* line 373, ../sass/_modules.sass */
+/* line 365, ../sass/_modules.sass */
 .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
 
-/* line 379, ../sass/_modules.sass */
+/* line 371, ../sass/_modules.sass */
 .nextprev a {
   background: none;
 }
 
-/* line 383, ../sass/_modules.sass */
+/* line 375, ../sass/_modules.sass */
 .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -1095,79 +1087,60 @@ p.tagline em {
 }
 
 /* light theme */
-/* line 37, ../sass/main.sass */
+/* line 14, ../sass/_themeLight.sass */
 html[lang="ll"] body > .content {
   background: white;
   color: black;
 }
-/* line 40, ../sass/main.sass */
+/* line 17, ../sass/_themeLight.sass */
 html[lang="ll"] .side {
   background-color: white;
   color: black !important;
 }
-/* line 43, ../sass/main.sass */
+/* line 20, ../sass/_themeLight.sass */
 html[lang="ll"] h1, html[lang="ll"] h2, html[lang="ll"] h3, html[lang="ll"] h4, html[lang="ll"] h5, html[lang="ll"] h6 {
   color: #222222;
 }
-/* line 45, ../sass/main.sass */
+/* line 22, ../sass/_themeLight.sass */
 html[lang="ll"] .titlebox h1 a {
   color: #222222;
 }
-/* line 47, ../sass/main.sass */
+/* line 24, ../sass/_themeLight.sass */
 html[lang="ll"] body {
   background-color: white;
 }
-/* line 50, ../sass/main.sass */
+/* line 27, ../sass/_themeLight.sass */
 html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
   color: black;
   background-color: white;
 }
-/* line 53, ../sass/main.sass */
+/* line 30, ../sass/_themeLight.sass */
 html[lang="ll"] .sidecontentbox .content, html[lang="ll"] .tabmenu li a {
   background-color: white;
 }
-/* line 55, ../sass/main.sass */
+/* line 32, ../sass/_themeLight.sass */
 html[lang="ll"] #search input[type="text"] {
   color: black;
   background-color: white;
   border: 1px solid black;
 }
-/* line 59, ../sass/main.sass */
+/* line 36, ../sass/_themeLight.sass */
 html[lang="ll"] .listing-page .thing .title .title {
   text-shadow: 1px 1px 0px black;
 }
-/* line 61, ../sass/main.sass */
+/* line 38, ../sass/_themeLight.sass */
 html[lang="ll"] .morelink:hover a {
   color: black;
 }
-/* line 63, ../sass/main.sass */
+/* line 40, ../sass/_themeLight.sass */
 html[lang="ll"] .link .usertext .md {
   background-color: white;
 }
-/* line 65, ../sass/main.sass */
+/* line 42, ../sass/_themeLight.sass */
 html[lang="ll"] .flair {
   color: black;
 }
-/* line 67, ../sass/main.sass */
+/* line 44, ../sass/_themeLight.sass */
 html[lang="ll"] .titlebox .tagline {
   background-color: white;
-}
-
-/* line 70, ../sass/main.sass */
-.comment .md p > a[href$="#spoiler"] {
-  background: black !important;
-  color: black !important;
-  border-bottom: 1px dashed red;
-}
-/* line 74, ../sass/main.sass */
-.comment .md p > a[href$="#spoiler"]::before {
-  color: white !important;
-  content: "Spoiler:";
-  border-bottom: 1px solid black;
-  margin-right: 5px;
-}
-/* line 79, ../sass/main.sass */
-.comment .md p > a[href$="#spoiler"]:hover {
-  color: white !important;
-  border-bottom: 0px solid red;
 }

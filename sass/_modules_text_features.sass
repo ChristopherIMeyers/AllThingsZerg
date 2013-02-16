@@ -1,0 +1,15 @@
+//spoiler tag
+//usage: 
+
+.md a[href$="#spoiler"]
+  background: black !important
+  color: black !important
+  border-bottom: 1px dashed red
+  &::before
+    color: white !important
+    content: "Spoiler:"
+    border-bottom: 1px solid black
+    margin-right: 5px
+  &:hover
+    color: white !important
+    border-bottom: 0px solid red
