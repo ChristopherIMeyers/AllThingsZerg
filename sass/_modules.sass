@@ -1,49 +1,8 @@
-/*sidebar
-.side
-  color: $textFace !important
-  background: none
-  z-index: 500
-.side
-  .titlebox
-    color: $textFace
-    .redditname a
-      text-transform: uppercase
-      color: $textFace !important
-    //subscriber count
-    .word
-      display: none
-    .number::after
-      content: " broodlings"
-    //create your own subreddit
-    &.create
-      display: none
-    .spacer
-      background: none
-    //subscribe button
-    .titlebox form.toggle
-      background: none
+@import modules_res
+@import modules_side
 
-    //you are a moderator of this subreddit.
-    .leavemoderator
-      background: none
-      
-    //show flair on this subreddit
-    .flairtoggle
-      background: none	
-    //created by, community for x months
-    .bottom
-      display: none
-    //show my flair on this reddit.  It looks like:
-    .tagline
-      background-color: $background
-      margin: 2px
-      border-radius: 5px
-      padding: 5px 0 5px 20px
-.side
-  //MODERATION TOOLS/MODERATORS/RECENTLY VIEWED LINKS
-  .sidecontentbox .content
-    background-color: $background
 
+//moderation tools
 .icon-menu a
   background: none
   
@@ -145,48 +104,16 @@
 
 
 
-/* thing expando button for selftext
 
-html[lang="en"] .entry .expando-button
-  background: none !important
-  cursor: pointer !important
-  &.collapsed
-    /*.expando-button.selftext.collapsed
-    background-image: url(%%egg-plus-off%%) !important
-    background-position: -1px -1px !important
-    &:hover
-      background-image: url(%%egg-plus-on%%) !important
-      background-position: -1px -1px !important
-    
-html[lang="en"] .entry .expando-button.expanded, .eb-se
-  background-image: url(%%egg-minus-off%%) !important
-  background-position: -1px -1px !important
 
-html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh
-  background-image: url(%%egg-minus-on%%)  !important
-  background-position: -1px -1px !important
   
-/* expando button alternative (in-line video)
-html[lang="en"] .thing .entry .expando-button.video
-  background-image: url(%%Video%%) !important
-  background-position: -8px -3px !important
-
-/* expando button alternative (replays)
-.listing-page .thing .title .title[href*="drop.sc"]::after
-  position: absolute
-  left: -4px
-  top: 19px
-
 /* inline flair
-
 .flair
   background: none
   color: $textFace
   border: none
   margin: 0px
   padding: 0px 
-
-
 
 .flair
   &.flair-Mod
@@ -240,78 +167,6 @@ html[lang="en"] .thing .entry .expando-button.video
   
 
   
-/*side expandos
-.side
-  blockquote
-    border: none !important
-    padding: 0px
-    margin: 0px !important
-    padding-top: 10px
-    blockquote
-      /*display:none;
-      padding-bottom: 0px
-      padding-top: 0px
-      height: 25px
-      overflow: hidden
-      opacity: .5
-    &:hover
-      blockquote
-        display: block
-        height: auto
-        opacity: 1
-        padding-bottom: 5px
-      
-/*mostly a helper for the side expandos
-.side hr
-  display: none
-
-/* sticky (for all)
-.side h6
-  border: none !important
-  padding: 4px
-  margin: 0px
-  position: absolute
-  top: 25px
-  background: white
-  left: 295px
-  z-index: 100
-  border-radius: 5px
-  font-size: small
-  color: $background
-  max-width: 450px
-  box-shadow: 0px 0px 15px 0px white
-  a:hover
-    text-decoration: underline
-    
-/* sticky for subscribers
-.side h4
-  padding: 2px 6px 0 6px
-  margin: 0px
-  position: absolute
-  top: 129px
-  left: 450px
-  z-index: 100
-  font-size: 12px
-  background: $background
-  color: white
-  font-weight: normal
-  display: none
-  opacity: .8
-  
-/* sticky for mods
-.side h5
-  padding: 2px 6px 0 6px
-  margin: 0px
-  position: absolute
-  top: 129px
-  left: 345px
-  z-index: 100
-  font-size: 12px
-  background: $background
-  color: white
-  font-weight: normal
-  display: none
-
     
     
     
@@ -407,3 +262,122 @@ div.wiki div.toc > ul
   margin-left: -11px
   width: 300px
   position: absolute!important
+  
+  
+  
+/*comment page specific styles
+.linkinfo
+  background: none
+  
+.link .usertext .md
+  background-color: $background
+  max-width: 90em
+  margin: 0 5px
+
+.md blockquote, .help blockquote
+  border-left: 2px solid $linkVisited
+
+.commentarea .comment
+  background: none !important
+  .comment
+    background: none !important
+    .comment
+      background: none !important
+      .comment
+        background: none !important
+        .comment
+          background: none !important
+          .comment
+            background: none !important
+            .comment
+              background: none !important
+              .comment
+                background: none !important
+                .comment
+                  background: none !important
+                  .comment
+                    background: none !important
+
+
+
+
+  
+.usertext-body
+  background: none
+  
+  
+/* submit a link
+.submit-link 
+  display: none
+.morelink
+  background: none
+  border: 1px solid gray
+  &:hover
+    background: none
+    border: 1px solid gray
+  a
+    color: $linkVisited
+  .nub
+    display: none
+  + .spacer
+    display: none
+    padding: 0px
+    a
+      display: none
+  &:hover + .spacer
+    display: block
+    
+    
+// /submit page
+
+.content.submit .info-notice, .tabmenu.formtab .selected a
+  background: none
+  
+.tabmenu.formtab a
+  border: none
+  
+.formtab-content
+  border-top: 2px solid white
+
+  
+/* reddit give gold
+.give-gold
+  visibility: hidden
+  float: right
+.entry:hover .give-gold
+  visibility: visible
+
+.entry:hover .flat-list.buttons
+  display: inline
+  
+  
+//reddit gold features
+
+.new-comment .usertext-body
+  background: none !important
+  border: none !important
+  
+  
+  
+
+  
+//dropdown menu
+.choice:hover
+  background: #333 !important
+  
+  
+
+//tag *[+1]* flair
+.voteWeight
+  color: $textFace !important
+  background: none !important
+
+
+//view more next (pagination non res)
+.nextprev a
+  background: none
+  
+//about help tools <3 bottom of all pages
+.footer
+  border: 1px solid gray
+  border-radius: 0px
