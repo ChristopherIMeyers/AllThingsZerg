@@ -7,7 +7,7 @@ $linkNormal: #fc0
 $linkHover: #ff0
 $selectionBack: #11a
 $selectionFace: white
-$thingSelected: #002
+$thingSelected: #ddf
 
 
 html[lang="ll"]
@@ -43,3 +43,20 @@ html[lang="ll"]
     color: black
   .titlebox .tagline
     background-color: $background
+  .keyHighlight
+    background-color: $thingSelected !important
+    
+    
+  /*side expandos
+  .side
+    blockquote
+      & 
+        blockquote
+          opacity: 0
+      &:hover
+        blockquote
+          padding-bottom: 0px
+          opacity: 1
+          
+#header
+  box-shadow: 0px -10px 10px 10px
