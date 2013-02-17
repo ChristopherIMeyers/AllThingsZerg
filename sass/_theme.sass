@@ -1,93 +1,197 @@
 //theme loader
 //ideally it should take in a prefix so that this can be run twice against both themes
-.comment .md p > a:visited
-  color: $linkVisited !important
+html[lang="#{$themeName}"]
+  body
+    background-color: $background
 
-.comment .md p > a:hover
-  color: $linkNormal !important
-
-.newComments
-  color: $linkNormal !important
-
-.entry .buttons li
-  &.trial-stamp, &.reported-stamp
-    color: $background
-    
-a.author.submitter
-  color: $linkNormal !important
-  background: none !important
-  &:hover
-    color: $linkHover !important
-    background: none !important
-    
-h2
-  color: $headerColor
   a
-    color: $linkVisited
-
-p.tagline em
-  color: $textFace
-  display: none
-
-
-.usertext.grayed .usertext-body
-  color: red
-  background: none
-  
-.linefield
-  background: none
-
-.roundfield
-  background-color: $background
-  
-.tagline
-  a
-    color: $linkVisited
     text-decoration: none
-    &:hover
-      color: $linkNormal
-      text-decoration: none
-  .submitter
+    color: $linkVisited
+    
+  a:hover
     color: $linkNormal
-
-#header #RESShortcuts .RESShortcutsCurrentSub
-  &:visited
-    color: $linkNormal !important
-  &:hover
-    color: $linkHover !important
-
-.dropdown.srdrop .selected
-  color: $textFace
-
-#sr-more-link
-  color: $textFace
-  background-color: $background
+    
+  \::selection
+    color: $selectionFace
+    background-color: $selectionBack !important
+    
+  code
+    color: $codeColor 
   
-  
-.keyHighlight
-  background-color: $thingSelected !important
-  
-  
-
-.thing .title
-  color: $linkNormal !important
-  &:hover
-    color: $linkHover !important
-  &:visited, &.click
+html[lang="#{$themeName}"]
+  body
+    background: $background
+    background-repeat: repeat
+  body > .content
+    margin: 0px
+    padding: 7px 5px 0px 5px
+    background: none
+    color: $textFace
+    
+  .comment .md p > a:visited
     color: $linkVisited !important
+
+  .comment .md p > a:hover
+    color: $linkNormal !important
+
+  .newComments
+    color: $linkNormal !important
+
+  .entry .buttons li
+    &.trial-stamp, &.reported-stamp
+      color: $background
+      
+  a.author.submitter
+    color: $linkNormal !important
+    background: none !important
     &:hover
+      color: $linkHover !important
+      background: none !important
+      
+  h2
+    color: $headerColor
+    a
+      color: $linkVisited
+
+  p.tagline em
+    color: $textFace
+    display: none
+
+
+  .usertext.grayed .usertext-body
+    color: red
+    background: none
+    
+  .linefield
+    background: none
+
+  .roundfield
+    background-color: $background
+    
+  .tagline
+    a
+      color: $linkVisited
+      text-decoration: none
+      &:hover
+        color: $linkNormal
+        text-decoration: none
+    .submitter
+      color: $linkNormal
+
+  #header #RESShortcuts .RESShortcutsCurrentSub
+    &:visited
       color: $linkNormal !important
+    &:hover
+      color: $linkHover !important
+
+  .dropdown.srdrop .selected
+    color: $textFace
+
+  #sr-more-link
+    color: $textFace
+    background-color: $background
+    
+    
+  .keyHighlight
+    background-color: $thingSelected !important
+    
+    
+
+  .thing .title
+    color: $linkNormal !important
+    &:hover
+      color: $linkHover !important
+    &:visited, &.click
+      color: $linkVisited !important
+      &:hover
+        color: $linkNormal !important
+
+        
+
+  .listing-page .thing .title .title[href*="drop.sc"]::after
+    content: url(%%Video%%)
+    
+    
+  /*flair menu
+
+  .drop-choices
+    background: $background
+
+  .flairselector li
+    border: none
+    
+    
+    
+  /*res extension fixes
+  .NERPageMarker
+    color: $textFace !important
+
+  .neverEndingReddit
+    background: none !important
+    color: $textFace !important
+    img
+      display: none
 
       
+      
+  /* author info tool tip
+  .RESDialogSmall
+    background-color: $background !important
+    color: $textFace !important
+    > h3
+      background-color: #222 !important
+      color: $textFace !important
+      
+  .RESCloseButton
+    background: $background !important
+    &:hover
+      background: #444 !important
 
-.listing-page .thing .title .title[href*="drop.sc"]::after
-  content: url(%%Video%%)
+      
+   
+  .side
+    color: $textFace !important
+    .titlebox
+      .redditname a
+        color: $textFace !important
+      //show my flair on this reddit.  It looks like:
+      .tagline
+        background-color: $background
+        
+    //MODERATION TOOLS/MODERATORS/RECENTLY VIEWED LINKS
+    .sidecontentbox .content
+      background-color: $background
+      
+  .side h4
+    background: $background
+    color: $textFace
+    
+    
+  /* sticky for mods
+  .side h5
+    background: $background
+    color: $textFace
+      
+  /* sticky (for all)
+  .side h6
+    background: $textFace
+    color: $background
   
-  
-/*flair menu
+  #search input[type="text"]
+    background: $background
+    color: $textFace
+    
+    
 
-.drop-choices
-  background: $background
-
-.flairselector li
-  border: none
+    
+  #header #header-bottom-left
+    //hot new controversial top saved
+    ul.tabmenu
+      li
+        a
+          background-color: $background  
+        &.selected a
+          background-color: $background
+          border: 1px solid #B67D27
+          box-shadow: 0px 0px 10px #B67D27
+        

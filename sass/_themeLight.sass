@@ -2,61 +2,38 @@
 $background: white
 $textFace: black
 $headerColor: #222
-$linkVisited: #A60
-$linkNormal: #fc0
-$linkHover: #ff0
+$linkVisited: #780000
+$linkNormal: #DE0000
+$linkHover: #F70000
 $selectionBack: #11a
 $selectionFace: white
 $thingSelected: #ddf
 
 
 html[lang="ll"]
-  body > .content
-    background: $background
-    color: $textFace
-  .side
-    background-color: $background
-    color: $textFace !important
-  h1, h2, h3, h4, h5, h6
-    color: $headerColor
-  .titlebox h1 a
-    color: $headerColor
-  body
-    background-color: $background
-  .side
-    h4, h5
-      color: $textFace
-      background-color: $background
-  .sidecontentbox .content, .tabmenu li a
-    background-color: $background
   #search input[type="text"]
-    color: black
-    background-color: $background
     border: 1px solid black
   .listing-page .thing .title .title
-    text-shadow: 1px 1px 0px black
+    text-shadow: 1px 1px 0px #0F0000
   .morelink:hover a
     color: black
-  .link .usertext .md
-    background-color: $background
   .flair
     color: black
-  .titlebox .tagline
-    background-color: $background
-  .keyHighlight
-    background-color: $thingSelected !important
-    
     
   /*side expandos
   .side
     blockquote
-      & 
-        blockquote
-          opacity: 0
+      //& 
+        //blockquote
+          //opacity: 0
       &:hover
         blockquote
           padding-bottom: 0px
-          opacity: 1
-          
-#header
-  box-shadow: 0px -10px 10px 10px black
+          //opacity: 1
+  #header
+    box-shadow: 0px -10px 10px 10px black
+  .side h4, .side h5
+    top: 207px
+    
+  .pagename.redditname a
+    display: none
