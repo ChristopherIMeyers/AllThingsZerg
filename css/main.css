@@ -43,7 +43,7 @@ html[lang="en"] #header .pagename.redditname a {
   left: 0px;
   top: 19px;
   text-indent: -9999px;
-  z-index: 100;
+  z-index: -100;
   background-repeat: no-repeat;
 }
 /* line 49, ../sass/_themeDark.sass */
@@ -905,7 +905,7 @@ html[lang="en"] #header .pagename.redditname a {
   left: 0px;
   top: 19px;
   text-indent: -9999px;
-  z-index: 100;
+  z-index: -100;
   background-repeat: no-repeat;
 }
 /* line 49, ../sass/_themeDark.sass */
