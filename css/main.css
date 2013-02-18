@@ -195,34 +195,38 @@ html[lang="en"] #header-img:hover {
   display: none;
 }
 /* line 11, ../sass/_modules_side.sass */
-.side .titlebox .number::after {
-  content: " broodlings";
+.side .titlebox .subscribers .number::after {
+  content: " locusts";
 }
-/* line 14, ../sass/_modules_side.sass */
+/* line 13, ../sass/_modules_side.sass */
+.side .titlebox .users-online .number::after {
+  content: " locusts";
+}
+/* line 16, ../sass/_modules_side.sass */
 .side .titlebox.create {
   display: none;
 }
-/* line 16, ../sass/_modules_side.sass */
+/* line 18, ../sass/_modules_side.sass */
 .side .titlebox .spacer {
   background: none;
 }
-/* line 19, ../sass/_modules_side.sass */
+/* line 21, ../sass/_modules_side.sass */
 .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 23, ../sass/_modules_side.sass */
+/* line 25, ../sass/_modules_side.sass */
 .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 27, ../sass/_modules_side.sass */
+/* line 29, ../sass/_modules_side.sass */
 .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 30, ../sass/_modules_side.sass */
+/* line 32, ../sass/_modules_side.sass */
 .side .titlebox .bottom {
   display: none;
 }
-/* line 33, ../sass/_modules_side.sass */
+/* line 35, ../sass/_modules_side.sass */
 .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
@@ -230,20 +234,20 @@ html[lang="en"] #header-img:hover {
 }
 
 /*mostly a helper for the side expandos */
-/* line 39, ../sass/_modules_side.sass */
+/* line 41, ../sass/_modules_side.sass */
 .side hr {
   display: none;
 }
 
 /*side expandos */
-/* line 45, ../sass/_modules_side.sass */
+/* line 47, ../sass/_modules_side.sass */
 .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 50, ../sass/_modules_side.sass */
+/* line 52, ../sass/_modules_side.sass */
 .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
@@ -251,7 +255,7 @@ html[lang="en"] #header-img:hover {
   overflow: hidden;
   opacity: 0.5;
 }
-/* line 57, ../sass/_modules_side.sass */
+/* line 59, ../sass/_modules_side.sass */
 .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -261,16 +265,16 @@ html[lang="en"] #header-img:hover {
 
 /* sidebar */
 /* about */
-/* line 68, ../sass/_modules_side.sass */
+/* line 70, ../sass/_modules_side.sass */
 .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
 }
-/* line 71, ../sass/_modules_side.sass */
+/* line 73, ../sass/_modules_side.sass */
 .side .usertext {
   margin-top: 5px;
 }
-/* line 73, ../sass/_modules_side.sass */
+/* line 75, ../sass/_modules_side.sass */
 .side .usertext::before {
   content: "INFORMATION";
   color: gray;
@@ -404,7 +408,7 @@ body.moderator.listing-page .side h5 {
 }
 
 /* sticky (for all) */
-/* line 34, ../sass/_modules_stickies.sass */
+/* line 33, ../sass/_modules_stickies.sass */
 .side h6 {
   border: none !important;
   padding: 4px;
@@ -418,7 +422,7 @@ body.moderator.listing-page .side h5 {
   max-width: 450px;
   box-shadow: 0px 0px 15px 0px white;
 }
-/* line 46, ../sass/_modules_stickies.sass */
+/* line 45, ../sass/_modules_stickies.sass */
 .side h6 a:hover {
   text-decoration: underline;
 }
