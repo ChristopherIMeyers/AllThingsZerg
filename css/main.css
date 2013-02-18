@@ -1175,7 +1175,7 @@ html[lang="ll"] #search input[type="text"] {
 }
 /* line 16, ../sass/_themeLight.sass */
 html[lang="ll"] .listing-page .thing .title .title {
-  text-shadow: 1px 1px 0px #0f0000;
+  text-shadow: 1px 1px 3px #0f0000;
 }
 /* line 18, ../sass/_themeLight.sass */
 html[lang="ll"] .morelink:hover a {
