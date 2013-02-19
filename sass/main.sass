@@ -13,12 +13,14 @@
 
 $themeName: en
 @import themeDark
-@import theme
+html
+  @import theme
 
 
 $themeName: ll
 @import themeLight
-@import theme
+html[lang="#{$themeName}"]
+  @import theme
 
 
 

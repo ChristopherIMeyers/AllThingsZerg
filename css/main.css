@@ -1,40 +1,17 @@
-/* line 12, ../sass/_themeDark.sass */
-html[lang="en"] .arrow {
-  height: 22px;
-  width: 22px;
-  background-position: 0px 0px !important;
-  background: none;
-}
-/* line 17, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.down {
-  background-image: url(%%arrow-down-off%%);
-}
-/* line 19, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.downmod {
-  background-image: url(%%arrow-down%%);
-}
-/* line 21, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.up {
-  background-image: url(%%arrow-up-off%%);
-}
-/* line 23, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.upmod {
-  background-image: url(%%arrow-up%%);
-}
-
-/* line 27, ../sass/_themeDark.sass */
-html[lang="en"] body {
+/* line 13, ../sass/_themeDark.sass */
+body {
   background: url(%%background%%);
 }
-/* line 31, ../sass/_themeDark.sass */
-html[lang="en"] #header {
+
+/* line 17, ../sass/_themeDark.sass */
+#header {
   border-bottom: 1px solid #b67d27;
   background-color: black;
   height: 145px;
   overflow: hidden;
 }
-/* line 38, ../sass/_themeDark.sass */
-html[lang="en"] #header .pagename.redditname a {
+/* line 24, ../sass/_themeDark.sass */
+#header .pagename.redditname a {
   background: url(%%banneroff%%);
   width: 1670px;
   height: 125px;
@@ -46,12 +23,13 @@ html[lang="en"] #header .pagename.redditname a {
   z-index: -100;
   background-repeat: no-repeat;
 }
-/* line 49, ../sass/_themeDark.sass */
-html[lang="en"] #header .pagename.redditname a:hover {
+/* line 35, ../sass/_themeDark.sass */
+#header .pagename.redditname a:hover {
   background: url(%%banneron%%);
 }
-/* line 53, ../sass/_themeDark.sass */
-html[lang="en"] #header-img {
+
+/* line 39, ../sass/_themeDark.sass */
+#header-img {
   opacity: 0.4;
   position: absolute;
   bottom: 40px;
@@ -60,10 +38,34 @@ html[lang="en"] #header-img {
   height: 44px;
   width: 66px;
 }
-/* line 62, ../sass/_themeDark.sass */
-html[lang="en"] #header-img:hover {
+/* line 48, ../sass/_themeDark.sass */
+#header-img:hover {
   opacity: 1;
   left: -15px;
+}
+
+/* line 53, ../sass/_themeDark.sass */
+.arrow {
+  height: 22px;
+  width: 22px;
+  background-position: 0px 0px !important;
+  background: none;
+}
+/* line 58, ../sass/_themeDark.sass */
+.arrow.down {
+  background-image: url(%%arrow-down-off%%);
+}
+/* line 60, ../sass/_themeDark.sass */
+.arrow.downmod {
+  background-image: url(%%arrow-down%%);
+}
+/* line 62, ../sass/_themeDark.sass */
+.arrow.up {
+  background-image: url(%%arrow-up-off%%);
+}
+/* line 64, ../sass/_themeDark.sass */
+.arrow.upmod {
+  background-image: url(%%arrow-up%%);
 }
 
 /* line 3, ../sass/_base.sass */
@@ -146,7 +148,7 @@ html[lang="en"] #header-img:hover {
 }
 
 /*res extension fixes */
-/* line 5, ../sass/_modules_res.sass */
+/* line 5, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .NERPageMarker {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -156,7 +158,7 @@ html[lang="en"] #header-img:hover {
   border-color: gray !important;
 }
 
-/* line 13, ../sass/_modules_res.sass */
+/* line 13, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .neverEndingReddit {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -165,68 +167,68 @@ html[lang="en"] #header-img:hover {
   padding-top: 0px !important;
   border-color: gray !important;
 }
-/* line 20, ../sass/_modules_res.sass */
+/* line 20, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .neverEndingReddit img {
   display: none;
 }
 
-/* line 25, ../sass/_modules_res.sass */
+/* line 25, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 #authorInfoToolTip .blueButton {
   background-color: #21587e !important;
 }
 
-/* line 28, ../sass/_modules_res.sass */
+/* line 28, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
 .fancy-toggle-button .add {
   background: #116428 !important;
 }
 
 /*sidebar */
-/* line 2, ../sass/_modules_side.sass */
+/* line 2, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side {
   background: none;
   z-index: 500;
 }
-/* line 6, ../sass/_modules_side.sass */
+/* line 6, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .redditname a {
   text-transform: uppercase;
 }
-/* line 9, ../sass/_modules_side.sass */
+/* line 9, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .word {
   display: none;
 }
-/* line 11, ../sass/_modules_side.sass */
+/* line 11, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .subscribers .number::after {
   content: " locusts";
 }
-/* line 13, ../sass/_modules_side.sass */
+/* line 13, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .users-online .number::after {
   content: " locusts";
 }
-/* line 16, ../sass/_modules_side.sass */
+/* line 16, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox.create {
   display: none;
 }
-/* line 18, ../sass/_modules_side.sass */
+/* line 18, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .spacer {
   background: none;
 }
-/* line 21, ../sass/_modules_side.sass */
+/* line 21, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 25, ../sass/_modules_side.sass */
+/* line 25, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 29, ../sass/_modules_side.sass */
+/* line 29, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 32, ../sass/_modules_side.sass */
+/* line 32, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .bottom {
   display: none;
 }
-/* line 35, ../sass/_modules_side.sass */
+/* line 35, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
@@ -234,20 +236,20 @@ html[lang="en"] #header-img:hover {
 }
 
 /*mostly a helper for the side expandos */
-/* line 41, ../sass/_modules_side.sass */
+/* line 41, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side hr {
   display: none;
 }
 
 /*side expandos */
-/* line 47, ../sass/_modules_side.sass */
+/* line 47, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 52, ../sass/_modules_side.sass */
+/* line 52, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
@@ -255,7 +257,7 @@ html[lang="en"] #header-img:hover {
   overflow: hidden;
   opacity: 0.5;
 }
-/* line 59, ../sass/_modules_side.sass */
+/* line 59, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -265,23 +267,23 @@ html[lang="en"] #header-img:hover {
 
 /* sidebar */
 /* about */
-/* line 70, ../sass/_modules_side.sass */
+/* line 70, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
 }
-/* line 73, ../sass/_modules_side.sass */
+/* line 73, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .usertext {
   margin-top: 5px;
 }
-/* line 75, ../sass/_modules_side.sass */
+/* line 75, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
 .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
 
-/* line 4, ../sass/_modules_thing.sass */
+/* line 4, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .listing-page .thing .tagline {
   background-repeat: no-repeat;
   background-position: -5px -3px;
@@ -292,7 +294,7 @@ html[lang="en"] #header-img:hover {
   left: 30px;
   top: 19px;
 }
-/* line 14, ../sass/_modules_thing.sass */
+/* line 14, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .listing-page .thing .flat-list {
   position: absolute;
   top: 33px;
@@ -302,55 +304,55 @@ html[lang="en"] #header-img:hover {
 }
 
 /* thing expando button for selftext */
-/* line 27, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button {
+/* line 27, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+.entry .expando-button {
   background: none !important;
   cursor: pointer !important;
 }
-/* line 30, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.collapsed {
+/* line 30, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+.entry .expando-button.collapsed {
   /*.expando-button.selftext.collapsed */
   background-image: url(%%egg-plus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 34, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.collapsed:hover {
+/* line 34, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+.entry .expando-button.collapsed:hover {
   background-image: url(%%egg-plus-on%%) !important;
   background-position: -1px -1px !important;
 }
 
-/* line 38, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.expanded, .eb-se {
+/* line 38, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+.entry .expando-button.expanded, .eb-se {
   background-image: url(%%egg-minus-off%%) !important;
   background-position: -1px -1px !important;
 }
 
-/* line 42, ../sass/_modules_thing.sass */
-html[lang="en"] .entry .expando-button.expanded:hover, .eb-seh {
+/* line 42, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+.entry .expando-button.expanded:hover, .eb-seh {
   background-image: url(%%egg-minus-on%%) !important;
   background-position: -1px -1px !important;
 }
 
 /* expando button alternative (in-line video) */
-/* line 47, ../sass/_modules_thing.sass */
-html[lang="en"] .thing .entry .expando-button.video {
+/* line 47, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+.thing .entry .expando-button.video {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
 
 /* expando button alternative (replays) */
-/* line 52, ../sass/_modules_thing.sass */
+/* line 52, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .listing-page .thing .title .title[href*="drop.sc"]::after {
   position: absolute;
   left: -4px;
   top: 19px;
 }
 
-/* line 58, ../sass/_modules_thing.sass */
+/* line 58, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .link.last-clicked {
   border: none;
 }
-/* line 60, ../sass/_modules_thing.sass */
+/* line 60, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .link.last-clicked::before {
   content: "<";
   color: gray;
@@ -358,24 +360,24 @@ html[lang="en"] .thing .entry .expando-button.video {
   float: right;
 }
 
-/* line 68, ../sass/_modules_thing.sass */
+/* line 68, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .midcol {
   width: 22px !important;
 }
 
-/* line 75, ../sass/_modules_thing.sass */
+/* line 75, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
 .link .rank {
   color: #3d3d3d;
 }
 
 /* sticky for subscribers */
-/* line 2, ../sass/_modules_stickies.sass */
+/* line 2, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h4 {
   padding: 2px 6px 0 6px;
   margin: 0px;
   position: absolute;
   top: 129px;
-  left: 450px;
+  left: 550px;
   z-index: 100;
   font-size: 12px;
   font-weight: normal;
@@ -383,32 +385,32 @@ html[lang="en"] .thing .entry .expando-button.video {
   opacity: 0.8;
 }
 
-/* line 14, ../sass/_modules_stickies.sass */
+/* line 14, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 body.subscriber .side h4 {
   display: block;
 }
 
 /* sticky for mods */
-/* line 18, ../sass/_modules_stickies.sass */
+/* line 18, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h5 {
   padding: 2px 6px 0 6px;
   margin: 0px;
   position: absolute;
   top: 129px;
-  left: 345px;
+  left: 445px;
   z-index: 100;
   font-size: 12px;
   font-weight: normal;
   display: none;
 }
 
-/* line 29, ../sass/_modules_stickies.sass */
+/* line 29, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 body.moderator.listing-page .side h5 {
   display: block;
 }
 
 /* sticky (for all) */
-/* line 33, ../sass/_modules_stickies.sass */
+/* line 33, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h6 {
   border: none !important;
   padding: 4px;
@@ -422,26 +424,26 @@ body.moderator.listing-page .side h5 {
   max-width: 450px;
   box-shadow: 0px 0px 15px 0px white;
 }
-/* line 45, ../sass/_modules_stickies.sass */
+/* line 45, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
 .side h6 a:hover {
   text-decoration: underline;
 }
 
-/* line 4, ../sass/_modules_text_features.sass */
+/* line 4, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
 .md a[href$="#spoiler"] {
   background: black !important;
   color: black !important;
   border-bottom: 1px dashed red;
   cursor: help;
 }
-/* line 9, ../sass/_modules_text_features.sass */
+/* line 9, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
 .md a[href$="#spoiler"]::before {
   color: white !important;
   content: "Spoiler:";
   border-bottom: 1px solid black;
   margin-right: 5px;
 }
-/* line 14, ../sass/_modules_text_features.sass */
+/* line 14, C:/Users/Chris/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
 .md a[href$="#spoiler"]:hover {
   color: white !important;
   border-bottom: 0px solid red;
@@ -482,37 +484,31 @@ body.moderator.listing-page .side h5 {
   position: relative;
   z-index: 901;
   width: 100%;
-  background-color: black;
-  color: white;
-}
-/* line 39, ../sass/_modules.sass */
-#sr-header-area .sr-bar a {
-  color: #aa6600;
 }
 
-/* line 44, ../sass/_modules.sass */
+/* line 40, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 45, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 51, ../sass/_modules.sass */
+/* line 47, ../sass/_modules.sass */
 #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 56, ../sass/_modules.sass */
+/* line 52, ../sass/_modules.sass */
 #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
 
 /* inline flair */
-/* line 63, ../sass/_modules.sass */
+/* line 59, ../sass/_modules.sass */
 .flair {
   background: none;
   color: #eeeeee;
@@ -521,7 +517,7 @@ body.moderator.listing-page .side h5 {
   padding: 0px;
 }
 
-/* line 71, ../sass/_modules.sass */
+/* line 67, ../sass/_modules.sass */
 .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -530,7 +526,7 @@ body.moderator.listing-page .side h5 {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 78, ../sass/_modules.sass */
+/* line 74, ../sass/_modules.sass */
 .flair.flair-Master, .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -543,59 +539,59 @@ body.moderator.listing-page .side h5 {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 89, ../sass/_modules.sass */
+/* line 85, ../sass/_modules.sass */
 .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 91, ../sass/_modules.sass */
+/* line 87, ../sass/_modules.sass */
 .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 95, ../sass/_modules.sass */
+/* line 91, ../sass/_modules.sass */
 .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 99, ../sass/_modules.sass */
+/* line 95, ../sass/_modules.sass */
 .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 102, ../sass/_modules.sass */
+/* line 98, ../sass/_modules.sass */
 .flair.flair-Master:hover, .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 104, ../sass/_modules.sass */
+/* line 100, ../sass/_modules.sass */
 .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 107, ../sass/_modules.sass */
+/* line 103, ../sass/_modules.sass */
 .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 110, ../sass/_modules.sass */
+/* line 106, ../sass/_modules.sass */
 .flair.flair-NA:hover::after, .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 113, ../sass/_modules.sass */
+/* line 109, ../sass/_modules.sass */
 .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 116, ../sass/_modules.sass */
+/* line 112, ../sass/_modules.sass */
 .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
 
 /* parent comment popup dimmer */
-/* line 126, ../sass/_modules.sass */
+/* line 122, ../sass/_modules.sass */
 .parentComment.comment {
   color: white !important;
   background-color: black !important;
@@ -606,36 +602,36 @@ body.moderator.listing-page .side h5 {
 
 /* wiki stuff */
 /* headings */
-/* line 142, ../sass/_modules.sass */
+/* line 138, ../sass/_modules.sass */
 .md.wiki h1, .md.wiki h2, .md.wiki h3, .md.wiki h4, .md.wiki h5, .md.wiki h6 {
   color: #eeeeee;
 }
 
 /* wiki specifics */
-/* line 148, ../sass/_modules.sass */
+/* line 144, ../sass/_modules.sass */
 .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
 
-/* line 153, ../sass/_modules.sass */
+/* line 149, ../sass/_modules.sass */
 .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 154, ../sass/_modules.sass */
+/* line 150, ../sass/_modules.sass */
 .wikititle::before {
   content: "wiki/";
 }
-/* line 159, ../sass/_modules.sass */
+/* line 155, ../sass/_modules.sass */
 .wikititle strong {
   font-weight: normal !important;
 }
 
 /* page actions */
-/* line 164, ../sass/_modules.sass */
+/* line 160, ../sass/_modules.sass */
 .pageactions {
   border: 1px solid gray;
   /* alt */
@@ -646,7 +642,7 @@ body.moderator.listing-page .side h5 {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 173, ../sass/_modules.sass */
+/* line 169, ../sass/_modules.sass */
 .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -654,17 +650,17 @@ body.moderator.listing-page .side h5 {
   border-top: none;
   border-radius: 0px;
 }
-/* line 179, ../sass/_modules.sass */
+/* line 175, ../sass/_modules.sass */
 .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 181, ../sass/_modules.sass */
+/* line 177, ../sass/_modules.sass */
 .pageactions .wikiaction:hover {
   background: none;
 }
 
 /* main content area */
-/* line 186, ../sass/_modules.sass */
+/* line 182, ../sass/_modules.sass */
 .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
@@ -672,7 +668,7 @@ body.moderator.listing-page .side h5 {
 
 /* bottom line */
 /* table of contents */
-/* line 194, ../sass/_modules.sass */
+/* line 190, ../sass/_modules.sass */
 div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -683,12 +679,12 @@ div.wiki div.toc > ul {
   list-style: none !important;
 }
 
-/* line 203, ../sass/_modules.sass */
+/* line 199, ../sass/_modules.sass */
 .md.wiki > .toc > ul ul {
   border: none;
 }
 
-/* line 206, ../sass/_modules.sass */
+/* line 202, ../sass/_modules.sass */
 .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -703,199 +699,176 @@ div.wiki div.toc > ul {
 }
 
 /*comment page specific styles */
-/* line 221, ../sass/_modules.sass */
+/* line 217, ../sass/_modules.sass */
 .linkinfo {
   background: none;
 }
 
-/* line 224, ../sass/_modules.sass */
+/* line 220, ../sass/_modules.sass */
 .link .usertext .md {
   background-color: black;
   max-width: 90em;
   margin: 0 5px;
 }
 
-/* line 229, ../sass/_modules.sass */
+/* line 225, ../sass/_modules.sass */
 .md blockquote, .help blockquote {
   border-left: 2px solid #aa6600;
 }
 
-/* line 232, ../sass/_modules.sass */
+/* line 228, ../sass/_modules.sass */
 .commentarea .comment {
   background: none !important;
 }
-/* line 234, ../sass/_modules.sass */
+/* line 230, ../sass/_modules.sass */
 .commentarea .comment .comment {
   background: none !important;
 }
-/* line 236, ../sass/_modules.sass */
+/* line 232, ../sass/_modules.sass */
 .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 238, ../sass/_modules.sass */
+/* line 234, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 240, ../sass/_modules.sass */
+/* line 236, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 242, ../sass/_modules.sass */
+/* line 238, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 244, ../sass/_modules.sass */
+/* line 240, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 246, ../sass/_modules.sass */
+/* line 242, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 248, ../sass/_modules.sass */
+/* line 244, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 250, ../sass/_modules.sass */
+/* line 246, ../sass/_modules.sass */
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
 
-/* line 257, ../sass/_modules.sass */
+/* line 253, ../sass/_modules.sass */
 .usertext-body {
   background: none;
 }
 
 /* submit a link */
-/* line 262, ../sass/_modules.sass */
+/* line 258, ../sass/_modules.sass */
 .submit-link {
   display: none;
 }
 
-/* line 264, ../sass/_modules.sass */
+/* line 260, ../sass/_modules.sass */
 .morelink {
   background: none;
   border: 1px solid gray;
 }
-/* line 267, ../sass/_modules.sass */
+/* line 263, ../sass/_modules.sass */
 .morelink:hover {
   background: none;
   border: 1px solid gray;
 }
-/* line 270, ../sass/_modules.sass */
+/* line 266, ../sass/_modules.sass */
 .morelink a {
   color: #aa6600;
 }
-/* line 272, ../sass/_modules.sass */
+/* line 268, ../sass/_modules.sass */
 .morelink .nub {
   display: none;
 }
-/* line 274, ../sass/_modules.sass */
+/* line 270, ../sass/_modules.sass */
 .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 277, ../sass/_modules.sass */
+/* line 273, ../sass/_modules.sass */
 .morelink + .spacer a {
   display: none;
 }
-/* line 279, ../sass/_modules.sass */
+/* line 275, ../sass/_modules.sass */
 .morelink:hover + .spacer {
   display: block;
 }
 
-/* line 285, ../sass/_modules.sass */
+/* line 281, ../sass/_modules.sass */
 .content.submit .info-notice, .tabmenu.formtab .selected a {
   background: none;
 }
 
-/* line 288, ../sass/_modules.sass */
+/* line 284, ../sass/_modules.sass */
 .tabmenu.formtab a {
   border: none;
 }
 
-/* line 291, ../sass/_modules.sass */
+/* line 287, ../sass/_modules.sass */
 .formtab-content {
   border-top: 2px solid white;
 }
 
 /* reddit give gold */
-/* line 296, ../sass/_modules.sass */
+/* line 292, ../sass/_modules.sass */
 .give-gold {
   visibility: hidden;
   float: right;
 }
 
-/* line 299, ../sass/_modules.sass */
+/* line 295, ../sass/_modules.sass */
 .entry:hover .give-gold {
   visibility: visible;
 }
 
-/* line 305, ../sass/_modules.sass */
+/* line 301, ../sass/_modules.sass */
 .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
 
-/* line 314, ../sass/_modules.sass */
+/* line 310, ../sass/_modules.sass */
 .choice:hover {
   background: #333333 !important;
 }
 
-/* line 320, ../sass/_modules.sass */
+/* line 316, ../sass/_modules.sass */
 .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
 
-/* line 326, ../sass/_modules.sass */
+/* line 322, ../sass/_modules.sass */
 .nextprev a {
   background: none;
 }
 
-/* line 330, ../sass/_modules.sass */
+/* line 326, ../sass/_modules.sass */
 .footer {
   border: 1px solid gray;
   border-radius: 0px;
 }
 
-/* line 12, ../sass/_themeDark.sass */
-html[lang="en"] .arrow {
-  height: 22px;
-  width: 22px;
-  background-position: 0px 0px !important;
-  background: none;
-}
-/* line 17, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.down {
-  background-image: url(%%arrow-down-off%%);
-}
-/* line 19, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.downmod {
-  background-image: url(%%arrow-down%%);
-}
-/* line 21, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.up {
-  background-image: url(%%arrow-up-off%%);
-}
-/* line 23, ../sass/_themeDark.sass */
-html[lang="en"] .arrow.upmod {
-  background-image: url(%%arrow-up%%);
-}
-
-/* line 27, ../sass/_themeDark.sass */
-html[lang="en"] body {
+/* line 13, ../sass/_themeDark.sass */
+body {
   background: url(%%background%%);
 }
-/* line 31, ../sass/_themeDark.sass */
-html[lang="en"] #header {
+
+/* line 17, ../sass/_themeDark.sass */
+#header {
   border-bottom: 1px solid #b67d27;
   background-color: black;
   height: 145px;
   overflow: hidden;
 }
-/* line 38, ../sass/_themeDark.sass */
-html[lang="en"] #header .pagename.redditname a {
+/* line 24, ../sass/_themeDark.sass */
+#header .pagename.redditname a {
   background: url(%%banneroff%%);
   width: 1670px;
   height: 125px;
@@ -907,12 +880,13 @@ html[lang="en"] #header .pagename.redditname a {
   z-index: -100;
   background-repeat: no-repeat;
 }
-/* line 49, ../sass/_themeDark.sass */
-html[lang="en"] #header .pagename.redditname a:hover {
+/* line 35, ../sass/_themeDark.sass */
+#header .pagename.redditname a:hover {
   background: url(%%banneron%%);
 }
-/* line 53, ../sass/_themeDark.sass */
-html[lang="en"] #header-img {
+
+/* line 39, ../sass/_themeDark.sass */
+#header-img {
   opacity: 0.4;
   position: absolute;
   bottom: 40px;
@@ -921,246 +895,278 @@ html[lang="en"] #header-img {
   height: 44px;
   width: 66px;
 }
-/* line 62, ../sass/_themeDark.sass */
-html[lang="en"] #header-img:hover {
+/* line 48, ../sass/_themeDark.sass */
+#header-img:hover {
   opacity: 1;
   left: -15px;
 }
 
-/* line 4, ../sass/_theme.sass */
-html[lang="en"] body {
-  background-color: black;
+/* line 53, ../sass/_themeDark.sass */
+.arrow {
+  height: 22px;
+  width: 22px;
+  background-position: 0px 0px !important;
+  background: none;
 }
-/* line 7, ../sass/_theme.sass */
-html[lang="en"] a {
-  text-decoration: none;
-  color: #aa6600;
+/* line 58, ../sass/_themeDark.sass */
+.arrow.down {
+  background-image: url(%%arrow-down-off%%);
 }
-/* line 11, ../sass/_theme.sass */
-html[lang="en"] a:hover {
-  color: #ffcc00;
+/* line 60, ../sass/_themeDark.sass */
+.arrow.downmod {
+  background-image: url(%%arrow-down%%);
 }
-/* line 14, ../sass/_theme.sass */
-html[lang="en"] ::selection {
-  color: white;
-  background-color: #1111aa !important;
+/* line 62, ../sass/_themeDark.sass */
+.arrow.up {
+  background-image: url(%%arrow-up-off%%);
 }
-/* line 18, ../sass/_theme.sass */
-html[lang="en"] code {
-  color: #37df37;
+/* line 64, ../sass/_themeDark.sass */
+.arrow.upmod {
+  background-image: url(%%arrow-up%%);
 }
 
-/* line 21, ../sass/_theme.sass */
-html[lang="en"] {
+/* line 16, ../sass/main.sass */
+html {
   /*flair menu */
   /*res extension fixes */
   /* author info tool tip */
   /* sticky for mods */
   /* sticky (for all) */
 }
-/* line 22, ../sass/_theme.sass */
-html[lang="en"] body {
+/* line 4, ../sass/_theme.sass */
+html body {
+  background-color: black;
+}
+/* line 7, ../sass/_theme.sass */
+html a {
+  text-decoration: none;
+  color: #aa6600;
+}
+/* line 11, ../sass/_theme.sass */
+html a:hover {
+  color: #ffcc00;
+}
+/* line 14, ../sass/_theme.sass */
+html ::selection {
+  color: white;
+  background-color: #1111aa !important;
+}
+/* line 18, ../sass/_theme.sass */
+html code {
+  color: #37df37;
+}
+/* line 21, ../sass/_theme.sass */
+html body {
   background: black;
   background-repeat: repeat;
 }
-/* line 25, ../sass/_theme.sass */
-html[lang="en"] body > .content {
+/* line 24, ../sass/_theme.sass */
+html body > .content {
   margin: 0px;
   padding: 7px 5px 0px 5px;
   background: none;
   color: #eeeeee;
 }
-/* line 31, ../sass/_theme.sass */
-html[lang="en"] .comment .md p > a:visited {
+/* line 30, ../sass/_theme.sass */
+html .comment .md p > a:visited {
   color: #aa6600 !important;
 }
-/* line 34, ../sass/_theme.sass */
-html[lang="en"] .comment .md p > a:hover {
+/* line 33, ../sass/_theme.sass */
+html .comment .md p > a:hover {
   color: #ffcc00 !important;
 }
-/* line 37, ../sass/_theme.sass */
-html[lang="en"] .newComments {
+/* line 36, ../sass/_theme.sass */
+html .newComments {
   color: #ffcc00 !important;
 }
-/* line 41, ../sass/_theme.sass */
-html[lang="en"] .entry .buttons li.trial-stamp, html[lang="en"] .entry .buttons li.reported-stamp {
+/* line 40, ../sass/_theme.sass */
+html .entry .buttons li.trial-stamp, html .entry .buttons li.reported-stamp {
   color: black;
 }
-/* line 44, ../sass/_theme.sass */
-html[lang="en"] a.author.submitter {
+/* line 43, ../sass/_theme.sass */
+html a.author.submitter {
   color: #ffcc00 !important;
   background: none !important;
 }
-/* line 47, ../sass/_theme.sass */
-html[lang="en"] a.author.submitter:hover {
+/* line 46, ../sass/_theme.sass */
+html a.author.submitter:hover {
   color: yellow !important;
   background: none !important;
 }
-/* line 51, ../sass/_theme.sass */
-html[lang="en"] h2 {
+/* line 50, ../sass/_theme.sass */
+html h2 {
   color: #dddddd;
 }
-/* line 53, ../sass/_theme.sass */
-html[lang="en"] h2 a {
+/* line 52, ../sass/_theme.sass */
+html h2 a {
   color: #aa6600;
 }
-/* line 56, ../sass/_theme.sass */
-html[lang="en"] p.tagline em {
+/* line 55, ../sass/_theme.sass */
+html p.tagline em {
   color: #eeeeee;
   display: none;
 }
-/* line 61, ../sass/_theme.sass */
-html[lang="en"] .usertext.grayed .usertext-body {
+/* line 60, ../sass/_theme.sass */
+html .usertext.grayed .usertext-body {
   color: red;
   background: none;
 }
-/* line 65, ../sass/_theme.sass */
-html[lang="en"] .linefield {
+/* line 64, ../sass/_theme.sass */
+html .linefield {
   background: none;
 }
-/* line 68, ../sass/_theme.sass */
-html[lang="en"] .roundfield {
+/* line 67, ../sass/_theme.sass */
+html .roundfield {
   background-color: black;
 }
-/* line 72, ../sass/_theme.sass */
-html[lang="en"] .tagline a {
+/* line 71, ../sass/_theme.sass */
+html .tagline a {
   color: #aa6600;
   text-decoration: none;
 }
-/* line 75, ../sass/_theme.sass */
-html[lang="en"] .tagline a:hover {
+/* line 74, ../sass/_theme.sass */
+html .tagline a:hover {
   color: #ffcc00;
   text-decoration: none;
 }
-/* line 78, ../sass/_theme.sass */
-html[lang="en"] .tagline .submitter {
+/* line 77, ../sass/_theme.sass */
+html .tagline .submitter {
   color: #ffcc00;
 }
-/* line 82, ../sass/_theme.sass */
-html[lang="en"] #header #RESShortcuts .RESShortcutsCurrentSub:visited {
+/* line 81, ../sass/_theme.sass */
+html #header #RESShortcuts .RESShortcutsCurrentSub:visited {
   color: #ffcc00 !important;
 }
-/* line 84, ../sass/_theme.sass */
-html[lang="en"] #header #RESShortcuts .RESShortcutsCurrentSub:hover {
+/* line 83, ../sass/_theme.sass */
+html #header #RESShortcuts .RESShortcutsCurrentSub:hover {
   color: yellow !important;
 }
-/* line 87, ../sass/_theme.sass */
-html[lang="en"] .dropdown.srdrop .selected {
+/* line 86, ../sass/_theme.sass */
+html .dropdown.srdrop .selected {
   color: #eeeeee;
 }
-/* line 90, ../sass/_theme.sass */
-html[lang="en"] #sr-more-link {
+/* line 89, ../sass/_theme.sass */
+html #sr-more-link {
   color: #eeeeee;
   background-color: black;
 }
-/* line 95, ../sass/_theme.sass */
-html[lang="en"] .keyHighlight {
+/* line 94, ../sass/_theme.sass */
+html .keyHighlight {
   background-color: #000022 !important;
 }
-/* line 100, ../sass/_theme.sass */
-html[lang="en"] .thing .title {
+/* line 99, ../sass/_theme.sass */
+html .thing .title {
   color: #ffcc00 !important;
 }
-/* line 102, ../sass/_theme.sass */
-html[lang="en"] .thing .title:hover {
+/* line 101, ../sass/_theme.sass */
+html .thing .title:hover {
   color: yellow !important;
 }
-/* line 104, ../sass/_theme.sass */
-html[lang="en"] .thing .title:visited, html[lang="en"] .thing .title.click {
+/* line 103, ../sass/_theme.sass */
+html .thing .title:visited, html .thing .title.click {
   color: #aa6600 !important;
 }
-/* line 106, ../sass/_theme.sass */
-html[lang="en"] .thing .title:visited:hover, html[lang="en"] .thing .title.click:hover {
+/* line 105, ../sass/_theme.sass */
+html .thing .title:visited:hover, html .thing .title.click:hover {
   color: #ffcc00 !important;
 }
-/* line 111, ../sass/_theme.sass */
-html[lang="en"] .listing-page .thing .title .title[href*="drop.sc"]::after {
+/* line 110, ../sass/_theme.sass */
+html .listing-page .thing .title .title[href*="drop.sc"]::after {
   content: url(%%Video%%);
 }
-/* line 117, ../sass/_theme.sass */
-html[lang="en"] .drop-choices {
+/* line 116, ../sass/_theme.sass */
+html .drop-choices {
   background: black;
 }
-/* line 120, ../sass/_theme.sass */
-html[lang="en"] .flairselector li {
+/* line 119, ../sass/_theme.sass */
+html .flairselector li {
   border: none;
 }
-/* line 126, ../sass/_theme.sass */
-html[lang="en"] .NERPageMarker {
+/* line 125, ../sass/_theme.sass */
+html .NERPageMarker {
   color: #eeeeee !important;
 }
-/* line 129, ../sass/_theme.sass */
-html[lang="en"] .neverEndingReddit {
+/* line 128, ../sass/_theme.sass */
+html .neverEndingReddit {
   background: none !important;
   color: #eeeeee !important;
 }
-/* line 132, ../sass/_theme.sass */
-html[lang="en"] .neverEndingReddit img {
+/* line 131, ../sass/_theme.sass */
+html .neverEndingReddit img {
   display: none;
 }
-/* line 138, ../sass/_theme.sass */
-html[lang="en"] .RESDialogSmall {
+/* line 137, ../sass/_theme.sass */
+html .RESDialogSmall {
   background-color: black !important;
   color: #eeeeee !important;
 }
-/* line 141, ../sass/_theme.sass */
-html[lang="en"] .RESDialogSmall > h3 {
+/* line 140, ../sass/_theme.sass */
+html .RESDialogSmall > h3 {
   background-color: #222222 !important;
   color: #eeeeee !important;
 }
-/* line 145, ../sass/_theme.sass */
-html[lang="en"] .RESCloseButton {
+/* line 144, ../sass/_theme.sass */
+html .RESCloseButton {
   background: black !important;
 }
-/* line 147, ../sass/_theme.sass */
-html[lang="en"] .RESCloseButton:hover {
+/* line 146, ../sass/_theme.sass */
+html .RESCloseButton:hover {
   background: #444444 !important;
 }
-/* line 152, ../sass/_theme.sass */
-html[lang="en"] .side {
+/* line 151, ../sass/_theme.sass */
+html .side {
   color: #eeeeee !important;
 }
-/* line 155, ../sass/_theme.sass */
-html[lang="en"] .side .titlebox .redditname a {
+/* line 154, ../sass/_theme.sass */
+html .side .titlebox .redditname a {
   color: #eeeeee !important;
 }
-/* line 158, ../sass/_theme.sass */
-html[lang="en"] .side .titlebox .tagline {
+/* line 157, ../sass/_theme.sass */
+html .side .titlebox .tagline {
   background-color: black;
 }
-/* line 162, ../sass/_theme.sass */
-html[lang="en"] .side .sidecontentbox .content {
+/* line 161, ../sass/_theme.sass */
+html .side .sidecontentbox .content {
   background-color: black;
 }
-/* line 165, ../sass/_theme.sass */
-html[lang="en"] .side h4 {
+/* line 164, ../sass/_theme.sass */
+html .side h4 {
   background: black;
   color: #eeeeee;
 }
-/* line 171, ../sass/_theme.sass */
-html[lang="en"] .side h5 {
+/* line 170, ../sass/_theme.sass */
+html .side h5 {
   background: black;
   color: #eeeeee;
 }
-/* line 176, ../sass/_theme.sass */
-html[lang="en"] .side h6 {
+/* line 175, ../sass/_theme.sass */
+html .side h6 {
   background: #eeeeee;
   color: black;
 }
-/* line 180, ../sass/_theme.sass */
-html[lang="en"] #search input[type="text"] {
+/* line 179, ../sass/_theme.sass */
+html #search input[type="text"] {
   background: black;
   color: #eeeeee;
 }
-/* line 191, ../sass/_theme.sass */
-html[lang="en"] #header #header-bottom-left ul.tabmenu li a {
+/* line 190, ../sass/_theme.sass */
+html #header #header-bottom-left ul.tabmenu li a {
   background-color: black;
 }
-/* line 193, ../sass/_theme.sass */
-html[lang="en"] #header #header-bottom-left ul.tabmenu li.selected a {
+/* line 192, ../sass/_theme.sass */
+html #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: black;
   border: 1px solid #b67d27;
   box-shadow: 0px 0px 10px #b67d27;
+}
+/* line 199, ../sass/_theme.sass */
+html #sr-header-area {
+  background-color: black;
+  color: #eeeeee;
+}
+/* line 202, ../sass/_theme.sass */
+html #sr-header-area .sr-bar a {
+  color: #aa6600;
 }
 
 /* light theme */
@@ -1192,15 +1198,24 @@ html[lang="ll"] .side blockquote:hover blockquote {
 html[lang="ll"] #header {
   box-shadow: 0px -10px 10px 10px black;
 }
-/* line 35, ../sass/_themeLight.sass */
-html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
-  top: 207px;
-}
 /* line 38, ../sass/_themeLight.sass */
 html[lang="ll"] .pagename.redditname a {
   display: none;
 }
+/* line 41, ../sass/_themeLight.sass */
+html[lang="ll"] .midcol {
+  background: black;
+  border-radius: 3px;
+}
 
+/* line 22, ../sass/main.sass */
+html[lang="ll"] {
+  /*flair menu */
+  /*res extension fixes */
+  /* author info tool tip */
+  /* sticky for mods */
+  /* sticky (for all) */
+}
 /* line 4, ../sass/_theme.sass */
 html[lang="ll"] body {
   background-color: white;
@@ -1223,216 +1238,216 @@ html[lang="ll"] ::selection {
 html[lang="ll"] code {
   color: #37df37;
 }
-
 /* line 21, ../sass/_theme.sass */
-html[lang="ll"] {
-  /*flair menu */
-  /*res extension fixes */
-  /* author info tool tip */
-  /* sticky for mods */
-  /* sticky (for all) */
-}
-/* line 22, ../sass/_theme.sass */
 html[lang="ll"] body {
   background: white;
   background-repeat: repeat;
 }
-/* line 25, ../sass/_theme.sass */
+/* line 24, ../sass/_theme.sass */
 html[lang="ll"] body > .content {
   margin: 0px;
   padding: 7px 5px 0px 5px;
   background: none;
   color: black;
 }
-/* line 31, ../sass/_theme.sass */
+/* line 30, ../sass/_theme.sass */
 html[lang="ll"] .comment .md p > a:visited {
   color: #780000 !important;
 }
-/* line 34, ../sass/_theme.sass */
+/* line 33, ../sass/_theme.sass */
 html[lang="ll"] .comment .md p > a:hover {
   color: #de0000 !important;
 }
-/* line 37, ../sass/_theme.sass */
+/* line 36, ../sass/_theme.sass */
 html[lang="ll"] .newComments {
   color: #de0000 !important;
 }
-/* line 41, ../sass/_theme.sass */
+/* line 40, ../sass/_theme.sass */
 html[lang="ll"] .entry .buttons li.trial-stamp, html[lang="ll"] .entry .buttons li.reported-stamp {
   color: white;
 }
-/* line 44, ../sass/_theme.sass */
+/* line 43, ../sass/_theme.sass */
 html[lang="ll"] a.author.submitter {
   color: #de0000 !important;
   background: none !important;
 }
-/* line 47, ../sass/_theme.sass */
+/* line 46, ../sass/_theme.sass */
 html[lang="ll"] a.author.submitter:hover {
   color: #f70000 !important;
   background: none !important;
 }
-/* line 51, ../sass/_theme.sass */
+/* line 50, ../sass/_theme.sass */
 html[lang="ll"] h2 {
   color: #222222;
 }
-/* line 53, ../sass/_theme.sass */
+/* line 52, ../sass/_theme.sass */
 html[lang="ll"] h2 a {
   color: #780000;
 }
-/* line 56, ../sass/_theme.sass */
+/* line 55, ../sass/_theme.sass */
 html[lang="ll"] p.tagline em {
   color: black;
   display: none;
 }
-/* line 61, ../sass/_theme.sass */
+/* line 60, ../sass/_theme.sass */
 html[lang="ll"] .usertext.grayed .usertext-body {
   color: red;
   background: none;
 }
-/* line 65, ../sass/_theme.sass */
+/* line 64, ../sass/_theme.sass */
 html[lang="ll"] .linefield {
   background: none;
 }
-/* line 68, ../sass/_theme.sass */
+/* line 67, ../sass/_theme.sass */
 html[lang="ll"] .roundfield {
   background-color: white;
 }
-/* line 72, ../sass/_theme.sass */
+/* line 71, ../sass/_theme.sass */
 html[lang="ll"] .tagline a {
   color: #780000;
   text-decoration: none;
 }
-/* line 75, ../sass/_theme.sass */
+/* line 74, ../sass/_theme.sass */
 html[lang="ll"] .tagline a:hover {
   color: #de0000;
   text-decoration: none;
 }
-/* line 78, ../sass/_theme.sass */
+/* line 77, ../sass/_theme.sass */
 html[lang="ll"] .tagline .submitter {
   color: #de0000;
 }
-/* line 82, ../sass/_theme.sass */
+/* line 81, ../sass/_theme.sass */
 html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:visited {
   color: #de0000 !important;
 }
-/* line 84, ../sass/_theme.sass */
+/* line 83, ../sass/_theme.sass */
 html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:hover {
   color: #f70000 !important;
 }
-/* line 87, ../sass/_theme.sass */
+/* line 86, ../sass/_theme.sass */
 html[lang="ll"] .dropdown.srdrop .selected {
   color: black;
 }
-/* line 90, ../sass/_theme.sass */
+/* line 89, ../sass/_theme.sass */
 html[lang="ll"] #sr-more-link {
   color: black;
   background-color: white;
 }
-/* line 95, ../sass/_theme.sass */
+/* line 94, ../sass/_theme.sass */
 html[lang="ll"] .keyHighlight {
   background-color: #ddddff !important;
 }
-/* line 100, ../sass/_theme.sass */
+/* line 99, ../sass/_theme.sass */
 html[lang="ll"] .thing .title {
   color: #de0000 !important;
 }
-/* line 102, ../sass/_theme.sass */
+/* line 101, ../sass/_theme.sass */
 html[lang="ll"] .thing .title:hover {
   color: #f70000 !important;
 }
-/* line 104, ../sass/_theme.sass */
+/* line 103, ../sass/_theme.sass */
 html[lang="ll"] .thing .title:visited, html[lang="ll"] .thing .title.click {
   color: #780000 !important;
 }
-/* line 106, ../sass/_theme.sass */
+/* line 105, ../sass/_theme.sass */
 html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover {
   color: #de0000 !important;
 }
-/* line 111, ../sass/_theme.sass */
+/* line 110, ../sass/_theme.sass */
 html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after {
   content: url(%%Video%%);
 }
-/* line 117, ../sass/_theme.sass */
+/* line 116, ../sass/_theme.sass */
 html[lang="ll"] .drop-choices {
   background: white;
 }
-/* line 120, ../sass/_theme.sass */
+/* line 119, ../sass/_theme.sass */
 html[lang="ll"] .flairselector li {
   border: none;
 }
-/* line 126, ../sass/_theme.sass */
+/* line 125, ../sass/_theme.sass */
 html[lang="ll"] .NERPageMarker {
   color: black !important;
 }
-/* line 129, ../sass/_theme.sass */
+/* line 128, ../sass/_theme.sass */
 html[lang="ll"] .neverEndingReddit {
   background: none !important;
   color: black !important;
 }
-/* line 132, ../sass/_theme.sass */
+/* line 131, ../sass/_theme.sass */
 html[lang="ll"] .neverEndingReddit img {
   display: none;
 }
-/* line 138, ../sass/_theme.sass */
+/* line 137, ../sass/_theme.sass */
 html[lang="ll"] .RESDialogSmall {
   background-color: white !important;
   color: black !important;
 }
-/* line 141, ../sass/_theme.sass */
+/* line 140, ../sass/_theme.sass */
 html[lang="ll"] .RESDialogSmall > h3 {
   background-color: #222222 !important;
   color: black !important;
 }
-/* line 145, ../sass/_theme.sass */
+/* line 144, ../sass/_theme.sass */
 html[lang="ll"] .RESCloseButton {
   background: white !important;
 }
-/* line 147, ../sass/_theme.sass */
+/* line 146, ../sass/_theme.sass */
 html[lang="ll"] .RESCloseButton:hover {
   background: #444444 !important;
 }
-/* line 152, ../sass/_theme.sass */
+/* line 151, ../sass/_theme.sass */
 html[lang="ll"] .side {
   color: black !important;
 }
-/* line 155, ../sass/_theme.sass */
+/* line 154, ../sass/_theme.sass */
 html[lang="ll"] .side .titlebox .redditname a {
   color: black !important;
 }
-/* line 158, ../sass/_theme.sass */
+/* line 157, ../sass/_theme.sass */
 html[lang="ll"] .side .titlebox .tagline {
   background-color: white;
 }
-/* line 162, ../sass/_theme.sass */
+/* line 161, ../sass/_theme.sass */
 html[lang="ll"] .side .sidecontentbox .content {
   background-color: white;
 }
-/* line 165, ../sass/_theme.sass */
+/* line 164, ../sass/_theme.sass */
 html[lang="ll"] .side h4 {
   background: white;
   color: black;
 }
-/* line 171, ../sass/_theme.sass */
+/* line 170, ../sass/_theme.sass */
 html[lang="ll"] .side h5 {
   background: white;
   color: black;
 }
-/* line 176, ../sass/_theme.sass */
+/* line 175, ../sass/_theme.sass */
 html[lang="ll"] .side h6 {
   background: black;
   color: white;
 }
-/* line 180, ../sass/_theme.sass */
+/* line 179, ../sass/_theme.sass */
 html[lang="ll"] #search input[type="text"] {
   background: white;
   color: black;
 }
-/* line 191, ../sass/_theme.sass */
+/* line 190, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li a {
   background-color: white;
 }
-/* line 193, ../sass/_theme.sass */
+/* line 192, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: white;
   border: 1px solid #b67d27;
   box-shadow: 0px 0px 10px #b67d27;
+}
+/* line 199, ../sass/_theme.sass */
+html[lang="ll"] #sr-header-area {
+  background-color: white;
+  color: black;
+}
+/* line 202, ../sass/_theme.sass */
+html[lang="ll"] #sr-header-area .sr-bar a {
+  color: #780000;
 }
