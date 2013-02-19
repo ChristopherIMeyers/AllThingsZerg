@@ -831,34 +831,29 @@ div.wiki div.toc > ul {
   visibility: visible;
 }
 
-/* line 302, ../sass/_modules.sass */
-.entry:hover .flat-list.buttons {
-  display: inline;
-}
-
-/* line 308, ../sass/_modules.sass */
+/* line 305, ../sass/_modules.sass */
 .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
 
-/* line 317, ../sass/_modules.sass */
+/* line 314, ../sass/_modules.sass */
 .choice:hover {
   background: #333333 !important;
 }
 
-/* line 323, ../sass/_modules.sass */
+/* line 320, ../sass/_modules.sass */
 .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
 
-/* line 329, ../sass/_modules.sass */
+/* line 326, ../sass/_modules.sass */
 .nextprev a {
   background: none;
 }
 
-/* line 333, ../sass/_modules.sass */
+/* line 330, ../sass/_modules.sass */
 .footer {
   border: 1px solid gray;
   border-radius: 0px;
