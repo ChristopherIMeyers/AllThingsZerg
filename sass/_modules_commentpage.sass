@@ -1,0 +1,50 @@
+// comment page specific styles
+$commentPermalinked: red
+//this post was submitted on
+//x points (y% like it)
+.linkinfo
+  background: none
+
+//self text area
+.link .usertext .md
+  background-color: $background
+  max-width: 90em
+  margin: 0 5px
+
+//quotes
+.md blockquote, .help blockquote
+  border-left: 2px solid $linkVisited
+
+//permalinked comment
+.usertext.border .usertext-body
+  //disable default reddit style
+  background: none
+  //new style
+  //this is weird because reddit FLIPS if you have transparent in the global border declaration
+  border: solid 4px $commentPermalinked
+  border-color: transparent
+  border-left-color: $commentPermalinked
+  margin-bottom: -5px
+  margin-top: -3px
+  
+//disable res alternating comment backgrounds
+.commentarea .comment
+  background: none !important
+  .comment
+    background: none !important
+    .comment
+      background: none !important
+      .comment
+        background: none !important
+        .comment
+          background: none !important
+          .comment
+            background: none !important
+            .comment
+              background: none !important
+              .comment
+                background: none !important
+                .comment
+                  background: none !important
+                  .comment
+                    background: none !important
