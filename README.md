@@ -15,6 +15,4 @@ Stylesheet source for Reddit.com/r/AllThingsZerg
 
 Ignore your .sass-cache directory as it is just used by the compiler
 
-The /css directory contains the compiled css files.  
-It isn't really needed, I might pull it off the github but I will leave it here until I confirm I don't need it.
-
+The /css directory contains the compiled css file and represents what is on the subreddit
