@@ -1,3 +1,9 @@
+/* base styles 
+/*mostly a helper for the side expandos
+.side hr
+  display: none
+
+
 /*sidebar
 .side
   background: none
@@ -36,11 +42,41 @@
       margin: 2px
       border-radius: 5px
       padding: 5px 0 5px 20px
-    
-/*mostly a helper for the side expandos
-.side hr
-  display: none
   
+/* submit a link
+.submit-link 
+  display: none
+.morelink
+  background: $background
+  border: 1px solid gray
+  &:hover
+    background: $background
+    border: 1px solid gray
+  a
+    color: $linkVisited
+  .nub
+    display: none
+  + .spacer
+    display: none
+    padding: 0px
+    a
+      display: none
+  &:hover + .spacer
+    display: block
+    
+/* sidebar
+/* about
+.side
+  .usertext-body
+    border: 1px solid gray
+    padding: 5px
+    background: $background
+  .usertext
+    margin-top: 5px
+    &::before
+      content: "INFORMATION"
+      color: gray
+      font-size: 13px
   
 /*side expandos
 .side
@@ -61,18 +97,3 @@
         height: auto
         opacity: 1
         padding-bottom: 5px
-      
-      
-/* sidebar
-/* about
-
-.side
-  .usertext-body
-    border: 1px solid gray
-    padding: 5px
-  .usertext
-    margin-top: 5px
-    &::before
-      content: "INFORMATION"
-      color: gray
-      font-size: 13px

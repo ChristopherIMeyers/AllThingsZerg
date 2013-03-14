@@ -1,4 +1,3 @@
-/* light theme
 $background: white
 $textFace: black
 $headerColor: #222
@@ -7,37 +6,96 @@ $linkNormal: #DE0000
 $linkHover: #F70000
 $selectionBack: #11a
 $selectionFace: white
-$thingSelected: #ddf
+$thingSelected: #eef
+$codeColor: rgb(55, 223, 55)
+$borderColor: gray
 
+body
+  background: none
+#search input[type="text"]
+  border: 1px solid black
+.listing-page .thing .title .title
+  text-shadow: 1px 1px 3px #0F0000
+.morelink:hover a
+  color: black
+.flair
+  color: black
+  
+.side
+  box-shadow: -5px 0px 11px -8px black
+  padding-left: 3px
+  
+/*side expandos
+.side
+  blockquote
+    //& 
+      //blockquote
+        //opacity: 0
+    &:hover
+      blockquote
+        padding-bottom: 0px
+        //opacity: 1
 
-html[lang="ll"]
-  #search input[type="text"]
-    border: 1px solid black
-  .listing-page .thing .title .title
-    text-shadow: 1px 1px 3px #0F0000
-  .morelink:hover a
-    color: black
-  .flair
-    color: black
-    
-  /*side expandos
-  .side
-    blockquote
-      //& 
-        //blockquote
-          //opacity: 0
-      &:hover
-        blockquote
-          padding-bottom: 0px
-          //opacity: 1
-  #header
-    box-shadow: 0px -10px 10px 10px black
-  //.side h4, .side h5
-  //  top: 207px
-    
-  .pagename.redditname a
-    display: none
-    
-  .midcol
-    background: black
-    border-radius: 3px
+#header
+  box-shadow: 0px -10px 10px 10px black
+  margin-bottom: 30px
+//.side h4, .side h5
+//  top: 207px
+  
+.pagename.redditname a
+  display: none
+
+/* sticky for all
+.side h6
+  font-size: 14px
+  padding: 6px 8px
+  
+#header #header-bottom-left
+  //hot new controversial top saved
+  ul.tabmenu
+    bottom: -5px
+    font-size: 14px
+    a
+      border: 1px solid $borderColor
+
+/* temp fix
+.side h4, .side h5
+  display: none !important
+  
+  
+  
+  
+  
+  
+  
+/* arrows
+.arrow 
+  display: block
+  background: url(%%alt-arrows%%)
+  background-repeat: no-repeat
+  width: 17px
+  height: 14px
+  margin: 0 auto
+  outline: none
+  background-repeat: no-repeat
+  margin-bottom: 1px
+  &.up 
+    background-position: 0 0 !important
+  &.up:hover
+    background-position: -17px 0 !important
+  &.upmod
+    background-position: -34px 0 !important
+  &.down 
+    background-position: 0 -15px !important
+  &.down:hover
+    background-position: -17px -15px !important
+  &.downmod
+    background-position: -34px -15px !important
+.link .score.dislikes 
+  color: #9452c6
+.link .score.likes 
+  color: #f7941d
+.listing-page .link .rank
+  margin-top: 15px
+  margin-right: 0px
+  text-align: center

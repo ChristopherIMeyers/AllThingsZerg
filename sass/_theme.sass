@@ -86,7 +86,9 @@ p.tagline em
 #sr-more-link
   color: $textFace
   background-color: $background
-  
+.morelink
+  color: $textFace
+  background-color: $background
   
 .keyHighlight
   background-color: $thingSelected !important
@@ -157,11 +159,11 @@ p.tagline em
   //MODERATION TOOLS/MODERATORS/RECENTLY VIEWED LINKS
   .sidecontentbox .content
     background-color: $background
-    
+
+/* sticky for subscribers
 .side h4
   background: $background
   color: $textFace
-  
   
 /* sticky for mods
 .side h5
@@ -173,12 +175,11 @@ p.tagline em
   background: $textFace
   color: $background
 
+  
+  
 #search input[type="text"]
   background: $background
   color: $textFace
-  
-  
-
   
 #header #header-bottom-left
   //hot new controversial top saved
@@ -188,9 +189,14 @@ p.tagline em
         background-color: $background  
       &.selected a
         background-color: $background
-        border: 1px solid #B67D27
+        border: 1px solid gray
         box-shadow: 0px 0px 10px #B67D27
-      
+/*     
+ * #header-bottom-right
+ *   background: $background
+ *   #userbarToggle
+ *     background: $background
+ *     border-color: $background
       
 //subreddit links header stuff
 #sr-header-area
@@ -198,3 +204,11 @@ p.tagline em
   color: $textFace
   .sr-bar a
     color: $linkVisited
+    
+.side
+  .usertext-body
+    background: $background
+    
+//self text area
+.link .usertext .md
+  background-color: $background
