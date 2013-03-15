@@ -1,1564 +1,383 @@
-/* line 14, ../sass/_themeDark.sass */
-body {
-  background: url(%%background%%);
-}
+body { background: url(%%background%%); }
 
-/* line 18, ../sass/_themeDark.sass */
-#header {
-  border-bottom: 1px solid #b67d27;
-  background-color: black;
-  height: 145px;
-  margin-bottom: 15px;
-}
-/* line 25, ../sass/_themeDark.sass */
-#header .pagename.redditname a {
-  background: url(%%banneroff%%);
-  width: 1670px;
-  height: 125px;
-  display: inline-block;
-  position: absolute;
-  left: 0px;
-  top: 19px;
-  text-indent: -9999px;
-  z-index: -100;
-  background-repeat: no-repeat;
-}
-/* line 36, ../sass/_themeDark.sass */
-#header .pagename.redditname a:hover {
-  background: url(%%banneron%%);
-}
+#header { border-bottom: 1px solid #b67d27; background-color: black; height: 145px; margin-bottom: 15px; }
+#header .pagename.redditname a { background: url(%%banneroff%%); width: 1670px; height: 125px; display: inline-block; position: absolute; left: 0px; top: 19px; text-indent: -9999px; z-index: -100; background-repeat: no-repeat; }
+#header .pagename.redditname a:hover { background: url(%%banneron%%); }
 
-/* line 40, ../sass/_themeDark.sass */
-#header-img {
-  opacity: 0.4;
-  position: absolute;
-  bottom: 40px;
-  left: -35px;
-  z-index: 300;
-  height: 44px;
-  width: 66px;
-}
-/* line 49, ../sass/_themeDark.sass */
-#header-img:hover {
-  opacity: 1;
-  left: -15px;
-}
+#header-img { opacity: 0.4; position: absolute; bottom: 40px; left: -35px; z-index: 300; height: 44px; width: 66px; }
+#header-img:hover { opacity: 1; left: -15px; }
 
-/* line 54, ../sass/_themeDark.sass */
-.arrow {
-  height: 22px;
-  width: 22px;
-  background-position: 0px 0px !important;
-  background: none;
-}
-/* line 59, ../sass/_themeDark.sass */
-.arrow.down {
-  background-image: url(%%arrow-down-off%%);
-}
-/* line 61, ../sass/_themeDark.sass */
-.arrow.downmod {
-  background-image: url(%%arrow-down%%);
-}
-/* line 63, ../sass/_themeDark.sass */
-.arrow.up {
-  background-image: url(%%arrow-up-off%%);
-}
-/* line 65, ../sass/_themeDark.sass */
-.arrow.upmod {
-  background-image: url(%%arrow-up%%);
-}
+.arrow { height: 22px; width: 22px; background-position: 0px 0px !important; background: none; }
+.arrow.down { background-image: url(%%arrow-down-off%%); }
+.arrow.downmod { background-image: url(%%arrow-down%%); }
+.arrow.up { background-image: url(%%arrow-up-off%%); }
+.arrow.upmod { background-image: url(%%arrow-up%%); }
 
-/* line 3, ../sass/_base.sass */
-.md ul {
-  margin: 10px 20px;
-  list-style-image: url(%%arrow%%) !important;
-}
+.md ul { margin: 10px 20px; list-style-image: url(%%arrow%%) !important; }
 
-/* line 5, ../sass/_layout.sass */
-.thing.spam {
-  background: none;
-  border-color: salmon;
-  border-width: 0px 0px 0px 5px;
-  border-style: solid;
-}
-/* line 10, ../sass/_layout.sass */
-.thing.reported {
-  background: none;
-  border-color: yellow;
-  border-width: 0px 0px 0px 5px;
-  border-style: solid;
-  margin-left: 10px;
-  padding-left: 15px;
-}
+.thing.spam { background: none; border-color: salmon; border-width: 0px 0px 0px 5px; border-style: solid; }
+.thing.reported { background: none; border-color: yellow; border-width: 0px 0px 0px 5px; border-style: solid; margin-left: 10px; padding-left: 15px; }
 
-/* line 19, ../sass/_layout.sass */
-.listing-page .thing .title {
-  height: 22px;
-  margin: 0px;
-  height: 19px;
-  overflow: hidden;
-  max-width: 800px;
-}
-/* line 26, ../sass/_layout.sass */
-.listing-page .thing .title .domain {
-  font-size: 0px;
-  top: -2px;
-  position: relative;
-  padding: 5px;
-  height: 10px;
-  display: inline-block;
-}
-/* line 33, ../sass/_layout.sass */
-.listing-page .thing .title .domain a {
-  font-size: x-small;
-}
-/* line 35, ../sass/_layout.sass */
-.listing-page .thing .title .domain::before {
-  content: "► ";
-  font-size: x-small;
-}
-/* line 39, ../sass/_layout.sass */
-.listing-page .thing .title.self .domain::before {
-  content: "◄";
-  /*★ */
-}
-/* line 42, ../sass/_layout.sass */
-.listing-page .thing .title.self .domain a {
-  display: none;
-}
+.listing-page .thing .title { height: 22px; margin: 0px; height: 19px; overflow: hidden; max-width: 800px; }
+.listing-page .thing .title .domain { font-size: 0px; top: -2px; position: relative; padding: 5px; height: 10px; display: inline-block; }
+.listing-page .thing .title .domain a { font-size: x-small; }
+.listing-page .thing .title .domain::before { content: "► "; font-size: x-small; }
+.listing-page .thing .title.self .domain::before { content: "◄"; /*★ */ }
+.listing-page .thing .title.self .domain a { display: none; }
 
-/* line 45, ../sass/_layout.sass */
-.compressed .rank {
-  margin-top: 13px;
-}
+.compressed .rank { margin-top: 13px; }
 
-/* line 48, ../sass/_layout.sass */
-.listing-page .link {
-  margin-bottom: 15px;
-}
-/* line 50, ../sass/_layout.sass */
-.listing-page .link .rank {
-  margin-top: 20px;
-  margin-right: 5px;
-}
-/* line 53, ../sass/_layout.sass */
-.listing-page .link .entry {
-  position: relative;
-  min-height: 64px;
-}
+.listing-page .link { margin-bottom: 15px; }
+.listing-page .link .rank { margin-top: 20px; margin-right: 5px; }
+.listing-page .link .entry { position: relative; min-height: 64px; }
 
 /*res extension fixes */
-/* line 5, ../sass/_modules_res.sass */
-.NERPageMarker {
-  background: none !important;
-  border-width: 0px 0px 1px 0px !important;
-  border-radius: 0px !important;
-  border-style: dashed !important;
-  padding-top: 0px !important;
-  border-color: gray !important;
-}
+.NERPageMarker { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 
-/* line 13, ../sass/_modules_res.sass */
-.neverEndingReddit {
-  background: none !important;
-  border-width: 0px 0px 1px 0px !important;
-  border-radius: 0px !important;
-  border-style: dashed !important;
-  padding-top: 0px !important;
-  border-color: gray !important;
-}
-/* line 20, ../sass/_modules_res.sass */
-.neverEndingReddit img {
-  display: none;
-}
+.neverEndingReddit { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
+.neverEndingReddit img { display: none; }
 
-/* line 25, ../sass/_modules_res.sass */
-#authorInfoToolTip .blueButton {
-  background-color: #21587e !important;
-}
+#authorInfoToolTip .blueButton { background-color: #21587e !important; }
 
-/* line 28, ../sass/_modules_res.sass */
-.fancy-toggle-button .add {
-  background: #116428 !important;
-}
+.fancy-toggle-button .add { background: #116428 !important; }
 
 /* base styles */
 /*mostly a helper for the side expandos */
-/* line 3, ../sass/_modules_side.sass */
-.side hr {
-  display: none;
-}
+.side hr { display: none; }
 
 /*sidebar */
-/* line 8, ../sass/_modules_side.sass */
-.side {
-  background: none;
-  z-index: 500;
-}
-/* line 12, ../sass/_modules_side.sass */
-.side .titlebox .redditname a {
-  text-transform: uppercase;
-}
-/* line 15, ../sass/_modules_side.sass */
-.side .titlebox .word {
-  display: none;
-}
-/* line 17, ../sass/_modules_side.sass */
-.side .titlebox .subscribers .number::after {
-  content: " locusts";
-}
-/* line 19, ../sass/_modules_side.sass */
-.side .titlebox .users-online .number::after {
-  content: " locusts";
-}
-/* line 22, ../sass/_modules_side.sass */
-.side .titlebox.create {
-  display: none;
-}
-/* line 24, ../sass/_modules_side.sass */
-.side .titlebox .spacer {
-  background: none;
-}
-/* line 27, ../sass/_modules_side.sass */
-.side .titlebox .titlebox form.toggle {
-  background: none;
-}
-/* line 31, ../sass/_modules_side.sass */
-.side .titlebox .leavemoderator {
-  background: none;
-}
-/* line 35, ../sass/_modules_side.sass */
-.side .titlebox .flairtoggle {
-  background: none;
-}
-/* line 38, ../sass/_modules_side.sass */
-.side .titlebox .bottom {
-  display: none;
-}
-/* line 41, ../sass/_modules_side.sass */
-.side .titlebox .tagline {
-  margin: 2px;
-  border-radius: 5px;
-  padding: 5px 0 5px 20px;
-}
+.side { background: none; z-index: 500; }
+.side .titlebox .redditname a { text-transform: uppercase; }
+.side .titlebox .word { display: none; }
+.side .titlebox .subscribers .number::after { content: " locusts"; }
+.side .titlebox .users-online .number::after { content: " locusts"; }
+.side .titlebox.create { display: none; }
+.side .titlebox .spacer { background: none; }
+.side .titlebox .titlebox form.toggle { background: none; }
+.side .titlebox .leavemoderator { background: none; }
+.side .titlebox .flairtoggle { background: none; }
+.side .titlebox .bottom { display: none; }
+.side .titlebox .tagline { margin: 2px; border-radius: 5px; padding: 5px 0 5px 20px; }
 
 /* submit a link */
-/* line 47, ../sass/_modules_side.sass */
-.submit-link {
-  display: none;
-}
+.submit-link { display: none; }
 
-/* line 49, ../sass/_modules_side.sass */
-.morelink {
-  background: black;
-  border: 1px solid gray;
-}
-/* line 52, ../sass/_modules_side.sass */
-.morelink:hover {
-  background: black;
-  border: 1px solid gray;
-}
-/* line 55, ../sass/_modules_side.sass */
-.morelink a {
-  color: #aa6600;
-}
-/* line 57, ../sass/_modules_side.sass */
-.morelink .nub {
-  display: none;
-}
-/* line 59, ../sass/_modules_side.sass */
-.morelink + .spacer {
-  display: none;
-  padding: 0px;
-}
-/* line 62, ../sass/_modules_side.sass */
-.morelink + .spacer a {
-  display: none;
-}
-/* line 64, ../sass/_modules_side.sass */
-.morelink:hover + .spacer {
-  display: block;
-}
+.morelink { background: black; border: 1px solid gray; }
+.morelink:hover { background: black; border: 1px solid gray; }
+.morelink a { color: #aa6600; }
+.morelink .nub { display: none; }
+.morelink + .spacer { display: none; padding: 0px; }
+.morelink + .spacer a { display: none; }
+.morelink:hover + .spacer { display: block; }
 
 /* sidebar */
 /* about */
-/* line 70, ../sass/_modules_side.sass */
-.side .usertext-body {
-  border: 1px solid gray;
-  padding: 5px;
-  background: black;
-}
-/* line 74, ../sass/_modules_side.sass */
-.side .usertext {
-  margin-top: 5px;
-}
-/* line 76, ../sass/_modules_side.sass */
-.side .usertext::before {
-  content: "INFORMATION";
-  color: gray;
-  font-size: 13px;
-}
+.side .usertext-body { border: 1px solid gray; padding: 5px; background: black; }
+.side .usertext { margin-top: 5px; }
+.side .usertext::before { content: "INFORMATION"; color: gray; font-size: 13px; }
 
 /*side expandos */
-/* line 83, ../sass/_modules_side.sass */
-.side blockquote {
-  border: none !important;
-  padding: 0px;
-  margin: 0px !important;
-  padding-top: 10px;
-}
-/* line 88, ../sass/_modules_side.sass */
-.side blockquote blockquote {
-  padding-bottom: 0px;
-  padding-top: 0px;
-  height: 25px;
-  overflow: hidden;
-  opacity: 0.5;
-}
-/* line 95, ../sass/_modules_side.sass */
-.side blockquote:hover blockquote {
-  display: block;
-  height: auto;
-  opacity: 1;
-  padding-bottom: 5px;
-}
+.side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
+.side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 25px; overflow: hidden; opacity: 0.5; }
+.side blockquote:hover blockquote { display: block; height: auto; opacity: 1; padding-bottom: 5px; }
 
-/* line 4, ../sass/_modules_thing.sass */
-.listing-page .thing .tagline {
-  background-repeat: no-repeat;
-  background-position: -5px -3px;
-  background: none;
-  padding: 0px;
-  position: absolute;
-  height: 14px;
-  left: 30px;
-  top: 19px;
-}
-/* line 14, ../sass/_modules_thing.sass */
-.listing-page .thing .flat-list {
-  position: absolute;
-  top: 33px;
-  left: 30px;
-  height: 14px;
-  padding: 0px;
-}
+.listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; position: absolute; height: 14px; left: 30px; top: 19px; }
+.listing-page .thing .flat-list { position: absolute; top: 33px; left: 30px; height: 14px; padding: 0px; }
 
 /* thing expando button for selftext */
-/* line 27, ../sass/_modules_thing.sass */
-.entry .expando-button {
-  background: none !important;
-  cursor: pointer !important;
-}
-/* line 30, ../sass/_modules_thing.sass */
-.entry .expando-button.collapsed {
-  /*.expando-button.selftext.collapsed */
-  background-image: url(%%egg-plus-off%%) !important;
-  background-position: -1px -1px !important;
-}
-/* line 34, ../sass/_modules_thing.sass */
-.entry .expando-button.collapsed:hover {
-  background-image: url(%%egg-plus-on%%) !important;
-  background-position: -1px -1px !important;
-}
+.entry .expando-button { background: none !important; cursor: pointer !important; }
+.entry .expando-button.collapsed { /*.expando-button.selftext.collapsed */ background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
+.entry .expando-button.collapsed:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
 
-/* line 38, ../sass/_modules_thing.sass */
-.entry .expando-button.expanded, .eb-se {
-  background-image: url(%%egg-minus-off%%) !important;
-  background-position: -1px -1px !important;
-}
+.entry .expando-button.expanded, .eb-se { background-image: url(%%egg-minus-off%%) !important; background-position: -1px -1px !important; }
 
-/* line 42, ../sass/_modules_thing.sass */
-.entry .expando-button.expanded:hover, .eb-seh {
-  background-image: url(%%egg-minus-on%%) !important;
-  background-position: -1px -1px !important;
-}
+.entry .expando-button.expanded:hover, .eb-seh { background-image: url(%%egg-minus-on%%) !important; background-position: -1px -1px !important; }
 
 /* expando button alternative (in-line video) */
-/* line 47, ../sass/_modules_thing.sass */
-.thing .entry .expando-button.video {
-  background-image: url(%%Video%%) !important;
-  background-position: -8px -3px !important;
-}
+.thing .entry .expando-button.video { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
 
 /* expando button alternative (replays) */
-/* line 52, ../sass/_modules_thing.sass */
-.listing-page .thing .title .title[href*="drop.sc"]::after {
-  position: absolute;
-  left: -4px;
-  top: 19px;
-}
+.listing-page .thing .title .title[href*="drop.sc"]::after { position: absolute; left: -4px; top: 19px; }
 
-/* line 58, ../sass/_modules_thing.sass */
-.link.last-clicked {
-  border: none;
-}
-/* line 60, ../sass/_modules_thing.sass */
-.link.last-clicked::before {
-  content: "<";
-  color: gray;
-  height: 20px;
-  float: right;
-}
+.link.last-clicked { border: none; }
+.link.last-clicked::before { content: "<"; color: gray; height: 20px; float: right; }
 
-/* line 68, ../sass/_modules_thing.sass */
-.midcol {
-  width: 22px !important;
-}
+.midcol { width: 22px !important; }
 
-/* line 75, ../sass/_modules_thing.sass */
-.link .rank {
-  color: #3d3d3d;
-}
+.link .rank { color: #3d3d3d; }
 
 /* sticky for subscribers */
-/* line 2, ../sass/_modules_stickies.sass */
-.side h4 {
-  padding: 2px 6px 0 6px;
-  margin: 0px;
-  position: absolute;
-  top: 129px;
-  left: 550px;
-  z-index: 100;
-  font-size: 12px;
-  font-weight: normal;
-  display: none;
-  opacity: 0.8;
-}
+.side h4 { padding: 2px 6px 0 6px; margin: 0px; position: absolute; top: 129px; left: 550px; z-index: 100; font-size: 12px; font-weight: normal; display: none; opacity: 0.8; }
 
-/* line 14, ../sass/_modules_stickies.sass */
-body.subscriber .side h4 {
-  display: block;
-}
+body.subscriber .side h4 { display: block; }
 
 /* sticky for mods */
-/* line 18, ../sass/_modules_stickies.sass */
-.side h5 {
-  padding: 2px 6px 0 6px;
-  margin: 0px;
-  position: absolute;
-  top: 129px;
-  left: 445px;
-  z-index: 100;
-  font-size: 12px;
-  font-weight: normal;
-  display: none;
-}
+.side h5 { padding: 2px 6px 0 6px; margin: 0px; position: absolute; top: 129px; left: 445px; z-index: 100; font-size: 12px; font-weight: normal; display: none; }
 
-/* line 29, ../sass/_modules_stickies.sass */
-body.moderator.listing-page .side h5 {
-  display: block;
-}
+body.moderator.listing-page .side h5 { display: block; }
 
 /* sticky (for all) */
-/* line 33, ../sass/_modules_stickies.sass */
-.side h6 {
-  border: none !important;
-  padding: 4px;
-  margin: 0px;
-  position: absolute;
-  top: 25px;
-  left: 295px;
-  z-index: 100;
-  border-radius: 5px;
-  font-size: small;
-  max-width: 450px;
-  box-shadow: 0px 0px 15px 0px white;
-}
-/* line 45, ../sass/_modules_stickies.sass */
-.side h6 a:hover {
-  text-decoration: underline;
-}
+.side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: small; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
+.side h6 a:hover { text-decoration: underline; }
 
-/* line 4, ../sass/_modules_text_features.sass */
-.md a[href$="#spoiler"] {
-  background: black !important;
-  color: black !important;
-  border-bottom: 1px dashed red;
-  cursor: help;
-}
-/* line 9, ../sass/_modules_text_features.sass */
-.md a[href$="#spoiler"]::before {
-  color: white !important;
-  content: "Spoiler:";
-  border-bottom: 1px solid black;
-  margin-right: 5px;
-}
-/* line 14, ../sass/_modules_text_features.sass */
-.md a[href$="#spoiler"]:hover {
-  color: white !important;
-  border-bottom: 0px solid red;
-}
+.md a[href$="#spoiler"] { background: black !important; color: black !important; border-bottom: 1px dashed red; cursor: help; }
+.md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
+.md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 
-/* line 5, ../sass/_modules_commentpage.sass */
-.linkinfo {
-  background: none;
-}
+.linkinfo { background: none; }
 
-/* line 9, ../sass/_modules_commentpage.sass */
-.link .usertext .md {
-  max-width: 90em;
-  margin: 0 5px;
-}
+.link .usertext .md { max-width: 90em; margin: 0 5px; }
 
-/* line 14, ../sass/_modules_commentpage.sass */
-.md blockquote, .help blockquote {
-  border-left: 2px solid #aa6600;
-}
+.md blockquote, .help blockquote { border-left: 2px solid #aa6600; }
 
-/* line 18, ../sass/_modules_commentpage.sass */
-.usertext.border .usertext-body {
-  background: none;
-  border: solid 4px red;
-  border-color: transparent;
-  border-left-color: red;
-  margin-bottom: -5px;
-  margin-top: -3px;
-}
+.usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 
-/* line 30, ../sass/_modules_commentpage.sass */
-.commentarea .comment {
-  background: none !important;
-}
-/* line 32, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment {
-  background: none !important;
-}
-/* line 34, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment {
-  background: none !important;
-}
-/* line 36, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment .comment {
-  background: none !important;
-}
-/* line 38, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment .comment .comment {
-  background: none !important;
-}
-/* line 40, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment .comment .comment .comment {
-  background: none !important;
-}
-/* line 42, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment .comment .comment .comment .comment {
-  background: none !important;
-}
-/* line 44, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
-  background: none !important;
-}
-/* line 46, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-  background: none !important;
-}
-/* line 48, ../sass/_modules_commentpage.sass */
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-  background: none !important;
-}
+.commentarea .comment { background: none !important; }
+.commentarea .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment .comment .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
 
-/* line 10, ../sass/_modules.sass */
-.icon-menu a {
-  background: none;
-}
+.icon-menu a { background: none; }
 
-/* line 16, ../sass/_modules.sass */
-#search input[type="text"] {
-  border: 0px solid white;
-  border-radius: 3px;
-  outline: none;
-  padding: 3px 6px;
-  opacity: 0.75;
-  width: 290px;
-}
-/* line 23, ../sass/_modules.sass */
-#search input[type="text"]:hover {
-  box-shadow: 0px 0px 5px 0px #ffcc00;
-}
-/* line 25, ../sass/_modules.sass */
-#search input[type="text"]:focus {
-  padding: 2px 5px;
-  border: 1px solid white;
-  opacity: 1;
-}
+#search input[type="text"] { border: 0px solid white; border-radius: 3px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; }
+#search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #ffcc00; }
+#search input[type="text"]:focus { padding: 2px 5px; border: 1px solid white; opacity: 1; }
 
-/* line 30, ../sass/_modules.sass */
-.infobar {
-  background: none;
-}
+.infobar { background: none; }
 
-/* line 34, ../sass/_modules.sass */
-#sr-header-area {
-  position: relative;
-  z-index: 901;
-  width: 100%;
-}
+#sr-header-area { position: relative; z-index: 901; width: 100%; }
 
-/* line 41, ../sass/_modules.sass */
-#header #header-bottom-left ul.tabmenu {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  z-index: 200;
-}
-/* line 46, ../sass/_modules.sass */
-#header #header-bottom-left ul.tabmenu li {
-  font-weight: normal;
-}
-/* line 48, ../sass/_modules.sass */
-#header #header-bottom-left ul.tabmenu li #viewImagesButton {
-  display: none;
-}
-/* line 52, ../sass/_modules.sass */
-#header #header-bottom-left #header-bottom-right {
-  z-index: 200;
-  background: none;
-}
+#header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
+#header #header-bottom-left ul.tabmenu li { font-weight: normal; }
+#header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
+#header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 
 /* inline flair */
-/* line 59, ../sass/_modules.sass */
-.flair {
-  background: none;
-  color: #eeeeee;
-  border: none;
-  margin: 0px;
-  padding: 0px;
-}
+.flair { background: none; color: #eeeeee; border: none; margin: 0px; padding: 0px; }
 
-/* line 67, ../sass/_modules.sass */
-.flair.flair-Mod {
-  border: red solid 1px;
-  border-radius: 0px;
-  border-width: 0px 0px 0px 1px;
-  margin-right: 5px;
-  margin-left: 1px;
-  padding-left: 2px;
-}
-/* line 74, ../sass/_modules.sass */
-.flair.flair-Master, .flair.flair-Master2 {
-  background-image: url(%%master%%);
-  background-repeat: no-repeat;
-  padding-left: 15px;
-  background-position: -1px -1px;
-  height: 14px;
-  width: 1px;
-  overflow: hidden;
-  margin: 0px;
-  margin-left: 2px;
-  text-indent: 2px;
-}
-/* line 85, ../sass/_modules.sass */
-.flair.flair-Grandmaster {
-  background-image: url(%%grandmaster%%);
-}
-/* line 87, ../sass/_modules.sass */
-.flair.flair-Master2 {
-  background: none;
-  padding-left: 0px;
-  width: 10px;
-}
-/* line 91, ../sass/_modules.sass */
-.flair.flair-Master2::before {
-  content: "?";
-  text-indent: 0px;
-  padding-right: 10px;
-}
-/* line 95, ../sass/_modules.sass */
-.flair.flair-Master2:hover::before {
-  content: "";
-  padding-right: 0px;
-}
-/* line 98, ../sass/_modules.sass */
-.flair.flair-Master:hover, .flair.flair-Master2:hover {
-  width: auto;
-}
-/* line 100, ../sass/_modules.sass */
-.flair.flair-EU:hover::after {
-  content: " (EU)";
-  color: grey;
-}
-/* line 103, ../sass/_modules.sass */
-.flair.flair-Bitch:hover::before {
-  content: "(bitch) ";
-  color: red;
-}
-/* line 106, ../sass/_modules.sass */
-.flair.flair-NA:hover::after, .flair.flair-AM:hover::after {
-  content: " (AM)";
-  color: grey;
-}
-/* line 109, ../sass/_modules.sass */
-.flair.flair-KR:hover::after {
-  content: " (KR)";
-  color: grey;
-}
-/* line 112, ../sass/_modules.sass */
-.flair.flair-SEA:hover::after {
-  content: " (SEA)";
-  color: grey;
-}
+.flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
+.flair.flair-Master, .flair.flair-Master2 { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
+.flair.flair-Grandmaster { background-image: url(%%grandaster%%); }
+.flair.flair-Master2 { background: none; padding-left: 0px; width: 10px; }
+.flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
+.flair.flair-Master2:hover::before { content: ""; padding-right: 0px; }
+.flair.flair-HotS { color: #9452c6; }
+.flair.flair-Master:hover, .flair.flair-Master2:hover { width: auto; }
+.flair.flair-EU:hover::after { content: " (EU)"; color: grey; }
+.flair.flair-Bitch:hover::before { content: "(bitch) "; color: red; }
+.flair.flair-NA:hover::after, .flair.flair-AM:hover::after { content: " (AM)"; color: grey; }
+.flair.flair-KR:hover::after { content: " (KR)"; color: grey; }
+.flair.flair-SEA:hover::after { content: " (SEA)"; color: grey; }
+.flair.flair-S2:hover::before { content: "(Season 2)"; float: right; color: gray; }
 
 /* parent comment popup dimmer */
-/* line 122, ../sass/_modules.sass */
-.parentComment.comment {
-  color: white !important;
-  background-color: black !important;
-  overflow: visible !important;
-  z-index: 2147483649 !important;
-  box-shadow: 0px 0px 250px 200px black;
-}
+.parentComment.comment { color: white !important; background-color: black !important; overflow: visible !important; z-index: 2147483649 !important; box-shadow: 0px 0px 250px 200px black; }
 
 /* wiki stuff */
 /* headings */
-/* line 138, ../sass/_modules.sass */
-.md.wiki h1, .md.wiki h2, .md.wiki h3, .md.wiki h4, .md.wiki h5, .md.wiki h6 {
-  color: #eeeeee;
-}
+.md.wiki h1, .md.wiki h2, .md.wiki h3, .md.wiki h4, .md.wiki h5, .md.wiki h6 { color: #eeeeee; }
 
 /* wiki specifics */
-/* line 144, ../sass/_modules.sass */
-.wiki-page > .content > span {
-  display: inline-block;
-  border-top: 1px solid #b67d27;
-  padding-right: 13px;
-}
+.wiki-page > .content > span { display: inline-block; border-top: 1px solid #b67d27; padding-right: 13px; }
 
-/* line 149, ../sass/_modules.sass */
-.wikititle {
-  font-size: 16px;
-  font-size: 14px;
-  font-family: courier, fixed-width;
-}
-/* line 150, ../sass/_modules.sass */
-.wikititle::before {
-  content: "wiki/";
-}
-/* line 155, ../sass/_modules.sass */
-.wikititle strong {
-  font-weight: normal !important;
-}
+.wikititle { font-size: 16px; font-size: 14px; font-family: courier, fixed-width; }
+.wikititle::before { content: "wiki/"; }
+.wikititle strong { font-weight: normal !important; }
 
 /* page actions */
-/* line 160, ../sass/_modules.sass */
-.pageactions {
-  border: 1px solid gray;
-  /* alt */
-  border: none;
-  border-radius: 0px;
-  /* alt */
-  /* second alt */
-  padding-left: 15px;
-  margin: 0px;
-}
-/* line 169, ../sass/_modules.sass */
-.pageactions .wikiaction-current {
-  background: none;
-  color: orangered;
-  border: 1px solid #b67d27;
-  border-top: none;
-  border-radius: 0px;
-}
-/* line 175, ../sass/_modules.sass */
-.pageactions .wikiaction {
-  margin-top: 0px;
-}
-/* line 177, ../sass/_modules.sass */
-.pageactions .wikiaction:hover {
-  background: none;
-}
+.pageactions { border: 1px solid gray; /* alt */ border: none; border-radius: 0px; /* alt */ /* second alt */ padding-left: 15px; margin: 0px; }
+.pageactions .wikiaction-current { background: none; color: orangered; border: 1px solid #b67d27; border-top: none; border-radius: 0px; }
+.pageactions .wikiaction { margin-top: 0px; }
+.pageactions .wikiaction:hover { background: none; }
 
 /* main content area */
-/* line 182, ../sass/_modules.sass */
-.wiki-page-content > hr {
-  border: none;
-  margin-bottom: 20px;
-}
+.wiki-page-content > hr { border: none; margin-bottom: 20px; }
 
 /* bottom line */
 /* table of contents */
-/* line 190, ../sass/_modules.sass */
-div.wiki div.toc > ul {
-  width: 300px;
-  overflow: hidden;
-  background: none !important;
-  border: 1px solid gray;
-  margin-top: 20px;
-  padding: 4px 10px !important;
-  list-style: none !important;
-}
+div.wiki div.toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 
-/* line 199, ../sass/_modules.sass */
-.md.wiki > .toc > ul ul {
-  border: none;
-}
+.md.wiki > .toc > ul ul { border: none; }
 
-/* line 202, ../sass/_modules.sass */
-.wiki .toc > ul::before {
-  display: block !important;
-  content: "INDEX";
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  color: gray;
-  text-align: left;
-  margin-top: -21px;
-  margin-left: -11px;
-  width: 300px;
-  position: absolute !important;
-}
+.wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
 
-/* line 215, ../sass/_modules.sass */
-.usertext-body {
-  background: none;
-}
+.usertext-body { background: none; }
 
-/* line 222, ../sass/_modules.sass */
-.content.submit .info-notice, .tabmenu.formtab .selected a {
-  background: none;
-}
+.content.submit .info-notice, .tabmenu.formtab .selected a { background: none; }
 
-/* line 225, ../sass/_modules.sass */
-.tabmenu.formtab a {
-  border: none;
-}
+.tabmenu.formtab a { border: none; }
 
-/* line 228, ../sass/_modules.sass */
-.formtab-content {
-  border-top: 2px solid white;
-}
+.formtab-content { border-top: 2px solid white; }
 
 /* reddit give gold */
-/* line 233, ../sass/_modules.sass */
-.give-gold {
-  visibility: hidden;
-  float: right;
-}
+.give-gold { visibility: hidden; float: right; }
 
-/* line 236, ../sass/_modules.sass */
-.entry:hover .give-gold {
-  visibility: visible;
-}
+.entry:hover .give-gold { visibility: visible; }
 
-/* line 242, ../sass/_modules.sass */
-.new-comment .usertext-body {
-  background: none !important;
-  border: none !important;
-}
+.new-comment .usertext-body { background: none !important; border: none !important; }
 
-/* line 251, ../sass/_modules.sass */
-.choice:hover {
-  background: #333333 !important;
-}
+.choice:hover { background: #333333 !important; }
 
-/* line 257, ../sass/_modules.sass */
-.voteWeight {
-  color: #eeeeee !important;
-  background: none !important;
-}
+.voteWeight { color: #eeeeee !important; background: none !important; }
 
-/* line 263, ../sass/_modules.sass */
-.nextprev a {
-  background: none;
-}
+.nextprev a { background: none; }
 
-/* line 267, ../sass/_modules.sass */
-.footer {
-  border: 1px solid gray;
-  border-radius: 0px;
-}
+.footer { border: 1px solid gray; border-radius: 0px; }
 
-/* line 14, ../sass/_themeDark.sass */
-body {
-  background: url(%%background%%);
-}
+body { background: url(%%background%%); }
 
-/* line 18, ../sass/_themeDark.sass */
-#header {
-  border-bottom: 1px solid #b67d27;
-  background-color: black;
-  height: 145px;
-  margin-bottom: 15px;
-}
-/* line 25, ../sass/_themeDark.sass */
-#header .pagename.redditname a {
-  background: url(%%banneroff%%);
-  width: 1670px;
-  height: 125px;
-  display: inline-block;
-  position: absolute;
-  left: 0px;
-  top: 19px;
-  text-indent: -9999px;
-  z-index: -100;
-  background-repeat: no-repeat;
-}
-/* line 36, ../sass/_themeDark.sass */
-#header .pagename.redditname a:hover {
-  background: url(%%banneron%%);
-}
+#header { border-bottom: 1px solid #b67d27; background-color: black; height: 145px; margin-bottom: 15px; }
+#header .pagename.redditname a { background: url(%%banneroff%%); width: 1670px; height: 125px; display: inline-block; position: absolute; left: 0px; top: 19px; text-indent: -9999px; z-index: -100; background-repeat: no-repeat; }
+#header .pagename.redditname a:hover { background: url(%%banneron%%); }
 
-/* line 40, ../sass/_themeDark.sass */
-#header-img {
-  opacity: 0.4;
-  position: absolute;
-  bottom: 40px;
-  left: -35px;
-  z-index: 300;
-  height: 44px;
-  width: 66px;
-}
-/* line 49, ../sass/_themeDark.sass */
-#header-img:hover {
-  opacity: 1;
-  left: -15px;
-}
+#header-img { opacity: 0.4; position: absolute; bottom: 40px; left: -35px; z-index: 300; height: 44px; width: 66px; }
+#header-img:hover { opacity: 1; left: -15px; }
 
-/* line 54, ../sass/_themeDark.sass */
-.arrow {
-  height: 22px;
-  width: 22px;
-  background-position: 0px 0px !important;
-  background: none;
-}
-/* line 59, ../sass/_themeDark.sass */
-.arrow.down {
-  background-image: url(%%arrow-down-off%%);
-}
-/* line 61, ../sass/_themeDark.sass */
-.arrow.downmod {
-  background-image: url(%%arrow-down%%);
-}
-/* line 63, ../sass/_themeDark.sass */
-.arrow.up {
-  background-image: url(%%arrow-up-off%%);
-}
-/* line 65, ../sass/_themeDark.sass */
-.arrow.upmod {
-  background-image: url(%%arrow-up%%);
-}
+.arrow { height: 22px; width: 22px; background-position: 0px 0px !important; background: none; }
+.arrow.down { background-image: url(%%arrow-down-off%%); }
+.arrow.downmod { background-image: url(%%arrow-down%%); }
+.arrow.up { background-image: url(%%arrow-up-off%%); }
+.arrow.upmod { background-image: url(%%arrow-up%%); }
 
-/* line 17, ../sass/main.sass */
-html {
-  /*flair menu */
-  /*res extension fixes */
-  /* author info tool tip */
-  /* sticky for subscribers */
-  /* sticky for mods */
-  /* sticky (for all) */
-  /* #header-bottom-right
-   *   background: $background
-   *   #userbarToggle
-   *     background: $background
-   *     border-color: $background */
-}
-/* line 3, ../sass/_theme.sass */
-html body {
-  background-color: black;
-  background-repeat: repeat;
-}
-/* line 7, ../sass/_theme.sass */
-html a {
-  text-decoration: none;
-  color: #aa6600;
-}
-/* line 11, ../sass/_theme.sass */
-html a:hover {
-  color: #ffcc00;
-}
-/* line 14, ../sass/_theme.sass */
-html ::selection {
-  color: white;
-  background-color: #1111aa !important;
-}
-/* line 18, ../sass/_theme.sass */
-html code {
-  color: #37df37;
-}
-/* line 21, ../sass/_theme.sass */
-html body > .content {
-  margin: 0px;
-  padding: 7px 5px 0px 5px;
-  background: none;
-  color: #eeeeee;
-}
-/* line 27, ../sass/_theme.sass */
-html .comment .md p > a:visited {
-  color: #aa6600 !important;
-}
-/* line 30, ../sass/_theme.sass */
-html .comment .md p > a:hover {
-  color: #ffcc00 !important;
-}
-/* line 33, ../sass/_theme.sass */
-html .newComments {
-  color: #ffcc00 !important;
-}
-/* line 37, ../sass/_theme.sass */
-html .entry .buttons li.trial-stamp, html .entry .buttons li.reported-stamp {
-  color: black;
-}
-/* line 40, ../sass/_theme.sass */
-html a.author.submitter {
-  color: #ffcc00 !important;
-  background: none !important;
-}
-/* line 43, ../sass/_theme.sass */
-html a.author.submitter:hover {
-  color: yellow !important;
-  background: none !important;
-}
-/* line 47, ../sass/_theme.sass */
-html h2 {
-  color: #dddddd;
-}
-/* line 49, ../sass/_theme.sass */
-html h2 a {
-  color: #aa6600;
-}
-/* line 52, ../sass/_theme.sass */
-html p.tagline em {
-  color: #eeeeee;
-  display: none;
-}
-/* line 57, ../sass/_theme.sass */
-html .usertext.grayed .usertext-body {
-  color: red;
-  background: none;
-}
-/* line 61, ../sass/_theme.sass */
-html .linefield {
-  background: none;
-}
-/* line 64, ../sass/_theme.sass */
-html .roundfield {
-  background-color: black;
-}
-/* line 68, ../sass/_theme.sass */
-html .tagline a {
-  color: #aa6600;
-  text-decoration: none;
-}
-/* line 71, ../sass/_theme.sass */
-html .tagline a:hover {
-  color: #ffcc00;
-  text-decoration: none;
-}
-/* line 74, ../sass/_theme.sass */
-html .tagline .submitter {
-  color: #ffcc00;
-}
-/* line 78, ../sass/_theme.sass */
-html #header #RESShortcuts .RESShortcutsCurrentSub:visited {
-  color: #ffcc00 !important;
-}
-/* line 80, ../sass/_theme.sass */
-html #header #RESShortcuts .RESShortcutsCurrentSub:hover {
-  color: yellow !important;
-}
-/* line 83, ../sass/_theme.sass */
-html .dropdown.srdrop .selected {
-  color: #eeeeee;
-}
-/* line 86, ../sass/_theme.sass */
-html #sr-more-link {
-  color: #eeeeee;
-  background-color: black;
-}
-/* line 89, ../sass/_theme.sass */
-html .morelink {
-  color: #eeeeee;
-  background-color: black;
-}
-/* line 93, ../sass/_theme.sass */
-html .keyHighlight {
-  background-color: #000022 !important;
-}
-/* line 98, ../sass/_theme.sass */
-html .thing .title {
-  color: #ffcc00 !important;
-}
-/* line 100, ../sass/_theme.sass */
-html .thing .title:hover {
-  color: yellow !important;
-}
-/* line 102, ../sass/_theme.sass */
-html .thing .title:visited, html .thing .title.click {
-  color: #aa6600 !important;
-}
-/* line 104, ../sass/_theme.sass */
-html .thing .title:visited:hover, html .thing .title.click:hover {
-  color: #ffcc00 !important;
-}
-/* line 109, ../sass/_theme.sass */
-html .listing-page .thing .title .title[href*="drop.sc"]::after {
-  content: url(%%Video%%);
-}
-/* line 115, ../sass/_theme.sass */
-html .drop-choices {
-  background: black;
-}
-/* line 118, ../sass/_theme.sass */
-html .flairselector li {
-  border: none;
-}
-/* line 124, ../sass/_theme.sass */
-html .NERPageMarker {
-  color: #eeeeee !important;
-}
-/* line 127, ../sass/_theme.sass */
-html .neverEndingReddit {
-  background: none !important;
-  color: #eeeeee !important;
-}
-/* line 130, ../sass/_theme.sass */
-html .neverEndingReddit img {
-  display: none;
-}
-/* line 136, ../sass/_theme.sass */
-html .RESDialogSmall {
-  background-color: black !important;
-  color: #eeeeee !important;
-}
-/* line 139, ../sass/_theme.sass */
-html .RESDialogSmall > h3 {
-  background-color: #222222 !important;
-  color: #eeeeee !important;
-}
-/* line 143, ../sass/_theme.sass */
-html .RESCloseButton {
-  background: black !important;
-}
-/* line 145, ../sass/_theme.sass */
-html .RESCloseButton:hover {
-  background: #444444 !important;
-}
-/* line 150, ../sass/_theme.sass */
-html .side {
-  color: #eeeeee !important;
-}
-/* line 153, ../sass/_theme.sass */
-html .side .titlebox .redditname a {
-  color: #eeeeee !important;
-}
-/* line 156, ../sass/_theme.sass */
-html .side .titlebox .tagline {
-  background-color: black;
-}
-/* line 160, ../sass/_theme.sass */
-html .side .sidecontentbox .content {
-  background-color: black;
-}
-/* line 164, ../sass/_theme.sass */
-html .side h4 {
-  background: black;
-  color: #eeeeee;
-}
-/* line 169, ../sass/_theme.sass */
-html .side h5 {
-  background: black;
-  color: #eeeeee;
-}
-/* line 174, ../sass/_theme.sass */
-html .side h6 {
-  background: #eeeeee;
-  color: black;
-}
-/* line 180, ../sass/_theme.sass */
-html #search input[type="text"] {
-  background: black;
-  color: #eeeeee;
-}
-/* line 188, ../sass/_theme.sass */
-html #header #header-bottom-left ul.tabmenu li a {
-  background-color: black;
-}
-/* line 190, ../sass/_theme.sass */
-html #header #header-bottom-left ul.tabmenu li.selected a {
-  background-color: black;
-  border: 1px solid gray;
-  box-shadow: 0px 0px 10px #b67d27;
-}
-/* line 202, ../sass/_theme.sass */
-html #sr-header-area {
-  background-color: black;
-  color: #eeeeee;
-}
-/* line 205, ../sass/_theme.sass */
-html #sr-header-area .sr-bar a {
-  color: #aa6600;
-}
-/* line 209, ../sass/_theme.sass */
-html .side .usertext-body {
-  background: black;
-}
-/* line 213, ../sass/_theme.sass */
-html .link .usertext .md {
-  background-color: black;
-}
+html { /*flair menu */ /*res extension fixes */ /* author info tool tip */ /* sticky for subscribers */ /* sticky for mods */ /* sticky (for all) */ /* #header-bottom-right background: $background #userbarToggle background: $background border-color: $background */ }
+html body { background-color: black; background-repeat: repeat; }
+html a { text-decoration: none; color: #aa6600; }
+html a:hover { color: #ffcc00; }
+html ::selection { color: white; background-color: #1111aa !important; }
+html code { color: #37df37; }
+html body > .content { margin: 0px; padding: 7px 5px 0px 5px; background: none; color: #eeeeee; }
+html .comment .md p > a:visited { color: #aa6600 !important; }
+html .comment .md p > a:hover { color: #ffcc00 !important; }
+html .newComments { color: #ffcc00 !important; }
+html .entry .buttons li.trial-stamp, html .entry .buttons li.reported-stamp { color: black; }
+html a.author.submitter { color: #ffcc00 !important; background: none !important; }
+html a.author.submitter:hover { color: yellow !important; background: none !important; }
+html h2 { color: #dddddd; }
+html h2 a { color: #aa6600; }
+html p.tagline em { color: #eeeeee; display: none; }
+html .usertext.grayed .usertext-body { color: red; background: none; }
+html .linefield { background: none; }
+html .roundfield { background-color: black; }
+html .tagline a { color: #aa6600; text-decoration: none; }
+html .tagline a:hover { color: #ffcc00; text-decoration: none; }
+html .tagline .submitter { color: #ffcc00; }
+html #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #ffcc00 !important; }
+html #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: yellow !important; }
+html .dropdown.srdrop .selected { color: #eeeeee; }
+html #sr-more-link { color: #eeeeee; background-color: black; }
+html .morelink { color: #eeeeee; background-color: black; }
+html .keyHighlight { background-color: #000022 !important; }
+html .thing .title { color: #ffcc00 !important; }
+html .thing .title:hover { color: yellow !important; }
+html .thing .title:visited, html .thing .title.click { color: #aa6600 !important; }
+html .thing .title:visited:hover, html .thing .title.click:hover { color: #ffcc00 !important; }
+html .listing-page .thing .title .title[href*="drop.sc"]::after { content: url(%%Video%%); }
+html .drop-choices { background: black; }
+html .flairselector li { border: none; }
+html .NERPageMarker { color: #eeeeee !important; }
+html .neverEndingReddit { background: none !important; color: #eeeeee !important; }
+html .neverEndingReddit img { display: none; }
+html .RESDialogSmall { background-color: black !important; color: #eeeeee !important; }
+html .RESDialogSmall > h3 { background-color: #222222 !important; color: #eeeeee !important; }
+html .RESCloseButton { background: black !important; }
+html .RESCloseButton:hover { background: #444444 !important; }
+html .side { color: #eeeeee !important; }
+html .side .titlebox .redditname a { color: #eeeeee !important; }
+html .side .titlebox .tagline { background-color: black; }
+html .side .sidecontentbox .content { background-color: black; }
+html .side h4 { background: black; color: #eeeeee; }
+html .side h5 { background: black; color: #eeeeee; }
+html .side h6 { background: #eeeeee; color: black; }
+html #search input[type="text"] { background: black; color: #eeeeee; }
+html #header #header-bottom-left ul.tabmenu li a { background-color: black; }
+html #header #header-bottom-left ul.tabmenu li.selected a { background-color: black; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
+html #sr-header-area { background-color: black; color: #eeeeee; }
+html #sr-header-area .sr-bar a { color: #aa6600; }
+html .side .usertext-body { background: black; }
+html .link .usertext .md { background-color: black; }
 
-/* line 22, ../sass/main.sass */
-html[lang="ll"] {
-  /*side expandos */
-  /* sticky for all */
-  /* temp fix */
-  /* arrows */
-  /*flair menu */
-  /*res extension fixes */
-  /* author info tool tip */
-  /* sticky for subscribers */
-  /* sticky for mods */
-  /* sticky (for all) */
-  /* #header-bottom-right
-   *   background: $background
-   *   #userbarToggle
-   *     background: $background
-   *     border-color: $background */
-}
-/* line 13, ../sass/_themeLight.sass */
-html[lang="ll"] body {
-  background: none;
-}
-/* line 15, ../sass/_themeLight.sass */
-html[lang="ll"] #search input[type="text"] {
-  border: 1px solid black;
-}
-/* line 17, ../sass/_themeLight.sass */
-html[lang="ll"] .listing-page .thing .title .title {
-  text-shadow: 1px 1px 3px #0f0000;
-}
-/* line 19, ../sass/_themeLight.sass */
-html[lang="ll"] .morelink:hover a {
-  color: black;
-}
-/* line 21, ../sass/_themeLight.sass */
-html[lang="ll"] .flair {
-  color: black;
-}
-/* line 24, ../sass/_themeLight.sass */
-html[lang="ll"] .side {
-  box-shadow: -5px 0px 11px -8px black;
-  padding-left: 3px;
-}
-/* line 35, ../sass/_themeLight.sass */
-html[lang="ll"] .side blockquote:hover blockquote {
-  padding-bottom: 0px;
-}
-/* line 39, ../sass/_themeLight.sass */
-html[lang="ll"] #header {
-  box-shadow: 0px -10px 10px 10px black;
-  margin-bottom: 30px;
-}
-/* line 45, ../sass/_themeLight.sass */
-html[lang="ll"] .pagename.redditname a {
-  display: none;
-}
-/* line 49, ../sass/_themeLight.sass */
-html[lang="ll"] .side h6 {
-  font-size: 14px;
-  padding: 6px 8px;
-}
-/* line 55, ../sass/_themeLight.sass */
-html[lang="ll"] #header #header-bottom-left ul.tabmenu {
-  bottom: -5px;
-  font-size: 14px;
-}
-/* line 58, ../sass/_themeLight.sass */
-html[lang="ll"] #header #header-bottom-left ul.tabmenu a {
-  border: 1px solid gray;
-}
-/* line 62, ../sass/_themeLight.sass */
-html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
-  display: none !important;
-}
-/* line 72, ../sass/_themeLight.sass */
-html[lang="ll"] .arrow {
-  display: block;
-  background: url(%%alt-arrows%%);
-  background-repeat: no-repeat;
-  width: 17px;
-  height: 14px;
-  margin: 0 auto;
-  outline: none;
-  background-repeat: no-repeat;
-  margin-bottom: 1px;
-}
-/* line 82, ../sass/_themeLight.sass */
-html[lang="ll"] .arrow.up {
-  background-position: 0 0 !important;
-}
-/* line 84, ../sass/_themeLight.sass */
-html[lang="ll"] .arrow.up:hover {
-  background-position: -17px 0 !important;
-}
-/* line 86, ../sass/_themeLight.sass */
-html[lang="ll"] .arrow.upmod {
-  background-position: -34px 0 !important;
-}
-/* line 88, ../sass/_themeLight.sass */
-html[lang="ll"] .arrow.down {
-  background-position: 0 -15px !important;
-}
-/* line 90, ../sass/_themeLight.sass */
-html[lang="ll"] .arrow.down:hover {
-  background-position: -17px -15px !important;
-}
-/* line 92, ../sass/_themeLight.sass */
-html[lang="ll"] .arrow.downmod {
-  background-position: -34px -15px !important;
-}
-/* line 94, ../sass/_themeLight.sass */
-html[lang="ll"] .link .score.dislikes {
-  color: #9452c6;
-}
-/* line 96, ../sass/_themeLight.sass */
-html[lang="ll"] .link .score.likes {
-  color: #f7941d;
-}
-/* line 98, ../sass/_themeLight.sass */
-html[lang="ll"] .listing-page .link .rank {
-  margin-top: 15px;
-  margin-right: 0px;
-  text-align: center;
-}
-/* line 3, ../sass/_theme.sass */
-html[lang="ll"] body {
-  background-color: white;
-  background-repeat: repeat;
-}
-/* line 7, ../sass/_theme.sass */
-html[lang="ll"] a {
-  text-decoration: none;
-  color: #780000;
-}
-/* line 11, ../sass/_theme.sass */
-html[lang="ll"] a:hover {
-  color: #de0000;
-}
-/* line 14, ../sass/_theme.sass */
-html[lang="ll"] ::selection {
-  color: white;
-  background-color: #1111aa !important;
-}
-/* line 18, ../sass/_theme.sass */
-html[lang="ll"] code {
-  color: #37df37;
-}
-/* line 21, ../sass/_theme.sass */
-html[lang="ll"] body > .content {
-  margin: 0px;
-  padding: 7px 5px 0px 5px;
-  background: none;
-  color: black;
-}
-/* line 27, ../sass/_theme.sass */
-html[lang="ll"] .comment .md p > a:visited {
-  color: #780000 !important;
-}
-/* line 30, ../sass/_theme.sass */
-html[lang="ll"] .comment .md p > a:hover {
-  color: #de0000 !important;
-}
-/* line 33, ../sass/_theme.sass */
-html[lang="ll"] .newComments {
-  color: #de0000 !important;
-}
-/* line 37, ../sass/_theme.sass */
-html[lang="ll"] .entry .buttons li.trial-stamp, html[lang="ll"] .entry .buttons li.reported-stamp {
-  color: white;
-}
-/* line 40, ../sass/_theme.sass */
-html[lang="ll"] a.author.submitter {
-  color: #de0000 !important;
-  background: none !important;
-}
-/* line 43, ../sass/_theme.sass */
-html[lang="ll"] a.author.submitter:hover {
-  color: #f70000 !important;
-  background: none !important;
-}
-/* line 47, ../sass/_theme.sass */
-html[lang="ll"] h2 {
-  color: #222222;
-}
-/* line 49, ../sass/_theme.sass */
-html[lang="ll"] h2 a {
-  color: #780000;
-}
-/* line 52, ../sass/_theme.sass */
-html[lang="ll"] p.tagline em {
-  color: black;
-  display: none;
-}
-/* line 57, ../sass/_theme.sass */
-html[lang="ll"] .usertext.grayed .usertext-body {
-  color: red;
-  background: none;
-}
-/* line 61, ../sass/_theme.sass */
-html[lang="ll"] .linefield {
-  background: none;
-}
-/* line 64, ../sass/_theme.sass */
-html[lang="ll"] .roundfield {
-  background-color: white;
-}
-/* line 68, ../sass/_theme.sass */
-html[lang="ll"] .tagline a {
-  color: #780000;
-  text-decoration: none;
-}
-/* line 71, ../sass/_theme.sass */
-html[lang="ll"] .tagline a:hover {
-  color: #de0000;
-  text-decoration: none;
-}
-/* line 74, ../sass/_theme.sass */
-html[lang="ll"] .tagline .submitter {
-  color: #de0000;
-}
-/* line 78, ../sass/_theme.sass */
-html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:visited {
-  color: #de0000 !important;
-}
-/* line 80, ../sass/_theme.sass */
-html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:hover {
-  color: #f70000 !important;
-}
-/* line 83, ../sass/_theme.sass */
-html[lang="ll"] .dropdown.srdrop .selected {
-  color: black;
-}
-/* line 86, ../sass/_theme.sass */
-html[lang="ll"] #sr-more-link {
-  color: black;
-  background-color: white;
-}
-/* line 89, ../sass/_theme.sass */
-html[lang="ll"] .morelink {
-  color: black;
-  background-color: white;
-}
-/* line 93, ../sass/_theme.sass */
-html[lang="ll"] .keyHighlight {
-  background-color: #eeeeff !important;
-}
-/* line 98, ../sass/_theme.sass */
-html[lang="ll"] .thing .title {
-  color: #de0000 !important;
-}
-/* line 100, ../sass/_theme.sass */
-html[lang="ll"] .thing .title:hover {
-  color: #f70000 !important;
-}
-/* line 102, ../sass/_theme.sass */
-html[lang="ll"] .thing .title:visited, html[lang="ll"] .thing .title.click {
-  color: #780000 !important;
-}
-/* line 104, ../sass/_theme.sass */
-html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover {
-  color: #de0000 !important;
-}
-/* line 109, ../sass/_theme.sass */
-html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after {
-  content: url(%%Video%%);
-}
-/* line 115, ../sass/_theme.sass */
-html[lang="ll"] .drop-choices {
-  background: white;
-}
-/* line 118, ../sass/_theme.sass */
-html[lang="ll"] .flairselector li {
-  border: none;
-}
-/* line 124, ../sass/_theme.sass */
-html[lang="ll"] .NERPageMarker {
-  color: black !important;
-}
-/* line 127, ../sass/_theme.sass */
-html[lang="ll"] .neverEndingReddit {
-  background: none !important;
-  color: black !important;
-}
-/* line 130, ../sass/_theme.sass */
-html[lang="ll"] .neverEndingReddit img {
-  display: none;
-}
-/* line 136, ../sass/_theme.sass */
-html[lang="ll"] .RESDialogSmall {
-  background-color: white !important;
-  color: black !important;
-}
-/* line 139, ../sass/_theme.sass */
-html[lang="ll"] .RESDialogSmall > h3 {
-  background-color: #222222 !important;
-  color: black !important;
-}
-/* line 143, ../sass/_theme.sass */
-html[lang="ll"] .RESCloseButton {
-  background: white !important;
-}
-/* line 145, ../sass/_theme.sass */
-html[lang="ll"] .RESCloseButton:hover {
-  background: #444444 !important;
-}
-/* line 150, ../sass/_theme.sass */
-html[lang="ll"] .side {
-  color: black !important;
-}
-/* line 153, ../sass/_theme.sass */
-html[lang="ll"] .side .titlebox .redditname a {
-  color: black !important;
-}
-/* line 156, ../sass/_theme.sass */
-html[lang="ll"] .side .titlebox .tagline {
-  background-color: white;
-}
-/* line 160, ../sass/_theme.sass */
-html[lang="ll"] .side .sidecontentbox .content {
-  background-color: white;
-}
-/* line 164, ../sass/_theme.sass */
-html[lang="ll"] .side h4 {
-  background: white;
-  color: black;
-}
-/* line 169, ../sass/_theme.sass */
-html[lang="ll"] .side h5 {
-  background: white;
-  color: black;
-}
-/* line 174, ../sass/_theme.sass */
-html[lang="ll"] .side h6 {
-  background: black;
-  color: white;
-}
-/* line 180, ../sass/_theme.sass */
-html[lang="ll"] #search input[type="text"] {
-  background: white;
-  color: black;
-}
-/* line 188, ../sass/_theme.sass */
-html[lang="ll"] #header #header-bottom-left ul.tabmenu li a {
-  background-color: white;
-}
-/* line 190, ../sass/_theme.sass */
-html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a {
-  background-color: white;
-  border: 1px solid gray;
-  box-shadow: 0px 0px 10px #b67d27;
-}
-/* line 202, ../sass/_theme.sass */
-html[lang="ll"] #sr-header-area {
-  background-color: white;
-  color: black;
-}
-/* line 205, ../sass/_theme.sass */
-html[lang="ll"] #sr-header-area .sr-bar a {
-  color: #780000;
-}
-/* line 209, ../sass/_theme.sass */
-html[lang="ll"] .side .usertext-body {
-  background: white;
-}
-/* line 213, ../sass/_theme.sass */
-html[lang="ll"] .link .usertext .md {
-  background-color: white;
-}
+html[lang="ll"] { /*side expandos */ /* sticky for all */ /* temp fix */ /* arrows */ /*flair menu */ /*res extension fixes */ /* author info tool tip */ /* sticky for subscribers */ /* sticky for mods */ /* sticky (for all) */ /* #header-bottom-right background: $background #userbarToggle background: $background border-color: $background */ }
+html[lang="ll"] body { background: none; }
+html[lang="ll"] #search input[type="text"] { border: 1px solid black; }
+html[lang="ll"] .listing-page .thing .title .title { text-shadow: 1px 1px 3px #0f0000; }
+html[lang="ll"] .morelink:hover a { color: black; }
+html[lang="ll"] .flair { color: black; }
+html[lang="ll"] .side { box-shadow: -5px 0px 11px -8px black; padding-left: 3px; }
+html[lang="ll"] .side blockquote:hover blockquote { padding-bottom: 0px; }
+html[lang="ll"] #header { box-shadow: 0px -10px 10px 10px black; margin-bottom: 30px; }
+html[lang="ll"] .pagename.redditname a { display: none; }
+html[lang="ll"] .side h6 { font-size: 14px; padding: 6px 8px; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu { bottom: -5px; font-size: 14px; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu a { border: 1px solid gray; }
+html[lang="ll"] .side h4, html[lang="ll"] .side h5 { display: none !important; }
+html[lang="ll"] .arrow { display: block; background: url(%%alt-arrows%%); background-repeat: no-repeat; width: 17px; height: 14px; margin: 0 auto; outline: none; background-repeat: no-repeat; margin-bottom: 1px; }
+html[lang="ll"] .arrow.up { background-position: 0 0 !important; }
+html[lang="ll"] .arrow.up:hover { background-position: -17px 0 !important; }
+html[lang="ll"] .arrow.upmod { background-position: -34px 0 !important; }
+html[lang="ll"] .arrow.down { background-position: 0 -15px !important; }
+html[lang="ll"] .arrow.down:hover { background-position: -17px -15px !important; }
+html[lang="ll"] .arrow.downmod { background-position: -34px -15px !important; }
+html[lang="ll"] .link .score.dislikes { color: #9452c6; }
+html[lang="ll"] .link .score.likes { color: #f7941d; }
+html[lang="ll"] .listing-page .link .rank { margin-top: 15px; margin-right: 0px; text-align: center; }
+html[lang="ll"] body { background-color: white; background-repeat: repeat; }
+html[lang="ll"] a { text-decoration: none; color: #780000; }
+html[lang="ll"] a:hover { color: #de0000; }
+html[lang="ll"] ::selection { color: white; background-color: #1111aa !important; }
+html[lang="ll"] code { color: #37df37; }
+html[lang="ll"] body > .content { margin: 0px; padding: 7px 5px 0px 5px; background: none; color: black; }
+html[lang="ll"] .comment .md p > a:visited { color: #780000 !important; }
+html[lang="ll"] .comment .md p > a:hover { color: #de0000 !important; }
+html[lang="ll"] .newComments { color: #de0000 !important; }
+html[lang="ll"] .entry .buttons li.trial-stamp, html[lang="ll"] .entry .buttons li.reported-stamp { color: white; }
+html[lang="ll"] a.author.submitter { color: #de0000 !important; background: none !important; }
+html[lang="ll"] a.author.submitter:hover { color: #f70000 !important; background: none !important; }
+html[lang="ll"] h2 { color: #222222; }
+html[lang="ll"] h2 a { color: #780000; }
+html[lang="ll"] p.tagline em { color: black; display: none; }
+html[lang="ll"] .usertext.grayed .usertext-body { color: red; background: none; }
+html[lang="ll"] .linefield { background: none; }
+html[lang="ll"] .roundfield { background-color: white; }
+html[lang="ll"] .tagline a { color: #780000; text-decoration: none; }
+html[lang="ll"] .tagline a:hover { color: #de0000; text-decoration: none; }
+html[lang="ll"] .tagline .submitter { color: #de0000; }
+html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #de0000 !important; }
+html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: #f70000 !important; }
+html[lang="ll"] .dropdown.srdrop .selected { color: black; }
+html[lang="ll"] #sr-more-link { color: black; background-color: white; }
+html[lang="ll"] .morelink { color: black; background-color: white; }
+html[lang="ll"] .keyHighlight { background-color: #eeeeff !important; }
+html[lang="ll"] .thing .title { color: #de0000 !important; }
+html[lang="ll"] .thing .title:hover { color: #f70000 !important; }
+html[lang="ll"] .thing .title:visited, html[lang="ll"] .thing .title.click { color: #780000 !important; }
+html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover { color: #de0000 !important; }
+html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after { content: url(%%Video%%); }
+html[lang="ll"] .drop-choices { background: white; }
+html[lang="ll"] .flairselector li { border: none; }
+html[lang="ll"] .NERPageMarker { color: black !important; }
+html[lang="ll"] .neverEndingReddit { background: none !important; color: black !important; }
+html[lang="ll"] .neverEndingReddit img { display: none; }
+html[lang="ll"] .RESDialogSmall { background-color: white !important; color: black !important; }
+html[lang="ll"] .RESDialogSmall > h3 { background-color: #222222 !important; color: black !important; }
+html[lang="ll"] .RESCloseButton { background: white !important; }
+html[lang="ll"] .RESCloseButton:hover { background: #444444 !important; }
+html[lang="ll"] .side { color: black !important; }
+html[lang="ll"] .side .titlebox .redditname a { color: black !important; }
+html[lang="ll"] .side .titlebox .tagline { background-color: white; }
+html[lang="ll"] .side .sidecontentbox .content { background-color: white; }
+html[lang="ll"] .side h4 { background: white; color: black; }
+html[lang="ll"] .side h5 { background: white; color: black; }
+html[lang="ll"] .side h6 { background: black; color: white; }
+html[lang="ll"] #search input[type="text"] { background: white; color: black; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu li a { background-color: white; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: white; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
+html[lang="ll"] #sr-header-area { background-color: white; color: black; }
+html[lang="ll"] #sr-header-area .sr-bar a { color: #780000; }
+html[lang="ll"] .side .usertext-body { background: white; }
+html[lang="ll"] .link .usertext .md { background-color: white; }

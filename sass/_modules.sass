@@ -95,6 +95,8 @@
     &:hover::before
       content: ""
       padding-right: 0px
+  &.flair-HotS
+    color: #9452c6
   &.flair-Master:hover, &.flair-Master2:hover
     width: auto
   &.flair-EU:hover::after
@@ -112,7 +114,12 @@
   &.flair-SEA:hover::after
     content: " (SEA)"
     color: grey
-  
+  &.flair-S2:hover
+    //border-bottom: 1px solid #9452c6
+    &::before 
+      content: "(Season 2)"
+      float: right
+      color: gray
 
   
     
