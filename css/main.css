@@ -1130,8 +1130,8 @@ html .side h5 {
 }
 /* line 174, ../sass/_theme.sass */
 html .side h6 {
-  background: #eeeeee;
-  color: black;
+  background: white;
+  color: #222222;
 }
 /* line 178, ../sass/_theme.sass */
 html #search input[type="text"] {
@@ -1482,7 +1482,7 @@ html[lang="ll"] .side h5 {
 /* line 174, ../sass/_theme.sass */
 html[lang="ll"] .side h6 {
   background: #111111;
-  color: #f7f7f7;
+  color: #dddddd;
 }
 /* line 178, ../sass/_theme.sass */
 html[lang="ll"] #search input[type="text"] {
