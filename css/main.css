@@ -22,7 +22,7 @@ body { background: url(%%background%%); }
 .listing-page .thing .title .domain { font-size: 0px; top: -2px; position: relative; padding: 5px; height: 10px; display: inline-block; }
 .listing-page .thing .title .domain a { font-size: x-small; }
 .listing-page .thing .title .domain::before { content: "► "; font-size: x-small; }
-.listing-page .thing .title.self .domain::before { content: "◄"; /*★ */ }
+.listing-page .thing .title.self .domain::before { content: "◄"; }
 .listing-page .thing .title.self .domain a { display: none; }
 
 .compressed .rank { margin-top: 13px; }
@@ -31,7 +31,6 @@ body { background: url(%%background%%); }
 .listing-page .link .rank { margin-top: 20px; margin-right: 5px; }
 .listing-page .link .entry { position: relative; min-height: 64px; }
 
-/*res extension fixes */
 .NERPageMarker { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 
 .neverEndingReddit { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
@@ -41,11 +40,8 @@ body { background: url(%%background%%); }
 
 .fancy-toggle-button .add { background: #116428 !important; }
 
-/* base styles */
-/*mostly a helper for the side expandos */
 .side hr { display: none; }
 
-/*sidebar */
 .side { background: none; z-index: 500; }
 .side .titlebox .redditname a { text-transform: uppercase; }
 .side .titlebox .word { display: none; }
@@ -59,7 +55,6 @@ body { background: url(%%background%%); }
 .side .titlebox .bottom { display: none; }
 .side .titlebox .tagline { margin: 2px; border-radius: 5px; padding: 5px 0 5px 20px; }
 
-/* submit a link */
 .submit-link { display: none; }
 
 .morelink { background: black; border: 1px solid gray; }
@@ -70,13 +65,10 @@ body { background: url(%%background%%); }
 .morelink + .spacer a { display: none; }
 .morelink:hover + .spacer { display: block; }
 
-/* sidebar */
-/* about */
 .side .usertext-body { border: 1px solid gray; padding: 5px; background: black; }
 .side .usertext { margin-top: 5px; }
 .side .usertext::before { content: "INFORMATION"; color: gray; font-size: 13px; }
 
-/*side expandos */
 .side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
 .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 25px; overflow: hidden; opacity: 0.5; }
 .side blockquote:hover blockquote { display: block; height: auto; opacity: 1; padding-bottom: 5px; }
@@ -84,19 +76,16 @@ body { background: url(%%background%%); }
 .listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; position: absolute; height: 14px; left: 30px; top: 19px; }
 .listing-page .thing .flat-list { position: absolute; top: 33px; left: 30px; height: 14px; padding: 0px; }
 
-/* thing expando button for selftext */
 .entry .expando-button { background: none !important; cursor: pointer !important; }
-.entry .expando-button.collapsed { /*.expando-button.selftext.collapsed */ background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
+.entry .expando-button.collapsed { background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
 .entry .expando-button.collapsed:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
 
 .entry .expando-button.expanded, .eb-se { background-image: url(%%egg-minus-off%%) !important; background-position: -1px -1px !important; }
 
 .entry .expando-button.expanded:hover, .eb-seh { background-image: url(%%egg-minus-on%%) !important; background-position: -1px -1px !important; }
 
-/* expando button alternative (in-line video) */
 .thing .entry .expando-button.video { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
 
-/* expando button alternative (replays) */
 .listing-page .thing .title .title[href*="drop.sc"]::after { position: absolute; left: -4px; top: 19px; }
 
 .link.last-clicked { border: none; }
@@ -106,17 +95,16 @@ body { background: url(%%background%%); }
 
 .link .rank { color: #3d3d3d; }
 
-/* sticky for subscribers */
+.entry .buttons li a { font-weight: normal; }
+
 .side h4 { padding: 2px 6px 0 6px; margin: 0px; position: absolute; top: 129px; left: 550px; z-index: 100; font-size: 12px; font-weight: normal; display: none; opacity: 0.8; }
 
 body.subscriber .side h4 { display: block; }
 
-/* sticky for mods */
 .side h5 { padding: 2px 6px 0 6px; margin: 0px; position: absolute; top: 129px; left: 445px; z-index: 100; font-size: 12px; font-weight: normal; display: none; }
 
 body.moderator.listing-page .side h5 { display: block; }
 
-/* sticky (for all) */
 .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: small; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
 .side h6 a:hover { text-decoration: underline; }
 
@@ -158,12 +146,11 @@ body.moderator.listing-page .side h5 { display: block; }
 #header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
 #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 
-/* inline flair */
 .flair { background: none; color: #eeeeee; border: none; margin: 0px; padding: 0px; }
 
 .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
 .flair.flair-Master, .flair.flair-Master2 { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
-.flair.flair-Grandmaster { background-image: url(%%grandaster%%); }
+.flair.flair-Grandmaster { background-image: url(%%grandmaster%%); }
 .flair.flair-Master2 { background: none; padding-left: 0px; width: 10px; }
 .flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
 .flair.flair-Master2:hover::before { content: ""; padding-right: 0px; }
@@ -176,31 +163,23 @@ body.moderator.listing-page .side h5 { display: block; }
 .flair.flair-SEA:hover::after { content: " (SEA)"; color: grey; }
 .flair.flair-S2:hover::before { content: "(Season 2)"; float: right; color: gray; }
 
-/* parent comment popup dimmer */
 .parentComment.comment { color: white !important; background-color: black !important; overflow: visible !important; z-index: 2147483649 !important; box-shadow: 0px 0px 250px 200px black; }
 
-/* wiki stuff */
-/* headings */
 .md.wiki h1, .md.wiki h2, .md.wiki h3, .md.wiki h4, .md.wiki h5, .md.wiki h6 { color: #eeeeee; }
 
-/* wiki specifics */
 .wiki-page > .content > span { display: inline-block; border-top: 1px solid #b67d27; padding-right: 13px; }
 
 .wikititle { font-size: 16px; font-size: 14px; font-family: courier, fixed-width; }
 .wikititle::before { content: "wiki/"; }
 .wikititle strong { font-weight: normal !important; }
 
-/* page actions */
-.pageactions { border: 1px solid gray; /* alt */ border: none; border-radius: 0px; /* alt */ /* second alt */ padding-left: 15px; margin: 0px; }
+.pageactions { border: 1px solid gray; border: none; border-radius: 0px; padding-left: 15px; margin: 0px; }
 .pageactions .wikiaction-current { background: none; color: orangered; border: 1px solid #b67d27; border-top: none; border-radius: 0px; }
 .pageactions .wikiaction { margin-top: 0px; }
 .pageactions .wikiaction:hover { background: none; }
 
-/* main content area */
 .wiki-page-content > hr { border: none; margin-bottom: 20px; }
 
-/* bottom line */
-/* table of contents */
 div.wiki div.toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 
 .md.wiki > .toc > ul ul { border: none; }
@@ -215,7 +194,6 @@ div.wiki div.toc > ul { width: 300px; overflow: hidden; background: none !import
 
 .formtab-content { border-top: 2px solid white; }
 
-/* reddit give gold */
 .give-gold { visibility: hidden; float: right; }
 
 .entry:hover .give-gold { visibility: visible; }
@@ -245,7 +223,6 @@ body { background: url(%%background%%); }
 .arrow.up { background-image: url(%%arrow-up-off%%); }
 .arrow.upmod { background-image: url(%%arrow-up%%); }
 
-html { /*flair menu */ /*res extension fixes */ /* author info tool tip */ /* sticky for subscribers */ /* sticky for mods */ /* sticky (for all) */ /* #header-bottom-right background: $background #userbarToggle background: $background border-color: $background */ }
 html body { background-color: black; background-repeat: repeat; }
 html a { text-decoration: none; color: #aa6600; }
 html a:hover { color: #ffcc00; }
@@ -302,7 +279,6 @@ html #sr-header-area .sr-bar a { color: #aa6600; }
 html .side .usertext-body { background: black; }
 html .link .usertext .md { background-color: black; }
 
-html[lang="ll"] { /*side expandos */ /* sticky for all */ /* temp fix */ /* arrows */ /*flair menu */ /*res extension fixes */ /* author info tool tip */ /* sticky for subscribers */ /* sticky for mods */ /* sticky (for all) */ /* #header-bottom-right background: $background #userbarToggle background: $background border-color: $background */ }
 html[lang="ll"] body { background: none; }
 html[lang="ll"] #search input[type="text"] { border: 1px solid black; }
 html[lang="ll"] .listing-page .thing .title .title { text-shadow: 1px 1px 3px #0f0000; }
