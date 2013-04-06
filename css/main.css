@@ -281,7 +281,7 @@ html .link .usertext .md { background-color: black; }
 
 html[lang="ll"] body { background: none; }
 html[lang="ll"] #search input[type="text"] { border: 1px solid black; }
-html[lang="ll"] .listing-page .thing .title .title { text-shadow: 1px 1px 3px #0f0000; }
+html[lang="ll"] .listing-page .thing .title .title { text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
 html[lang="ll"] .morelink:hover a { color: black; }
 html[lang="ll"] .flair { color: black; }
 html[lang="ll"] .side { box-shadow: -5px 0px 11px -8px black; padding-left: 3px; }
