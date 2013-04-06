@@ -922,247 +922,247 @@ body {
 }
 
 /* line 3, ../sass/_theme.sass */
-html body {
+html:not([lang="ll"]) body body {
   background-color: black;
   background-repeat: repeat;
 }
 /* line 7, ../sass/_theme.sass */
-html a {
+html:not([lang="ll"]) body a {
   text-decoration: none;
   color: #aa6600;
 }
 /* line 11, ../sass/_theme.sass */
-html a:hover {
+html:not([lang="ll"]) body a:hover {
   color: #ffcc00;
 }
 /* line 14, ../sass/_theme.sass */
-html ::selection {
+html:not([lang="ll"]) body ::selection {
   color: white;
   background-color: #1111aa !important;
 }
 /* line 18, ../sass/_theme.sass */
-html code {
+html:not([lang="ll"]) body code {
   color: #37df37;
 }
 /* line 21, ../sass/_theme.sass */
-html body > .content {
+html:not([lang="ll"]) body body > .content {
   margin: 0px;
   padding: 7px 5px 0px 5px;
   background: none;
   color: #eeeeee;
 }
 /* line 27, ../sass/_theme.sass */
-html .comment .md p > a:visited {
+html:not([lang="ll"]) body .comment .md p > a:visited {
   color: #aa6600 !important;
 }
 /* line 30, ../sass/_theme.sass */
-html .comment .md p > a:hover {
+html:not([lang="ll"]) body .comment .md p > a:hover {
   color: #ffcc00 !important;
 }
 /* line 33, ../sass/_theme.sass */
-html .newComments {
+html:not([lang="ll"]) body .newComments {
   color: #ffcc00 !important;
 }
 /* line 37, ../sass/_theme.sass */
-html .entry .buttons li.trial-stamp, html .entry .buttons li.reported-stamp {
+html:not([lang="ll"]) body .entry .buttons li.trial-stamp, html:not([lang="ll"]) body .entry .buttons li.reported-stamp {
   color: black;
 }
 /* line 40, ../sass/_theme.sass */
-html a.author.submitter {
+html:not([lang="ll"]) body a.author.submitter {
   color: #ffcc00 !important;
   background: none !important;
 }
 /* line 43, ../sass/_theme.sass */
-html a.author.submitter:hover {
+html:not([lang="ll"]) body a.author.submitter:hover {
   color: yellow !important;
   background: none !important;
 }
 /* line 47, ../sass/_theme.sass */
-html h2 {
+html:not([lang="ll"]) body h2 {
   color: #dddddd;
 }
 /* line 49, ../sass/_theme.sass */
-html h2 a {
+html:not([lang="ll"]) body h2 a {
   color: #aa6600;
 }
 /* line 52, ../sass/_theme.sass */
-html p.tagline em {
+html:not([lang="ll"]) body p.tagline em {
   color: #eeeeee;
   display: none;
 }
 /* line 57, ../sass/_theme.sass */
-html .usertext.grayed .usertext-body {
+html:not([lang="ll"]) body .usertext.grayed .usertext-body {
   color: red;
   background: none;
 }
 /* line 61, ../sass/_theme.sass */
-html .linefield {
+html:not([lang="ll"]) body .linefield {
   background: none;
 }
 /* line 64, ../sass/_theme.sass */
-html .roundfield {
+html:not([lang="ll"]) body .roundfield {
   background-color: black;
 }
 /* line 68, ../sass/_theme.sass */
-html .tagline a {
+html:not([lang="ll"]) body .tagline a {
   color: #aa6600;
   text-decoration: none;
 }
 /* line 71, ../sass/_theme.sass */
-html .tagline a:hover {
+html:not([lang="ll"]) body .tagline a:hover {
   color: #ffcc00;
   text-decoration: none;
 }
 /* line 74, ../sass/_theme.sass */
-html .tagline .submitter {
+html:not([lang="ll"]) body .tagline .submitter {
   color: #ffcc00;
 }
 /* line 78, ../sass/_theme.sass */
-html #header #RESShortcuts .RESShortcutsCurrentSub:visited {
+html:not([lang="ll"]) body #header #RESShortcuts .RESShortcutsCurrentSub:visited {
   color: #ffcc00 !important;
 }
 /* line 80, ../sass/_theme.sass */
-html #header #RESShortcuts .RESShortcutsCurrentSub:hover {
+html:not([lang="ll"]) body #header #RESShortcuts .RESShortcutsCurrentSub:hover {
   color: yellow !important;
 }
 /* line 83, ../sass/_theme.sass */
-html .dropdown.srdrop .selected {
+html:not([lang="ll"]) body .dropdown.srdrop .selected {
   color: #eeeeee;
 }
 /* line 86, ../sass/_theme.sass */
-html #sr-more-link {
+html:not([lang="ll"]) body #sr-more-link {
   color: #eeeeee;
   background-color: black;
 }
 /* line 89, ../sass/_theme.sass */
-html .morelink {
+html:not([lang="ll"]) body .morelink {
   color: #eeeeee;
   background-color: black;
 }
 /* line 93, ../sass/_theme.sass */
-html .keyHighlight {
+html:not([lang="ll"]) body .keyHighlight {
   background-color: #000022 !important;
 }
 /* line 98, ../sass/_theme.sass */
-html .thing .title {
+html:not([lang="ll"]) body .thing .title {
   color: #ffcc00 !important;
 }
 /* line 100, ../sass/_theme.sass */
-html .thing .title:hover {
+html:not([lang="ll"]) body .thing .title:hover {
   color: yellow !important;
 }
 /* line 102, ../sass/_theme.sass */
-html .thing .title:visited, html .thing .title.click {
+html:not([lang="ll"]) body .thing .title:visited, html:not([lang="ll"]) body .thing .title.click {
   color: #aa6600 !important;
 }
 /* line 104, ../sass/_theme.sass */
-html .thing .title:visited:hover, html .thing .title.click:hover {
+html:not([lang="ll"]) body .thing .title:visited:hover, html:not([lang="ll"]) body .thing .title.click:hover {
   color: #ffcc00 !important;
 }
 /* line 109, ../sass/_theme.sass */
-html .listing-page .thing .title .title[href*="drop.sc"]::after {
+html:not([lang="ll"]) body .listing-page .thing .title .title[href*="drop.sc"]::after {
   content: url(%%Video%%);
 }
 /* line 115, ../sass/_theme.sass */
-html .drop-choices {
+html:not([lang="ll"]) body .drop-choices {
   background: black;
 }
 /* line 118, ../sass/_theme.sass */
-html .flairselector li {
+html:not([lang="ll"]) body .flairselector li {
   border: none;
 }
 /* line 124, ../sass/_theme.sass */
-html .NERPageMarker {
+html:not([lang="ll"]) body .NERPageMarker {
   color: #eeeeee !important;
 }
 /* line 127, ../sass/_theme.sass */
-html .neverEndingReddit {
+html:not([lang="ll"]) body .neverEndingReddit {
   background: none !important;
   color: #eeeeee !important;
 }
 /* line 130, ../sass/_theme.sass */
-html .neverEndingReddit img {
+html:not([lang="ll"]) body .neverEndingReddit img {
   display: none;
 }
 /* line 136, ../sass/_theme.sass */
-html .RESDialogSmall {
+html:not([lang="ll"]) body .RESDialogSmall {
   background-color: black !important;
   color: #eeeeee !important;
 }
 /* line 139, ../sass/_theme.sass */
-html .RESDialogSmall > h3 {
+html:not([lang="ll"]) body .RESDialogSmall > h3 {
   background-color: #222222 !important;
   color: white !important;
 }
 /* line 143, ../sass/_theme.sass */
-html .RESCloseButton {
+html:not([lang="ll"]) body .RESCloseButton {
   background: black !important;
 }
 /* line 145, ../sass/_theme.sass */
-html .RESCloseButton:hover {
+html:not([lang="ll"]) body .RESCloseButton:hover {
   background: #444444 !important;
 }
 /* line 150, ../sass/_theme.sass */
-html .side {
+html:not([lang="ll"]) body .side {
   color: #eeeeee !important;
 }
 /* line 153, ../sass/_theme.sass */
-html .side .titlebox .redditname a {
+html:not([lang="ll"]) body .side .titlebox .redditname a {
   color: #eeeeee !important;
 }
 /* line 156, ../sass/_theme.sass */
-html .side .titlebox .tagline {
+html:not([lang="ll"]) body .side .titlebox .tagline {
   background-color: black;
 }
 /* line 160, ../sass/_theme.sass */
-html .side .sidecontentbox .content {
+html:not([lang="ll"]) body .side .sidecontentbox .content {
   background-color: black;
 }
 /* line 164, ../sass/_theme.sass */
-html .side h4 {
+html:not([lang="ll"]) body .side h4 {
   background: black;
   color: #eeeeee;
 }
 /* line 169, ../sass/_theme.sass */
-html .side h5 {
+html:not([lang="ll"]) body .side h5 {
   background: black;
   color: #eeeeee;
 }
 /* line 174, ../sass/_theme.sass */
-html .side h6 {
+html:not([lang="ll"]) body .side h6 {
   background: white;
   color: #222222;
 }
 /* line 178, ../sass/_theme.sass */
-html #search input[type="text"] {
+html:not([lang="ll"]) body #search input[type="text"] {
   background: black;
   color: #eeeeee;
 }
 /* line 186, ../sass/_theme.sass */
-html #header #header-bottom-left ul.tabmenu li a {
+html:not([lang="ll"]) body #header #header-bottom-left ul.tabmenu li a {
   background-color: black;
 }
 /* line 188, ../sass/_theme.sass */
-html #header #header-bottom-left ul.tabmenu li.selected a {
+html:not([lang="ll"]) body #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: black;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
 /* line 200, ../sass/_theme.sass */
-html #sr-header-area {
+html:not([lang="ll"]) body #sr-header-area {
   background-color: black;
   color: #eeeeee;
 }
 /* line 203, ../sass/_theme.sass */
-html #sr-header-area .sr-bar a {
+html:not([lang="ll"]) body #sr-header-area .sr-bar a {
   color: #aa6600;
 }
 /* line 207, ../sass/_theme.sass */
-html .side .usertext-body {
+html:not([lang="ll"]) body .side .usertext-body {
   background: black;
 }
 /* line 211, ../sass/_theme.sass */
-html .link .usertext .md {
+html:not([lang="ll"]) body .link .usertext .md {
   background-color: black;
 }
 
