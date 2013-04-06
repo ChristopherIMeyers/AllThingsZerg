@@ -4,3 +4,4 @@
 ##*.sassc
 .sass-cache/*
 
+thumbs.db
