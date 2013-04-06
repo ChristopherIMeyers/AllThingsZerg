@@ -5,25 +5,28 @@
 
 
 //remove me when all errors gone
-@import themeDark 
+//$background: black
 
 @import base
 @import layout
-@import modules
 
 
-$themeName: en
-@import themeDark
-//this seems odd, but it is here in case we have any strange css power struggles
-html:not([lang="ll"]) body
+html:not([lang*="l"])
+  @import themeDark
+  @import modules
   @import theme
-
 
 $themeName: ll
 html[lang="#{$themeName}"]
   @import themeLight
+  @import modules
   @import theme
 
+$themeName: lx
+html[lang="#{$themeName}"]
+  @import themeExperimental
+  @import modules
+  @import theme
 
 
 
