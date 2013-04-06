@@ -301,7 +301,8 @@ html[lang="ll"] .arrow.downmod { background-position: -34px -15px !important; }
 html[lang="ll"] .link .score.dislikes { color: #9452c6; }
 html[lang="ll"] .link .score.likes { color: #f7941d; }
 html[lang="ll"] .listing-page .link .rank { margin-top: 15px; margin-right: 0px; text-align: center; }
-html[lang="ll"] body { background-color: #eeeeee; background-repeat: repeat; }
+html[lang="ll"] .thing .title { font-weight: bold; }
+html[lang="ll"] body { background-color: #f7f7f7; background-repeat: repeat; }
 html[lang="ll"] a { text-decoration: none; color: #780000; }
 html[lang="ll"] a:hover { color: #de0000; }
 html[lang="ll"] ::selection { color: white; background-color: #1111aa !important; }
@@ -310,7 +311,7 @@ html[lang="ll"] body > .content { margin: 0px; padding: 7px 5px 0px 5px; backgro
 html[lang="ll"] .comment .md p > a:visited { color: #780000 !important; }
 html[lang="ll"] .comment .md p > a:hover { color: #de0000 !important; }
 html[lang="ll"] .newComments { color: #de0000 !important; }
-html[lang="ll"] .entry .buttons li.trial-stamp, html[lang="ll"] .entry .buttons li.reported-stamp { color: #eeeeee; }
+html[lang="ll"] .entry .buttons li.trial-stamp, html[lang="ll"] .entry .buttons li.reported-stamp { color: #f7f7f7; }
 html[lang="ll"] a.author.submitter { color: #de0000 !important; background: none !important; }
 html[lang="ll"] a.author.submitter:hover { color: #f70000 !important; background: none !important; }
 html[lang="ll"] h2 { color: #222222; }
@@ -318,41 +319,41 @@ html[lang="ll"] h2 a { color: #780000; }
 html[lang="ll"] p.tagline em { color: #111111; display: none; }
 html[lang="ll"] .usertext.grayed .usertext-body { color: red; background: none; }
 html[lang="ll"] .linefield { background: none; }
-html[lang="ll"] .roundfield { background-color: #eeeeee; }
+html[lang="ll"] .roundfield { background-color: #f7f7f7; }
 html[lang="ll"] .tagline a { color: #780000; text-decoration: none; }
 html[lang="ll"] .tagline a:hover { color: #de0000; text-decoration: none; }
 html[lang="ll"] .tagline .submitter { color: #de0000; }
 html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #de0000 !important; }
 html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: #f70000 !important; }
 html[lang="ll"] .dropdown.srdrop .selected { color: #111111; }
-html[lang="ll"] #sr-more-link { color: #111111; background-color: #eeeeee; }
-html[lang="ll"] .morelink { color: #111111; background-color: #eeeeee; }
+html[lang="ll"] #sr-more-link { color: #111111; background-color: #f7f7f7; }
+html[lang="ll"] .morelink { color: #111111; background-color: #f7f7f7; }
 html[lang="ll"] .keyHighlight { background-color: #eeeeff !important; }
 html[lang="ll"] .thing .title { color: #de0000 !important; }
 html[lang="ll"] .thing .title:hover { color: #f70000 !important; }
 html[lang="ll"] .thing .title:visited, html[lang="ll"] .thing .title.click { color: #780000 !important; }
 html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover { color: #de0000 !important; }
 html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after { content: url(%%Video%%); }
-html[lang="ll"] .drop-choices { background: #eeeeee; }
+html[lang="ll"] .drop-choices { background: #f7f7f7; }
 html[lang="ll"] .flairselector li { border: none; }
 html[lang="ll"] .NERPageMarker { color: #111111 !important; }
 html[lang="ll"] .neverEndingReddit { background: none !important; color: #111111 !important; }
 html[lang="ll"] .neverEndingReddit img { display: none; }
-html[lang="ll"] .RESDialogSmall { background-color: #eeeeee !important; color: #111111 !important; }
+html[lang="ll"] .RESDialogSmall { background-color: #f7f7f7 !important; color: #111111 !important; }
 html[lang="ll"] .RESDialogSmall > h3 { background-color: #222222 !important; color: #111111 !important; }
-html[lang="ll"] .RESCloseButton { background: #eeeeee !important; }
+html[lang="ll"] .RESCloseButton { background: #f7f7f7 !important; }
 html[lang="ll"] .RESCloseButton:hover { background: #444444 !important; }
 html[lang="ll"] .side { color: #111111 !important; }
 html[lang="ll"] .side .titlebox .redditname a { color: #111111 !important; }
-html[lang="ll"] .side .titlebox .tagline { background-color: #eeeeee; }
-html[lang="ll"] .side .sidecontentbox .content { background-color: #eeeeee; }
-html[lang="ll"] .side h4 { background: #eeeeee; color: #111111; }
-html[lang="ll"] .side h5 { background: #eeeeee; color: #111111; }
-html[lang="ll"] .side h6 { background: #111111; color: #eeeeee; }
-html[lang="ll"] #search input[type="text"] { background: #eeeeee; color: #111111; }
-html[lang="ll"] #header #header-bottom-left ul.tabmenu li a { background-color: #eeeeee; }
-html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: #eeeeee; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
-html[lang="ll"] #sr-header-area { background-color: #eeeeee; color: #111111; }
+html[lang="ll"] .side .titlebox .tagline { background-color: #f7f7f7; }
+html[lang="ll"] .side .sidecontentbox .content { background-color: #f7f7f7; }
+html[lang="ll"] .side h4 { background: #f7f7f7; color: #111111; }
+html[lang="ll"] .side h5 { background: #f7f7f7; color: #111111; }
+html[lang="ll"] .side h6 { background: #111111; color: #f7f7f7; }
+html[lang="ll"] #search input[type="text"] { background: #f7f7f7; color: #111111; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu li a { background-color: #f7f7f7; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: #f7f7f7; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
+html[lang="ll"] #sr-header-area { background-color: #f7f7f7; color: #111111; }
 html[lang="ll"] #sr-header-area .sr-bar a { color: #780000; }
-html[lang="ll"] .side .usertext-body { background: #eeeeee; }
-html[lang="ll"] .link .usertext .md { background-color: #eeeeee; }
+html[lang="ll"] .side .usertext-body { background: #f7f7f7; }
+html[lang="ll"] .link .usertext .md { background-color: #f7f7f7; }
