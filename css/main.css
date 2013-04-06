@@ -1082,7 +1082,7 @@ html[lang="ll"] #header #header-bottom-left ul.tabmenu a {
 html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
   display: none !important;
 }
-/* line 70, ../sass/_themeLight.sass */
+/* line 69, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow {
   display: block;
   background: url(%%alt-arrows%%);
@@ -1094,45 +1094,45 @@ html[lang="ll"] .arrow {
   background-repeat: no-repeat;
   margin-bottom: 1px;
 }
-/* line 80, ../sass/_themeLight.sass */
+/* line 79, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up {
   background-position: 0 0 !important;
 }
-/* line 82, ../sass/_themeLight.sass */
+/* line 81, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up:hover {
   background-position: -17px 0 !important;
 }
-/* line 84, ../sass/_themeLight.sass */
+/* line 83, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.upmod {
   background-position: -34px 0 !important;
 }
-/* line 86, ../sass/_themeLight.sass */
+/* line 85, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down {
   background-position: 0 -15px !important;
 }
-/* line 88, ../sass/_themeLight.sass */
+/* line 87, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down:hover {
   background-position: -17px -15px !important;
 }
-/* line 90, ../sass/_themeLight.sass */
+/* line 89, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.downmod {
   background-position: -34px -15px !important;
 }
-/* line 92, ../sass/_themeLight.sass */
+/* line 91, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.dislikes {
   color: #9452c6;
 }
-/* line 94, ../sass/_themeLight.sass */
+/* line 93, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.likes {
   color: #f7941d;
 }
-/* line 96, ../sass/_themeLight.sass */
+/* line 95, ../sass/_themeLight.sass */
 html[lang="ll"] .listing-page .link .rank {
   margin-top: 15px;
   margin-right: 0px;
   text-align: center;
 }
-/* line 101, ../sass/_themeLight.sass */
+/* line 100, ../sass/_themeLight.sass */
 html[lang="ll"] .thing .title {
   font-weight: bold;
 }
@@ -1843,7 +1843,7 @@ html[lang="ll"] ::selection {
 }
 /* line 18, ../sass/_theme.sass */
 html[lang="ll"] code {
-  color: #37df37;
+  color: #00a300;
 }
 /* line 21, ../sass/_theme.sass */
 html[lang="ll"] body > .content {
@@ -2828,7 +2828,7 @@ html[lang="lx"] ::selection {
 }
 /* line 18, ../sass/_theme.sass */
 html[lang="lx"] code {
-  color: #37df37;
+  color: #00a300;
 }
 /* line 21, ../sass/_theme.sass */
 html[lang="lx"] body > .content {
