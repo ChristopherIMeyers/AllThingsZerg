@@ -250,16 +250,16 @@ html:not([lang*="l"]) .side blockquote {
 html:not([lang*="l"]) .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
-  height: 25px;
+  height: 3px;
   overflow: hidden;
-  opacity: 0.5;
+  background: #aa6600;
 }
 /* line 95, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote:hover blockquote {
   display: block;
   height: auto;
-  opacity: 1;
   padding-bottom: 5px;
+  background: none;
 }
 /* line 4, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .listing-page .thing .tagline {
@@ -1034,55 +1034,55 @@ html:not([lang*="l"]) .link .usertext .md {
   background-color: black;
 }
 
-/* line 15, ../sass/_themeLight.sass */
+/* line 16, ../sass/_themeLight.sass */
 html[lang="ll"] #search input[type="text"] {
   border: 1px solid black;
 }
-/* line 17, ../sass/_themeLight.sass */
+/* line 18, ../sass/_themeLight.sass */
 html[lang="ll"] .morelink:hover a {
   color: black;
 }
-/* line 19, ../sass/_themeLight.sass */
+/* line 20, ../sass/_themeLight.sass */
 html[lang="ll"] .flair {
   color: black;
 }
-/* line 22, ../sass/_themeLight.sass */
+/* line 23, ../sass/_themeLight.sass */
 html[lang="ll"] .side {
   box-shadow: -5px 0px 11px -8px black;
   padding-left: 3px;
 }
-/* line 33, ../sass/_themeLight.sass */
+/* line 34, ../sass/_themeLight.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   padding-bottom: 0px;
 }
-/* line 37, ../sass/_themeLight.sass */
+/* line 38, ../sass/_themeLight.sass */
 html[lang="ll"] #header {
   box-shadow: 0px -10px 10px 10px black;
   margin-bottom: 30px;
 }
-/* line 43, ../sass/_themeLight.sass */
+/* line 44, ../sass/_themeLight.sass */
 html[lang="ll"] .pagename.redditname a {
   display: none;
 }
-/* line 47, ../sass/_themeLight.sass */
+/* line 48, ../sass/_themeLight.sass */
 html[lang="ll"] .side h6 {
   font-size: 14px;
   padding: 6px 8px;
 }
-/* line 53, ../sass/_themeLight.sass */
+/* line 54, ../sass/_themeLight.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu {
   bottom: -5px;
   font-size: 14px;
 }
-/* line 56, ../sass/_themeLight.sass */
+/* line 57, ../sass/_themeLight.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu a {
   border: 1px solid gray;
 }
-/* line 60, ../sass/_themeLight.sass */
+/* line 61, ../sass/_themeLight.sass */
 html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
   display: none !important;
 }
-/* line 69, ../sass/_themeLight.sass */
+/* line 70, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow {
   display: block;
   background: url(%%alt-arrows%%);
@@ -1094,45 +1094,45 @@ html[lang="ll"] .arrow {
   background-repeat: no-repeat;
   margin-bottom: 1px;
 }
-/* line 79, ../sass/_themeLight.sass */
+/* line 80, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up {
   background-position: 0 0 !important;
 }
-/* line 81, ../sass/_themeLight.sass */
+/* line 82, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up:hover {
   background-position: -17px 0 !important;
 }
-/* line 83, ../sass/_themeLight.sass */
+/* line 84, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.upmod {
   background-position: -34px 0 !important;
 }
-/* line 85, ../sass/_themeLight.sass */
+/* line 86, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down {
   background-position: 0 -15px !important;
 }
-/* line 87, ../sass/_themeLight.sass */
+/* line 88, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down:hover {
   background-position: -17px -15px !important;
 }
-/* line 89, ../sass/_themeLight.sass */
+/* line 90, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.downmod {
   background-position: -34px -15px !important;
 }
-/* line 91, ../sass/_themeLight.sass */
+/* line 92, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.dislikes {
   color: #9452c6;
 }
-/* line 93, ../sass/_themeLight.sass */
+/* line 94, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.likes {
   color: #f7941d;
 }
-/* line 95, ../sass/_themeLight.sass */
+/* line 96, ../sass/_themeLight.sass */
 html[lang="ll"] .listing-page .link .rank {
   margin-top: 15px;
   margin-right: 0px;
   text-align: center;
 }
-/* line 100, ../sass/_themeLight.sass */
+/* line 101, ../sass/_themeLight.sass */
 html[lang="ll"] .thing .title {
   font-weight: bold;
 }
@@ -1283,16 +1283,16 @@ html[lang="ll"] .side blockquote {
 html[lang="ll"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
-  height: 25px;
+  height: 3px;
   overflow: hidden;
-  opacity: 0.5;
+  background: #aa6600;
 }
 /* line 95, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
-  opacity: 1;
   padding-bottom: 5px;
+  background: none;
 }
 /* line 4, ../sass/_modules_thing.sass */
 html[lang="ll"] .listing-page .thing .tagline {
@@ -2067,7 +2067,7 @@ html[lang="ll"] .link .usertext .md {
   background-color: #f7f7f7;
 }
 
-/* line 17, ../sass/_themeExperimental.sass */
+/* line 18, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow {
   display: block;
   background: url(%%alt-arrows%%);
@@ -2079,45 +2079,45 @@ html[lang="lx"] .arrow {
   background-repeat: no-repeat;
   margin-bottom: 1px;
 }
-/* line 27, ../sass/_themeExperimental.sass */
+/* line 28, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.up {
   background-position: 0 0 !important;
 }
-/* line 29, ../sass/_themeExperimental.sass */
+/* line 30, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.up:hover {
   background-position: -17px 0 !important;
 }
-/* line 31, ../sass/_themeExperimental.sass */
+/* line 32, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.upmod {
   background-position: -34px 0 !important;
 }
-/* line 33, ../sass/_themeExperimental.sass */
+/* line 34, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.down {
   background-position: 0 -15px !important;
 }
-/* line 35, ../sass/_themeExperimental.sass */
+/* line 36, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.down:hover {
   background-position: -17px -15px !important;
 }
-/* line 37, ../sass/_themeExperimental.sass */
+/* line 38, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.downmod {
   background-position: -34px -15px !important;
 }
-/* line 39, ../sass/_themeExperimental.sass */
+/* line 40, ../sass/_themeExperimental.sass */
 html[lang="lx"] .link .score.dislikes {
   color: #9452c6;
 }
-/* line 41, ../sass/_themeExperimental.sass */
+/* line 42, ../sass/_themeExperimental.sass */
 html[lang="lx"] .link .score.likes {
   color: #f7941d;
 }
-/* line 43, ../sass/_themeExperimental.sass */
+/* line 44, ../sass/_themeExperimental.sass */
 html[lang="lx"] .listing-page .link .rank {
   margin-top: 15px;
   margin-right: 0px;
   text-align: center;
 }
-/* line 48, ../sass/_themeExperimental.sass */
+/* line 49, ../sass/_themeExperimental.sass */
 html[lang="lx"] .thing .title {
   font-weight: bold;
 }
@@ -2268,16 +2268,16 @@ html[lang="lx"] .side blockquote {
 html[lang="lx"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
-  height: 25px;
+  height: 3px;
   overflow: hidden;
-  opacity: 0.5;
+  background: #aa6600;
 }
 /* line 95, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
-  opacity: 1;
   padding-bottom: 5px;
+  background: none;
 }
 /* line 4, ../sass/_modules_thing.sass */
 html[lang="lx"] .listing-page .thing .tagline {
