@@ -76,30 +76,30 @@
   min-height: 64px;
 }
 
-/* line 16, ../sass/_themeDark.sass */
+/* line 15, ../sass/_themeDark.sass */
 html:not([lang*="l"]) body {
   background: url(%%background%%);
 }
-/* line 19, ../sass/_themeDark.sass */
+/* line 18, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow {
   height: 22px;
   width: 22px;
   background-position: 0px 0px !important;
   background: none;
 }
-/* line 24, ../sass/_themeDark.sass */
+/* line 23, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.down {
   background-image: url(%%arrow-down-off%%);
 }
-/* line 26, ../sass/_themeDark.sass */
+/* line 25, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.downmod {
   background-image: url(%%arrow-down%%);
 }
-/* line 28, ../sass/_themeDark.sass */
+/* line 27, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.up {
   background-image: url(%%arrow-up-off%%);
 }
-/* line 30, ../sass/_themeDark.sass */
+/* line 29, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.upmod {
   background-image: url(%%arrow-up%%);
 }
@@ -536,34 +536,35 @@ html:not([lang*="l"]) #search input[type="text"]:focus {
 /* line 31, ../sass/_modules.sass */
 html:not([lang*="l"]) .infobar {
   background: none;
+  border-color: gray;
 }
-/* line 35, ../sass/_modules.sass */
+/* line 36, ../sass/_modules.sass */
 html:not([lang*="l"]) #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 42, ../sass/_modules.sass */
+/* line 43, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 47, ../sass/_modules.sass */
+/* line 48, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 50, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 53, ../sass/_modules.sass */
+/* line 54, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 60, ../sass/_modules.sass */
+/* line 61, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair {
   background: none;
   color: #eeeeee;
@@ -571,7 +572,7 @@ html:not([lang*="l"]) .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 68, ../sass/_modules.sass */
+/* line 69, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -580,7 +581,7 @@ html:not([lang*="l"]) .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 75, ../sass/_modules.sass */
+/* line 76, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -593,67 +594,67 @@ html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Ma
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 87, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 88, ../sass/_modules.sass */
+/* line 89, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 92, ../sass/_modules.sass */
+/* line 93, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 96, ../sass/_modules.sass */
+/* line 97, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 99, ../sass/_modules.sass */
+/* line 100, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 102, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master:hover, html:not([lang*="l"]) .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 104, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 106, ../sass/_modules.sass */
+/* line 107, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 109, ../sass/_modules.sass */
+/* line 110, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-NA:hover::after, html:not([lang*="l"]) .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 112, ../sass/_modules.sass */
+/* line 113, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 115, ../sass/_modules.sass */
+/* line 116, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 120, ../sass/_modules.sass */
+/* line 121, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 130, ../sass/_modules.sass */
+/* line 131, ../sass/_modules.sass */
 html:not([lang*="l"]) .parentComment.comment {
   color: white !important;
   background-color: black !important;
@@ -661,31 +662,31 @@ html:not([lang*="l"]) .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px black;
 }
-/* line 146, ../sass/_modules.sass */
+/* line 147, ../sass/_modules.sass */
 html:not([lang*="l"]) .md.wiki h1, html:not([lang*="l"]) .md.wiki h2, html:not([lang*="l"]) .md.wiki h3, html:not([lang*="l"]) .md.wiki h4, html:not([lang*="l"]) .md.wiki h5, html:not([lang*="l"]) .md.wiki h6 {
   color: #eeeeee;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 153, ../sass/_modules.sass */
 html:not([lang*="l"]) .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 157, ../sass/_modules.sass */
+/* line 158, ../sass/_modules.sass */
 html:not([lang*="l"]) .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 158, ../sass/_modules.sass */
+/* line 159, ../sass/_modules.sass */
 html:not([lang*="l"]) .wikititle::before {
   content: "wiki/";
 }
-/* line 163, ../sass/_modules.sass */
+/* line 164, ../sass/_modules.sass */
 html:not([lang*="l"]) .wikititle strong {
   font-weight: normal !important;
 }
-/* line 168, ../sass/_modules.sass */
+/* line 169, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions {
   border: 1px solid gray;
   border: none;
@@ -693,7 +694,7 @@ html:not([lang*="l"]) .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 177, ../sass/_modules.sass */
+/* line 178, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -701,20 +702,20 @@ html:not([lang*="l"]) .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 183, ../sass/_modules.sass */
+/* line 184, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 185, ../sass/_modules.sass */
+/* line 186, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 190, ../sass/_modules.sass */
+/* line 191, ../sass/_modules.sass */
 html:not([lang*="l"]) .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 198, ../sass/_modules.sass */
+/* line 199, ../sass/_modules.sass */
 html:not([lang*="l"]) div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -724,11 +725,11 @@ html:not([lang*="l"]) div.wiki div.toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 207, ../sass/_modules.sass */
+/* line 208, ../sass/_modules.sass */
 html:not([lang*="l"]) .md.wiki > .toc > ul ul {
   border: none;
 }
-/* line 210, ../sass/_modules.sass */
+/* line 211, ../sass/_modules.sass */
 html:not([lang*="l"]) .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -741,50 +742,50 @@ html:not([lang*="l"]) .wiki .toc > ul::before {
   width: 300px;
   position: absolute !important;
 }
-/* line 223, ../sass/_modules.sass */
+/* line 224, ../sass/_modules.sass */
 html:not([lang*="l"]) .usertext-body {
   background: none;
 }
-/* line 230, ../sass/_modules.sass */
+/* line 231, ../sass/_modules.sass */
 html:not([lang*="l"]) .content.submit .info-notice, html:not([lang*="l"]) .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 233, ../sass/_modules.sass */
+/* line 234, ../sass/_modules.sass */
 html:not([lang*="l"]) .tabmenu.formtab a {
   border: none;
 }
-/* line 236, ../sass/_modules.sass */
+/* line 237, ../sass/_modules.sass */
 html:not([lang*="l"]) .formtab-content {
   border-top: 2px solid white;
 }
-/* line 241, ../sass/_modules.sass */
+/* line 242, ../sass/_modules.sass */
 html:not([lang*="l"]) .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 244, ../sass/_modules.sass */
+/* line 245, ../sass/_modules.sass */
 html:not([lang*="l"]) .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 250, ../sass/_modules.sass */
+/* line 251, ../sass/_modules.sass */
 html:not([lang*="l"]) .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 259, ../sass/_modules.sass */
+/* line 260, ../sass/_modules.sass */
 html:not([lang*="l"]) .choice:hover {
   background: #333333 !important;
 }
-/* line 265, ../sass/_modules.sass */
+/* line 266, ../sass/_modules.sass */
 html:not([lang*="l"]) .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
-/* line 271, ../sass/_modules.sass */
+/* line 272, ../sass/_modules.sass */
 html:not([lang*="l"]) .nextprev a {
   background: none;
 }
-/* line 275, ../sass/_modules.sass */
+/* line 276, ../sass/_modules.sass */
 html:not([lang*="l"]) .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -909,7 +910,7 @@ html:not([lang*="l"]) .morelink {
 }
 /* line 93, ../sass/_theme.sass */
 html:not([lang*="l"]) .keyHighlight {
-  background-color: #000022 !important;
+  background: none !important;
 }
 /* line 98, ../sass/_theme.sass */
 html:not([lang*="l"]) .thing .title {
@@ -1034,55 +1035,55 @@ html:not([lang*="l"]) .link .usertext .md {
   background-color: black;
 }
 
-/* line 16, ../sass/_themeLight.sass */
+/* line 15, ../sass/_themeLight.sass */
 html[lang="ll"] #search input[type="text"] {
   border: 1px solid black;
 }
-/* line 18, ../sass/_themeLight.sass */
+/* line 17, ../sass/_themeLight.sass */
 html[lang="ll"] .morelink:hover a {
   color: black;
 }
-/* line 20, ../sass/_themeLight.sass */
+/* line 19, ../sass/_themeLight.sass */
 html[lang="ll"] .flair {
   color: black;
 }
-/* line 23, ../sass/_themeLight.sass */
+/* line 22, ../sass/_themeLight.sass */
 html[lang="ll"] .side {
   box-shadow: -5px 0px 11px -8px black;
   padding-left: 3px;
 }
-/* line 34, ../sass/_themeLight.sass */
+/* line 33, ../sass/_themeLight.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   padding-bottom: 0px;
 }
-/* line 38, ../sass/_themeLight.sass */
+/* line 37, ../sass/_themeLight.sass */
 html[lang="ll"] #header {
   box-shadow: 0px -10px 10px 10px black;
   margin-bottom: 30px;
 }
-/* line 44, ../sass/_themeLight.sass */
+/* line 43, ../sass/_themeLight.sass */
 html[lang="ll"] .pagename.redditname a {
   display: none;
 }
-/* line 48, ../sass/_themeLight.sass */
+/* line 47, ../sass/_themeLight.sass */
 html[lang="ll"] .side h6 {
   font-size: 14px;
   padding: 6px 8px;
 }
-/* line 54, ../sass/_themeLight.sass */
+/* line 53, ../sass/_themeLight.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu {
   bottom: -5px;
   font-size: 14px;
 }
-/* line 57, ../sass/_themeLight.sass */
+/* line 56, ../sass/_themeLight.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu a {
   border: 1px solid gray;
 }
-/* line 61, ../sass/_themeLight.sass */
+/* line 60, ../sass/_themeLight.sass */
 html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
   display: none !important;
 }
-/* line 70, ../sass/_themeLight.sass */
+/* line 69, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow {
   display: block;
   background: url(%%alt-arrows%%);
@@ -1094,45 +1095,45 @@ html[lang="ll"] .arrow {
   background-repeat: no-repeat;
   margin-bottom: 1px;
 }
-/* line 80, ../sass/_themeLight.sass */
+/* line 79, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up {
   background-position: 0 0 !important;
 }
-/* line 82, ../sass/_themeLight.sass */
+/* line 81, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up:hover {
   background-position: -17px 0 !important;
 }
-/* line 84, ../sass/_themeLight.sass */
+/* line 83, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.upmod {
   background-position: -34px 0 !important;
 }
-/* line 86, ../sass/_themeLight.sass */
+/* line 85, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down {
   background-position: 0 -15px !important;
 }
-/* line 88, ../sass/_themeLight.sass */
+/* line 87, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down:hover {
   background-position: -17px -15px !important;
 }
-/* line 90, ../sass/_themeLight.sass */
+/* line 89, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.downmod {
   background-position: -34px -15px !important;
 }
-/* line 92, ../sass/_themeLight.sass */
+/* line 91, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.dislikes {
   color: #9452c6;
 }
-/* line 94, ../sass/_themeLight.sass */
+/* line 93, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.likes {
   color: #f7941d;
 }
-/* line 96, ../sass/_themeLight.sass */
+/* line 95, ../sass/_themeLight.sass */
 html[lang="ll"] .listing-page .link .rank {
   margin-top: 15px;
   margin-right: 0px;
   text-align: center;
 }
-/* line 101, ../sass/_themeLight.sass */
+/* line 100, ../sass/_themeLight.sass */
 html[lang="ll"] .thing .title {
   font-weight: bold;
 }
@@ -1569,34 +1570,35 @@ html[lang="ll"] #search input[type="text"]:focus {
 /* line 31, ../sass/_modules.sass */
 html[lang="ll"] .infobar {
   background: none;
+  border-color: gray;
 }
-/* line 35, ../sass/_modules.sass */
+/* line 36, ../sass/_modules.sass */
 html[lang="ll"] #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 42, ../sass/_modules.sass */
+/* line 43, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 47, ../sass/_modules.sass */
+/* line 48, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 50, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 53, ../sass/_modules.sass */
+/* line 54, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 60, ../sass/_modules.sass */
+/* line 61, ../sass/_modules.sass */
 html[lang="ll"] .flair {
   background: none;
   color: #111111;
@@ -1604,7 +1606,7 @@ html[lang="ll"] .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 68, ../sass/_modules.sass */
+/* line 69, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -1613,7 +1615,7 @@ html[lang="ll"] .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 75, ../sass/_modules.sass */
+/* line 76, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -1626,67 +1628,67 @@ html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2 {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 87, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 88, ../sass/_modules.sass */
+/* line 89, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 92, ../sass/_modules.sass */
+/* line 93, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 96, ../sass/_modules.sass */
+/* line 97, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 99, ../sass/_modules.sass */
+/* line 100, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 102, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master:hover, html[lang="ll"] .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 104, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 106, ../sass/_modules.sass */
+/* line 107, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 109, ../sass/_modules.sass */
+/* line 110, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-NA:hover::after, html[lang="ll"] .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 112, ../sass/_modules.sass */
+/* line 113, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 115, ../sass/_modules.sass */
+/* line 116, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 120, ../sass/_modules.sass */
+/* line 121, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 130, ../sass/_modules.sass */
+/* line 131, ../sass/_modules.sass */
 html[lang="ll"] .parentComment.comment {
   color: white !important;
   background-color: #f7f7f7 !important;
@@ -1694,31 +1696,31 @@ html[lang="ll"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px #f7f7f7;
 }
-/* line 146, ../sass/_modules.sass */
+/* line 147, ../sass/_modules.sass */
 html[lang="ll"] .md.wiki h1, html[lang="ll"] .md.wiki h2, html[lang="ll"] .md.wiki h3, html[lang="ll"] .md.wiki h4, html[lang="ll"] .md.wiki h5, html[lang="ll"] .md.wiki h6 {
   color: #111111;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 153, ../sass/_modules.sass */
 html[lang="ll"] .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 157, ../sass/_modules.sass */
+/* line 158, ../sass/_modules.sass */
 html[lang="ll"] .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 158, ../sass/_modules.sass */
+/* line 159, ../sass/_modules.sass */
 html[lang="ll"] .wikititle::before {
   content: "wiki/";
 }
-/* line 163, ../sass/_modules.sass */
+/* line 164, ../sass/_modules.sass */
 html[lang="ll"] .wikititle strong {
   font-weight: normal !important;
 }
-/* line 168, ../sass/_modules.sass */
+/* line 169, ../sass/_modules.sass */
 html[lang="ll"] .pageactions {
   border: 1px solid gray;
   border: none;
@@ -1726,7 +1728,7 @@ html[lang="ll"] .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 177, ../sass/_modules.sass */
+/* line 178, ../sass/_modules.sass */
 html[lang="ll"] .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -1734,20 +1736,20 @@ html[lang="ll"] .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 183, ../sass/_modules.sass */
+/* line 184, ../sass/_modules.sass */
 html[lang="ll"] .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 185, ../sass/_modules.sass */
+/* line 186, ../sass/_modules.sass */
 html[lang="ll"] .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 190, ../sass/_modules.sass */
+/* line 191, ../sass/_modules.sass */
 html[lang="ll"] .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 198, ../sass/_modules.sass */
+/* line 199, ../sass/_modules.sass */
 html[lang="ll"] div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -1757,11 +1759,11 @@ html[lang="ll"] div.wiki div.toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 207, ../sass/_modules.sass */
+/* line 208, ../sass/_modules.sass */
 html[lang="ll"] .md.wiki > .toc > ul ul {
   border: none;
 }
-/* line 210, ../sass/_modules.sass */
+/* line 211, ../sass/_modules.sass */
 html[lang="ll"] .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -1774,50 +1776,50 @@ html[lang="ll"] .wiki .toc > ul::before {
   width: 300px;
   position: absolute !important;
 }
-/* line 223, ../sass/_modules.sass */
+/* line 224, ../sass/_modules.sass */
 html[lang="ll"] .usertext-body {
   background: none;
 }
-/* line 230, ../sass/_modules.sass */
+/* line 231, ../sass/_modules.sass */
 html[lang="ll"] .content.submit .info-notice, html[lang="ll"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 233, ../sass/_modules.sass */
+/* line 234, ../sass/_modules.sass */
 html[lang="ll"] .tabmenu.formtab a {
   border: none;
 }
-/* line 236, ../sass/_modules.sass */
+/* line 237, ../sass/_modules.sass */
 html[lang="ll"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 241, ../sass/_modules.sass */
+/* line 242, ../sass/_modules.sass */
 html[lang="ll"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 244, ../sass/_modules.sass */
+/* line 245, ../sass/_modules.sass */
 html[lang="ll"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 250, ../sass/_modules.sass */
+/* line 251, ../sass/_modules.sass */
 html[lang="ll"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 259, ../sass/_modules.sass */
+/* line 260, ../sass/_modules.sass */
 html[lang="ll"] .choice:hover {
   background: #333333 !important;
 }
-/* line 265, ../sass/_modules.sass */
+/* line 266, ../sass/_modules.sass */
 html[lang="ll"] .voteWeight {
   color: #111111 !important;
   background: none !important;
 }
-/* line 271, ../sass/_modules.sass */
+/* line 272, ../sass/_modules.sass */
 html[lang="ll"] .nextprev a {
   background: none;
 }
-/* line 275, ../sass/_modules.sass */
+/* line 276, ../sass/_modules.sass */
 html[lang="ll"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -1942,7 +1944,7 @@ html[lang="ll"] .morelink {
 }
 /* line 93, ../sass/_theme.sass */
 html[lang="ll"] .keyHighlight {
-  background-color: #eeeeff !important;
+  background: none !important;
 }
 /* line 98, ../sass/_theme.sass */
 html[lang="ll"] .thing .title {
@@ -2067,7 +2069,7 @@ html[lang="ll"] .link .usertext .md {
   background-color: #f7f7f7;
 }
 
-/* line 18, ../sass/_themeExperimental.sass */
+/* line 17, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow {
   display: block;
   background: url(%%alt-arrows%%);
@@ -2079,45 +2081,45 @@ html[lang="lx"] .arrow {
   background-repeat: no-repeat;
   margin-bottom: 1px;
 }
-/* line 28, ../sass/_themeExperimental.sass */
+/* line 27, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.up {
   background-position: 0 0 !important;
 }
-/* line 30, ../sass/_themeExperimental.sass */
+/* line 29, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.up:hover {
   background-position: -17px 0 !important;
 }
-/* line 32, ../sass/_themeExperimental.sass */
+/* line 31, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.upmod {
   background-position: -34px 0 !important;
 }
-/* line 34, ../sass/_themeExperimental.sass */
+/* line 33, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.down {
   background-position: 0 -15px !important;
 }
-/* line 36, ../sass/_themeExperimental.sass */
+/* line 35, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.down:hover {
   background-position: -17px -15px !important;
 }
-/* line 38, ../sass/_themeExperimental.sass */
+/* line 37, ../sass/_themeExperimental.sass */
 html[lang="lx"] .arrow.downmod {
   background-position: -34px -15px !important;
 }
-/* line 40, ../sass/_themeExperimental.sass */
+/* line 39, ../sass/_themeExperimental.sass */
 html[lang="lx"] .link .score.dislikes {
   color: #9452c6;
 }
-/* line 42, ../sass/_themeExperimental.sass */
+/* line 41, ../sass/_themeExperimental.sass */
 html[lang="lx"] .link .score.likes {
   color: #f7941d;
 }
-/* line 44, ../sass/_themeExperimental.sass */
+/* line 43, ../sass/_themeExperimental.sass */
 html[lang="lx"] .listing-page .link .rank {
   margin-top: 15px;
   margin-right: 0px;
   text-align: center;
 }
-/* line 49, ../sass/_themeExperimental.sass */
+/* line 48, ../sass/_themeExperimental.sass */
 html[lang="lx"] .thing .title {
   font-weight: bold;
 }
@@ -2554,34 +2556,35 @@ html[lang="lx"] #search input[type="text"]:focus {
 /* line 31, ../sass/_modules.sass */
 html[lang="lx"] .infobar {
   background: none;
+  border-color: gray;
 }
-/* line 35, ../sass/_modules.sass */
+/* line 36, ../sass/_modules.sass */
 html[lang="lx"] #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 42, ../sass/_modules.sass */
+/* line 43, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 47, ../sass/_modules.sass */
+/* line 48, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 50, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 53, ../sass/_modules.sass */
+/* line 54, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 60, ../sass/_modules.sass */
+/* line 61, ../sass/_modules.sass */
 html[lang="lx"] .flair {
   background: none;
   color: #383824;
@@ -2589,7 +2592,7 @@ html[lang="lx"] .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 68, ../sass/_modules.sass */
+/* line 69, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -2598,7 +2601,7 @@ html[lang="lx"] .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 75, ../sass/_modules.sass */
+/* line 76, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -2611,67 +2614,67 @@ html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2 {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 87, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 88, ../sass/_modules.sass */
+/* line 89, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 92, ../sass/_modules.sass */
+/* line 93, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 96, ../sass/_modules.sass */
+/* line 97, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 99, ../sass/_modules.sass */
+/* line 100, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 102, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master:hover, html[lang="lx"] .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 104, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 106, ../sass/_modules.sass */
+/* line 107, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 109, ../sass/_modules.sass */
+/* line 110, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-NA:hover::after, html[lang="lx"] .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 112, ../sass/_modules.sass */
+/* line 113, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 115, ../sass/_modules.sass */
+/* line 116, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 120, ../sass/_modules.sass */
+/* line 121, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 130, ../sass/_modules.sass */
+/* line 131, ../sass/_modules.sass */
 html[lang="lx"] .parentComment.comment {
   color: white !important;
   background-color: white !important;
@@ -2679,31 +2682,31 @@ html[lang="lx"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px white;
 }
-/* line 146, ../sass/_modules.sass */
+/* line 147, ../sass/_modules.sass */
 html[lang="lx"] .md.wiki h1, html[lang="lx"] .md.wiki h2, html[lang="lx"] .md.wiki h3, html[lang="lx"] .md.wiki h4, html[lang="lx"] .md.wiki h5, html[lang="lx"] .md.wiki h6 {
   color: #383824;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 153, ../sass/_modules.sass */
 html[lang="lx"] .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 157, ../sass/_modules.sass */
+/* line 158, ../sass/_modules.sass */
 html[lang="lx"] .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 158, ../sass/_modules.sass */
+/* line 159, ../sass/_modules.sass */
 html[lang="lx"] .wikititle::before {
   content: "wiki/";
 }
-/* line 163, ../sass/_modules.sass */
+/* line 164, ../sass/_modules.sass */
 html[lang="lx"] .wikititle strong {
   font-weight: normal !important;
 }
-/* line 168, ../sass/_modules.sass */
+/* line 169, ../sass/_modules.sass */
 html[lang="lx"] .pageactions {
   border: 1px solid gray;
   border: none;
@@ -2711,7 +2714,7 @@ html[lang="lx"] .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 177, ../sass/_modules.sass */
+/* line 178, ../sass/_modules.sass */
 html[lang="lx"] .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -2719,20 +2722,20 @@ html[lang="lx"] .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 183, ../sass/_modules.sass */
+/* line 184, ../sass/_modules.sass */
 html[lang="lx"] .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 185, ../sass/_modules.sass */
+/* line 186, ../sass/_modules.sass */
 html[lang="lx"] .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 190, ../sass/_modules.sass */
+/* line 191, ../sass/_modules.sass */
 html[lang="lx"] .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 198, ../sass/_modules.sass */
+/* line 199, ../sass/_modules.sass */
 html[lang="lx"] div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -2742,11 +2745,11 @@ html[lang="lx"] div.wiki div.toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 207, ../sass/_modules.sass */
+/* line 208, ../sass/_modules.sass */
 html[lang="lx"] .md.wiki > .toc > ul ul {
   border: none;
 }
-/* line 210, ../sass/_modules.sass */
+/* line 211, ../sass/_modules.sass */
 html[lang="lx"] .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -2759,50 +2762,50 @@ html[lang="lx"] .wiki .toc > ul::before {
   width: 300px;
   position: absolute !important;
 }
-/* line 223, ../sass/_modules.sass */
+/* line 224, ../sass/_modules.sass */
 html[lang="lx"] .usertext-body {
   background: none;
 }
-/* line 230, ../sass/_modules.sass */
+/* line 231, ../sass/_modules.sass */
 html[lang="lx"] .content.submit .info-notice, html[lang="lx"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 233, ../sass/_modules.sass */
+/* line 234, ../sass/_modules.sass */
 html[lang="lx"] .tabmenu.formtab a {
   border: none;
 }
-/* line 236, ../sass/_modules.sass */
+/* line 237, ../sass/_modules.sass */
 html[lang="lx"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 241, ../sass/_modules.sass */
+/* line 242, ../sass/_modules.sass */
 html[lang="lx"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 244, ../sass/_modules.sass */
+/* line 245, ../sass/_modules.sass */
 html[lang="lx"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 250, ../sass/_modules.sass */
+/* line 251, ../sass/_modules.sass */
 html[lang="lx"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 259, ../sass/_modules.sass */
+/* line 260, ../sass/_modules.sass */
 html[lang="lx"] .choice:hover {
   background: #333333 !important;
 }
-/* line 265, ../sass/_modules.sass */
+/* line 266, ../sass/_modules.sass */
 html[lang="lx"] .voteWeight {
   color: #383824 !important;
   background: none !important;
 }
-/* line 271, ../sass/_modules.sass */
+/* line 272, ../sass/_modules.sass */
 html[lang="lx"] .nextprev a {
   background: none;
 }
-/* line 275, ../sass/_modules.sass */
+/* line 276, ../sass/_modules.sass */
 html[lang="lx"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -2927,7 +2930,7 @@ html[lang="lx"] .morelink {
 }
 /* line 93, ../sass/_theme.sass */
 html[lang="lx"] .keyHighlight {
-  background-color: #eeeeff !important;
+  background: none !important;
 }
 /* line 98, ../sass/_theme.sass */
 html[lang="lx"] .thing .title {
