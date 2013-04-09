@@ -1286,7 +1286,7 @@ html[lang="ll"] .side blockquote blockquote {
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
-  background: #aa6600;
+  background: #780000;
 }
 /* line 95, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
@@ -2272,7 +2272,7 @@ html[lang="lx"] .side blockquote blockquote {
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
-  background: #aa6600;
+  background: #425430;
 }
 /* line 95, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote:hover blockquote {
