@@ -133,6 +133,10 @@ html:not([lang*="l"]) #authorInfoToolTip .blueButton {
 html:not([lang*="l"]) .fancy-toggle-button .add {
   background: #116428 !important;
 }
+/* line 32, ../sass/_modules_res.sass */
+html:not([lang*="l"]) .RES-keyNav-activeElement, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement .md, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+  background: none !important;
+}
 /* line 3, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side hr {
   display: none;
@@ -246,15 +250,18 @@ html:not([lang*="l"]) .side blockquote {
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 88, ../sass/_modules_side.sass */
+/* line 84, ../sass/_modules_side.sass */
+html:not([lang*="l"]) .side blockquote h2 {
+  border-bottom: 3px solid #aa6600;
+}
+/* line 90, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
-  background: #aa6600;
 }
-/* line 95, ../sass/_modules_side.sass */
+/* line 96, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -1167,6 +1174,10 @@ html[lang="ll"] #authorInfoToolTip .blueButton {
 html[lang="ll"] .fancy-toggle-button .add {
   background: #116428 !important;
 }
+/* line 32, ../sass/_modules_res.sass */
+html[lang="ll"] .RES-keyNav-activeElement, html[lang="ll"] .commentarea .RES-keyNav-activeElement .md, html[lang="ll"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+  background: none !important;
+}
 /* line 3, ../sass/_modules_side.sass */
 html[lang="ll"] .side hr {
   display: none;
@@ -1280,15 +1291,18 @@ html[lang="ll"] .side blockquote {
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 88, ../sass/_modules_side.sass */
+/* line 84, ../sass/_modules_side.sass */
+html[lang="ll"] .side blockquote h2 {
+  border-bottom: 3px solid #780000;
+}
+/* line 90, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
-  background: #780000;
 }
-/* line 95, ../sass/_modules_side.sass */
+/* line 96, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -2153,6 +2167,10 @@ html[lang="lx"] #authorInfoToolTip .blueButton {
 html[lang="lx"] .fancy-toggle-button .add {
   background: #116428 !important;
 }
+/* line 32, ../sass/_modules_res.sass */
+html[lang="lx"] .RES-keyNav-activeElement, html[lang="lx"] .commentarea .RES-keyNav-activeElement .md, html[lang="lx"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+  background: none !important;
+}
 /* line 3, ../sass/_modules_side.sass */
 html[lang="lx"] .side hr {
   display: none;
@@ -2266,15 +2284,18 @@ html[lang="lx"] .side blockquote {
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 88, ../sass/_modules_side.sass */
+/* line 84, ../sass/_modules_side.sass */
+html[lang="lx"] .side blockquote h2 {
+  border-bottom: 3px solid #425430;
+}
+/* line 90, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
-  background: #425430;
 }
-/* line 95, ../sass/_modules_side.sass */
+/* line 96, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
