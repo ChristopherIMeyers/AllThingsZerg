@@ -655,13 +655,19 @@ html:not([lang*="l"]) .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 121, ../sass/_modules.sass */
+/* line 120, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 131, ../sass/_modules.sass */
+/* line 125, ../sass/_modules.sass */
+html:not([lang*="l"]) .flair.flair-S3:hover::before {
+  content: "(Season 3)";
+  float: right;
+  color: gray;
+}
+/* line 135, ../sass/_modules.sass */
 html:not([lang*="l"]) .parentComment.comment {
   color: white !important;
   background-color: black !important;
@@ -669,31 +675,31 @@ html:not([lang*="l"]) .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px black;
 }
-/* line 147, ../sass/_modules.sass */
+/* line 151, ../sass/_modules.sass */
 html:not([lang*="l"]) .md.wiki h1, html:not([lang*="l"]) .md.wiki h2, html:not([lang*="l"]) .md.wiki h3, html:not([lang*="l"]) .md.wiki h4, html:not([lang*="l"]) .md.wiki h5, html:not([lang*="l"]) .md.wiki h6 {
   color: #eeeeee;
 }
-/* line 153, ../sass/_modules.sass */
+/* line 157, ../sass/_modules.sass */
 html:not([lang*="l"]) .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 158, ../sass/_modules.sass */
+/* line 162, ../sass/_modules.sass */
 html:not([lang*="l"]) .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 159, ../sass/_modules.sass */
+/* line 163, ../sass/_modules.sass */
 html:not([lang*="l"]) .wikititle::before {
   content: "wiki/";
 }
-/* line 164, ../sass/_modules.sass */
+/* line 168, ../sass/_modules.sass */
 html:not([lang*="l"]) .wikititle strong {
   font-weight: normal !important;
 }
-/* line 169, ../sass/_modules.sass */
+/* line 173, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions {
   border: 1px solid gray;
   border: none;
@@ -701,7 +707,7 @@ html:not([lang*="l"]) .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 178, ../sass/_modules.sass */
+/* line 182, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -709,20 +715,20 @@ html:not([lang*="l"]) .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 184, ../sass/_modules.sass */
+/* line 188, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 186, ../sass/_modules.sass */
+/* line 190, ../sass/_modules.sass */
 html:not([lang*="l"]) .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 191, ../sass/_modules.sass */
+/* line 195, ../sass/_modules.sass */
 html:not([lang*="l"]) .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 199, ../sass/_modules.sass */
+/* line 203, ../sass/_modules.sass */
 html:not([lang*="l"]) div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -732,11 +738,11 @@ html:not([lang*="l"]) div.wiki div.toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 208, ../sass/_modules.sass */
+/* line 212, ../sass/_modules.sass */
 html:not([lang*="l"]) .md.wiki > .toc > ul ul {
   border: none;
 }
-/* line 211, ../sass/_modules.sass */
+/* line 215, ../sass/_modules.sass */
 html:not([lang*="l"]) .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -749,50 +755,50 @@ html:not([lang*="l"]) .wiki .toc > ul::before {
   width: 300px;
   position: absolute !important;
 }
-/* line 224, ../sass/_modules.sass */
+/* line 228, ../sass/_modules.sass */
 html:not([lang*="l"]) .usertext-body {
   background: none;
 }
-/* line 231, ../sass/_modules.sass */
+/* line 235, ../sass/_modules.sass */
 html:not([lang*="l"]) .content.submit .info-notice, html:not([lang*="l"]) .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 234, ../sass/_modules.sass */
+/* line 238, ../sass/_modules.sass */
 html:not([lang*="l"]) .tabmenu.formtab a {
   border: none;
 }
-/* line 237, ../sass/_modules.sass */
+/* line 241, ../sass/_modules.sass */
 html:not([lang*="l"]) .formtab-content {
   border-top: 2px solid white;
 }
-/* line 242, ../sass/_modules.sass */
+/* line 246, ../sass/_modules.sass */
 html:not([lang*="l"]) .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 245, ../sass/_modules.sass */
+/* line 249, ../sass/_modules.sass */
 html:not([lang*="l"]) .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 251, ../sass/_modules.sass */
+/* line 255, ../sass/_modules.sass */
 html:not([lang*="l"]) .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 260, ../sass/_modules.sass */
+/* line 264, ../sass/_modules.sass */
 html:not([lang*="l"]) .choice:hover {
   background: #333333 !important;
 }
-/* line 266, ../sass/_modules.sass */
+/* line 270, ../sass/_modules.sass */
 html:not([lang*="l"]) .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
-/* line 272, ../sass/_modules.sass */
+/* line 276, ../sass/_modules.sass */
 html:not([lang*="l"]) .nextprev a {
   background: none;
 }
-/* line 276, ../sass/_modules.sass */
+/* line 280, ../sass/_modules.sass */
 html:not([lang*="l"]) .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -1696,13 +1702,19 @@ html[lang="ll"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 121, ../sass/_modules.sass */
+/* line 120, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 131, ../sass/_modules.sass */
+/* line 125, ../sass/_modules.sass */
+html[lang="ll"] .flair.flair-S3:hover::before {
+  content: "(Season 3)";
+  float: right;
+  color: gray;
+}
+/* line 135, ../sass/_modules.sass */
 html[lang="ll"] .parentComment.comment {
   color: white !important;
   background-color: #f7f7f7 !important;
@@ -1710,31 +1722,31 @@ html[lang="ll"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px #f7f7f7;
 }
-/* line 147, ../sass/_modules.sass */
+/* line 151, ../sass/_modules.sass */
 html[lang="ll"] .md.wiki h1, html[lang="ll"] .md.wiki h2, html[lang="ll"] .md.wiki h3, html[lang="ll"] .md.wiki h4, html[lang="ll"] .md.wiki h5, html[lang="ll"] .md.wiki h6 {
   color: #111111;
 }
-/* line 153, ../sass/_modules.sass */
+/* line 157, ../sass/_modules.sass */
 html[lang="ll"] .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 158, ../sass/_modules.sass */
+/* line 162, ../sass/_modules.sass */
 html[lang="ll"] .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 159, ../sass/_modules.sass */
+/* line 163, ../sass/_modules.sass */
 html[lang="ll"] .wikititle::before {
   content: "wiki/";
 }
-/* line 164, ../sass/_modules.sass */
+/* line 168, ../sass/_modules.sass */
 html[lang="ll"] .wikititle strong {
   font-weight: normal !important;
 }
-/* line 169, ../sass/_modules.sass */
+/* line 173, ../sass/_modules.sass */
 html[lang="ll"] .pageactions {
   border: 1px solid gray;
   border: none;
@@ -1742,7 +1754,7 @@ html[lang="ll"] .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 178, ../sass/_modules.sass */
+/* line 182, ../sass/_modules.sass */
 html[lang="ll"] .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -1750,20 +1762,20 @@ html[lang="ll"] .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 184, ../sass/_modules.sass */
+/* line 188, ../sass/_modules.sass */
 html[lang="ll"] .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 186, ../sass/_modules.sass */
+/* line 190, ../sass/_modules.sass */
 html[lang="ll"] .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 191, ../sass/_modules.sass */
+/* line 195, ../sass/_modules.sass */
 html[lang="ll"] .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 199, ../sass/_modules.sass */
+/* line 203, ../sass/_modules.sass */
 html[lang="ll"] div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -1773,11 +1785,11 @@ html[lang="ll"] div.wiki div.toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 208, ../sass/_modules.sass */
+/* line 212, ../sass/_modules.sass */
 html[lang="ll"] .md.wiki > .toc > ul ul {
   border: none;
 }
-/* line 211, ../sass/_modules.sass */
+/* line 215, ../sass/_modules.sass */
 html[lang="ll"] .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -1790,50 +1802,50 @@ html[lang="ll"] .wiki .toc > ul::before {
   width: 300px;
   position: absolute !important;
 }
-/* line 224, ../sass/_modules.sass */
+/* line 228, ../sass/_modules.sass */
 html[lang="ll"] .usertext-body {
   background: none;
 }
-/* line 231, ../sass/_modules.sass */
+/* line 235, ../sass/_modules.sass */
 html[lang="ll"] .content.submit .info-notice, html[lang="ll"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 234, ../sass/_modules.sass */
+/* line 238, ../sass/_modules.sass */
 html[lang="ll"] .tabmenu.formtab a {
   border: none;
 }
-/* line 237, ../sass/_modules.sass */
+/* line 241, ../sass/_modules.sass */
 html[lang="ll"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 242, ../sass/_modules.sass */
+/* line 246, ../sass/_modules.sass */
 html[lang="ll"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 245, ../sass/_modules.sass */
+/* line 249, ../sass/_modules.sass */
 html[lang="ll"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 251, ../sass/_modules.sass */
+/* line 255, ../sass/_modules.sass */
 html[lang="ll"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 260, ../sass/_modules.sass */
+/* line 264, ../sass/_modules.sass */
 html[lang="ll"] .choice:hover {
   background: #333333 !important;
 }
-/* line 266, ../sass/_modules.sass */
+/* line 270, ../sass/_modules.sass */
 html[lang="ll"] .voteWeight {
   color: #111111 !important;
   background: none !important;
 }
-/* line 272, ../sass/_modules.sass */
+/* line 276, ../sass/_modules.sass */
 html[lang="ll"] .nextprev a {
   background: none;
 }
-/* line 276, ../sass/_modules.sass */
+/* line 280, ../sass/_modules.sass */
 html[lang="ll"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -2689,13 +2701,19 @@ html[lang="lx"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 121, ../sass/_modules.sass */
+/* line 120, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 131, ../sass/_modules.sass */
+/* line 125, ../sass/_modules.sass */
+html[lang="lx"] .flair.flair-S3:hover::before {
+  content: "(Season 3)";
+  float: right;
+  color: gray;
+}
+/* line 135, ../sass/_modules.sass */
 html[lang="lx"] .parentComment.comment {
   color: white !important;
   background-color: white !important;
@@ -2703,31 +2721,31 @@ html[lang="lx"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px white;
 }
-/* line 147, ../sass/_modules.sass */
+/* line 151, ../sass/_modules.sass */
 html[lang="lx"] .md.wiki h1, html[lang="lx"] .md.wiki h2, html[lang="lx"] .md.wiki h3, html[lang="lx"] .md.wiki h4, html[lang="lx"] .md.wiki h5, html[lang="lx"] .md.wiki h6 {
   color: #383824;
 }
-/* line 153, ../sass/_modules.sass */
+/* line 157, ../sass/_modules.sass */
 html[lang="lx"] .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 158, ../sass/_modules.sass */
+/* line 162, ../sass/_modules.sass */
 html[lang="lx"] .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 159, ../sass/_modules.sass */
+/* line 163, ../sass/_modules.sass */
 html[lang="lx"] .wikititle::before {
   content: "wiki/";
 }
-/* line 164, ../sass/_modules.sass */
+/* line 168, ../sass/_modules.sass */
 html[lang="lx"] .wikititle strong {
   font-weight: normal !important;
 }
-/* line 169, ../sass/_modules.sass */
+/* line 173, ../sass/_modules.sass */
 html[lang="lx"] .pageactions {
   border: 1px solid gray;
   border: none;
@@ -2735,7 +2753,7 @@ html[lang="lx"] .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 178, ../sass/_modules.sass */
+/* line 182, ../sass/_modules.sass */
 html[lang="lx"] .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -2743,20 +2761,20 @@ html[lang="lx"] .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 184, ../sass/_modules.sass */
+/* line 188, ../sass/_modules.sass */
 html[lang="lx"] .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 186, ../sass/_modules.sass */
+/* line 190, ../sass/_modules.sass */
 html[lang="lx"] .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 191, ../sass/_modules.sass */
+/* line 195, ../sass/_modules.sass */
 html[lang="lx"] .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 199, ../sass/_modules.sass */
+/* line 203, ../sass/_modules.sass */
 html[lang="lx"] div.wiki div.toc > ul {
   width: 300px;
   overflow: hidden;
@@ -2766,11 +2784,11 @@ html[lang="lx"] div.wiki div.toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 208, ../sass/_modules.sass */
+/* line 212, ../sass/_modules.sass */
 html[lang="lx"] .md.wiki > .toc > ul ul {
   border: none;
 }
-/* line 211, ../sass/_modules.sass */
+/* line 215, ../sass/_modules.sass */
 html[lang="lx"] .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -2783,50 +2801,50 @@ html[lang="lx"] .wiki .toc > ul::before {
   width: 300px;
   position: absolute !important;
 }
-/* line 224, ../sass/_modules.sass */
+/* line 228, ../sass/_modules.sass */
 html[lang="lx"] .usertext-body {
   background: none;
 }
-/* line 231, ../sass/_modules.sass */
+/* line 235, ../sass/_modules.sass */
 html[lang="lx"] .content.submit .info-notice, html[lang="lx"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 234, ../sass/_modules.sass */
+/* line 238, ../sass/_modules.sass */
 html[lang="lx"] .tabmenu.formtab a {
   border: none;
 }
-/* line 237, ../sass/_modules.sass */
+/* line 241, ../sass/_modules.sass */
 html[lang="lx"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 242, ../sass/_modules.sass */
+/* line 246, ../sass/_modules.sass */
 html[lang="lx"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 245, ../sass/_modules.sass */
+/* line 249, ../sass/_modules.sass */
 html[lang="lx"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 251, ../sass/_modules.sass */
+/* line 255, ../sass/_modules.sass */
 html[lang="lx"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 260, ../sass/_modules.sass */
+/* line 264, ../sass/_modules.sass */
 html[lang="lx"] .choice:hover {
   background: #333333 !important;
 }
-/* line 266, ../sass/_modules.sass */
+/* line 270, ../sass/_modules.sass */
 html[lang="lx"] .voteWeight {
   color: #383824 !important;
   background: none !important;
 }
-/* line 272, ../sass/_modules.sass */
+/* line 276, ../sass/_modules.sass */
 html[lang="lx"] .nextprev a {
   background: none;
 }
-/* line 276, ../sass/_modules.sass */
+/* line 280, ../sass/_modules.sass */
 html[lang="lx"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
