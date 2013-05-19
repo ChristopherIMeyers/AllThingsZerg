@@ -25,26 +25,26 @@
 .entry .expando-button
   background: none !important
   cursor: pointer !important
-  &.collapsed
+  &.collapsed, &.collapsedExpando
     //.expando-button.selftext.collapsed
     background-image: url(%%egg-plus-off%%) !important
     background-position: -1px -1px !important
     &:hover
       background-image: url(%%egg-plus-on%%) !important
       background-position: -1px -1px !important
-
-.entry .expando-button.expanded, .eb-se
-  background-image: url(%%egg-minus-off%%) !important
-  background-position: -1px -1px !important
-
-.entry .expando-button.expanded:hover, .eb-seh
-  background-image: url(%%egg-minus-on%%)  !important
-  background-position: -1px -1px !important
-
-// expando button alternative (in-line video)
-.thing .entry .expando-button.video
-  background-image: url(%%Video%%) !important
-  background-position: -8px -3px !important
+  &.expanded
+    background-image: url(%%egg-minus-off%%) !important
+    background-position: -1px -1px !important
+    &:hover
+      background-image: url(%%egg-minus-on%%)  !important
+      background-position: -1px -1px !important
+  // expando button alternative (in-line video)
+  &.video
+    background-image: url(%%Video%%) !important
+    background-position: -8px -3px !important
+    &:hover
+      background-image: url(%%Video%%) !important
+      background-position: -8px -3px !important
 
 // expando button alternative (replays)
 .listing-page .thing .title .title[href*="drop.sc"]::after
