@@ -4,10 +4,19 @@
   .wiki-page-content .md.wiki
     h1, h2, h3, h4, h5, h6
       color: $textFace
-  // main content area
-  .wiki-page-content > hr
-    border: none
-    margin-bottom: 20px
+  // cool features just for wiki stuff
+  .wiki-page-content 
+    & > hr
+      border: none
+      margin-bottom: 20px
+    table
+      background: black
+      width: 100%
+      margin: 0
+    blockquote > blockquote
+      & > h1, & > h2, & > h3, & > h4, & > h5, & > h6  //hidden indexes
+        height: 0px
+        overflow: hidden
 
   // nav bar
   & > .content > span

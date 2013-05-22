@@ -530,32 +530,43 @@ html:not([lang*="l"]) .infobar.welcome h1 {
 html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h1, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h2, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h3, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h4, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h5, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h6 {
   color: #eeeeee;
 }
-/* line 8, ../sass/_modules_wiki.sass */
+/* line 9, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 13, ../sass/_modules_wiki.sass */
+/* line 12, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page .wiki-page-content table {
+  background: black;
+  width: 100%;
+  margin: 0;
+}
+/* line 17, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h1, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h2, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h3, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h4, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h5, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h6 {
+  height: 0px;
+  overflow: hidden;
+}
+/* line 22, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 18, ../sass/_modules_wiki.sass */
+/* line 27, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 19, ../sass/_modules_wiki.sass */
+/* line 28, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span .wikititle::before {
   content: "wiki/";
 }
-/* line 24, ../sass/_modules_wiki.sass */
+/* line 33, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span .wikititle strong {
   font-weight: normal !important;
 }
-/* line 28, ../sass/_modules_wiki.sass */
+/* line 37, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span .pageactions {
   border: 1px solid gray;
   border: none;
@@ -563,7 +574,7 @@ html:not([lang*="l"]) .wiki-page > .content > span .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 37, ../sass/_modules_wiki.sass */
+/* line 46, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -571,15 +582,15 @@ html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction-curr
   border-top: none;
   border-radius: 0px;
 }
-/* line 43, ../sass/_modules_wiki.sass */
+/* line 52, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 45, ../sass/_modules_wiki.sass */
+/* line 54, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 50, ../sass/_modules_wiki.sass */
+/* line 59, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul {
   width: 300px;
   overflow: hidden;
@@ -589,11 +600,11 @@ html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 58, ../sass/_modules_wiki.sass */
+/* line 67, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul ul {
   border: none;
 }
-/* line 60, ../sass/_modules_wiki.sass */
+/* line 69, ../sass/_modules_wiki.sass */
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -1586,32 +1597,43 @@ html[lang="ll"] .infobar.welcome h1 {
 html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h1, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h2, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h3, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h4, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h5, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h6 {
   color: #111111;
 }
-/* line 8, ../sass/_modules_wiki.sass */
+/* line 9, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 13, ../sass/_modules_wiki.sass */
+/* line 12, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page .wiki-page-content table {
+  background: black;
+  width: 100%;
+  margin: 0;
+}
+/* line 17, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h1, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h2, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h3, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h4, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h5, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h6 {
+  height: 0px;
+  overflow: hidden;
+}
+/* line 22, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 18, ../sass/_modules_wiki.sass */
+/* line 27, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 19, ../sass/_modules_wiki.sass */
+/* line 28, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span .wikititle::before {
   content: "wiki/";
 }
-/* line 24, ../sass/_modules_wiki.sass */
+/* line 33, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span .wikititle strong {
   font-weight: normal !important;
 }
-/* line 28, ../sass/_modules_wiki.sass */
+/* line 37, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span .pageactions {
   border: 1px solid gray;
   border: none;
@@ -1619,7 +1641,7 @@ html[lang="ll"] .wiki-page > .content > span .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 37, ../sass/_modules_wiki.sass */
+/* line 46, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -1627,15 +1649,15 @@ html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 43, ../sass/_modules_wiki.sass */
+/* line 52, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 45, ../sass/_modules_wiki.sass */
+/* line 54, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 50, ../sass/_modules_wiki.sass */
+/* line 59, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul {
   width: 300px;
   overflow: hidden;
@@ -1645,11 +1667,11 @@ html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 58, ../sass/_modules_wiki.sass */
+/* line 67, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul ul {
   border: none;
 }
-/* line 60, ../sass/_modules_wiki.sass */
+/* line 69, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
@@ -2594,32 +2616,43 @@ html[lang="lx"] .infobar.welcome h1 {
 html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h1, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h2, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h3, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h4, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h5, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h6 {
   color: #383824;
 }
-/* line 8, ../sass/_modules_wiki.sass */
+/* line 9, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page .wiki-page-content > hr {
   border: none;
   margin-bottom: 20px;
 }
-/* line 13, ../sass/_modules_wiki.sass */
+/* line 12, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page .wiki-page-content table {
+  background: black;
+  width: 100%;
+  margin: 0;
+}
+/* line 17, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h1, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h2, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h3, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h4, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h5, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h6 {
+  height: 0px;
+  overflow: hidden;
+}
+/* line 22, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span {
   display: inline-block;
   border-top: 1px solid #b67d27;
   padding-right: 13px;
 }
-/* line 18, ../sass/_modules_wiki.sass */
+/* line 27, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span .wikititle {
   font-size: 16px;
   font-size: 14px;
   font-family: courier, fixed-width;
 }
-/* line 19, ../sass/_modules_wiki.sass */
+/* line 28, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span .wikititle::before {
   content: "wiki/";
 }
-/* line 24, ../sass/_modules_wiki.sass */
+/* line 33, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span .wikititle strong {
   font-weight: normal !important;
 }
-/* line 28, ../sass/_modules_wiki.sass */
+/* line 37, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span .pageactions {
   border: 1px solid gray;
   border: none;
@@ -2627,7 +2660,7 @@ html[lang="lx"] .wiki-page > .content > span .pageactions {
   padding-left: 15px;
   margin: 0px;
 }
-/* line 37, ../sass/_modules_wiki.sass */
+/* line 46, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction-current {
   background: none;
   color: orangered;
@@ -2635,15 +2668,15 @@ html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction-current {
   border-top: none;
   border-radius: 0px;
 }
-/* line 43, ../sass/_modules_wiki.sass */
+/* line 52, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction {
   margin-top: 0px;
 }
-/* line 45, ../sass/_modules_wiki.sass */
+/* line 54, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction:hover {
   background: none;
 }
-/* line 50, ../sass/_modules_wiki.sass */
+/* line 59, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul {
   width: 300px;
   overflow: hidden;
@@ -2653,11 +2686,11 @@ html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul {
   padding: 4px 10px !important;
   list-style: none !important;
 }
-/* line 58, ../sass/_modules_wiki.sass */
+/* line 67, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul ul {
   border: none;
 }
-/* line 60, ../sass/_modules_wiki.sass */
+/* line 69, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul::before {
   display: block !important;
   content: "INDEX";
