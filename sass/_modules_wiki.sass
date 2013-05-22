@@ -1,0 +1,70 @@
+// wiki
+.wiki-page
+  // headings
+  .wiki-page-content .md.wiki
+    h1, h2, h3, h4, h5, h6
+      color: $textFace
+  // main content area
+  .wiki-page-content > hr
+    border: none
+    margin-bottom: 20px
+
+  // nav bar
+  & > .content > span
+    display: inline-block
+    border-top: 1px solid #B67D27
+    padding-right: 13px
+    //page uri
+    .wikititle
+      &::before
+        content: "wiki/"
+      font-size: 16px
+      font-size: 14px
+      font-family: courier,fixed-width
+      strong
+        font-weight: normal !important
+
+    // nav bar links
+    .pageactions
+      border: 1px solid gray
+      // alt
+      border: none
+      border-radius: 0px
+      // alt
+      // second alt
+      padding-left: 15px
+      margin: 0px
+      .wikiaction-current
+        background: none
+        color: orangeRed
+        border: 1px solid #B67D27
+        border-top: none
+        border-radius: 0px
+      .wikiaction
+        margin-top: 0px
+        &:hover
+          background: none
+
+
+  // table of contents
+  .wiki-page-content .wiki .toc > ul
+    width: 300px
+    overflow: hidden
+    background: none !important
+    border: 1px solid gray
+    margin-top: 20px
+    padding: 4px 10px !important
+    list-style: none !important
+    ul
+      border: none
+    &::before
+      display: block!important
+      content: "INDEX"
+      font-family: verdana, arial, helvetica, sans-serif
+      font-size: 13px
+      color: gray
+      text-align: left
+      margin-top: -21px
+      margin-left: -11px
+      width: 300px
+      position: absolute!important

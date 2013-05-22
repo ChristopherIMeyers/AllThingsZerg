@@ -6,6 +6,7 @@
 @import modules_commentpage
 @import modules_header
 @import modules_misc
+@import modules_wiki
 
 
 //moderation tools
@@ -142,97 +143,12 @@
 
 
 
-
-
-
-// wiki stuff
-
-// headings
-.md.wiki
-  h1, h2, h3, h4, h5, h6
-    color: $textFace
-
-
-// wiki specifics
-
-.wiki-page > .content > span
-  display: inline-block
-  border-top: 1px solid #B67D27
-  padding-right: 13px
-
-.wikititle
-  &::before
-    content: "wiki/"
-  font-size: 16px
-  font-size: 14px
-  font-family: courier,fixed-width
-  strong
-    font-weight: normal !important
-
-// page actions
-
-.pageactions
-  border: 1px solid gray
-  // alt
-  border: none
-  border-radius: 0px
-  // alt
-  // second alt
-  padding-left: 15px
-  margin: 0px
-  .wikiaction-current
-    background: none
-    color: orangeRed
-    border: 1px solid #B67D27
-    border-top: none
-    border-radius: 0px
-  .wikiaction
-    margin-top: 0px
-    &:hover
-      background: none
-
-// main content area
-
-.wiki-page-content > hr
-  border: none
-  margin-bottom: 20px
-
-// bottom line
-
-// table of contents
-
-div.wiki div.toc > ul
-  width: 300px
-  overflow: hidden
-  background: none !important
-  border: 1px solid gray
-  margin-top: 20px
-  padding: 4px 10px !important
-  list-style: none !important
-
-.md.wiki > .toc > ul ul
-  border: none
-
-.wiki .toc > ul::before
-  display: block!important
-  content: "INDEX"
-  font-family: verdana, arial, helvetica, sans-serif
-  font-size: 13px
-  color: gray
-  text-align: left
-  margin-top: -21px
-  margin-left: -11px
-  width: 300px
-  position: absolute!important
-
-
 .usertext-body
   background: none
 
 
 
 // /submit page
-
 .content.submit .info-notice, .tabmenu.formtab .selected a
   background: none
 

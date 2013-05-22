@@ -103,7 +103,7 @@ html:not([lang*="l"]) .arrow.up {
 html:not([lang*="l"]) .arrow.upmod {
   background-image: url(%%arrow-up%%);
 }
-/* line 5, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 5, ../sass/_modules_res.sass */
 html:not([lang*="l"]) .NERPageMarker {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -112,7 +112,7 @@ html:not([lang*="l"]) .NERPageMarker {
   padding-top: 0px !important;
   border-color: gray !important;
 }
-/* line 13, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 13, ../sass/_modules_res.sass */
 html:not([lang*="l"]) .neverEndingReddit {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -121,154 +121,154 @@ html:not([lang*="l"]) .neverEndingReddit {
   padding-top: 0px !important;
   border-color: gray !important;
 }
-/* line 20, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 20, ../sass/_modules_res.sass */
 html:not([lang*="l"]) .neverEndingReddit img {
   display: none;
 }
-/* line 25, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 25, ../sass/_modules_res.sass */
 html:not([lang*="l"]) #authorInfoToolTip .blueButton {
   background-color: #21587e !important;
 }
-/* line 28, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 28, ../sass/_modules_res.sass */
 html:not([lang*="l"]) .fancy-toggle-button .add {
   background: #116428 !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 32, ../sass/_modules_res.sass */
 html:not([lang*="l"]) .RES-keyNav-activeElement, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement .md, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
   background: none !important;
 }
-/* line 3, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 3, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side hr {
   display: none;
 }
-/* line 8, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 8, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side {
   background: none;
   z-index: 500;
 }
-/* line 12, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 12, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .redditname a {
   text-transform: uppercase;
 }
-/* line 15, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 15, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .word {
   display: none;
 }
-/* line 17, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 17, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .subscribers .number::after {
   content: " locusts";
 }
-/* line 19, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 19, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .users-online .number::after {
   content: " locusts";
 }
-/* line 22, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 22, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox.create {
   display: none;
 }
-/* line 24, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 24, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .spacer {
   background: none;
 }
-/* line 27, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 27, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 31, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 31, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 35, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 35, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 38, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .bottom {
   display: none;
 }
-/* line 41, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 41, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
   padding: 5px 0 5px 20px;
 }
-/* line 47, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 47, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .submit-link {
   display: none;
 }
-/* line 49, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 49, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink {
   background: black;
   border: 1px solid gray;
 }
-/* line 52, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 52, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink:hover {
   background: black;
   border: 1px solid gray;
 }
-/* line 55, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 55, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink a {
   color: #aa6600;
 }
-/* line 57, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 57, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink .nub {
   display: none;
 }
-/* line 59, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 59, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 62, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 62, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink + .spacer a {
   display: none;
 }
-/* line 64, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 64, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink:hover + .spacer {
   display: block;
 }
-/* line 70, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 70, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
   background: black;
 }
-/* line 74, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 74, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext {
   margin-top: 5px;
 }
-/* line 76, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 76, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 83, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 83, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 84, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 84, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote h2 {
   border-bottom: 3px solid #aa6600;
 }
-/* line 90, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 90, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 96, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 96, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote:hover blockquote {
   display: block;
   height: auto;
   padding-bottom: 5px;
   background: none;
 }
-/* line 4, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 4, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .listing-page .thing .tagline {
   background-repeat: no-repeat;
   background-position: -5px -3px;
@@ -279,7 +279,7 @@ html:not([lang*="l"]) .listing-page .thing .tagline {
   left: 30px;
   top: 19px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 14, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .listing-page .thing .flat-list {
   position: absolute;
   top: 33px;
@@ -287,71 +287,71 @@ html:not([lang*="l"]) .listing-page .thing .flat-list {
   height: 14px;
   padding: 0px;
 }
-/* line 25, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 25, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .expando-button {
   background: none !important;
   cursor: pointer !important;
 }
-/* line 28, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 28, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .expando-button.collapsed, html:not([lang*="l"]) .entry .expando-button.collapsedExpando {
   background-image: url(%%egg-plus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 32, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .expando-button.collapsed:hover, html:not([lang*="l"]) .entry .expando-button.collapsedExpando:hover {
   background-image: url(%%egg-plus-on%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 35, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 35, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .expando-button.expanded {
   background-image: url(%%egg-minus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 38, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .expando-button.expanded:hover {
   background-image: url(%%egg-minus-on%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 42, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 42, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .expando-button.video {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
-/* line 45, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 45, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .expando-button.video:hover {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
-/* line 50, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 50, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .listing-page .thing .title .title[href*="drop.sc"]::after {
   position: absolute;
   left: -4px;
   top: 19px;
 }
-/* line 56, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 56, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .link.last-clicked {
   border: none;
 }
-/* line 58, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 58, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .link.last-clicked::before {
   content: "<";
   color: gray;
   height: 20px;
   float: right;
 }
-/* line 65, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 65, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .midcol {
   width: 22px !important;
 }
-/* line 70, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 70, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .link .rank {
   color: #3d3d3d;
 }
-/* line 73, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 73, ../sass/_modules_thing.sass */
 html:not([lang*="l"]) .entry .buttons li a {
   font-weight: normal;
 }
-/* line 2, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 2, ../sass/_modules_stickies.sass */
 html:not([lang*="l"]) .side h4 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -364,11 +364,11 @@ html:not([lang*="l"]) .side h4 {
   display: none;
   opacity: 0.8;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 14, ../sass/_modules_stickies.sass */
 html:not([lang*="l"]) body.subscriber .side h4 {
   display: block;
 }
-/* line 18, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 18, ../sass/_modules_stickies.sass */
 html:not([lang*="l"]) .side h5 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -380,11 +380,11 @@ html:not([lang*="l"]) .side h5 {
   font-weight: normal;
   display: none;
 }
-/* line 29, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 29, ../sass/_modules_stickies.sass */
 html:not([lang*="l"]) body.moderator.listing-page .side h5 {
   display: block;
 }
-/* line 33, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 33, ../sass/_modules_stickies.sass */
 html:not([lang*="l"]) .side h6 {
   border: none !important;
   padding: 4px;
@@ -398,43 +398,43 @@ html:not([lang*="l"]) .side h6 {
   max-width: 450px;
   box-shadow: 0px 0px 15px 0px white;
 }
-/* line 45, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 45, ../sass/_modules_stickies.sass */
 html:not([lang*="l"]) .side h6 a:hover {
   text-decoration: underline;
 }
-/* line 4, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 4, ../sass/_modules_text_features.sass */
 html:not([lang*="l"]) .md a[href$="#spoiler"] {
   background: black !important;
   color: black !important;
   border-bottom: 1px dashed red;
   cursor: help;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 9, ../sass/_modules_text_features.sass */
 html:not([lang*="l"]) .md a[href$="#spoiler"]::before {
   color: white !important;
   content: "Spoiler:";
   border-bottom: 1px solid black;
   margin-right: 5px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 14, ../sass/_modules_text_features.sass */
 html:not([lang*="l"]) .md a[href$="#spoiler"]:hover {
   color: white !important;
   border-bottom: 0px solid red;
 }
-/* line 5, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 5, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .linkinfo {
   background: none;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 9, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .link .usertext .md {
   max-width: 90em;
   margin: 0 5px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 14, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .md blockquote, html:not([lang*="l"]) .help blockquote {
   border-left: 2px solid #aa6600;
 }
-/* line 18, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 18, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .usertext.border .usertext-body {
   background: none;
   border: solid 4px red;
@@ -443,54 +443,54 @@ html:not([lang*="l"]) .usertext.border .usertext-body {
   margin-bottom: -5px;
   margin-top: -3px;
 }
-/* line 30, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 30, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment {
   background: none !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 32, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment {
   background: none !important;
 }
-/* line 34, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 34, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 36, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 36, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 38, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 40, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 40, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 42, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 42, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 44, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 44, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 46, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 46, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 48, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 48, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 2, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 2, ../sass/_modules_header.sass */
 html:not([lang*="l"]) #header {
   border-bottom: 1px solid #b67d27;
   background-color: black;
   height: 145px;
   margin-bottom: 15px;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 9, ../sass/_modules_header.sass */
 html:not([lang*="l"]) #header .pagename.redditname a {
   background: url(%%banneroff%%);
   width: 1670px;
@@ -503,11 +503,11 @@ html:not([lang*="l"]) #header .pagename.redditname a {
   z-index: -100;
   background-repeat: no-repeat;
 }
-/* line 20, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 20, ../sass/_modules_header.sass */
 html:not([lang*="l"]) #header .pagename.redditname a:hover {
   background: url(%%banneron%%);
 }
-/* line 24, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 24, ../sass/_modules_header.sass */
 html:not([lang*="l"]) #header-img {
   opacity: 0.4;
   position: absolute;
@@ -517,20 +517,100 @@ html:not([lang*="l"]) #header-img {
   height: 44px;
   width: 66px;
 }
-/* line 33, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 33, ../sass/_modules_header.sass */
 html:not([lang*="l"]) #header-img:hover {
   opacity: 1;
   left: -15px;
 }
-/* line 1, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_misc.sass */
+/* line 1, ../sass/_modules_misc.sass */
 html:not([lang*="l"]) .infobar.welcome h1 {
   color: black;
 }
-/* line 12, ../sass/_modules.sass */
+/* line 5, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h1, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h2, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h3, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h4, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h5, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h6 {
+  color: #eeeeee;
+}
+/* line 8, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page .wiki-page-content > hr {
+  border: none;
+  margin-bottom: 20px;
+}
+/* line 13, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span {
+  display: inline-block;
+  border-top: 1px solid #b67d27;
+  padding-right: 13px;
+}
+/* line 18, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span .wikititle {
+  font-size: 16px;
+  font-size: 14px;
+  font-family: courier, fixed-width;
+}
+/* line 19, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span .wikititle::before {
+  content: "wiki/";
+}
+/* line 24, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span .wikititle strong {
+  font-weight: normal !important;
+}
+/* line 28, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span .pageactions {
+  border: 1px solid gray;
+  border: none;
+  border-radius: 0px;
+  padding-left: 15px;
+  margin: 0px;
+}
+/* line 37, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction-current {
+  background: none;
+  color: orangered;
+  border: 1px solid #b67d27;
+  border-top: none;
+  border-radius: 0px;
+}
+/* line 43, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction {
+  margin-top: 0px;
+}
+/* line 45, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction:hover {
+  background: none;
+}
+/* line 50, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul {
+  width: 300px;
+  overflow: hidden;
+  background: none !important;
+  border: 1px solid gray;
+  margin-top: 20px;
+  padding: 4px 10px !important;
+  list-style: none !important;
+}
+/* line 58, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul ul {
+  border: none;
+}
+/* line 60, ../sass/_modules_wiki.sass */
+html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul::before {
+  display: block !important;
+  content: "INDEX";
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  color: gray;
+  text-align: left;
+  margin-top: -21px;
+  margin-left: -11px;
+  width: 300px;
+  position: absolute !important;
+}
+/* line 13, ../sass/_modules.sass */
 html:not([lang*="l"]) .icon-menu a {
   background: none;
 }
-/* line 18, ../sass/_modules.sass */
+/* line 19, ../sass/_modules.sass */
 html:not([lang*="l"]) #search input[type="text"] {
   border: 0px solid white;
   border-radius: 3px;
@@ -539,48 +619,48 @@ html:not([lang*="l"]) #search input[type="text"] {
   opacity: 0.75;
   width: 290px;
 }
-/* line 25, ../sass/_modules.sass */
+/* line 26, ../sass/_modules.sass */
 html:not([lang*="l"]) #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #ffcc00;
 }
-/* line 27, ../sass/_modules.sass */
+/* line 28, ../sass/_modules.sass */
 html:not([lang*="l"]) #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
-/* line 32, ../sass/_modules.sass */
+/* line 33, ../sass/_modules.sass */
 html:not([lang*="l"]) .infobar {
   background: none;
   border-color: gray;
 }
-/* line 37, ../sass/_modules.sass */
+/* line 38, ../sass/_modules.sass */
 html:not([lang*="l"]) #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 44, ../sass/_modules.sass */
+/* line 45, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 50, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 51, ../sass/_modules.sass */
+/* line 52, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 55, ../sass/_modules.sass */
+/* line 56, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 62, ../sass/_modules.sass */
+/* line 63, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair {
   background: none;
   color: #eeeeee;
@@ -588,7 +668,7 @@ html:not([lang*="l"]) .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 70, ../sass/_modules.sass */
+/* line 71, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -597,7 +677,7 @@ html:not([lang*="l"]) .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 77, ../sass/_modules.sass */
+/* line 78, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -610,73 +690,73 @@ html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Ma
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 88, ../sass/_modules.sass */
+/* line 89, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 90, ../sass/_modules.sass */
+/* line 91, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 94, ../sass/_modules.sass */
+/* line 95, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 98, ../sass/_modules.sass */
+/* line 99, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 102, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 104, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master:hover, html:not([lang*="l"]) .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 105, ../sass/_modules.sass */
+/* line 106, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 108, ../sass/_modules.sass */
+/* line 109, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 111, ../sass/_modules.sass */
+/* line 112, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-NA:hover::after, html:not([lang*="l"]) .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 114, ../sass/_modules.sass */
+/* line 115, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 117, ../sass/_modules.sass */
+/* line 118, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 121, ../sass/_modules.sass */
+/* line 122, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 126, ../sass/_modules.sass */
+/* line 127, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-S3:hover::before {
   content: "(Season 3)";
   float: right;
   color: gray;
 }
-/* line 136, ../sass/_modules.sass */
+/* line 137, ../sass/_modules.sass */
 html:not([lang*="l"]) .parentComment.comment {
   color: white !important;
   background-color: black !important;
@@ -684,130 +764,50 @@ html:not([lang*="l"]) .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px black;
 }
-/* line 152, ../sass/_modules.sass */
-html:not([lang*="l"]) .md.wiki h1, html:not([lang*="l"]) .md.wiki h2, html:not([lang*="l"]) .md.wiki h3, html:not([lang*="l"]) .md.wiki h4, html:not([lang*="l"]) .md.wiki h5, html:not([lang*="l"]) .md.wiki h6 {
-  color: #eeeeee;
-}
-/* line 158, ../sass/_modules.sass */
-html:not([lang*="l"]) .wiki-page > .content > span {
-  display: inline-block;
-  border-top: 1px solid #b67d27;
-  padding-right: 13px;
-}
-/* line 163, ../sass/_modules.sass */
-html:not([lang*="l"]) .wikititle {
-  font-size: 16px;
-  font-size: 14px;
-  font-family: courier, fixed-width;
-}
-/* line 164, ../sass/_modules.sass */
-html:not([lang*="l"]) .wikititle::before {
-  content: "wiki/";
-}
-/* line 169, ../sass/_modules.sass */
-html:not([lang*="l"]) .wikititle strong {
-  font-weight: normal !important;
-}
-/* line 174, ../sass/_modules.sass */
-html:not([lang*="l"]) .pageactions {
-  border: 1px solid gray;
-  border: none;
-  border-radius: 0px;
-  padding-left: 15px;
-  margin: 0px;
-}
-/* line 183, ../sass/_modules.sass */
-html:not([lang*="l"]) .pageactions .wikiaction-current {
-  background: none;
-  color: orangered;
-  border: 1px solid #b67d27;
-  border-top: none;
-  border-radius: 0px;
-}
-/* line 189, ../sass/_modules.sass */
-html:not([lang*="l"]) .pageactions .wikiaction {
-  margin-top: 0px;
-}
-/* line 191, ../sass/_modules.sass */
-html:not([lang*="l"]) .pageactions .wikiaction:hover {
-  background: none;
-}
-/* line 196, ../sass/_modules.sass */
-html:not([lang*="l"]) .wiki-page-content > hr {
-  border: none;
-  margin-bottom: 20px;
-}
-/* line 204, ../sass/_modules.sass */
-html:not([lang*="l"]) div.wiki div.toc > ul {
-  width: 300px;
-  overflow: hidden;
-  background: none !important;
-  border: 1px solid gray;
-  margin-top: 20px;
-  padding: 4px 10px !important;
-  list-style: none !important;
-}
-/* line 213, ../sass/_modules.sass */
-html:not([lang*="l"]) .md.wiki > .toc > ul ul {
-  border: none;
-}
-/* line 216, ../sass/_modules.sass */
-html:not([lang*="l"]) .wiki .toc > ul::before {
-  display: block !important;
-  content: "INDEX";
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  color: gray;
-  text-align: left;
-  margin-top: -21px;
-  margin-left: -11px;
-  width: 300px;
-  position: absolute !important;
-}
-/* line 229, ../sass/_modules.sass */
+/* line 146, ../sass/_modules.sass */
 html:not([lang*="l"]) .usertext-body {
   background: none;
 }
-/* line 236, ../sass/_modules.sass */
+/* line 152, ../sass/_modules.sass */
 html:not([lang*="l"]) .content.submit .info-notice, html:not([lang*="l"]) .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 239, ../sass/_modules.sass */
+/* line 155, ../sass/_modules.sass */
 html:not([lang*="l"]) .tabmenu.formtab a {
   border: none;
 }
-/* line 242, ../sass/_modules.sass */
+/* line 158, ../sass/_modules.sass */
 html:not([lang*="l"]) .formtab-content {
   border-top: 2px solid white;
 }
-/* line 247, ../sass/_modules.sass */
+/* line 163, ../sass/_modules.sass */
 html:not([lang*="l"]) .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 250, ../sass/_modules.sass */
+/* line 166, ../sass/_modules.sass */
 html:not([lang*="l"]) .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 256, ../sass/_modules.sass */
+/* line 172, ../sass/_modules.sass */
 html:not([lang*="l"]) .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 265, ../sass/_modules.sass */
+/* line 181, ../sass/_modules.sass */
 html:not([lang*="l"]) .choice:hover {
   background: #333333 !important;
 }
-/* line 271, ../sass/_modules.sass */
+/* line 187, ../sass/_modules.sass */
 html:not([lang*="l"]) .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
-/* line 277, ../sass/_modules.sass */
+/* line 193, ../sass/_modules.sass */
 html:not([lang*="l"]) .nextprev a {
   background: none;
 }
-/* line 281, ../sass/_modules.sass */
+/* line 197, ../sass/_modules.sass */
 html:not([lang*="l"]) .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -1159,7 +1159,7 @@ html[lang="ll"] .listing-page .link .rank {
 html[lang="ll"] .thing .title {
   font-weight: bold;
 }
-/* line 5, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 5, ../sass/_modules_res.sass */
 html[lang="ll"] .NERPageMarker {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -1168,7 +1168,7 @@ html[lang="ll"] .NERPageMarker {
   padding-top: 0px !important;
   border-color: gray !important;
 }
-/* line 13, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 13, ../sass/_modules_res.sass */
 html[lang="ll"] .neverEndingReddit {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -1177,154 +1177,154 @@ html[lang="ll"] .neverEndingReddit {
   padding-top: 0px !important;
   border-color: gray !important;
 }
-/* line 20, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 20, ../sass/_modules_res.sass */
 html[lang="ll"] .neverEndingReddit img {
   display: none;
 }
-/* line 25, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 25, ../sass/_modules_res.sass */
 html[lang="ll"] #authorInfoToolTip .blueButton {
   background-color: #21587e !important;
 }
-/* line 28, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 28, ../sass/_modules_res.sass */
 html[lang="ll"] .fancy-toggle-button .add {
   background: #116428 !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 32, ../sass/_modules_res.sass */
 html[lang="ll"] .RES-keyNav-activeElement, html[lang="ll"] .commentarea .RES-keyNav-activeElement .md, html[lang="ll"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
   background: none !important;
 }
-/* line 3, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 3, ../sass/_modules_side.sass */
 html[lang="ll"] .side hr {
   display: none;
 }
-/* line 8, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 8, ../sass/_modules_side.sass */
 html[lang="ll"] .side {
   background: none;
   z-index: 500;
 }
-/* line 12, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 12, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .redditname a {
   text-transform: uppercase;
 }
-/* line 15, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 15, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .word {
   display: none;
 }
-/* line 17, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 17, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .subscribers .number::after {
   content: " locusts";
 }
-/* line 19, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 19, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .users-online .number::after {
   content: " locusts";
 }
-/* line 22, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 22, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox.create {
   display: none;
 }
-/* line 24, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 24, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .spacer {
   background: none;
 }
-/* line 27, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 27, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 31, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 31, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 35, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 35, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 38, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .bottom {
   display: none;
 }
-/* line 41, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 41, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
   padding: 5px 0 5px 20px;
 }
-/* line 47, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 47, ../sass/_modules_side.sass */
 html[lang="ll"] .submit-link {
   display: none;
 }
-/* line 49, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 49, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink {
   background: #f7f7f7;
   border: 1px solid gray;
 }
-/* line 52, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 52, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink:hover {
   background: #f7f7f7;
   border: 1px solid gray;
 }
-/* line 55, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 55, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink a {
   color: #780000;
 }
-/* line 57, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 57, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink .nub {
   display: none;
 }
-/* line 59, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 59, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 62, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 62, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink + .spacer a {
   display: none;
 }
-/* line 64, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 64, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink:hover + .spacer {
   display: block;
 }
-/* line 70, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 70, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
   background: #f7f7f7;
 }
-/* line 74, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 74, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext {
   margin-top: 5px;
 }
-/* line 76, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 76, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 83, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 83, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 84, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 84, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote h2 {
   border-bottom: 3px solid #780000;
 }
-/* line 90, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 90, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 96, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 96, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
   padding-bottom: 5px;
   background: none;
 }
-/* line 4, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 4, ../sass/_modules_thing.sass */
 html[lang="ll"] .listing-page .thing .tagline {
   background-repeat: no-repeat;
   background-position: -5px -3px;
@@ -1335,7 +1335,7 @@ html[lang="ll"] .listing-page .thing .tagline {
   left: 30px;
   top: 19px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 14, ../sass/_modules_thing.sass */
 html[lang="ll"] .listing-page .thing .flat-list {
   position: absolute;
   top: 33px;
@@ -1343,71 +1343,71 @@ html[lang="ll"] .listing-page .thing .flat-list {
   height: 14px;
   padding: 0px;
 }
-/* line 25, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 25, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .expando-button {
   background: none !important;
   cursor: pointer !important;
 }
-/* line 28, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 28, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .expando-button.collapsed, html[lang="ll"] .entry .expando-button.collapsedExpando {
   background-image: url(%%egg-plus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 32, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .expando-button.collapsed:hover, html[lang="ll"] .entry .expando-button.collapsedExpando:hover {
   background-image: url(%%egg-plus-on%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 35, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 35, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .expando-button.expanded {
   background-image: url(%%egg-minus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 38, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .expando-button.expanded:hover {
   background-image: url(%%egg-minus-on%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 42, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 42, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .expando-button.video {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
-/* line 45, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 45, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .expando-button.video:hover {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
-/* line 50, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 50, ../sass/_modules_thing.sass */
 html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after {
   position: absolute;
   left: -4px;
   top: 19px;
 }
-/* line 56, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 56, ../sass/_modules_thing.sass */
 html[lang="ll"] .link.last-clicked {
   border: none;
 }
-/* line 58, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 58, ../sass/_modules_thing.sass */
 html[lang="ll"] .link.last-clicked::before {
   content: "<";
   color: gray;
   height: 20px;
   float: right;
 }
-/* line 65, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 65, ../sass/_modules_thing.sass */
 html[lang="ll"] .midcol {
   width: 22px !important;
 }
-/* line 70, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 70, ../sass/_modules_thing.sass */
 html[lang="ll"] .link .rank {
   color: #3d3d3d;
 }
-/* line 73, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 73, ../sass/_modules_thing.sass */
 html[lang="ll"] .entry .buttons li a {
   font-weight: normal;
 }
-/* line 2, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 2, ../sass/_modules_stickies.sass */
 html[lang="ll"] .side h4 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -1420,11 +1420,11 @@ html[lang="ll"] .side h4 {
   display: none;
   opacity: 0.8;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 14, ../sass/_modules_stickies.sass */
 html[lang="ll"] body.subscriber .side h4 {
   display: block;
 }
-/* line 18, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 18, ../sass/_modules_stickies.sass */
 html[lang="ll"] .side h5 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -1436,11 +1436,11 @@ html[lang="ll"] .side h5 {
   font-weight: normal;
   display: none;
 }
-/* line 29, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 29, ../sass/_modules_stickies.sass */
 html[lang="ll"] body.moderator.listing-page .side h5 {
   display: block;
 }
-/* line 33, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 33, ../sass/_modules_stickies.sass */
 html[lang="ll"] .side h6 {
   border: none !important;
   padding: 4px;
@@ -1454,43 +1454,43 @@ html[lang="ll"] .side h6 {
   max-width: 450px;
   box-shadow: 0px 0px 15px 0px white;
 }
-/* line 45, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 45, ../sass/_modules_stickies.sass */
 html[lang="ll"] .side h6 a:hover {
   text-decoration: underline;
 }
-/* line 4, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 4, ../sass/_modules_text_features.sass */
 html[lang="ll"] .md a[href$="#spoiler"] {
   background: black !important;
   color: black !important;
   border-bottom: 1px dashed red;
   cursor: help;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 9, ../sass/_modules_text_features.sass */
 html[lang="ll"] .md a[href$="#spoiler"]::before {
   color: white !important;
   content: "Spoiler:";
   border-bottom: 1px solid black;
   margin-right: 5px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 14, ../sass/_modules_text_features.sass */
 html[lang="ll"] .md a[href$="#spoiler"]:hover {
   color: white !important;
   border-bottom: 0px solid red;
 }
-/* line 5, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 5, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .linkinfo {
   background: none;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 9, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .link .usertext .md {
   max-width: 90em;
   margin: 0 5px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 14, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .md blockquote, html[lang="ll"] .help blockquote {
   border-left: 2px solid #780000;
 }
-/* line 18, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 18, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .usertext.border .usertext-body {
   background: none;
   border: solid 4px red;
@@ -1499,54 +1499,54 @@ html[lang="ll"] .usertext.border .usertext-body {
   margin-bottom: -5px;
   margin-top: -3px;
 }
-/* line 30, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 30, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment {
   background: none !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 32, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment {
   background: none !important;
 }
-/* line 34, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 34, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 36, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 36, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 38, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 40, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 40, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 42, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 42, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 44, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 44, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 46, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 46, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 48, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 48, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 2, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 2, ../sass/_modules_header.sass */
 html[lang="ll"] #header {
   border-bottom: 1px solid #b67d27;
   background-color: black;
   height: 145px;
   margin-bottom: 15px;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 9, ../sass/_modules_header.sass */
 html[lang="ll"] #header .pagename.redditname a {
   background: url(%%banneroff%%);
   width: 1670px;
@@ -1559,11 +1559,11 @@ html[lang="ll"] #header .pagename.redditname a {
   z-index: -100;
   background-repeat: no-repeat;
 }
-/* line 20, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 20, ../sass/_modules_header.sass */
 html[lang="ll"] #header .pagename.redditname a:hover {
   background: url(%%banneron%%);
 }
-/* line 24, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 24, ../sass/_modules_header.sass */
 html[lang="ll"] #header-img {
   opacity: 0.4;
   position: absolute;
@@ -1573,20 +1573,100 @@ html[lang="ll"] #header-img {
   height: 44px;
   width: 66px;
 }
-/* line 33, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 33, ../sass/_modules_header.sass */
 html[lang="ll"] #header-img:hover {
   opacity: 1;
   left: -15px;
 }
-/* line 1, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_misc.sass */
+/* line 1, ../sass/_modules_misc.sass */
 html[lang="ll"] .infobar.welcome h1 {
   color: black;
 }
-/* line 12, ../sass/_modules.sass */
+/* line 5, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h1, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h2, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h3, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h4, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h5, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h6 {
+  color: #111111;
+}
+/* line 8, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page .wiki-page-content > hr {
+  border: none;
+  margin-bottom: 20px;
+}
+/* line 13, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span {
+  display: inline-block;
+  border-top: 1px solid #b67d27;
+  padding-right: 13px;
+}
+/* line 18, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span .wikititle {
+  font-size: 16px;
+  font-size: 14px;
+  font-family: courier, fixed-width;
+}
+/* line 19, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span .wikititle::before {
+  content: "wiki/";
+}
+/* line 24, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span .wikititle strong {
+  font-weight: normal !important;
+}
+/* line 28, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span .pageactions {
+  border: 1px solid gray;
+  border: none;
+  border-radius: 0px;
+  padding-left: 15px;
+  margin: 0px;
+}
+/* line 37, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction-current {
+  background: none;
+  color: orangered;
+  border: 1px solid #b67d27;
+  border-top: none;
+  border-radius: 0px;
+}
+/* line 43, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction {
+  margin-top: 0px;
+}
+/* line 45, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction:hover {
+  background: none;
+}
+/* line 50, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul {
+  width: 300px;
+  overflow: hidden;
+  background: none !important;
+  border: 1px solid gray;
+  margin-top: 20px;
+  padding: 4px 10px !important;
+  list-style: none !important;
+}
+/* line 58, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul ul {
+  border: none;
+}
+/* line 60, ../sass/_modules_wiki.sass */
+html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul::before {
+  display: block !important;
+  content: "INDEX";
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  color: gray;
+  text-align: left;
+  margin-top: -21px;
+  margin-left: -11px;
+  width: 300px;
+  position: absolute !important;
+}
+/* line 13, ../sass/_modules.sass */
 html[lang="ll"] .icon-menu a {
   background: none;
 }
-/* line 18, ../sass/_modules.sass */
+/* line 19, ../sass/_modules.sass */
 html[lang="ll"] #search input[type="text"] {
   border: 0px solid white;
   border-radius: 3px;
@@ -1595,48 +1675,48 @@ html[lang="ll"] #search input[type="text"] {
   opacity: 0.75;
   width: 290px;
 }
-/* line 25, ../sass/_modules.sass */
+/* line 26, ../sass/_modules.sass */
 html[lang="ll"] #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #de0000;
 }
-/* line 27, ../sass/_modules.sass */
+/* line 28, ../sass/_modules.sass */
 html[lang="ll"] #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
-/* line 32, ../sass/_modules.sass */
+/* line 33, ../sass/_modules.sass */
 html[lang="ll"] .infobar {
   background: none;
   border-color: gray;
 }
-/* line 37, ../sass/_modules.sass */
+/* line 38, ../sass/_modules.sass */
 html[lang="ll"] #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 44, ../sass/_modules.sass */
+/* line 45, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 50, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 51, ../sass/_modules.sass */
+/* line 52, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 55, ../sass/_modules.sass */
+/* line 56, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 62, ../sass/_modules.sass */
+/* line 63, ../sass/_modules.sass */
 html[lang="ll"] .flair {
   background: none;
   color: #111111;
@@ -1644,7 +1724,7 @@ html[lang="ll"] .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 70, ../sass/_modules.sass */
+/* line 71, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -1653,7 +1733,7 @@ html[lang="ll"] .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 77, ../sass/_modules.sass */
+/* line 78, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -1666,73 +1746,73 @@ html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2 {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 88, ../sass/_modules.sass */
+/* line 89, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 90, ../sass/_modules.sass */
+/* line 91, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 94, ../sass/_modules.sass */
+/* line 95, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 98, ../sass/_modules.sass */
+/* line 99, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 102, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 104, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master:hover, html[lang="ll"] .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 105, ../sass/_modules.sass */
+/* line 106, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 108, ../sass/_modules.sass */
+/* line 109, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 111, ../sass/_modules.sass */
+/* line 112, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-NA:hover::after, html[lang="ll"] .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 114, ../sass/_modules.sass */
+/* line 115, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 117, ../sass/_modules.sass */
+/* line 118, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 121, ../sass/_modules.sass */
+/* line 122, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 126, ../sass/_modules.sass */
+/* line 127, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-S3:hover::before {
   content: "(Season 3)";
   float: right;
   color: gray;
 }
-/* line 136, ../sass/_modules.sass */
+/* line 137, ../sass/_modules.sass */
 html[lang="ll"] .parentComment.comment {
   color: white !important;
   background-color: #f7f7f7 !important;
@@ -1740,130 +1820,50 @@ html[lang="ll"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px #f7f7f7;
 }
-/* line 152, ../sass/_modules.sass */
-html[lang="ll"] .md.wiki h1, html[lang="ll"] .md.wiki h2, html[lang="ll"] .md.wiki h3, html[lang="ll"] .md.wiki h4, html[lang="ll"] .md.wiki h5, html[lang="ll"] .md.wiki h6 {
-  color: #111111;
-}
-/* line 158, ../sass/_modules.sass */
-html[lang="ll"] .wiki-page > .content > span {
-  display: inline-block;
-  border-top: 1px solid #b67d27;
-  padding-right: 13px;
-}
-/* line 163, ../sass/_modules.sass */
-html[lang="ll"] .wikititle {
-  font-size: 16px;
-  font-size: 14px;
-  font-family: courier, fixed-width;
-}
-/* line 164, ../sass/_modules.sass */
-html[lang="ll"] .wikititle::before {
-  content: "wiki/";
-}
-/* line 169, ../sass/_modules.sass */
-html[lang="ll"] .wikititle strong {
-  font-weight: normal !important;
-}
-/* line 174, ../sass/_modules.sass */
-html[lang="ll"] .pageactions {
-  border: 1px solid gray;
-  border: none;
-  border-radius: 0px;
-  padding-left: 15px;
-  margin: 0px;
-}
-/* line 183, ../sass/_modules.sass */
-html[lang="ll"] .pageactions .wikiaction-current {
-  background: none;
-  color: orangered;
-  border: 1px solid #b67d27;
-  border-top: none;
-  border-radius: 0px;
-}
-/* line 189, ../sass/_modules.sass */
-html[lang="ll"] .pageactions .wikiaction {
-  margin-top: 0px;
-}
-/* line 191, ../sass/_modules.sass */
-html[lang="ll"] .pageactions .wikiaction:hover {
-  background: none;
-}
-/* line 196, ../sass/_modules.sass */
-html[lang="ll"] .wiki-page-content > hr {
-  border: none;
-  margin-bottom: 20px;
-}
-/* line 204, ../sass/_modules.sass */
-html[lang="ll"] div.wiki div.toc > ul {
-  width: 300px;
-  overflow: hidden;
-  background: none !important;
-  border: 1px solid gray;
-  margin-top: 20px;
-  padding: 4px 10px !important;
-  list-style: none !important;
-}
-/* line 213, ../sass/_modules.sass */
-html[lang="ll"] .md.wiki > .toc > ul ul {
-  border: none;
-}
-/* line 216, ../sass/_modules.sass */
-html[lang="ll"] .wiki .toc > ul::before {
-  display: block !important;
-  content: "INDEX";
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  color: gray;
-  text-align: left;
-  margin-top: -21px;
-  margin-left: -11px;
-  width: 300px;
-  position: absolute !important;
-}
-/* line 229, ../sass/_modules.sass */
+/* line 146, ../sass/_modules.sass */
 html[lang="ll"] .usertext-body {
   background: none;
 }
-/* line 236, ../sass/_modules.sass */
+/* line 152, ../sass/_modules.sass */
 html[lang="ll"] .content.submit .info-notice, html[lang="ll"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 239, ../sass/_modules.sass */
+/* line 155, ../sass/_modules.sass */
 html[lang="ll"] .tabmenu.formtab a {
   border: none;
 }
-/* line 242, ../sass/_modules.sass */
+/* line 158, ../sass/_modules.sass */
 html[lang="ll"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 247, ../sass/_modules.sass */
+/* line 163, ../sass/_modules.sass */
 html[lang="ll"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 250, ../sass/_modules.sass */
+/* line 166, ../sass/_modules.sass */
 html[lang="ll"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 256, ../sass/_modules.sass */
+/* line 172, ../sass/_modules.sass */
 html[lang="ll"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 265, ../sass/_modules.sass */
+/* line 181, ../sass/_modules.sass */
 html[lang="ll"] .choice:hover {
   background: #333333 !important;
 }
-/* line 271, ../sass/_modules.sass */
+/* line 187, ../sass/_modules.sass */
 html[lang="ll"] .voteWeight {
   color: #111111 !important;
   background: none !important;
 }
-/* line 277, ../sass/_modules.sass */
+/* line 193, ../sass/_modules.sass */
 html[lang="ll"] .nextprev a {
   background: none;
 }
-/* line 281, ../sass/_modules.sass */
+/* line 197, ../sass/_modules.sass */
 html[lang="ll"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -2167,7 +2167,7 @@ html[lang="lx"] .listing-page .link .rank {
 html[lang="lx"] .thing .title {
   font-weight: bold;
 }
-/* line 5, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 5, ../sass/_modules_res.sass */
 html[lang="lx"] .NERPageMarker {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -2176,7 +2176,7 @@ html[lang="lx"] .NERPageMarker {
   padding-top: 0px !important;
   border-color: gray !important;
 }
-/* line 13, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 13, ../sass/_modules_res.sass */
 html[lang="lx"] .neverEndingReddit {
   background: none !important;
   border-width: 0px 0px 1px 0px !important;
@@ -2185,154 +2185,154 @@ html[lang="lx"] .neverEndingReddit {
   padding-top: 0px !important;
   border-color: gray !important;
 }
-/* line 20, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 20, ../sass/_modules_res.sass */
 html[lang="lx"] .neverEndingReddit img {
   display: none;
 }
-/* line 25, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 25, ../sass/_modules_res.sass */
 html[lang="lx"] #authorInfoToolTip .blueButton {
   background-color: #21587e !important;
 }
-/* line 28, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 28, ../sass/_modules_res.sass */
 html[lang="lx"] .fancy-toggle-button .add {
   background: #116428 !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_res.sass */
+/* line 32, ../sass/_modules_res.sass */
 html[lang="lx"] .RES-keyNav-activeElement, html[lang="lx"] .commentarea .RES-keyNav-activeElement .md, html[lang="lx"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
   background: none !important;
 }
-/* line 3, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 3, ../sass/_modules_side.sass */
 html[lang="lx"] .side hr {
   display: none;
 }
-/* line 8, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 8, ../sass/_modules_side.sass */
 html[lang="lx"] .side {
   background: none;
   z-index: 500;
 }
-/* line 12, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 12, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .redditname a {
   text-transform: uppercase;
 }
-/* line 15, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 15, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .word {
   display: none;
 }
-/* line 17, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 17, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .subscribers .number::after {
   content: " locusts";
 }
-/* line 19, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 19, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .users-online .number::after {
   content: " locusts";
 }
-/* line 22, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 22, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox.create {
   display: none;
 }
-/* line 24, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 24, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .spacer {
   background: none;
 }
-/* line 27, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 27, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 31, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 31, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 35, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 35, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 38, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .bottom {
   display: none;
 }
-/* line 41, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 41, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
   padding: 5px 0 5px 20px;
 }
-/* line 47, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 47, ../sass/_modules_side.sass */
 html[lang="lx"] .submit-link {
   display: none;
 }
-/* line 49, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 49, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink {
   background: white;
   border: 1px solid gray;
 }
-/* line 52, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 52, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink:hover {
   background: white;
   border: 1px solid gray;
 }
-/* line 55, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 55, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink a {
   color: #425430;
 }
-/* line 57, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 57, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink .nub {
   display: none;
 }
-/* line 59, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 59, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 62, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 62, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink + .spacer a {
   display: none;
 }
-/* line 64, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 64, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink:hover + .spacer {
   display: block;
 }
-/* line 70, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 70, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
   background: white;
 }
-/* line 74, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 74, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext {
   margin-top: 5px;
 }
-/* line 76, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 76, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 83, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 83, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 84, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 84, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote h2 {
   border-bottom: 3px solid #425430;
 }
-/* line 90, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 90, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 96, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_side.sass */
+/* line 96, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
   padding-bottom: 5px;
   background: none;
 }
-/* line 4, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 4, ../sass/_modules_thing.sass */
 html[lang="lx"] .listing-page .thing .tagline {
   background-repeat: no-repeat;
   background-position: -5px -3px;
@@ -2343,7 +2343,7 @@ html[lang="lx"] .listing-page .thing .tagline {
   left: 30px;
   top: 19px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 14, ../sass/_modules_thing.sass */
 html[lang="lx"] .listing-page .thing .flat-list {
   position: absolute;
   top: 33px;
@@ -2351,71 +2351,71 @@ html[lang="lx"] .listing-page .thing .flat-list {
   height: 14px;
   padding: 0px;
 }
-/* line 25, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 25, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .expando-button {
   background: none !important;
   cursor: pointer !important;
 }
-/* line 28, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 28, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .expando-button.collapsed, html[lang="lx"] .entry .expando-button.collapsedExpando {
   background-image: url(%%egg-plus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 32, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .expando-button.collapsed:hover, html[lang="lx"] .entry .expando-button.collapsedExpando:hover {
   background-image: url(%%egg-plus-on%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 35, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 35, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .expando-button.expanded {
   background-image: url(%%egg-minus-off%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 38, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .expando-button.expanded:hover {
   background-image: url(%%egg-minus-on%%) !important;
   background-position: -1px -1px !important;
 }
-/* line 42, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 42, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .expando-button.video {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
-/* line 45, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 45, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .expando-button.video:hover {
   background-image: url(%%Video%%) !important;
   background-position: -8px -3px !important;
 }
-/* line 50, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 50, ../sass/_modules_thing.sass */
 html[lang="lx"] .listing-page .thing .title .title[href*="drop.sc"]::after {
   position: absolute;
   left: -4px;
   top: 19px;
 }
-/* line 56, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 56, ../sass/_modules_thing.sass */
 html[lang="lx"] .link.last-clicked {
   border: none;
 }
-/* line 58, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 58, ../sass/_modules_thing.sass */
 html[lang="lx"] .link.last-clicked::before {
   content: "<";
   color: gray;
   height: 20px;
   float: right;
 }
-/* line 65, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 65, ../sass/_modules_thing.sass */
 html[lang="lx"] .midcol {
   width: 22px !important;
 }
-/* line 70, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 70, ../sass/_modules_thing.sass */
 html[lang="lx"] .link .rank {
   color: #3d3d3d;
 }
-/* line 73, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_thing.sass */
+/* line 73, ../sass/_modules_thing.sass */
 html[lang="lx"] .entry .buttons li a {
   font-weight: normal;
 }
-/* line 2, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 2, ../sass/_modules_stickies.sass */
 html[lang="lx"] .side h4 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -2428,11 +2428,11 @@ html[lang="lx"] .side h4 {
   display: none;
   opacity: 0.8;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 14, ../sass/_modules_stickies.sass */
 html[lang="lx"] body.subscriber .side h4 {
   display: block;
 }
-/* line 18, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 18, ../sass/_modules_stickies.sass */
 html[lang="lx"] .side h5 {
   padding: 2px 6px 0 6px;
   margin: 0px;
@@ -2444,11 +2444,11 @@ html[lang="lx"] .side h5 {
   font-weight: normal;
   display: none;
 }
-/* line 29, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 29, ../sass/_modules_stickies.sass */
 html[lang="lx"] body.moderator.listing-page .side h5 {
   display: block;
 }
-/* line 33, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 33, ../sass/_modules_stickies.sass */
 html[lang="lx"] .side h6 {
   border: none !important;
   padding: 4px;
@@ -2462,43 +2462,43 @@ html[lang="lx"] .side h6 {
   max-width: 450px;
   box-shadow: 0px 0px 15px 0px white;
 }
-/* line 45, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_stickies.sass */
+/* line 45, ../sass/_modules_stickies.sass */
 html[lang="lx"] .side h6 a:hover {
   text-decoration: underline;
 }
-/* line 4, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 4, ../sass/_modules_text_features.sass */
 html[lang="lx"] .md a[href$="#spoiler"] {
   background: black !important;
   color: black !important;
   border-bottom: 1px dashed red;
   cursor: help;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 9, ../sass/_modules_text_features.sass */
 html[lang="lx"] .md a[href$="#spoiler"]::before {
   color: white !important;
   content: "Spoiler:";
   border-bottom: 1px solid black;
   margin-right: 5px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_text_features.sass */
+/* line 14, ../sass/_modules_text_features.sass */
 html[lang="lx"] .md a[href$="#spoiler"]:hover {
   color: white !important;
   border-bottom: 0px solid red;
 }
-/* line 5, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 5, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .linkinfo {
   background: none;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 9, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .link .usertext .md {
   max-width: 90em;
   margin: 0 5px;
 }
-/* line 14, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 14, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .md blockquote, html[lang="lx"] .help blockquote {
   border-left: 2px solid #425430;
 }
-/* line 18, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 18, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .usertext.border .usertext-body {
   background: none;
   border: solid 4px red;
@@ -2507,54 +2507,54 @@ html[lang="lx"] .usertext.border .usertext-body {
   margin-bottom: -5px;
   margin-top: -3px;
 }
-/* line 30, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 30, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment {
   background: none !important;
 }
-/* line 32, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 32, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment {
   background: none !important;
 }
-/* line 34, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 34, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 36, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 36, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 38, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 38, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 40, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 40, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 42, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 42, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 44, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 44, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 46, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 46, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 48, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_commentpage.sass */
+/* line 48, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 2, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 2, ../sass/_modules_header.sass */
 html[lang="lx"] #header {
   border-bottom: 1px solid #b67d27;
   background-color: black;
   height: 145px;
   margin-bottom: 15px;
 }
-/* line 9, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 9, ../sass/_modules_header.sass */
 html[lang="lx"] #header .pagename.redditname a {
   background: url(%%banneroff%%);
   width: 1670px;
@@ -2567,11 +2567,11 @@ html[lang="lx"] #header .pagename.redditname a {
   z-index: -100;
   background-repeat: no-repeat;
 }
-/* line 20, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 20, ../sass/_modules_header.sass */
 html[lang="lx"] #header .pagename.redditname a:hover {
   background: url(%%banneron%%);
 }
-/* line 24, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 24, ../sass/_modules_header.sass */
 html[lang="lx"] #header-img {
   opacity: 0.4;
   position: absolute;
@@ -2581,20 +2581,100 @@ html[lang="lx"] #header-img {
   height: 44px;
   width: 66px;
 }
-/* line 33, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_header.sass */
+/* line 33, ../sass/_modules_header.sass */
 html[lang="lx"] #header-img:hover {
   opacity: 1;
   left: -15px;
 }
-/* line 1, E:/Users/Joe/Dropbox/My Code/Web/allzerg/Stylesheets/sass/_modules_misc.sass */
+/* line 1, ../sass/_modules_misc.sass */
 html[lang="lx"] .infobar.welcome h1 {
   color: black;
 }
-/* line 12, ../sass/_modules.sass */
+/* line 5, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h1, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h2, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h3, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h4, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h5, html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h6 {
+  color: #383824;
+}
+/* line 8, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page .wiki-page-content > hr {
+  border: none;
+  margin-bottom: 20px;
+}
+/* line 13, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span {
+  display: inline-block;
+  border-top: 1px solid #b67d27;
+  padding-right: 13px;
+}
+/* line 18, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span .wikititle {
+  font-size: 16px;
+  font-size: 14px;
+  font-family: courier, fixed-width;
+}
+/* line 19, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span .wikititle::before {
+  content: "wiki/";
+}
+/* line 24, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span .wikititle strong {
+  font-weight: normal !important;
+}
+/* line 28, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span .pageactions {
+  border: 1px solid gray;
+  border: none;
+  border-radius: 0px;
+  padding-left: 15px;
+  margin: 0px;
+}
+/* line 37, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction-current {
+  background: none;
+  color: orangered;
+  border: 1px solid #b67d27;
+  border-top: none;
+  border-radius: 0px;
+}
+/* line 43, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction {
+  margin-top: 0px;
+}
+/* line 45, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction:hover {
+  background: none;
+}
+/* line 50, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul {
+  width: 300px;
+  overflow: hidden;
+  background: none !important;
+  border: 1px solid gray;
+  margin-top: 20px;
+  padding: 4px 10px !important;
+  list-style: none !important;
+}
+/* line 58, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul ul {
+  border: none;
+}
+/* line 60, ../sass/_modules_wiki.sass */
+html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul::before {
+  display: block !important;
+  content: "INDEX";
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  color: gray;
+  text-align: left;
+  margin-top: -21px;
+  margin-left: -11px;
+  width: 300px;
+  position: absolute !important;
+}
+/* line 13, ../sass/_modules.sass */
 html[lang="lx"] .icon-menu a {
   background: none;
 }
-/* line 18, ../sass/_modules.sass */
+/* line 19, ../sass/_modules.sass */
 html[lang="lx"] #search input[type="text"] {
   border: 0px solid white;
   border-radius: 3px;
@@ -2603,48 +2683,48 @@ html[lang="lx"] #search input[type="text"] {
   opacity: 0.75;
   width: 290px;
 }
-/* line 25, ../sass/_modules.sass */
+/* line 26, ../sass/_modules.sass */
 html[lang="lx"] #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #00141c;
 }
-/* line 27, ../sass/_modules.sass */
+/* line 28, ../sass/_modules.sass */
 html[lang="lx"] #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
-/* line 32, ../sass/_modules.sass */
+/* line 33, ../sass/_modules.sass */
 html[lang="lx"] .infobar {
   background: none;
   border-color: gray;
 }
-/* line 37, ../sass/_modules.sass */
+/* line 38, ../sass/_modules.sass */
 html[lang="lx"] #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 44, ../sass/_modules.sass */
+/* line 45, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 50, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 51, ../sass/_modules.sass */
+/* line 52, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 55, ../sass/_modules.sass */
+/* line 56, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 62, ../sass/_modules.sass */
+/* line 63, ../sass/_modules.sass */
 html[lang="lx"] .flair {
   background: none;
   color: #383824;
@@ -2652,7 +2732,7 @@ html[lang="lx"] .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 70, ../sass/_modules.sass */
+/* line 71, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -2661,7 +2741,7 @@ html[lang="lx"] .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 77, ../sass/_modules.sass */
+/* line 78, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -2674,73 +2754,73 @@ html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2 {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 88, ../sass/_modules.sass */
+/* line 89, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 90, ../sass/_modules.sass */
+/* line 91, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 94, ../sass/_modules.sass */
+/* line 95, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 98, ../sass/_modules.sass */
+/* line 99, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 102, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 104, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master:hover, html[lang="lx"] .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 105, ../sass/_modules.sass */
+/* line 106, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 108, ../sass/_modules.sass */
+/* line 109, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 111, ../sass/_modules.sass */
+/* line 112, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-NA:hover::after, html[lang="lx"] .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 114, ../sass/_modules.sass */
+/* line 115, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 117, ../sass/_modules.sass */
+/* line 118, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 121, ../sass/_modules.sass */
+/* line 122, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 126, ../sass/_modules.sass */
+/* line 127, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-S3:hover::before {
   content: "(Season 3)";
   float: right;
   color: gray;
 }
-/* line 136, ../sass/_modules.sass */
+/* line 137, ../sass/_modules.sass */
 html[lang="lx"] .parentComment.comment {
   color: white !important;
   background-color: white !important;
@@ -2748,130 +2828,50 @@ html[lang="lx"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px white;
 }
-/* line 152, ../sass/_modules.sass */
-html[lang="lx"] .md.wiki h1, html[lang="lx"] .md.wiki h2, html[lang="lx"] .md.wiki h3, html[lang="lx"] .md.wiki h4, html[lang="lx"] .md.wiki h5, html[lang="lx"] .md.wiki h6 {
-  color: #383824;
-}
-/* line 158, ../sass/_modules.sass */
-html[lang="lx"] .wiki-page > .content > span {
-  display: inline-block;
-  border-top: 1px solid #b67d27;
-  padding-right: 13px;
-}
-/* line 163, ../sass/_modules.sass */
-html[lang="lx"] .wikititle {
-  font-size: 16px;
-  font-size: 14px;
-  font-family: courier, fixed-width;
-}
-/* line 164, ../sass/_modules.sass */
-html[lang="lx"] .wikititle::before {
-  content: "wiki/";
-}
-/* line 169, ../sass/_modules.sass */
-html[lang="lx"] .wikititle strong {
-  font-weight: normal !important;
-}
-/* line 174, ../sass/_modules.sass */
-html[lang="lx"] .pageactions {
-  border: 1px solid gray;
-  border: none;
-  border-radius: 0px;
-  padding-left: 15px;
-  margin: 0px;
-}
-/* line 183, ../sass/_modules.sass */
-html[lang="lx"] .pageactions .wikiaction-current {
-  background: none;
-  color: orangered;
-  border: 1px solid #b67d27;
-  border-top: none;
-  border-radius: 0px;
-}
-/* line 189, ../sass/_modules.sass */
-html[lang="lx"] .pageactions .wikiaction {
-  margin-top: 0px;
-}
-/* line 191, ../sass/_modules.sass */
-html[lang="lx"] .pageactions .wikiaction:hover {
-  background: none;
-}
-/* line 196, ../sass/_modules.sass */
-html[lang="lx"] .wiki-page-content > hr {
-  border: none;
-  margin-bottom: 20px;
-}
-/* line 204, ../sass/_modules.sass */
-html[lang="lx"] div.wiki div.toc > ul {
-  width: 300px;
-  overflow: hidden;
-  background: none !important;
-  border: 1px solid gray;
-  margin-top: 20px;
-  padding: 4px 10px !important;
-  list-style: none !important;
-}
-/* line 213, ../sass/_modules.sass */
-html[lang="lx"] .md.wiki > .toc > ul ul {
-  border: none;
-}
-/* line 216, ../sass/_modules.sass */
-html[lang="lx"] .wiki .toc > ul::before {
-  display: block !important;
-  content: "INDEX";
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  color: gray;
-  text-align: left;
-  margin-top: -21px;
-  margin-left: -11px;
-  width: 300px;
-  position: absolute !important;
-}
-/* line 229, ../sass/_modules.sass */
+/* line 146, ../sass/_modules.sass */
 html[lang="lx"] .usertext-body {
   background: none;
 }
-/* line 236, ../sass/_modules.sass */
+/* line 152, ../sass/_modules.sass */
 html[lang="lx"] .content.submit .info-notice, html[lang="lx"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 239, ../sass/_modules.sass */
+/* line 155, ../sass/_modules.sass */
 html[lang="lx"] .tabmenu.formtab a {
   border: none;
 }
-/* line 242, ../sass/_modules.sass */
+/* line 158, ../sass/_modules.sass */
 html[lang="lx"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 247, ../sass/_modules.sass */
+/* line 163, ../sass/_modules.sass */
 html[lang="lx"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 250, ../sass/_modules.sass */
+/* line 166, ../sass/_modules.sass */
 html[lang="lx"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 256, ../sass/_modules.sass */
+/* line 172, ../sass/_modules.sass */
 html[lang="lx"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 265, ../sass/_modules.sass */
+/* line 181, ../sass/_modules.sass */
 html[lang="lx"] .choice:hover {
   background: #333333 !important;
 }
-/* line 271, ../sass/_modules.sass */
+/* line 187, ../sass/_modules.sass */
 html[lang="lx"] .voteWeight {
   color: #383824 !important;
   background: none !important;
 }
-/* line 277, ../sass/_modules.sass */
+/* line 193, ../sass/_modules.sass */
 html[lang="lx"] .nextprev a {
   background: none;
 }
-/* line 281, ../sass/_modules.sass */
+/* line 197, ../sass/_modules.sass */
 html[lang="lx"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
