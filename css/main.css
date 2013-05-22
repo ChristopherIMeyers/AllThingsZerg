@@ -1604,7 +1604,7 @@ html[lang="ll"] .wiki-page .wiki-page-content > hr {
 }
 /* line 12, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page .wiki-page-content table {
-  background: black;
+  background: #f7f7f7;
   width: 100%;
   margin: 0;
 }
@@ -2623,7 +2623,7 @@ html[lang="lx"] .wiki-page .wiki-page-content > hr {
 }
 /* line 12, ../sass/_modules_wiki.sass */
 html[lang="lx"] .wiki-page .wiki-page-content table {
-  background: black;
+  background: white;
   width: 100%;
   margin: 0;
 }
