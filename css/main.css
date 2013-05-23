@@ -1,4 +1,4 @@
-﻿/* line 3, ../sass/_base.sass */
+/* line 3, ../sass/_base.sass */
 .md ul {
   margin: 10px 20px;
   list-style-image: url(%%arrow%%) !important;
@@ -164,112 +164,109 @@ html:not([lang*="l"]) .side .titlebox .subscribers .number::after {
 html:not([lang*="l"]) .side .titlebox .users-online .number::after {
   content: " locusts";
 }
-/* line 22, ../sass/_modules_side.sass */
-html:not([lang*="l"]) .side .titlebox.create {
-  display: none;
-}
-/* line 24, ../sass/_modules_side.sass */
+/* line 21, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .spacer {
   background: none;
 }
-/* line 27, ../sass/_modules_side.sass */
+/* line 24, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 31, ../sass/_modules_side.sass */
+/* line 28, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 35, ../sass/_modules_side.sass */
+/* line 32, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 38, ../sass/_modules_side.sass */
+/* line 35, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .bottom {
   display: none;
 }
-/* line 41, ../sass/_modules_side.sass */
+/* line 38, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
   padding: 5px 0 5px 20px;
 }
-/* line 47, ../sass/_modules_side.sass */
+/* line 44, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .submit-link {
   display: none;
 }
-/* line 49, ../sass/_modules_side.sass */
+/* line 46, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink {
-  background: black;
+  color: white;
+  background: #222222;
   border: 1px solid gray;
 }
-/* line 52, ../sass/_modules_side.sass */
+/* line 50, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink:hover {
   background: black;
   border: 1px solid gray;
 }
-/* line 55, ../sass/_modules_side.sass */
+/* line 53, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink a {
   color: #aa6600;
 }
-/* line 57, ../sass/_modules_side.sass */
+/* line 55, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink .nub {
   display: none;
 }
-/* line 59, ../sass/_modules_side.sass */
+/* line 57, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 62, ../sass/_modules_side.sass */
+/* line 60, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink + .spacer a {
   display: none;
 }
-/* line 64, ../sass/_modules_side.sass */
+/* line 62, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .morelink:hover + .spacer {
   display: block;
 }
-/* line 70, ../sass/_modules_side.sass */
+/* line 68, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
   background: #222222;
   color: white;
 }
-/* line 75, ../sass/_modules_side.sass */
+/* line 73, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext {
   margin-top: 5px;
 }
-/* line 77, ../sass/_modules_side.sass */
+/* line 75, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 82, ../sass/_modules_side.sass */
+/* line 80, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .sidecontentbox .content {
   background: #222222;
   color: white;
 }
-/* line 88, ../sass/_modules_side.sass */
+/* line 86, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 89, ../sass/_modules_side.sass */
+/* line 87, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote h2 {
   border-bottom: 3px solid #aa6600;
 }
-/* line 95, ../sass/_modules_side.sass */
+/* line 93, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 101, ../sass/_modules_side.sass */
+/* line 99, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -943,126 +940,121 @@ html:not([lang*="l"]) #sr-more-link {
   color: #eeeeee;
   background-color: black;
 }
-/* line 89, ../sass/_theme.sass */
-html:not([lang*="l"]) .morelink {
-  color: #eeeeee;
-  background-color: black;
-}
-/* line 93, ../sass/_theme.sass */
+/* line 90, ../sass/_theme.sass */
 html:not([lang*="l"]) .keyHighlight {
   background: none !important;
 }
-/* line 98, ../sass/_theme.sass */
+/* line 95, ../sass/_theme.sass */
 html:not([lang*="l"]) .thing .title {
   color: #ffcc00 !important;
 }
-/* line 100, ../sass/_theme.sass */
+/* line 97, ../sass/_theme.sass */
 html:not([lang*="l"]) .thing .title:hover {
   color: yellow !important;
 }
-/* line 102, ../sass/_theme.sass */
+/* line 99, ../sass/_theme.sass */
 html:not([lang*="l"]) .thing .title:visited, html:not([lang*="l"]) .thing .title.click {
   color: #aa6600 !important;
 }
-/* line 104, ../sass/_theme.sass */
+/* line 101, ../sass/_theme.sass */
 html:not([lang*="l"]) .thing .title:visited:hover, html:not([lang*="l"]) .thing .title.click:hover {
   color: #ffcc00 !important;
 }
-/* line 109, ../sass/_theme.sass */
+/* line 106, ../sass/_theme.sass */
 html:not([lang*="l"]) .listing-page .thing .title .title[href*="drop.sc"]::after {
   content: url(%%Video%%);
 }
-/* line 115, ../sass/_theme.sass */
+/* line 112, ../sass/_theme.sass */
 html:not([lang*="l"]) .drop-choices {
   background: black;
 }
-/* line 118, ../sass/_theme.sass */
+/* line 115, ../sass/_theme.sass */
 html:not([lang*="l"]) .flairselector li {
   border: none;
 }
-/* line 124, ../sass/_theme.sass */
+/* line 121, ../sass/_theme.sass */
 html:not([lang*="l"]) .NERPageMarker {
   color: #eeeeee !important;
 }
-/* line 127, ../sass/_theme.sass */
+/* line 124, ../sass/_theme.sass */
 html:not([lang*="l"]) .neverEndingReddit {
   background: none !important;
   color: #eeeeee !important;
 }
-/* line 130, ../sass/_theme.sass */
+/* line 127, ../sass/_theme.sass */
 html:not([lang*="l"]) .neverEndingReddit img {
   display: none;
 }
-/* line 136, ../sass/_theme.sass */
+/* line 133, ../sass/_theme.sass */
 html:not([lang*="l"]) .RESDialogSmall {
   background-color: black !important;
   color: #eeeeee !important;
 }
-/* line 139, ../sass/_theme.sass */
+/* line 136, ../sass/_theme.sass */
 html:not([lang*="l"]) .RESDialogSmall > h3 {
   background-color: #222222 !important;
   color: white !important;
 }
-/* line 143, ../sass/_theme.sass */
+/* line 140, ../sass/_theme.sass */
 html:not([lang*="l"]) .RESCloseButton {
   background: black !important;
 }
-/* line 145, ../sass/_theme.sass */
+/* line 142, ../sass/_theme.sass */
 html:not([lang*="l"]) .RESCloseButton:hover {
   background: #444444 !important;
 }
-/* line 150, ../sass/_theme.sass */
+/* line 147, ../sass/_theme.sass */
 html:not([lang*="l"]) .side {
   color: #eeeeee !important;
 }
-/* line 153, ../sass/_theme.sass */
+/* line 150, ../sass/_theme.sass */
 html:not([lang*="l"]) .side .titlebox .redditname a {
   color: #eeeeee !important;
 }
-/* line 156, ../sass/_theme.sass */
+/* line 153, ../sass/_theme.sass */
 html:not([lang*="l"]) .side .titlebox .tagline {
   background-color: black;
 }
-/* line 162, ../sass/_theme.sass */
+/* line 159, ../sass/_theme.sass */
 html:not([lang*="l"]) .side h4 {
   background: black;
   color: #eeeeee;
 }
-/* line 167, ../sass/_theme.sass */
+/* line 164, ../sass/_theme.sass */
 html:not([lang*="l"]) .side h5 {
   background: black;
   color: #eeeeee;
 }
-/* line 172, ../sass/_theme.sass */
+/* line 169, ../sass/_theme.sass */
 html:not([lang*="l"]) .side h6 {
   background: white;
   color: #222222;
 }
-/* line 176, ../sass/_theme.sass */
+/* line 173, ../sass/_theme.sass */
 html:not([lang*="l"]) #search input[type="text"] {
   background: black;
   color: #eeeeee;
 }
-/* line 184, ../sass/_theme.sass */
+/* line 181, ../sass/_theme.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li a {
   background-color: black;
 }
-/* line 186, ../sass/_theme.sass */
+/* line 183, ../sass/_theme.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: black;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 198, ../sass/_theme.sass */
+/* line 195, ../sass/_theme.sass */
 html:not([lang*="l"]) #sr-header-area {
   background-color: black;
   color: #eeeeee;
 }
-/* line 201, ../sass/_theme.sass */
+/* line 198, ../sass/_theme.sass */
 html:not([lang*="l"]) #sr-header-area .sr-bar a {
   color: #aa6600;
 }
-/* line 205, ../sass/_theme.sass */
+/* line 202, ../sass/_theme.sass */
 html:not([lang*="l"]) .link .usertext .md {
   background-color: black;
 }
@@ -1235,112 +1227,109 @@ html[lang="ll"] .side .titlebox .subscribers .number::after {
 html[lang="ll"] .side .titlebox .users-online .number::after {
   content: " locusts";
 }
-/* line 22, ../sass/_modules_side.sass */
-html[lang="ll"] .side .titlebox.create {
-  display: none;
-}
-/* line 24, ../sass/_modules_side.sass */
+/* line 21, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .spacer {
   background: none;
 }
-/* line 27, ../sass/_modules_side.sass */
+/* line 24, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 31, ../sass/_modules_side.sass */
+/* line 28, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 35, ../sass/_modules_side.sass */
+/* line 32, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 38, ../sass/_modules_side.sass */
+/* line 35, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .bottom {
   display: none;
 }
-/* line 41, ../sass/_modules_side.sass */
+/* line 38, ../sass/_modules_side.sass */
 html[lang="ll"] .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
   padding: 5px 0 5px 20px;
 }
-/* line 47, ../sass/_modules_side.sass */
+/* line 44, ../sass/_modules_side.sass */
 html[lang="ll"] .submit-link {
   display: none;
 }
-/* line 49, ../sass/_modules_side.sass */
+/* line 46, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink {
-  background: white;
+  color: #111111;
+  background: #dddddd;
   border: 1px solid gray;
 }
-/* line 52, ../sass/_modules_side.sass */
+/* line 50, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink:hover {
   background: white;
   border: 1px solid gray;
 }
-/* line 55, ../sass/_modules_side.sass */
+/* line 53, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink a {
   color: #780000;
 }
-/* line 57, ../sass/_modules_side.sass */
+/* line 55, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink .nub {
   display: none;
 }
-/* line 59, ../sass/_modules_side.sass */
+/* line 57, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 62, ../sass/_modules_side.sass */
+/* line 60, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink + .spacer a {
   display: none;
 }
-/* line 64, ../sass/_modules_side.sass */
+/* line 62, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink:hover + .spacer {
   display: block;
 }
-/* line 70, ../sass/_modules_side.sass */
+/* line 68, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
   background: #dddddd;
   color: #111111;
 }
-/* line 75, ../sass/_modules_side.sass */
+/* line 73, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext {
   margin-top: 5px;
 }
-/* line 77, ../sass/_modules_side.sass */
+/* line 75, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 82, ../sass/_modules_side.sass */
+/* line 80, ../sass/_modules_side.sass */
 html[lang="ll"] .side .sidecontentbox .content {
   background: #dddddd;
   color: #111111;
 }
-/* line 88, ../sass/_modules_side.sass */
+/* line 86, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 89, ../sass/_modules_side.sass */
+/* line 87, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote h2 {
   border-bottom: 3px solid #780000;
 }
-/* line 95, ../sass/_modules_side.sass */
+/* line 93, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 101, ../sass/_modules_side.sass */
+/* line 99, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -2014,126 +2003,121 @@ html[lang="ll"] #sr-more-link {
   color: #111111;
   background-color: white;
 }
-/* line 89, ../sass/_theme.sass */
-html[lang="ll"] .morelink {
-  color: #111111;
-  background-color: white;
-}
-/* line 93, ../sass/_theme.sass */
+/* line 90, ../sass/_theme.sass */
 html[lang="ll"] .keyHighlight {
   background: none !important;
 }
-/* line 98, ../sass/_theme.sass */
+/* line 95, ../sass/_theme.sass */
 html[lang="ll"] .thing .title {
   color: #de0000 !important;
 }
-/* line 100, ../sass/_theme.sass */
+/* line 97, ../sass/_theme.sass */
 html[lang="ll"] .thing .title:hover {
   color: #f70000 !important;
 }
-/* line 102, ../sass/_theme.sass */
+/* line 99, ../sass/_theme.sass */
 html[lang="ll"] .thing .title:visited, html[lang="ll"] .thing .title.click {
   color: #780000 !important;
 }
-/* line 104, ../sass/_theme.sass */
+/* line 101, ../sass/_theme.sass */
 html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover {
   color: #de0000 !important;
 }
-/* line 109, ../sass/_theme.sass */
+/* line 106, ../sass/_theme.sass */
 html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after {
   content: url(%%Video%%);
 }
-/* line 115, ../sass/_theme.sass */
+/* line 112, ../sass/_theme.sass */
 html[lang="ll"] .drop-choices {
   background: white;
 }
-/* line 118, ../sass/_theme.sass */
+/* line 115, ../sass/_theme.sass */
 html[lang="ll"] .flairselector li {
   border: none;
 }
-/* line 124, ../sass/_theme.sass */
+/* line 121, ../sass/_theme.sass */
 html[lang="ll"] .NERPageMarker {
   color: #111111 !important;
 }
-/* line 127, ../sass/_theme.sass */
+/* line 124, ../sass/_theme.sass */
 html[lang="ll"] .neverEndingReddit {
   background: none !important;
   color: #111111 !important;
 }
-/* line 130, ../sass/_theme.sass */
+/* line 127, ../sass/_theme.sass */
 html[lang="ll"] .neverEndingReddit img {
   display: none;
 }
-/* line 136, ../sass/_theme.sass */
+/* line 133, ../sass/_theme.sass */
 html[lang="ll"] .RESDialogSmall {
   background-color: white !important;
   color: #111111 !important;
 }
-/* line 139, ../sass/_theme.sass */
+/* line 136, ../sass/_theme.sass */
 html[lang="ll"] .RESDialogSmall > h3 {
   background-color: #dddddd !important;
   color: #111111 !important;
 }
-/* line 143, ../sass/_theme.sass */
+/* line 140, ../sass/_theme.sass */
 html[lang="ll"] .RESCloseButton {
   background: white !important;
 }
-/* line 145, ../sass/_theme.sass */
+/* line 142, ../sass/_theme.sass */
 html[lang="ll"] .RESCloseButton:hover {
   background: #444444 !important;
 }
-/* line 150, ../sass/_theme.sass */
+/* line 147, ../sass/_theme.sass */
 html[lang="ll"] .side {
   color: #111111 !important;
 }
-/* line 153, ../sass/_theme.sass */
+/* line 150, ../sass/_theme.sass */
 html[lang="ll"] .side .titlebox .redditname a {
   color: #111111 !important;
 }
-/* line 156, ../sass/_theme.sass */
+/* line 153, ../sass/_theme.sass */
 html[lang="ll"] .side .titlebox .tagline {
   background-color: white;
 }
-/* line 162, ../sass/_theme.sass */
+/* line 159, ../sass/_theme.sass */
 html[lang="ll"] .side h4 {
   background: white;
   color: #111111;
 }
-/* line 167, ../sass/_theme.sass */
+/* line 164, ../sass/_theme.sass */
 html[lang="ll"] .side h5 {
   background: white;
   color: #111111;
 }
-/* line 172, ../sass/_theme.sass */
+/* line 169, ../sass/_theme.sass */
 html[lang="ll"] .side h6 {
   background: #111111;
   color: #dddddd;
 }
-/* line 176, ../sass/_theme.sass */
+/* line 173, ../sass/_theme.sass */
 html[lang="ll"] #search input[type="text"] {
   background: white;
   color: #111111;
 }
-/* line 184, ../sass/_theme.sass */
+/* line 181, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li a {
   background-color: white;
 }
-/* line 186, ../sass/_theme.sass */
+/* line 183, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: white;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 198, ../sass/_theme.sass */
+/* line 195, ../sass/_theme.sass */
 html[lang="ll"] #sr-header-area {
   background-color: white;
   color: #111111;
 }
-/* line 201, ../sass/_theme.sass */
+/* line 198, ../sass/_theme.sass */
 html[lang="ll"] #sr-header-area .sr-bar a {
   color: #780000;
 }
-/* line 205, ../sass/_theme.sass */
+/* line 202, ../sass/_theme.sass */
 html[lang="ll"] .link .usertext .md {
   background-color: white;
 }
@@ -2251,112 +2235,109 @@ html[lang="lx"] .side .titlebox .subscribers .number::after {
 html[lang="lx"] .side .titlebox .users-online .number::after {
   content: " locusts";
 }
-/* line 22, ../sass/_modules_side.sass */
-html[lang="lx"] .side .titlebox.create {
-  display: none;
-}
-/* line 24, ../sass/_modules_side.sass */
+/* line 21, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .spacer {
   background: none;
 }
-/* line 27, ../sass/_modules_side.sass */
+/* line 24, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .titlebox form.toggle {
   background: none;
 }
-/* line 31, ../sass/_modules_side.sass */
+/* line 28, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .leavemoderator {
   background: none;
 }
-/* line 35, ../sass/_modules_side.sass */
+/* line 32, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .flairtoggle {
   background: none;
 }
-/* line 38, ../sass/_modules_side.sass */
+/* line 35, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .bottom {
   display: none;
 }
-/* line 41, ../sass/_modules_side.sass */
+/* line 38, ../sass/_modules_side.sass */
 html[lang="lx"] .side .titlebox .tagline {
   margin: 2px;
   border-radius: 5px;
   padding: 5px 0 5px 20px;
 }
-/* line 47, ../sass/_modules_side.sass */
+/* line 44, ../sass/_modules_side.sass */
 html[lang="lx"] .submit-link {
   display: none;
 }
-/* line 49, ../sass/_modules_side.sass */
+/* line 46, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink {
-  background: white;
+  color: #718c44;
+  background: #222222;
   border: 1px solid gray;
 }
-/* line 52, ../sass/_modules_side.sass */
+/* line 50, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink:hover {
   background: white;
   border: 1px solid gray;
 }
-/* line 55, ../sass/_modules_side.sass */
+/* line 53, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink a {
   color: #425430;
 }
-/* line 57, ../sass/_modules_side.sass */
+/* line 55, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink .nub {
   display: none;
 }
-/* line 59, ../sass/_modules_side.sass */
+/* line 57, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink + .spacer {
   display: none;
   padding: 0px;
 }
-/* line 62, ../sass/_modules_side.sass */
+/* line 60, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink + .spacer a {
   display: none;
 }
-/* line 64, ../sass/_modules_side.sass */
+/* line 62, ../sass/_modules_side.sass */
 html[lang="lx"] .morelink:hover + .spacer {
   display: block;
 }
-/* line 70, ../sass/_modules_side.sass */
+/* line 68, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
   background: #222222;
   color: #718c44;
 }
-/* line 75, ../sass/_modules_side.sass */
+/* line 73, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext {
   margin-top: 5px;
 }
-/* line 77, ../sass/_modules_side.sass */
+/* line 75, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 82, ../sass/_modules_side.sass */
+/* line 80, ../sass/_modules_side.sass */
 html[lang="lx"] .side .sidecontentbox .content {
   background: #222222;
   color: #718c44;
 }
-/* line 88, ../sass/_modules_side.sass */
+/* line 86, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 89, ../sass/_modules_side.sass */
+/* line 87, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote h2 {
   border-bottom: 3px solid #425430;
 }
-/* line 95, ../sass/_modules_side.sass */
+/* line 93, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 101, ../sass/_modules_side.sass */
+/* line 99, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -3030,126 +3011,121 @@ html[lang="lx"] #sr-more-link {
   color: #383824;
   background-color: white;
 }
-/* line 89, ../sass/_theme.sass */
-html[lang="lx"] .morelink {
-  color: #383824;
-  background-color: white;
-}
-/* line 93, ../sass/_theme.sass */
+/* line 90, ../sass/_theme.sass */
 html[lang="lx"] .keyHighlight {
   background: none !important;
 }
-/* line 98, ../sass/_theme.sass */
+/* line 95, ../sass/_theme.sass */
 html[lang="lx"] .thing .title {
   color: #00141c !important;
 }
-/* line 100, ../sass/_theme.sass */
+/* line 97, ../sass/_theme.sass */
 html[lang="lx"] .thing .title:hover {
   color: #00141c !important;
 }
-/* line 102, ../sass/_theme.sass */
+/* line 99, ../sass/_theme.sass */
 html[lang="lx"] .thing .title:visited, html[lang="lx"] .thing .title.click {
   color: #425430 !important;
 }
-/* line 104, ../sass/_theme.sass */
+/* line 101, ../sass/_theme.sass */
 html[lang="lx"] .thing .title:visited:hover, html[lang="lx"] .thing .title.click:hover {
   color: #00141c !important;
 }
-/* line 109, ../sass/_theme.sass */
+/* line 106, ../sass/_theme.sass */
 html[lang="lx"] .listing-page .thing .title .title[href*="drop.sc"]::after {
   content: url(%%Video%%);
 }
-/* line 115, ../sass/_theme.sass */
+/* line 112, ../sass/_theme.sass */
 html[lang="lx"] .drop-choices {
   background: white;
 }
-/* line 118, ../sass/_theme.sass */
+/* line 115, ../sass/_theme.sass */
 html[lang="lx"] .flairselector li {
   border: none;
 }
-/* line 124, ../sass/_theme.sass */
+/* line 121, ../sass/_theme.sass */
 html[lang="lx"] .NERPageMarker {
   color: #383824 !important;
 }
-/* line 127, ../sass/_theme.sass */
+/* line 124, ../sass/_theme.sass */
 html[lang="lx"] .neverEndingReddit {
   background: none !important;
   color: #383824 !important;
 }
-/* line 130, ../sass/_theme.sass */
+/* line 127, ../sass/_theme.sass */
 html[lang="lx"] .neverEndingReddit img {
   display: none;
 }
-/* line 136, ../sass/_theme.sass */
+/* line 133, ../sass/_theme.sass */
 html[lang="lx"] .RESDialogSmall {
   background-color: white !important;
   color: #383824 !important;
 }
-/* line 139, ../sass/_theme.sass */
+/* line 136, ../sass/_theme.sass */
 html[lang="lx"] .RESDialogSmall > h3 {
   background-color: #222222 !important;
   color: #718c44 !important;
 }
-/* line 143, ../sass/_theme.sass */
+/* line 140, ../sass/_theme.sass */
 html[lang="lx"] .RESCloseButton {
   background: white !important;
 }
-/* line 145, ../sass/_theme.sass */
+/* line 142, ../sass/_theme.sass */
 html[lang="lx"] .RESCloseButton:hover {
   background: #444444 !important;
 }
-/* line 150, ../sass/_theme.sass */
+/* line 147, ../sass/_theme.sass */
 html[lang="lx"] .side {
   color: #383824 !important;
 }
-/* line 153, ../sass/_theme.sass */
+/* line 150, ../sass/_theme.sass */
 html[lang="lx"] .side .titlebox .redditname a {
   color: #383824 !important;
 }
-/* line 156, ../sass/_theme.sass */
+/* line 153, ../sass/_theme.sass */
 html[lang="lx"] .side .titlebox .tagline {
   background-color: white;
 }
-/* line 162, ../sass/_theme.sass */
+/* line 159, ../sass/_theme.sass */
 html[lang="lx"] .side h4 {
   background: white;
   color: #383824;
 }
-/* line 167, ../sass/_theme.sass */
+/* line 164, ../sass/_theme.sass */
 html[lang="lx"] .side h5 {
   background: white;
   color: #383824;
 }
-/* line 172, ../sass/_theme.sass */
+/* line 169, ../sass/_theme.sass */
 html[lang="lx"] .side h6 {
   background: #718c44;
   color: #222222;
 }
-/* line 176, ../sass/_theme.sass */
+/* line 173, ../sass/_theme.sass */
 html[lang="lx"] #search input[type="text"] {
   background: white;
   color: #383824;
 }
-/* line 184, ../sass/_theme.sass */
+/* line 181, ../sass/_theme.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li a {
   background-color: white;
 }
-/* line 186, ../sass/_theme.sass */
+/* line 183, ../sass/_theme.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: white;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 198, ../sass/_theme.sass */
+/* line 195, ../sass/_theme.sass */
 html[lang="lx"] #sr-header-area {
   background-color: white;
   color: #383824;
 }
-/* line 201, ../sass/_theme.sass */
+/* line 198, ../sass/_theme.sass */
 html[lang="lx"] #sr-header-area .sr-bar a {
   color: #425430;
 }
-/* line 205, ../sass/_theme.sass */
+/* line 202, ../sass/_theme.sass */
 html[lang="lx"] .link .usertext .md {
   background-color: white;
 }
