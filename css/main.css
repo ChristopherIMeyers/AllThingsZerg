@@ -79,27 +79,29 @@
 /* line 15, ../sass/_themeDark.sass */
 html:not([lang*="l"]) body {
   background: url(%%background%%);
+  background-repeat: repeat;
 }
-/* line 18, ../sass/_themeDark.sass */
+/* line 19, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow {
   height: 22px;
   width: 22px;
   background-position: 0px 0px !important;
   background: none;
+  background-repeat: no-repeat;
 }
-/* line 23, ../sass/_themeDark.sass */
+/* line 25, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.down {
   background-image: url(%%arrow-down-off%%);
 }
-/* line 25, ../sass/_themeDark.sass */
+/* line 27, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.downmod {
   background-image: url(%%arrow-down%%);
 }
-/* line 27, ../sass/_themeDark.sass */
+/* line 29, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.up {
   background-image: url(%%arrow-up-off%%);
 }
-/* line 29, ../sass/_themeDark.sass */
+/* line 31, ../sass/_themeDark.sass */
 html:not([lang*="l"]) .arrow.upmod {
   background-image: url(%%arrow-up%%);
 }
@@ -231,37 +233,43 @@ html:not([lang*="l"]) .morelink:hover + .spacer {
 html:not([lang*="l"]) .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
-  background: black;
+  background: #222222;
+  color: white;
 }
-/* line 74, ../sass/_modules_side.sass */
+/* line 75, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext {
   margin-top: 5px;
 }
-/* line 76, ../sass/_modules_side.sass */
+/* line 77, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 83, ../sass/_modules_side.sass */
+/* line 82, ../sass/_modules_side.sass */
+html:not([lang*="l"]) .side .sidecontentbox .content {
+  background: #222222;
+  color: white;
+}
+/* line 88, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 84, ../sass/_modules_side.sass */
+/* line 89, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote h2 {
   border-bottom: 3px solid #aa6600;
 }
-/* line 90, ../sass/_modules_side.sass */
+/* line 95, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 96, ../sass/_modules_side.sass */
+/* line 101, ../sass/_modules_side.sass */
 html:not([lang*="l"]) .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -826,7 +834,6 @@ html:not([lang*="l"]) .footer {
 /* line 3, ../sass/_theme.sass */
 html:not([lang*="l"]) body {
   background-color: black;
-  background-repeat: repeat;
 }
 /* line 7, ../sass/_theme.sass */
 html:not([lang*="l"]) a {
@@ -1016,107 +1023,106 @@ html:not([lang*="l"]) .side .titlebox .redditname a {
 html:not([lang*="l"]) .side .titlebox .tagline {
   background-color: black;
 }
-/* line 160, ../sass/_theme.sass */
-html:not([lang*="l"]) .side .sidecontentbox .content {
-  background-color: black;
-}
-/* line 164, ../sass/_theme.sass */
+/* line 162, ../sass/_theme.sass */
 html:not([lang*="l"]) .side h4 {
   background: black;
   color: #eeeeee;
 }
-/* line 169, ../sass/_theme.sass */
+/* line 167, ../sass/_theme.sass */
 html:not([lang*="l"]) .side h5 {
   background: black;
   color: #eeeeee;
 }
-/* line 174, ../sass/_theme.sass */
+/* line 172, ../sass/_theme.sass */
 html:not([lang*="l"]) .side h6 {
   background: white;
   color: #222222;
 }
-/* line 178, ../sass/_theme.sass */
+/* line 176, ../sass/_theme.sass */
 html:not([lang*="l"]) #search input[type="text"] {
   background: black;
   color: #eeeeee;
 }
-/* line 186, ../sass/_theme.sass */
+/* line 184, ../sass/_theme.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li a {
   background-color: black;
 }
-/* line 188, ../sass/_theme.sass */
+/* line 186, ../sass/_theme.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: black;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 200, ../sass/_theme.sass */
+/* line 198, ../sass/_theme.sass */
 html:not([lang*="l"]) #sr-header-area {
   background-color: black;
   color: #eeeeee;
 }
-/* line 203, ../sass/_theme.sass */
+/* line 201, ../sass/_theme.sass */
 html:not([lang*="l"]) #sr-header-area .sr-bar a {
   color: #aa6600;
 }
-/* line 207, ../sass/_theme.sass */
-html:not([lang*="l"]) .side .usertext-body {
-  background: black;
-}
-/* line 211, ../sass/_theme.sass */
+/* line 205, ../sass/_theme.sass */
 html:not([lang*="l"]) .link .usertext .md {
   background-color: black;
 }
 
-/* line 15, ../sass/_themeLight.sass */
+/* line 16, ../sass/_themeLight.sass */
+html[lang="ll"] body {
+  background: url(%%background-light%%);
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/* line 23, ../sass/_themeLight.sass */
 html[lang="ll"] #search input[type="text"] {
   border: 1px solid black;
 }
-/* line 17, ../sass/_themeLight.sass */
+/* line 25, ../sass/_themeLight.sass */
 html[lang="ll"] .morelink:hover a {
   color: black;
 }
-/* line 19, ../sass/_themeLight.sass */
+/* line 27, ../sass/_themeLight.sass */
 html[lang="ll"] .flair {
   color: black;
 }
-/* line 22, ../sass/_themeLight.sass */
+/* line 30, ../sass/_themeLight.sass */
 html[lang="ll"] .side {
   box-shadow: -5px 0px 11px -8px black;
   padding-left: 3px;
 }
-/* line 33, ../sass/_themeLight.sass */
+/* line 41, ../sass/_themeLight.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   padding-bottom: 0px;
 }
-/* line 37, ../sass/_themeLight.sass */
+/* line 45, ../sass/_themeLight.sass */
 html[lang="ll"] #header {
   box-shadow: 0px -10px 10px 10px black;
   margin-bottom: 30px;
 }
-/* line 43, ../sass/_themeLight.sass */
+/* line 51, ../sass/_themeLight.sass */
 html[lang="ll"] .pagename.redditname a {
   display: none;
 }
-/* line 47, ../sass/_themeLight.sass */
+/* line 55, ../sass/_themeLight.sass */
 html[lang="ll"] .side h6 {
   font-size: 14px;
   padding: 6px 8px;
 }
-/* line 53, ../sass/_themeLight.sass */
+/* line 61, ../sass/_themeLight.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu {
   bottom: -5px;
   font-size: 14px;
 }
-/* line 56, ../sass/_themeLight.sass */
+/* line 64, ../sass/_themeLight.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu a {
   border: 1px solid gray;
 }
-/* line 60, ../sass/_themeLight.sass */
+/* line 68, ../sass/_themeLight.sass */
 html[lang="ll"] .side h4, html[lang="ll"] .side h5 {
   display: none !important;
 }
-/* line 69, ../sass/_themeLight.sass */
+/* line 77, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow {
   display: block;
   background: url(%%alt-arrows%%);
@@ -1128,45 +1134,45 @@ html[lang="ll"] .arrow {
   background-repeat: no-repeat;
   margin-bottom: 1px;
 }
-/* line 79, ../sass/_themeLight.sass */
+/* line 87, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up {
   background-position: 0 0 !important;
 }
-/* line 81, ../sass/_themeLight.sass */
+/* line 89, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.up:hover {
   background-position: -17px 0 !important;
 }
-/* line 83, ../sass/_themeLight.sass */
+/* line 91, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.upmod {
   background-position: -34px 0 !important;
 }
-/* line 85, ../sass/_themeLight.sass */
+/* line 93, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down {
   background-position: 0 -15px !important;
 }
-/* line 87, ../sass/_themeLight.sass */
+/* line 95, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.down:hover {
   background-position: -17px -15px !important;
 }
-/* line 89, ../sass/_themeLight.sass */
+/* line 97, ../sass/_themeLight.sass */
 html[lang="ll"] .arrow.downmod {
   background-position: -34px -15px !important;
 }
-/* line 91, ../sass/_themeLight.sass */
+/* line 99, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.dislikes {
   color: #9452c6;
 }
-/* line 93, ../sass/_themeLight.sass */
+/* line 101, ../sass/_themeLight.sass */
 html[lang="ll"] .link .score.likes {
   color: #f7941d;
 }
-/* line 95, ../sass/_themeLight.sass */
+/* line 103, ../sass/_themeLight.sass */
 html[lang="ll"] .listing-page .link .rank {
   margin-top: 15px;
   margin-right: 0px;
   text-align: center;
 }
-/* line 100, ../sass/_themeLight.sass */
+/* line 108, ../sass/_themeLight.sass */
 html[lang="ll"] .thing .title {
   font-weight: bold;
 }
@@ -1265,12 +1271,12 @@ html[lang="ll"] .submit-link {
 }
 /* line 49, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink {
-  background: #f7f7f7;
+  background: white;
   border: 1px solid gray;
 }
 /* line 52, ../sass/_modules_side.sass */
 html[lang="ll"] .morelink:hover {
-  background: #f7f7f7;
+  background: white;
   border: 1px solid gray;
 }
 /* line 55, ../sass/_modules_side.sass */
@@ -1298,37 +1304,43 @@ html[lang="ll"] .morelink:hover + .spacer {
 html[lang="ll"] .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
-  background: #f7f7f7;
+  background: #dddddd;
+  color: #111111;
 }
-/* line 74, ../sass/_modules_side.sass */
+/* line 75, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext {
   margin-top: 5px;
 }
-/* line 76, ../sass/_modules_side.sass */
+/* line 77, ../sass/_modules_side.sass */
 html[lang="ll"] .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 83, ../sass/_modules_side.sass */
+/* line 82, ../sass/_modules_side.sass */
+html[lang="ll"] .side .sidecontentbox .content {
+  background: #dddddd;
+  color: #111111;
+}
+/* line 88, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 84, ../sass/_modules_side.sass */
+/* line 89, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote h2 {
   border-bottom: 3px solid #780000;
 }
-/* line 90, ../sass/_modules_side.sass */
+/* line 95, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 96, ../sass/_modules_side.sass */
+/* line 101, ../sass/_modules_side.sass */
 html[lang="ll"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -1604,7 +1616,7 @@ html[lang="ll"] .wiki-page .wiki-page-content > hr {
 }
 /* line 12, ../sass/_modules_wiki.sass */
 html[lang="ll"] .wiki-page .wiki-page-content table {
-  background: #f7f7f7;
+  background: white;
   width: 100%;
   margin: 0;
 }
@@ -1837,10 +1849,10 @@ html[lang="ll"] .flair.flair-S3:hover::before {
 /* line 137, ../sass/_modules.sass */
 html[lang="ll"] .parentComment.comment {
   color: white !important;
-  background-color: #f7f7f7 !important;
+  background-color: white !important;
   overflow: visible !important;
   z-index: 2147483649 !important;
-  box-shadow: 0px 0px 250px 200px #f7f7f7;
+  box-shadow: 0px 0px 250px 200px white;
 }
 /* line 146, ../sass/_modules.sass */
 html[lang="ll"] .usertext-body {
@@ -1892,8 +1904,7 @@ html[lang="ll"] .footer {
 }
 /* line 3, ../sass/_theme.sass */
 html[lang="ll"] body {
-  background-color: #f7f7f7;
-  background-repeat: repeat;
+  background-color: white;
 }
 /* line 7, ../sass/_theme.sass */
 html[lang="ll"] a {
@@ -1934,7 +1945,7 @@ html[lang="ll"] .newComments {
 }
 /* line 37, ../sass/_theme.sass */
 html[lang="ll"] .entry .buttons li.trial-stamp, html[lang="ll"] .entry .buttons li.reported-stamp {
-  color: #f7f7f7;
+  color: white;
 }
 /* line 40, ../sass/_theme.sass */
 html[lang="ll"] a.author.submitter {
@@ -1970,7 +1981,7 @@ html[lang="ll"] .linefield {
 }
 /* line 64, ../sass/_theme.sass */
 html[lang="ll"] .roundfield {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 /* line 68, ../sass/_theme.sass */
 html[lang="ll"] .tagline a {
@@ -2001,12 +2012,12 @@ html[lang="ll"] .dropdown.srdrop .selected {
 /* line 86, ../sass/_theme.sass */
 html[lang="ll"] #sr-more-link {
   color: #111111;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 /* line 89, ../sass/_theme.sass */
 html[lang="ll"] .morelink {
   color: #111111;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 /* line 93, ../sass/_theme.sass */
 html[lang="ll"] .keyHighlight {
@@ -2034,7 +2045,7 @@ html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after {
 }
 /* line 115, ../sass/_theme.sass */
 html[lang="ll"] .drop-choices {
-  background: #f7f7f7;
+  background: white;
 }
 /* line 118, ../sass/_theme.sass */
 html[lang="ll"] .flairselector li {
@@ -2055,7 +2066,7 @@ html[lang="ll"] .neverEndingReddit img {
 }
 /* line 136, ../sass/_theme.sass */
 html[lang="ll"] .RESDialogSmall {
-  background-color: #f7f7f7 !important;
+  background-color: white !important;
   color: #111111 !important;
 }
 /* line 139, ../sass/_theme.sass */
@@ -2065,7 +2076,7 @@ html[lang="ll"] .RESDialogSmall > h3 {
 }
 /* line 143, ../sass/_theme.sass */
 html[lang="ll"] .RESCloseButton {
-  background: #f7f7f7 !important;
+  background: white !important;
 }
 /* line 145, ../sass/_theme.sass */
 html[lang="ll"] .RESCloseButton:hover {
@@ -2081,58 +2092,50 @@ html[lang="ll"] .side .titlebox .redditname a {
 }
 /* line 156, ../sass/_theme.sass */
 html[lang="ll"] .side .titlebox .tagline {
-  background-color: #f7f7f7;
+  background-color: white;
 }
-/* line 160, ../sass/_theme.sass */
-html[lang="ll"] .side .sidecontentbox .content {
-  background-color: #f7f7f7;
-}
-/* line 164, ../sass/_theme.sass */
+/* line 162, ../sass/_theme.sass */
 html[lang="ll"] .side h4 {
-  background: #f7f7f7;
+  background: white;
   color: #111111;
 }
-/* line 169, ../sass/_theme.sass */
+/* line 167, ../sass/_theme.sass */
 html[lang="ll"] .side h5 {
-  background: #f7f7f7;
+  background: white;
   color: #111111;
 }
-/* line 174, ../sass/_theme.sass */
+/* line 172, ../sass/_theme.sass */
 html[lang="ll"] .side h6 {
   background: #111111;
   color: #dddddd;
 }
-/* line 178, ../sass/_theme.sass */
+/* line 176, ../sass/_theme.sass */
 html[lang="ll"] #search input[type="text"] {
-  background: #f7f7f7;
+  background: white;
   color: #111111;
 }
-/* line 186, ../sass/_theme.sass */
+/* line 184, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li a {
-  background-color: #f7f7f7;
+  background-color: white;
 }
-/* line 188, ../sass/_theme.sass */
+/* line 186, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a {
-  background-color: #f7f7f7;
+  background-color: white;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 200, ../sass/_theme.sass */
+/* line 198, ../sass/_theme.sass */
 html[lang="ll"] #sr-header-area {
-  background-color: #f7f7f7;
+  background-color: white;
   color: #111111;
 }
-/* line 203, ../sass/_theme.sass */
+/* line 201, ../sass/_theme.sass */
 html[lang="ll"] #sr-header-area .sr-bar a {
   color: #780000;
 }
-/* line 207, ../sass/_theme.sass */
-html[lang="ll"] .side .usertext-body {
-  background: #f7f7f7;
-}
-/* line 211, ../sass/_theme.sass */
+/* line 205, ../sass/_theme.sass */
 html[lang="ll"] .link .usertext .md {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 /* line 17, ../sass/_themeExperimental.sass */
@@ -2317,37 +2320,43 @@ html[lang="lx"] .morelink:hover + .spacer {
 html[lang="lx"] .side .usertext-body {
   border: 1px solid gray;
   padding: 5px;
-  background: white;
+  background: #222222;
+  color: #718c44;
 }
-/* line 74, ../sass/_modules_side.sass */
+/* line 75, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext {
   margin-top: 5px;
 }
-/* line 76, ../sass/_modules_side.sass */
+/* line 77, ../sass/_modules_side.sass */
 html[lang="lx"] .side .usertext::before {
   content: "INFORMATION";
   color: gray;
   font-size: 13px;
 }
-/* line 83, ../sass/_modules_side.sass */
+/* line 82, ../sass/_modules_side.sass */
+html[lang="lx"] .side .sidecontentbox .content {
+  background: #222222;
+  color: #718c44;
+}
+/* line 88, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote {
   border: none !important;
   padding: 0px;
   margin: 0px !important;
   padding-top: 10px;
 }
-/* line 84, ../sass/_modules_side.sass */
+/* line 89, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote h2 {
   border-bottom: 3px solid #425430;
 }
-/* line 90, ../sass/_modules_side.sass */
+/* line 95, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote blockquote {
   padding-bottom: 0px;
   padding-top: 0px;
   height: 3px;
   overflow: hidden;
 }
-/* line 96, ../sass/_modules_side.sass */
+/* line 101, ../sass/_modules_side.sass */
 html[lang="lx"] .side blockquote:hover blockquote {
   display: block;
   height: auto;
@@ -2912,7 +2921,6 @@ html[lang="lx"] .footer {
 /* line 3, ../sass/_theme.sass */
 html[lang="lx"] body {
   background-color: white;
-  background-repeat: repeat;
 }
 /* line 7, ../sass/_theme.sass */
 html[lang="lx"] a {
@@ -3102,54 +3110,46 @@ html[lang="lx"] .side .titlebox .redditname a {
 html[lang="lx"] .side .titlebox .tagline {
   background-color: white;
 }
-/* line 160, ../sass/_theme.sass */
-html[lang="lx"] .side .sidecontentbox .content {
-  background-color: white;
-}
-/* line 164, ../sass/_theme.sass */
+/* line 162, ../sass/_theme.sass */
 html[lang="lx"] .side h4 {
   background: white;
   color: #383824;
 }
-/* line 169, ../sass/_theme.sass */
+/* line 167, ../sass/_theme.sass */
 html[lang="lx"] .side h5 {
   background: white;
   color: #383824;
 }
-/* line 174, ../sass/_theme.sass */
+/* line 172, ../sass/_theme.sass */
 html[lang="lx"] .side h6 {
   background: #718c44;
   color: #222222;
 }
-/* line 178, ../sass/_theme.sass */
+/* line 176, ../sass/_theme.sass */
 html[lang="lx"] #search input[type="text"] {
   background: white;
   color: #383824;
 }
-/* line 186, ../sass/_theme.sass */
+/* line 184, ../sass/_theme.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li a {
   background-color: white;
 }
-/* line 188, ../sass/_theme.sass */
+/* line 186, ../sass/_theme.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: white;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 200, ../sass/_theme.sass */
+/* line 198, ../sass/_theme.sass */
 html[lang="lx"] #sr-header-area {
   background-color: white;
   color: #383824;
 }
-/* line 203, ../sass/_theme.sass */
+/* line 201, ../sass/_theme.sass */
 html[lang="lx"] #sr-header-area .sr-bar a {
   color: #425430;
 }
-/* line 207, ../sass/_theme.sass */
-html[lang="lx"] .side .usertext-body {
-  background: white;
-}
-/* line 211, ../sass/_theme.sass */
+/* line 205, ../sass/_theme.sass */
 html[lang="lx"] .link .usertext .md {
   background-color: white;
 }
