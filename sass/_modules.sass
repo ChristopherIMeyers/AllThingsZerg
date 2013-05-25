@@ -13,15 +13,17 @@
 .icon-menu a
   background: none
 
-
-//seach reddit
+//seach reddit & previous search
 #search input[type="text"]
+  background: $background
+  color: $textFace !important //important to override style in search results page
   border: 0px solid white
-  border-radius: 3px
+  border-radius: 0px
   outline: none
   padding: 3px 6px
   opacity: .75
   width: 290px
+  border-radius: 0
   &:hover
     box-shadow: 0px 0px 5px 0px $linkNormal
   &:focus

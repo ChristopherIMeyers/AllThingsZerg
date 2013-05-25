@@ -450,42 +450,53 @@ html:not([lang*="l"]) .usertext.border .usertext-body {
   margin-top: -3px;
 }
 /* line 30, ../sass/_modules_commentpage.sass */
+html:not([lang*="l"]) .gilded-comment-icon::before {
+  background-image: url(%%reddit-gold%%);
+  background-position: 0px 0px;
+  height: 13px;
+  width: 16px;
+}
+/* line 37, ../sass/_modules_commentpage.sass */
+html:not([lang*="l"]) .searchpane {
+  background: #222222;
+}
+/* line 41, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment {
   background: none !important;
 }
-/* line 32, ../sass/_modules_commentpage.sass */
+/* line 43, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment {
   background: none !important;
 }
-/* line 34, ../sass/_modules_commentpage.sass */
+/* line 45, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 36, ../sass/_modules_commentpage.sass */
+/* line 47, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 38, ../sass/_modules_commentpage.sass */
+/* line 49, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 40, ../sass/_modules_commentpage.sass */
+/* line 51, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 42, ../sass/_modules_commentpage.sass */
+/* line 53, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 44, ../sass/_modules_commentpage.sass */
+/* line 55, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 46, ../sass/_modules_commentpage.sass */
+/* line 57, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 48, ../sass/_modules_commentpage.sass */
+/* line 59, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
@@ -627,57 +638,60 @@ html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul::before {
 html:not([lang*="l"]) .icon-menu a {
   background: none;
 }
-/* line 18, ../sass/_modules.sass */
+/* line 17, ../sass/_modules.sass */
 html:not([lang*="l"]) #search input[type="text"] {
+  background: black;
+  color: #eeeeee !important;
   border: 0px solid white;
-  border-radius: 3px;
+  border-radius: 0px;
   outline: none;
   padding: 3px 6px;
   opacity: 0.75;
   width: 290px;
+  border-radius: 0;
 }
-/* line 25, ../sass/_modules.sass */
+/* line 27, ../sass/_modules.sass */
 html:not([lang*="l"]) #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #ffcc00;
 }
-/* line 27, ../sass/_modules.sass */
+/* line 29, ../sass/_modules.sass */
 html:not([lang*="l"]) #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
-/* line 32, ../sass/_modules.sass */
+/* line 34, ../sass/_modules.sass */
 html:not([lang*="l"]) .infobar {
   background: none;
   border-color: gray;
 }
-/* line 37, ../sass/_modules.sass */
+/* line 39, ../sass/_modules.sass */
 html:not([lang*="l"]) #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 44, ../sass/_modules.sass */
+/* line 46, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 51, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 51, ../sass/_modules.sass */
+/* line 53, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 55, ../sass/_modules.sass */
+/* line 57, ../sass/_modules.sass */
 html:not([lang*="l"]) #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 62, ../sass/_modules.sass */
+/* line 64, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair {
   background: none;
   color: #eeeeee;
@@ -685,7 +699,7 @@ html:not([lang*="l"]) .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 68, ../sass/_modules.sass */
+/* line 70, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -694,7 +708,7 @@ html:not([lang*="l"]) .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 75, ../sass/_modules.sass */
+/* line 77, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -707,73 +721,73 @@ html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Ma
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 88, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 88, ../sass/_modules.sass */
+/* line 90, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 92, ../sass/_modules.sass */
+/* line 94, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 96, ../sass/_modules.sass */
+/* line 98, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 99, ../sass/_modules.sass */
+/* line 101, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 103, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Master:hover, html:not([lang*="l"]) .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 105, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 106, ../sass/_modules.sass */
+/* line 108, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 109, ../sass/_modules.sass */
+/* line 111, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-NA:hover::after, html:not([lang*="l"]) .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 112, ../sass/_modules.sass */
+/* line 114, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 115, ../sass/_modules.sass */
+/* line 117, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 119, ../sass/_modules.sass */
+/* line 121, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 124, ../sass/_modules.sass */
+/* line 126, ../sass/_modules.sass */
 html:not([lang*="l"]) .flair.flair-S3:hover::before {
   content: "(Season 3)";
   float: right;
   color: gray;
 }
-/* line 134, ../sass/_modules.sass */
+/* line 136, ../sass/_modules.sass */
 html:not([lang*="l"]) .parentComment.comment {
   color: white !important;
   background-color: black !important;
@@ -781,50 +795,50 @@ html:not([lang*="l"]) .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px black;
 }
-/* line 143, ../sass/_modules.sass */
+/* line 145, ../sass/_modules.sass */
 html:not([lang*="l"]) .usertext-body {
   background: none;
 }
-/* line 149, ../sass/_modules.sass */
+/* line 151, ../sass/_modules.sass */
 html:not([lang*="l"]) .content.submit .info-notice, html:not([lang*="l"]) .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 154, ../sass/_modules.sass */
 html:not([lang*="l"]) .tabmenu.formtab a {
   border: none;
 }
-/* line 155, ../sass/_modules.sass */
+/* line 157, ../sass/_modules.sass */
 html:not([lang*="l"]) .formtab-content {
   border-top: 2px solid white;
 }
-/* line 160, ../sass/_modules.sass */
+/* line 162, ../sass/_modules.sass */
 html:not([lang*="l"]) .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 163, ../sass/_modules.sass */
+/* line 165, ../sass/_modules.sass */
 html:not([lang*="l"]) .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 169, ../sass/_modules.sass */
+/* line 171, ../sass/_modules.sass */
 html:not([lang*="l"]) .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 178, ../sass/_modules.sass */
+/* line 180, ../sass/_modules.sass */
 html:not([lang*="l"]) .choice:hover {
   background: #333333 !important;
 }
-/* line 184, ../sass/_modules.sass */
+/* line 186, ../sass/_modules.sass */
 html:not([lang*="l"]) .voteWeight {
   color: #eeeeee !important;
   background: none !important;
 }
-/* line 190, ../sass/_modules.sass */
+/* line 192, ../sass/_modules.sass */
 html:not([lang*="l"]) .nextprev a {
   background: none;
 }
-/* line 194, ../sass/_modules.sass */
+/* line 196, ../sass/_modules.sass */
 html:not([lang*="l"]) .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -1027,31 +1041,26 @@ html:not([lang*="l"]) .side h6 {
   background: white;
   color: #222222;
 }
-/* line 170, ../sass/_theme.sass */
-html:not([lang*="l"]) #search input[type="text"] {
-  background: black;
-  color: #eeeeee;
-}
-/* line 178, ../sass/_theme.sass */
+/* line 175, ../sass/_theme.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li a {
   background-color: black;
 }
-/* line 180, ../sass/_theme.sass */
+/* line 177, ../sass/_theme.sass */
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: black;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 192, ../sass/_theme.sass */
+/* line 189, ../sass/_theme.sass */
 html:not([lang*="l"]) #sr-header-area {
   background-color: black;
   color: #eeeeee;
 }
-/* line 195, ../sass/_theme.sass */
+/* line 192, ../sass/_theme.sass */
 html:not([lang*="l"]) #sr-header-area .sr-bar a {
   color: #aa6600;
 }
-/* line 199, ../sass/_theme.sass */
+/* line 196, ../sass/_theme.sass */
 html:not([lang*="l"]) .link .usertext .md {
   background-color: black;
 }
@@ -1510,42 +1519,53 @@ html[lang="ll"] .usertext.border .usertext-body {
   margin-top: -3px;
 }
 /* line 30, ../sass/_modules_commentpage.sass */
+html[lang="ll"] .gilded-comment-icon::before {
+  background-image: url(%%reddit-gold%%);
+  background-position: 0px 0px;
+  height: 13px;
+  width: 16px;
+}
+/* line 37, ../sass/_modules_commentpage.sass */
+html[lang="ll"] .searchpane {
+  background: #dddddd;
+}
+/* line 41, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment {
   background: none !important;
 }
-/* line 32, ../sass/_modules_commentpage.sass */
+/* line 43, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment {
   background: none !important;
 }
-/* line 34, ../sass/_modules_commentpage.sass */
+/* line 45, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 36, ../sass/_modules_commentpage.sass */
+/* line 47, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 38, ../sass/_modules_commentpage.sass */
+/* line 49, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 40, ../sass/_modules_commentpage.sass */
+/* line 51, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 42, ../sass/_modules_commentpage.sass */
+/* line 53, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 44, ../sass/_modules_commentpage.sass */
+/* line 55, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 46, ../sass/_modules_commentpage.sass */
+/* line 57, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 48, ../sass/_modules_commentpage.sass */
+/* line 59, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
@@ -1687,57 +1707,60 @@ html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul::before {
 html[lang="ll"] .icon-menu a {
   background: none;
 }
-/* line 18, ../sass/_modules.sass */
+/* line 17, ../sass/_modules.sass */
 html[lang="ll"] #search input[type="text"] {
+  background: white;
+  color: #111111 !important;
   border: 0px solid white;
-  border-radius: 3px;
+  border-radius: 0px;
   outline: none;
   padding: 3px 6px;
   opacity: 0.75;
   width: 290px;
+  border-radius: 0;
 }
-/* line 25, ../sass/_modules.sass */
+/* line 27, ../sass/_modules.sass */
 html[lang="ll"] #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #de0000;
 }
-/* line 27, ../sass/_modules.sass */
+/* line 29, ../sass/_modules.sass */
 html[lang="ll"] #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
-/* line 32, ../sass/_modules.sass */
+/* line 34, ../sass/_modules.sass */
 html[lang="ll"] .infobar {
   background: none;
   border-color: gray;
 }
-/* line 37, ../sass/_modules.sass */
+/* line 39, ../sass/_modules.sass */
 html[lang="ll"] #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 44, ../sass/_modules.sass */
+/* line 46, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 51, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 51, ../sass/_modules.sass */
+/* line 53, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 55, ../sass/_modules.sass */
+/* line 57, ../sass/_modules.sass */
 html[lang="ll"] #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 62, ../sass/_modules.sass */
+/* line 64, ../sass/_modules.sass */
 html[lang="ll"] .flair {
   background: none;
   color: #111111;
@@ -1745,7 +1768,7 @@ html[lang="ll"] .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 68, ../sass/_modules.sass */
+/* line 70, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -1754,7 +1777,7 @@ html[lang="ll"] .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 75, ../sass/_modules.sass */
+/* line 77, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -1767,73 +1790,73 @@ html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2 {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 88, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 88, ../sass/_modules.sass */
+/* line 90, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 92, ../sass/_modules.sass */
+/* line 94, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 96, ../sass/_modules.sass */
+/* line 98, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 99, ../sass/_modules.sass */
+/* line 101, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 103, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Master:hover, html[lang="ll"] .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 105, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 106, ../sass/_modules.sass */
+/* line 108, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 109, ../sass/_modules.sass */
+/* line 111, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-NA:hover::after, html[lang="ll"] .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 112, ../sass/_modules.sass */
+/* line 114, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 115, ../sass/_modules.sass */
+/* line 117, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 119, ../sass/_modules.sass */
+/* line 121, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 124, ../sass/_modules.sass */
+/* line 126, ../sass/_modules.sass */
 html[lang="ll"] .flair.flair-S3:hover::before {
   content: "(Season 3)";
   float: right;
   color: gray;
 }
-/* line 134, ../sass/_modules.sass */
+/* line 136, ../sass/_modules.sass */
 html[lang="ll"] .parentComment.comment {
   color: white !important;
   background-color: white !important;
@@ -1841,50 +1864,50 @@ html[lang="ll"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px white;
 }
-/* line 143, ../sass/_modules.sass */
+/* line 145, ../sass/_modules.sass */
 html[lang="ll"] .usertext-body {
   background: none;
 }
-/* line 149, ../sass/_modules.sass */
+/* line 151, ../sass/_modules.sass */
 html[lang="ll"] .content.submit .info-notice, html[lang="ll"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 154, ../sass/_modules.sass */
 html[lang="ll"] .tabmenu.formtab a {
   border: none;
 }
-/* line 155, ../sass/_modules.sass */
+/* line 157, ../sass/_modules.sass */
 html[lang="ll"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 160, ../sass/_modules.sass */
+/* line 162, ../sass/_modules.sass */
 html[lang="ll"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 163, ../sass/_modules.sass */
+/* line 165, ../sass/_modules.sass */
 html[lang="ll"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 169, ../sass/_modules.sass */
+/* line 171, ../sass/_modules.sass */
 html[lang="ll"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 178, ../sass/_modules.sass */
+/* line 180, ../sass/_modules.sass */
 html[lang="ll"] .choice:hover {
   background: #333333 !important;
 }
-/* line 184, ../sass/_modules.sass */
+/* line 186, ../sass/_modules.sass */
 html[lang="ll"] .voteWeight {
   color: #111111 !important;
   background: none !important;
 }
-/* line 190, ../sass/_modules.sass */
+/* line 192, ../sass/_modules.sass */
 html[lang="ll"] .nextprev a {
   background: none;
 }
-/* line 194, ../sass/_modules.sass */
+/* line 196, ../sass/_modules.sass */
 html[lang="ll"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -2087,31 +2110,26 @@ html[lang="ll"] .side h6 {
   background: #111111;
   color: #dddddd;
 }
-/* line 170, ../sass/_theme.sass */
-html[lang="ll"] #search input[type="text"] {
-  background: white;
-  color: #111111;
-}
-/* line 178, ../sass/_theme.sass */
+/* line 175, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li a {
   background-color: white;
 }
-/* line 180, ../sass/_theme.sass */
+/* line 177, ../sass/_theme.sass */
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: white;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 192, ../sass/_theme.sass */
+/* line 189, ../sass/_theme.sass */
 html[lang="ll"] #sr-header-area {
   background-color: white;
   color: #111111;
 }
-/* line 195, ../sass/_theme.sass */
+/* line 192, ../sass/_theme.sass */
 html[lang="ll"] #sr-header-area .sr-bar a {
   color: #780000;
 }
-/* line 199, ../sass/_theme.sass */
+/* line 196, ../sass/_theme.sass */
 html[lang="ll"] .link .usertext .md {
   background-color: white;
 }
@@ -2515,42 +2533,53 @@ html[lang="lx"] .usertext.border .usertext-body {
   margin-top: -3px;
 }
 /* line 30, ../sass/_modules_commentpage.sass */
+html[lang="lx"] .gilded-comment-icon::before {
+  background-image: url(%%reddit-gold%%);
+  background-position: 0px 0px;
+  height: 13px;
+  width: 16px;
+}
+/* line 37, ../sass/_modules_commentpage.sass */
+html[lang="lx"] .searchpane {
+  background: #222222;
+}
+/* line 41, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment {
   background: none !important;
 }
-/* line 32, ../sass/_modules_commentpage.sass */
+/* line 43, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment {
   background: none !important;
 }
-/* line 34, ../sass/_modules_commentpage.sass */
+/* line 45, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 36, ../sass/_modules_commentpage.sass */
+/* line 47, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 38, ../sass/_modules_commentpage.sass */
+/* line 49, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 40, ../sass/_modules_commentpage.sass */
+/* line 51, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 42, ../sass/_modules_commentpage.sass */
+/* line 53, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 44, ../sass/_modules_commentpage.sass */
+/* line 55, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 46, ../sass/_modules_commentpage.sass */
+/* line 57, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 48, ../sass/_modules_commentpage.sass */
+/* line 59, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
@@ -2692,57 +2721,60 @@ html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul::before {
 html[lang="lx"] .icon-menu a {
   background: none;
 }
-/* line 18, ../sass/_modules.sass */
+/* line 17, ../sass/_modules.sass */
 html[lang="lx"] #search input[type="text"] {
+  background: white;
+  color: #383824 !important;
   border: 0px solid white;
-  border-radius: 3px;
+  border-radius: 0px;
   outline: none;
   padding: 3px 6px;
   opacity: 0.75;
   width: 290px;
+  border-radius: 0;
 }
-/* line 25, ../sass/_modules.sass */
+/* line 27, ../sass/_modules.sass */
 html[lang="lx"] #search input[type="text"]:hover {
   box-shadow: 0px 0px 5px 0px #00141c;
 }
-/* line 27, ../sass/_modules.sass */
+/* line 29, ../sass/_modules.sass */
 html[lang="lx"] #search input[type="text"]:focus {
   padding: 2px 5px;
   border: 1px solid white;
   opacity: 1;
 }
-/* line 32, ../sass/_modules.sass */
+/* line 34, ../sass/_modules.sass */
 html[lang="lx"] .infobar {
   background: none;
   border-color: gray;
 }
-/* line 37, ../sass/_modules.sass */
+/* line 39, ../sass/_modules.sass */
 html[lang="lx"] #sr-header-area {
   position: relative;
   z-index: 901;
   width: 100%;
 }
-/* line 44, ../sass/_modules.sass */
+/* line 46, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu {
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: 200;
 }
-/* line 49, ../sass/_modules.sass */
+/* line 51, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li {
   font-weight: normal;
 }
-/* line 51, ../sass/_modules.sass */
+/* line 53, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li #viewImagesButton {
   display: none;
 }
-/* line 55, ../sass/_modules.sass */
+/* line 57, ../sass/_modules.sass */
 html[lang="lx"] #header #header-bottom-left #header-bottom-right {
   z-index: 200;
   background: none;
 }
-/* line 62, ../sass/_modules.sass */
+/* line 64, ../sass/_modules.sass */
 html[lang="lx"] .flair {
   background: none;
   color: #383824;
@@ -2750,7 +2782,7 @@ html[lang="lx"] .flair {
   margin: 0px;
   padding: 0px;
 }
-/* line 68, ../sass/_modules.sass */
+/* line 70, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Mod {
   border: red solid 1px;
   border-radius: 0px;
@@ -2759,7 +2791,7 @@ html[lang="lx"] .flair.flair-Mod {
   margin-left: 1px;
   padding-left: 2px;
 }
-/* line 75, ../sass/_modules.sass */
+/* line 77, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2 {
   background-image: url(%%master%%);
   background-repeat: no-repeat;
@@ -2772,73 +2804,73 @@ html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2 {
   margin-left: 2px;
   text-indent: 2px;
 }
-/* line 86, ../sass/_modules.sass */
+/* line 88, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Grandmaster {
   background-image: url(%%grandmaster%%);
 }
-/* line 88, ../sass/_modules.sass */
+/* line 90, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2 {
   background: none;
   padding-left: 0px;
   width: 10px;
 }
-/* line 92, ../sass/_modules.sass */
+/* line 94, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2::before {
   content: "?";
   text-indent: 0px;
   padding-right: 10px;
 }
-/* line 96, ../sass/_modules.sass */
+/* line 98, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master2:hover::before {
   content: "";
   padding-right: 0px;
 }
-/* line 99, ../sass/_modules.sass */
+/* line 101, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-HotS {
   color: #9452c6;
 }
-/* line 101, ../sass/_modules.sass */
+/* line 103, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Master:hover, html[lang="lx"] .flair.flair-Master2:hover {
   width: auto;
 }
-/* line 103, ../sass/_modules.sass */
+/* line 105, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-EU:hover::after {
   content: " (EU)";
   color: grey;
 }
-/* line 106, ../sass/_modules.sass */
+/* line 108, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-Bitch:hover::before {
   content: "(bitch) ";
   color: red;
 }
-/* line 109, ../sass/_modules.sass */
+/* line 111, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-NA:hover::after, html[lang="lx"] .flair.flair-AM:hover::after {
   content: " (AM)";
   color: grey;
 }
-/* line 112, ../sass/_modules.sass */
+/* line 114, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-KR:hover::after {
   content: " (KR)";
   color: grey;
 }
-/* line 115, ../sass/_modules.sass */
+/* line 117, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-SEA:hover::after {
   content: " (SEA)";
   color: grey;
 }
-/* line 119, ../sass/_modules.sass */
+/* line 121, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-S2:hover::before {
   content: "(Season 2)";
   float: right;
   color: gray;
 }
-/* line 124, ../sass/_modules.sass */
+/* line 126, ../sass/_modules.sass */
 html[lang="lx"] .flair.flair-S3:hover::before {
   content: "(Season 3)";
   float: right;
   color: gray;
 }
-/* line 134, ../sass/_modules.sass */
+/* line 136, ../sass/_modules.sass */
 html[lang="lx"] .parentComment.comment {
   color: white !important;
   background-color: white !important;
@@ -2846,50 +2878,50 @@ html[lang="lx"] .parentComment.comment {
   z-index: 2147483649 !important;
   box-shadow: 0px 0px 250px 200px white;
 }
-/* line 143, ../sass/_modules.sass */
+/* line 145, ../sass/_modules.sass */
 html[lang="lx"] .usertext-body {
   background: none;
 }
-/* line 149, ../sass/_modules.sass */
+/* line 151, ../sass/_modules.sass */
 html[lang="lx"] .content.submit .info-notice, html[lang="lx"] .tabmenu.formtab .selected a {
   background: none;
 }
-/* line 152, ../sass/_modules.sass */
+/* line 154, ../sass/_modules.sass */
 html[lang="lx"] .tabmenu.formtab a {
   border: none;
 }
-/* line 155, ../sass/_modules.sass */
+/* line 157, ../sass/_modules.sass */
 html[lang="lx"] .formtab-content {
   border-top: 2px solid white;
 }
-/* line 160, ../sass/_modules.sass */
+/* line 162, ../sass/_modules.sass */
 html[lang="lx"] .give-gold {
   visibility: hidden;
   float: right;
 }
-/* line 163, ../sass/_modules.sass */
+/* line 165, ../sass/_modules.sass */
 html[lang="lx"] .entry:hover .give-gold {
   visibility: visible;
 }
-/* line 169, ../sass/_modules.sass */
+/* line 171, ../sass/_modules.sass */
 html[lang="lx"] .new-comment .usertext-body {
   background: none !important;
   border: none !important;
 }
-/* line 178, ../sass/_modules.sass */
+/* line 180, ../sass/_modules.sass */
 html[lang="lx"] .choice:hover {
   background: #333333 !important;
 }
-/* line 184, ../sass/_modules.sass */
+/* line 186, ../sass/_modules.sass */
 html[lang="lx"] .voteWeight {
   color: #383824 !important;
   background: none !important;
 }
-/* line 190, ../sass/_modules.sass */
+/* line 192, ../sass/_modules.sass */
 html[lang="lx"] .nextprev a {
   background: none;
 }
-/* line 194, ../sass/_modules.sass */
+/* line 196, ../sass/_modules.sass */
 html[lang="lx"] .footer {
   border: 1px solid gray;
   border-radius: 0px;
@@ -3092,31 +3124,26 @@ html[lang="lx"] .side h6 {
   background: #718c44;
   color: #222222;
 }
-/* line 170, ../sass/_theme.sass */
-html[lang="lx"] #search input[type="text"] {
-  background: white;
-  color: #383824;
-}
-/* line 178, ../sass/_theme.sass */
+/* line 175, ../sass/_theme.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li a {
   background-color: white;
 }
-/* line 180, ../sass/_theme.sass */
+/* line 177, ../sass/_theme.sass */
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li.selected a {
   background-color: white;
   border: 1px solid gray;
   box-shadow: 0px 0px 10px #b67d27;
 }
-/* line 192, ../sass/_theme.sass */
+/* line 189, ../sass/_theme.sass */
 html[lang="lx"] #sr-header-area {
   background-color: white;
   color: #383824;
 }
-/* line 195, ../sass/_theme.sass */
+/* line 192, ../sass/_theme.sass */
 html[lang="lx"] #sr-header-area .sr-bar a {
   color: #425430;
 }
-/* line 199, ../sass/_theme.sass */
+/* line 196, ../sass/_theme.sass */
 html[lang="lx"] .link .usertext .md {
   background-color: white;
 }
