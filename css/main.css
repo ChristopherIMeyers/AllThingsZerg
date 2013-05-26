@@ -433,14 +433,15 @@ html:not([lang*="l"]) .linkinfo {
 }
 /* line 9, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .link .usertext .md {
-  max-width: 90em;
+  max-width: 80em;
   margin: 0 5px;
+  border-radius: 0;
 }
-/* line 14, ../sass/_modules_commentpage.sass */
+/* line 15, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .md blockquote, html:not([lang*="l"]) .help blockquote {
   border-left: 2px solid #aa6600;
 }
-/* line 18, ../sass/_modules_commentpage.sass */
+/* line 19, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .usertext.border .usertext-body {
   background: none;
   border: solid 4px red;
@@ -449,54 +450,54 @@ html:not([lang*="l"]) .usertext.border .usertext-body {
   margin-bottom: -5px;
   margin-top: -3px;
 }
-/* line 30, ../sass/_modules_commentpage.sass */
+/* line 31, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .gilded-comment-icon::before {
   background-image: url(%%reddit-gold%%);
   background-position: 0px 0px;
   height: 13px;
   width: 16px;
 }
-/* line 37, ../sass/_modules_commentpage.sass */
+/* line 38, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .searchpane {
   background: #222222;
 }
-/* line 41, ../sass/_modules_commentpage.sass */
+/* line 42, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment {
   background: none !important;
 }
-/* line 43, ../sass/_modules_commentpage.sass */
+/* line 44, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment {
   background: none !important;
 }
-/* line 45, ../sass/_modules_commentpage.sass */
+/* line 46, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 47, ../sass/_modules_commentpage.sass */
+/* line 48, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 49, ../sass/_modules_commentpage.sass */
+/* line 50, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 51, ../sass/_modules_commentpage.sass */
+/* line 52, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 53, ../sass/_modules_commentpage.sass */
+/* line 54, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 55, ../sass/_modules_commentpage.sass */
+/* line 56, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 57, ../sass/_modules_commentpage.sass */
+/* line 58, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 59, ../sass/_modules_commentpage.sass */
+/* line 60, ../sass/_modules_commentpage.sass */
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
@@ -1502,14 +1503,15 @@ html[lang="ll"] .linkinfo {
 }
 /* line 9, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .link .usertext .md {
-  max-width: 90em;
+  max-width: 80em;
   margin: 0 5px;
+  border-radius: 0;
 }
-/* line 14, ../sass/_modules_commentpage.sass */
+/* line 15, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .md blockquote, html[lang="ll"] .help blockquote {
   border-left: 2px solid #780000;
 }
-/* line 18, ../sass/_modules_commentpage.sass */
+/* line 19, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .usertext.border .usertext-body {
   background: none;
   border: solid 4px red;
@@ -1518,54 +1520,54 @@ html[lang="ll"] .usertext.border .usertext-body {
   margin-bottom: -5px;
   margin-top: -3px;
 }
-/* line 30, ../sass/_modules_commentpage.sass */
+/* line 31, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .gilded-comment-icon::before {
   background-image: url(%%reddit-gold%%);
   background-position: 0px 0px;
   height: 13px;
   width: 16px;
 }
-/* line 37, ../sass/_modules_commentpage.sass */
+/* line 38, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .searchpane {
   background: #dddddd;
 }
-/* line 41, ../sass/_modules_commentpage.sass */
+/* line 42, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment {
   background: none !important;
 }
-/* line 43, ../sass/_modules_commentpage.sass */
+/* line 44, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment {
   background: none !important;
 }
-/* line 45, ../sass/_modules_commentpage.sass */
+/* line 46, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 47, ../sass/_modules_commentpage.sass */
+/* line 48, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 49, ../sass/_modules_commentpage.sass */
+/* line 50, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 51, ../sass/_modules_commentpage.sass */
+/* line 52, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 53, ../sass/_modules_commentpage.sass */
+/* line 54, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 55, ../sass/_modules_commentpage.sass */
+/* line 56, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 57, ../sass/_modules_commentpage.sass */
+/* line 58, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 59, ../sass/_modules_commentpage.sass */
+/* line 60, ../sass/_modules_commentpage.sass */
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
@@ -2516,14 +2518,15 @@ html[lang="lx"] .linkinfo {
 }
 /* line 9, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .link .usertext .md {
-  max-width: 90em;
+  max-width: 80em;
   margin: 0 5px;
+  border-radius: 0;
 }
-/* line 14, ../sass/_modules_commentpage.sass */
+/* line 15, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .md blockquote, html[lang="lx"] .help blockquote {
   border-left: 2px solid #425430;
 }
-/* line 18, ../sass/_modules_commentpage.sass */
+/* line 19, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .usertext.border .usertext-body {
   background: none;
   border: solid 4px red;
@@ -2532,54 +2535,54 @@ html[lang="lx"] .usertext.border .usertext-body {
   margin-bottom: -5px;
   margin-top: -3px;
 }
-/* line 30, ../sass/_modules_commentpage.sass */
+/* line 31, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .gilded-comment-icon::before {
   background-image: url(%%reddit-gold%%);
   background-position: 0px 0px;
   height: 13px;
   width: 16px;
 }
-/* line 37, ../sass/_modules_commentpage.sass */
+/* line 38, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .searchpane {
   background: #222222;
 }
-/* line 41, ../sass/_modules_commentpage.sass */
+/* line 42, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment {
   background: none !important;
 }
-/* line 43, ../sass/_modules_commentpage.sass */
+/* line 44, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment {
   background: none !important;
 }
-/* line 45, ../sass/_modules_commentpage.sass */
+/* line 46, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment {
   background: none !important;
 }
-/* line 47, ../sass/_modules_commentpage.sass */
+/* line 48, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 49, ../sass/_modules_commentpage.sass */
+/* line 50, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 51, ../sass/_modules_commentpage.sass */
+/* line 52, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 53, ../sass/_modules_commentpage.sass */
+/* line 54, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 55, ../sass/_modules_commentpage.sass */
+/* line 56, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 57, ../sass/_modules_commentpage.sass */
+/* line 58, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
-/* line 59, ../sass/_modules_commentpage.sass */
+/* line 60, ../sass/_modules_commentpage.sass */
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background: none !important;
 }
