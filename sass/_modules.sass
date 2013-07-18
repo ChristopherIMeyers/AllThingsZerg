@@ -117,16 +117,13 @@
   &.flair-SEA:hover::after
     content: " (SEA)"
     color: grey
-  &.flair-S2:hover
-    &::before 
-      content: "(Season 2)"
-      float: right
-      color: gray
-  &.flair-S3:hover
-    &::before 
-      content: "(Season 3)"
-      float: right
-      color: gray
+  @for $i from 2 through 12
+    &.flair-S#{$i}:hover
+      &::before 
+        $text: "(Season "+$i+")"
+        content: $text
+        float: right
+        color: gray
 
 
 
