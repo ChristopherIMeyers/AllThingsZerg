@@ -128,7 +128,7 @@ html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li #viewImagesButto
 html:not([lang*="l"]) #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html:not([lang*="l"]) .flair { background: none; color: #eeeeee; border: none; margin: 0px; padding: 0px; }
 html:not([lang*="l"]) .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
-html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Master2 { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
+html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Master2, html:not([lang*="l"]) .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
 html:not([lang*="l"]) .flair.flair-Grandmaster { background-image: url(%%grandmaster%%); }
 html:not([lang*="l"]) .flair.flair-Master2 { background: none; padding-left: 0px; width: 10px; }
 html:not([lang*="l"]) .flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
@@ -341,7 +341,7 @@ html[lang="ll"] #header #header-bottom-left ul.tabmenu li #viewImagesButton { di
 html[lang="ll"] #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html[lang="ll"] .flair { background: none; color: #111111; border: none; margin: 0px; padding: 0px; }
 html[lang="ll"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
-html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2 { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
+html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2, html[lang="ll"] .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
 html[lang="ll"] .flair.flair-Grandmaster { background-image: url(%%grandmaster%%); }
 html[lang="ll"] .flair.flair-Master2 { background: none; padding-left: 0px; width: 10px; }
 html[lang="ll"] .flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
@@ -542,7 +542,7 @@ html[lang="lx"] #header #header-bottom-left ul.tabmenu li #viewImagesButton { di
 html[lang="lx"] #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html[lang="lx"] .flair { background: none; color: #383824; border: none; margin: 0px; padding: 0px; }
 html[lang="lx"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
-html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2 { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
+html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2, html[lang="lx"] .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
 html[lang="lx"] .flair.flair-Grandmaster { background-image: url(%%grandmaster%%); }
 html[lang="lx"] .flair.flair-Master2 { background: none; padding-left: 0px; width: 10px; }
 html[lang="lx"] .flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
