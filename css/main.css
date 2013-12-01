@@ -116,16 +116,6 @@ html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction:hove
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
-html:not([lang*="l"]) .icon-menu a { background: none; }
-html:not([lang*="l"]) #search input[type="text"] { background: black; color: #eeeeee !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
-html:not([lang*="l"]) #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #ffcc00; }
-html:not([lang*="l"]) #search input[type="text"]:focus { padding: 2px 5px; border: 1px solid white; opacity: 1; }
-html:not([lang*="l"]) .infobar { background: none; border-color: gray; }
-html:not([lang*="l"]) #sr-header-area { position: relative; z-index: 901; width: 100%; }
-html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
-html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li { font-weight: normal; }
-html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
-html:not([lang*="l"]) #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html:not([lang*="l"]) .flair { background: none; color: #eeeeee; border: none; margin: 0px; padding: 0px; }
 html:not([lang*="l"]) .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
 html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Master2, html:not([lang*="l"]) .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
@@ -151,6 +141,16 @@ html:not([lang*="l"]) .flair.flair-S9:hover::before { content: "(Season 9)"; flo
 html:not([lang*="l"]) .flair.flair-S10:hover::before { content: "(Season 10)"; float: right; color: gray; }
 html:not([lang*="l"]) .flair.flair-S11:hover::before { content: "(Season 11)"; float: right; color: gray; }
 html:not([lang*="l"]) .flair.flair-S12:hover::before { content: "(Season 12)"; float: right; color: gray; }
+html:not([lang*="l"]) .icon-menu a { background: none; }
+html:not([lang*="l"]) #search input[type="text"] { background: black; color: #eeeeee !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
+html:not([lang*="l"]) #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #ffcc00; }
+html:not([lang*="l"]) #search input[type="text"]:focus { padding: 2px 5px; border: 1px solid white; opacity: 1; }
+html:not([lang*="l"]) .infobar { background: none; border-color: gray; }
+html:not([lang*="l"]) #sr-header-area { position: relative; z-index: 901; width: 100%; }
+html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
+html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li { font-weight: normal; }
+html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
+html:not([lang*="l"]) #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html:not([lang*="l"]) .parentComment.comment { color: white !important; background-color: black !important; overflow: visible !important; z-index: 2147483649 !important; box-shadow: 0px 0px 250px 200px black; }
 html:not([lang*="l"]) .usertext-body { background: none; }
 html:not([lang*="l"]) .content.submit .info-notice, html:not([lang*="l"]) .tabmenu.formtab .selected a { background: none; }
@@ -329,16 +329,6 @@ html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction:hover { ba
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
-html[lang="ll"] .icon-menu a { background: none; }
-html[lang="ll"] #search input[type="text"] { background: white; color: #111111 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
-html[lang="ll"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #de0000; }
-html[lang="ll"] #search input[type="text"]:focus { padding: 2px 5px; border: 1px solid white; opacity: 1; }
-html[lang="ll"] .infobar { background: none; border-color: gray; }
-html[lang="ll"] #sr-header-area { position: relative; z-index: 901; width: 100%; }
-html[lang="ll"] #header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
-html[lang="ll"] #header #header-bottom-left ul.tabmenu li { font-weight: normal; }
-html[lang="ll"] #header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
-html[lang="ll"] #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html[lang="ll"] .flair { background: none; color: #111111; border: none; margin: 0px; padding: 0px; }
 html[lang="ll"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
 html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master2, html[lang="ll"] .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
@@ -364,6 +354,16 @@ html[lang="ll"] .flair.flair-S9:hover::before { content: "(Season 9)"; float: ri
 html[lang="ll"] .flair.flair-S10:hover::before { content: "(Season 10)"; float: right; color: gray; }
 html[lang="ll"] .flair.flair-S11:hover::before { content: "(Season 11)"; float: right; color: gray; }
 html[lang="ll"] .flair.flair-S12:hover::before { content: "(Season 12)"; float: right; color: gray; }
+html[lang="ll"] .icon-menu a { background: none; }
+html[lang="ll"] #search input[type="text"] { background: white; color: #111111 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
+html[lang="ll"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #de0000; }
+html[lang="ll"] #search input[type="text"]:focus { padding: 2px 5px; border: 1px solid white; opacity: 1; }
+html[lang="ll"] .infobar { background: none; border-color: gray; }
+html[lang="ll"] #sr-header-area { position: relative; z-index: 901; width: 100%; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu li { font-weight: normal; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
+html[lang="ll"] #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html[lang="ll"] .parentComment.comment { color: white !important; background-color: white !important; overflow: visible !important; z-index: 2147483649 !important; box-shadow: 0px 0px 250px 200px white; }
 html[lang="ll"] .usertext-body { background: none; }
 html[lang="ll"] .content.submit .info-notice, html[lang="ll"] .tabmenu.formtab .selected a { background: none; }
@@ -530,16 +530,6 @@ html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction:hover { ba
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
-html[lang="lx"] .icon-menu a { background: none; }
-html[lang="lx"] #search input[type="text"] { background: white; color: #383824 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
-html[lang="lx"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #00141c; }
-html[lang="lx"] #search input[type="text"]:focus { padding: 2px 5px; border: 1px solid white; opacity: 1; }
-html[lang="lx"] .infobar { background: none; border-color: gray; }
-html[lang="lx"] #sr-header-area { position: relative; z-index: 901; width: 100%; }
-html[lang="lx"] #header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
-html[lang="lx"] #header #header-bottom-left ul.tabmenu li { font-weight: normal; }
-html[lang="lx"] #header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
-html[lang="lx"] #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html[lang="lx"] .flair { background: none; color: #383824; border: none; margin: 0px; padding: 0px; }
 html[lang="lx"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
 html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master2, html[lang="lx"] .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
@@ -565,6 +555,16 @@ html[lang="lx"] .flair.flair-S9:hover::before { content: "(Season 9)"; float: ri
 html[lang="lx"] .flair.flair-S10:hover::before { content: "(Season 10)"; float: right; color: gray; }
 html[lang="lx"] .flair.flair-S11:hover::before { content: "(Season 11)"; float: right; color: gray; }
 html[lang="lx"] .flair.flair-S12:hover::before { content: "(Season 12)"; float: right; color: gray; }
+html[lang="lx"] .icon-menu a { background: none; }
+html[lang="lx"] #search input[type="text"] { background: white; color: #383824 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
+html[lang="lx"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #00141c; }
+html[lang="lx"] #search input[type="text"]:focus { padding: 2px 5px; border: 1px solid white; opacity: 1; }
+html[lang="lx"] .infobar { background: none; border-color: gray; }
+html[lang="lx"] #sr-header-area { position: relative; z-index: 901; width: 100%; }
+html[lang="lx"] #header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
+html[lang="lx"] #header #header-bottom-left ul.tabmenu li { font-weight: normal; }
+html[lang="lx"] #header #header-bottom-left ul.tabmenu li #viewImagesButton { display: none; }
+html[lang="lx"] #header #header-bottom-left #header-bottom-right { z-index: 200; background: none; }
 html[lang="lx"] .parentComment.comment { color: white !important; background-color: white !important; overflow: visible !important; z-index: 2147483649 !important; box-shadow: 0px 0px 250px 200px white; }
 html[lang="lx"] .usertext-body { background: none; }
 html[lang="lx"] .content.submit .info-notice, html[lang="lx"] .tabmenu.formtab .selected a { background: none; }

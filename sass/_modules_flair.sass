@@ -1,0 +1,63 @@
+.flair
+  background: none
+  color: $textFace
+  border: none
+  margin: 0px
+  padding: 0px 
+  &.flair-Mod
+    border: red solid 1px
+    border-radius: 0px
+    border-width: 0px 0px 0px 1px
+    margin-right: 5px
+    margin-left: 1px
+    padding-left: 2px
+  &.flair-Master, &.flair-Master2, &.flair-Grandmaster
+    background-image: url(%%master%%)
+    background-repeat: no-repeat
+    padding-left: 15px
+    background-position: -1px -1px
+    height: 14px
+    width: 1px
+    overflow: hidden
+    margin: 0px
+    margin-left: 2px
+    text-indent: 2px
+  &.flair-Grandmaster
+    background-image: url(%%grandmaster%%)
+  &.flair-Master2
+    background: none
+    padding-left: 0px
+    width: 10px
+    &::before
+      content: "?"
+      text-indent: 0px
+      padding-right: 10px
+    &:hover::before
+      content: ""
+      padding-right: 0px
+  &.flair-HotS
+    color: #9452c6
+  &.flair-Master:hover, &.flair-Master2:hover, &.flair-Grandmaster:hover
+    width: auto
+  &.flair-EU:hover::after
+    content: " (EU)"
+    color: grey
+  &.flair-Bitch:hover::before
+    content: "(bitch) "
+    color: red
+  &.flair-NA:hover::after, &.flair-AM:hover::after
+    content: " (AM)"
+    color: grey
+  &.flair-KR:hover::after
+    content: " (KR)"
+    color: grey
+  &.flair-SEA:hover::after
+    content: " (SEA)"
+    color: grey
+  @for $i from 2 through 12
+    &.flair-S#{$i}:hover
+      &::before 
+        $text: "(Season "+$i+")"
+        content: $text
+        float: right
+        color: gray
