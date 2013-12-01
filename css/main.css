@@ -116,11 +116,13 @@ html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction:hove
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
+html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Master, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Master, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
 html:not([lang*="l"]) .flair { background: none; color: #eeeeee; border: none; margin: 0px; padding: 0px; }
 html:not([lang*="l"]) .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
-html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
-html:not([lang*="l"]) .flair.flair-Master:hover, html:not([lang*="l"]) .flair.flair-Grandmaster:hover { width: auto; }
-html:not([lang*="l"]) .flair.flair-Grandmaster { background-image: url(%%grandmaster%%); }
+html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) .flair.flair-Diamond { background-repeat: no-repeat; padding-left: 15px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
+html:not([lang*="l"]) .flair.flair-Master:hover, html:not([lang*="l"]) .flair.flair-Grandmaster:hover, html:not([lang*="l"]) .flair.flair-Diamond:hover { width: auto; }
 html:not([lang*="l"]) .flair.flair-HotS { color: #9452c6; }
 html:not([lang*="l"]) .flair.flair-EU:hover::after { content: " (EU)"; color: grey; }
 html:not([lang*="l"]) .flair.flair-NA:hover::after, html:not([lang*="l"]) .flair.flair-AM:hover::after { content: " (AM)"; color: grey; }
@@ -325,11 +327,13 @@ html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction:hover { ba
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
+html[lang="ll"] html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] html[lang="ll"] .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
+html[lang="ll"] html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master, html[lang="ll"] html[lang="lx"] .flair.flair-Master, html[lang="lx"] html[lang="ll"] .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
+html[lang="ll"] html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] html[lang="ll"] .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
 html[lang="ll"] .flair { background: none; color: #111111; border: none; margin: 0px; padding: 0px; }
 html[lang="ll"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
-html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
-html[lang="ll"] .flair.flair-Master:hover, html[lang="ll"] .flair.flair-Grandmaster:hover { width: auto; }
-html[lang="ll"] .flair.flair-Grandmaster { background-image: url(%%grandmaster%%); }
+html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] .flair.flair-Diamond { background-repeat: no-repeat; padding-left: 15px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
+html[lang="ll"] .flair.flair-Master:hover, html[lang="ll"] .flair.flair-Grandmaster:hover, html[lang="ll"] .flair.flair-Diamond:hover { width: auto; }
 html[lang="ll"] .flair.flair-HotS { color: #9452c6; }
 html[lang="ll"] .flair.flair-EU:hover::after { content: " (EU)"; color: grey; }
 html[lang="ll"] .flair.flair-NA:hover::after, html[lang="ll"] .flair.flair-AM:hover::after { content: " (AM)"; color: grey; }
@@ -522,11 +526,13 @@ html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction:hover { ba
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
+html[lang="lx"] html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
+html[lang="lx"] html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Master, html[lang="lx"] html[lang="ll"] .flair.flair-Master, html[lang="ll"] html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
+html[lang="lx"] html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
 html[lang="lx"] .flair { background: none; color: #383824; border: none; margin: 0px; padding: 0px; }
 html[lang="lx"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
-html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Grandmaster { background-image: url(%%master%%); background-repeat: no-repeat; padding-left: 15px; background-position: -1px -1px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
-html[lang="lx"] .flair.flair-Master:hover, html[lang="lx"] .flair.flair-Grandmaster:hover { width: auto; }
-html[lang="lx"] .flair.flair-Grandmaster { background-image: url(%%grandmaster%%); }
+html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] .flair.flair-Diamond { background-repeat: no-repeat; padding-left: 15px; height: 14px; width: 1px; overflow: hidden; margin: 0px; margin-left: 2px; text-indent: 2px; }
+html[lang="lx"] .flair.flair-Master:hover, html[lang="lx"] .flair.flair-Grandmaster:hover, html[lang="lx"] .flair.flair-Diamond:hover { width: auto; }
 html[lang="lx"] .flair.flair-HotS { color: #9452c6; }
 html[lang="lx"] .flair.flair-EU:hover::after { content: " (EU)"; color: grey; }
 html[lang="lx"] .flair.flair-NA:hover::after, html[lang="lx"] .flair.flair-AM:hover::after { content: " (AM)"; color: grey; }
