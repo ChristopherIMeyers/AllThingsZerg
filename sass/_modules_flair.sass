@@ -190,8 +190,6 @@
     margin: 0px
     margin-left: 2px
     text-indent: 2px
-    &:hover
-      width: auto
   &.flair-Bronze
     @extend %league-bronze-4-s-16
   &.flair-Silver
@@ -208,27 +206,31 @@
     @extend %league-grandmaster-4-s-16
   &.flair-HotS
     color: #9452c6
-  &.flair-EU:hover::after
+
+a:hover + .flair, .flair:hover
+  &.flair-Master, &.flair-Grandmaster, &.flair-Diamond, &.flair-Platinum, &.flair-Gold, &.flair-Silver, &.flair-Bronze
+    width: auto
+  &.flair-EU::after
     content: " (EU)"
     color: grey
-  &.flair-NA:hover::after, &.flair-AM:hover::after
+  &.flair-NA::after, &.flair-AM::after
     content: " (AM)"
     color: grey
-  &.flair-KR:hover::after
+  &.flair-KR::after
     content: " (KR)"
     color: grey
-  &.flair-SEA:hover::after
+  &.flair-SEA::after
     content: " (SEA)"
     color: grey
   @for $i from 2 through 12
-    &.flair-S#{$i}:hover
+    &.flair-S#{$i}
       &::before 
         $text: "(Season "+$i+")"
         content: $text
         float: right
         color: gray
   @for $i from 1 through 6
-    &.flair-S2013-#{$i}:hover
+    &.flair-S2013-#{$i}
       &::before 
         $text: "(Season 2013 "+$i+")"
         content: $text
