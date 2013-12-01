@@ -143,6 +143,12 @@ html:not([lang*="l"]) .flair.flair-S9:hover::before { content: "(Season 9)"; flo
 html:not([lang*="l"]) .flair.flair-S10:hover::before { content: "(Season 10)"; float: right; color: gray; }
 html:not([lang*="l"]) .flair.flair-S11:hover::before { content: "(Season 11)"; float: right; color: gray; }
 html:not([lang*="l"]) .flair.flair-S12:hover::before { content: "(Season 12)"; float: right; color: gray; }
+html:not([lang*="l"]) .flair.flair-S2013-1:hover::before { content: "(Season 2013 1)"; float: right; color: gray; }
+html:not([lang*="l"]) .flair.flair-S2013-2:hover::before { content: "(Season 2013 2)"; float: right; color: gray; }
+html:not([lang*="l"]) .flair.flair-S2013-3:hover::before { content: "(Season 2013 3)"; float: right; color: gray; }
+html:not([lang*="l"]) .flair.flair-S2013-4:hover::before { content: "(Season 2013 4)"; float: right; color: gray; }
+html:not([lang*="l"]) .flair.flair-S2013-5:hover::before { content: "(Season 2013 5)"; float: right; color: gray; }
+html:not([lang*="l"]) .flair.flair-S2013-6:hover::before { content: "(Season 2013 6)"; float: right; color: gray; }
 html:not([lang*="l"]) .icon-menu a { background: none; }
 html:not([lang*="l"]) #search input[type="text"] { background: black; color: #eeeeee !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
 html:not([lang*="l"]) #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #ffcc00; }
@@ -358,6 +364,12 @@ html[lang="ll"] .flair.flair-S9:hover::before { content: "(Season 9)"; float: ri
 html[lang="ll"] .flair.flair-S10:hover::before { content: "(Season 10)"; float: right; color: gray; }
 html[lang="ll"] .flair.flair-S11:hover::before { content: "(Season 11)"; float: right; color: gray; }
 html[lang="ll"] .flair.flair-S12:hover::before { content: "(Season 12)"; float: right; color: gray; }
+html[lang="ll"] .flair.flair-S2013-1:hover::before { content: "(Season 2013 1)"; float: right; color: gray; }
+html[lang="ll"] .flair.flair-S2013-2:hover::before { content: "(Season 2013 2)"; float: right; color: gray; }
+html[lang="ll"] .flair.flair-S2013-3:hover::before { content: "(Season 2013 3)"; float: right; color: gray; }
+html[lang="ll"] .flair.flair-S2013-4:hover::before { content: "(Season 2013 4)"; float: right; color: gray; }
+html[lang="ll"] .flair.flair-S2013-5:hover::before { content: "(Season 2013 5)"; float: right; color: gray; }
+html[lang="ll"] .flair.flair-S2013-6:hover::before { content: "(Season 2013 6)"; float: right; color: gray; }
 html[lang="ll"] .icon-menu a { background: none; }
 html[lang="ll"] #search input[type="text"] { background: white; color: #111111 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
 html[lang="ll"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #de0000; }
@@ -561,6 +573,12 @@ html[lang="lx"] .flair.flair-S9:hover::before { content: "(Season 9)"; float: ri
 html[lang="lx"] .flair.flair-S10:hover::before { content: "(Season 10)"; float: right; color: gray; }
 html[lang="lx"] .flair.flair-S11:hover::before { content: "(Season 11)"; float: right; color: gray; }
 html[lang="lx"] .flair.flair-S12:hover::before { content: "(Season 12)"; float: right; color: gray; }
+html[lang="lx"] .flair.flair-S2013-1:hover::before { content: "(Season 2013 1)"; float: right; color: gray; }
+html[lang="lx"] .flair.flair-S2013-2:hover::before { content: "(Season 2013 2)"; float: right; color: gray; }
+html[lang="lx"] .flair.flair-S2013-3:hover::before { content: "(Season 2013 3)"; float: right; color: gray; }
+html[lang="lx"] .flair.flair-S2013-4:hover::before { content: "(Season 2013 4)"; float: right; color: gray; }
+html[lang="lx"] .flair.flair-S2013-5:hover::before { content: "(Season 2013 5)"; float: right; color: gray; }
+html[lang="lx"] .flair.flair-S2013-6:hover::before { content: "(Season 2013 6)"; float: right; color: gray; }
 html[lang="lx"] .icon-menu a { background: none; }
 html[lang="lx"] #search input[type="text"] { background: white; color: #383824 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
 html[lang="lx"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #00141c; }
