@@ -181,7 +181,7 @@
     margin-right: 5px
     margin-left: 1px
     padding-left: 2px
-  &.flair-Master, &.flair-Grandmaster, &.flair-Diamond
+  &.flair-Master, &.flair-Grandmaster, &.flair-Diamond, &.flair-Platinum, &.flair-Gold, &.flair-Silver, &.flair-Bronze
     background-repeat: no-repeat
     padding-left: 15px
     height: 14px
@@ -192,6 +192,14 @@
     text-indent: 2px
     &:hover
       width: auto
+  &.flair-Bronze
+    @extend %league-bronze-4-s-16
+  &.flair-Silver
+    @extend %league-silver-4-s-16
+  &.flair-Gold
+    @extend %league-gold-4-s-16
+  &.flair-Platinum
+    @extend %league-platinum-4-s-16
   &.flair-Diamond
     @extend %league-diamond-4-s-16
   &.flair-Master
