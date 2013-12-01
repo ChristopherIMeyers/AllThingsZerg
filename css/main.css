@@ -134,7 +134,7 @@ html:not([lang*="l"]) .flair.flair-Master2 { background: none; padding-left: 0px
 html:not([lang*="l"]) .flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
 html:not([lang*="l"]) .flair.flair-Master2:hover::before { content: ""; padding-right: 0px; }
 html:not([lang*="l"]) .flair.flair-HotS { color: #9452c6; }
-html:not([lang*="l"]) .flair.flair-Master:hover, html:not([lang*="l"]) .flair.flair-Master2:hover { width: auto; }
+html:not([lang*="l"]) .flair.flair-Master:hover, html:not([lang*="l"]) .flair.flair-Master2:hover, html:not([lang*="l"]) .flair.flair-Grandmaster:hover { width: auto; }
 html:not([lang*="l"]) .flair.flair-EU:hover::after { content: " (EU)"; color: grey; }
 html:not([lang*="l"]) .flair.flair-Bitch:hover::before { content: "(bitch) "; color: red; }
 html:not([lang*="l"]) .flair.flair-NA:hover::after, html:not([lang*="l"]) .flair.flair-AM:hover::after { content: " (AM)"; color: grey; }
@@ -347,7 +347,7 @@ html[lang="ll"] .flair.flair-Master2 { background: none; padding-left: 0px; widt
 html[lang="ll"] .flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
 html[lang="ll"] .flair.flair-Master2:hover::before { content: ""; padding-right: 0px; }
 html[lang="ll"] .flair.flair-HotS { color: #9452c6; }
-html[lang="ll"] .flair.flair-Master:hover, html[lang="ll"] .flair.flair-Master2:hover { width: auto; }
+html[lang="ll"] .flair.flair-Master:hover, html[lang="ll"] .flair.flair-Master2:hover, html[lang="ll"] .flair.flair-Grandmaster:hover { width: auto; }
 html[lang="ll"] .flair.flair-EU:hover::after { content: " (EU)"; color: grey; }
 html[lang="ll"] .flair.flair-Bitch:hover::before { content: "(bitch) "; color: red; }
 html[lang="ll"] .flair.flair-NA:hover::after, html[lang="ll"] .flair.flair-AM:hover::after { content: " (AM)"; color: grey; }
@@ -548,7 +548,7 @@ html[lang="lx"] .flair.flair-Master2 { background: none; padding-left: 0px; widt
 html[lang="lx"] .flair.flair-Master2::before { content: "?"; text-indent: 0px; padding-right: 10px; }
 html[lang="lx"] .flair.flair-Master2:hover::before { content: ""; padding-right: 0px; }
 html[lang="lx"] .flair.flair-HotS { color: #9452c6; }
-html[lang="lx"] .flair.flair-Master:hover, html[lang="lx"] .flair.flair-Master2:hover { width: auto; }
+html[lang="lx"] .flair.flair-Master:hover, html[lang="lx"] .flair.flair-Master2:hover, html[lang="lx"] .flair.flair-Grandmaster:hover { width: auto; }
 html[lang="lx"] .flair.flair-EU:hover::after { content: " (EU)"; color: grey; }
 html[lang="lx"] .flair.flair-Bitch:hover::before { content: "(bitch) "; color: red; }
 html[lang="lx"] .flair.flair-NA:hover::after, html[lang="lx"] .flair.flair-AM:hover::after { content: " (AM)"; color: grey; }
