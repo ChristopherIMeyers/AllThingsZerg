@@ -183,13 +183,11 @@
     padding-left: 2px
   &.flair-Master, &.flair-Grandmaster, &.flair-Diamond, &.flair-Platinum, &.flair-Gold, &.flair-Silver, &.flair-Bronze
     background-repeat: no-repeat
-    padding-left: 15px
+    padding-left: 16px
     height: 14px
-    width: 1px
-    overflow: hidden
-    margin: 0px
-    margin-left: 2px
-    text-indent: 2px
+    width: 0
+    margin: 0
+    text-indent: -9999px
   &.flair-Bronze
     @extend %league-bronze-4-s-16
   &.flair-Silver
@@ -210,6 +208,7 @@
 a:hover + .flair, .flair:hover
   &.flair-Master, &.flair-Grandmaster, &.flair-Diamond, &.flair-Platinum, &.flair-Gold, &.flair-Silver, &.flair-Bronze
     width: auto
+    text-indent: 2px
   &.flair-EU::after
     content: " (EU)"
     color: grey
