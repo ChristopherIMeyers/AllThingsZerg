@@ -143,12 +143,12 @@ html:not([lang*="l"]) a:hover + .flair.flair-S9::before, html:not([lang*="l"]) .
 html:not([lang*="l"]) a:hover + .flair.flair-S10::before, html:not([lang*="l"]) .flair:hover.flair-S10::before { content: "(Season 10)"; float: right; color: gray; }
 html:not([lang*="l"]) a:hover + .flair.flair-S11::before, html:not([lang*="l"]) .flair:hover.flair-S11::before { content: "(Season 11)"; float: right; color: gray; }
 html:not([lang*="l"]) a:hover + .flair.flair-S12::before, html:not([lang*="l"]) .flair:hover.flair-S12::before { content: "(Season 12)"; float: right; color: gray; }
-html:not([lang*="l"]) a:hover + .flair.flair-S2013-1::before, html:not([lang*="l"]) .flair:hover.flair-S2013-1::before { content: "(Season 2013 1)"; float: right; color: gray; }
-html:not([lang*="l"]) a:hover + .flair.flair-S2013-2::before, html:not([lang*="l"]) .flair:hover.flair-S2013-2::before { content: "(Season 2013 2)"; float: right; color: gray; }
-html:not([lang*="l"]) a:hover + .flair.flair-S2013-3::before, html:not([lang*="l"]) .flair:hover.flair-S2013-3::before { content: "(Season 2013 3)"; float: right; color: gray; }
-html:not([lang*="l"]) a:hover + .flair.flair-S2013-4::before, html:not([lang*="l"]) .flair:hover.flair-S2013-4::before { content: "(Season 2013 4)"; float: right; color: gray; }
-html:not([lang*="l"]) a:hover + .flair.flair-S2013-5::before, html:not([lang*="l"]) .flair:hover.flair-S2013-5::before { content: "(Season 2013 5)"; float: right; color: gray; }
-html:not([lang*="l"]) a:hover + .flair.flair-S2013-6::before, html:not([lang*="l"]) .flair:hover.flair-S2013-6::before { content: "(Season 2013 6)"; float: right; color: gray; }
+html:not([lang*="l"]) a:hover + .flair.flair-S2013-1::before, html:not([lang*="l"]) .flair:hover.flair-S2013-1::before { content: "(2013 Season 1)"; float: right; color: gray; }
+html:not([lang*="l"]) a:hover + .flair.flair-S2013-2::before, html:not([lang*="l"]) .flair:hover.flair-S2013-2::before { content: "(2013 Season 2)"; float: right; color: gray; }
+html:not([lang*="l"]) a:hover + .flair.flair-S2013-3::before, html:not([lang*="l"]) .flair:hover.flair-S2013-3::before { content: "(2013 Season 3)"; float: right; color: gray; }
+html:not([lang*="l"]) a:hover + .flair.flair-S2013-4::before, html:not([lang*="l"]) .flair:hover.flair-S2013-4::before { content: "(2013 Season 4)"; float: right; color: gray; }
+html:not([lang*="l"]) a:hover + .flair.flair-S2013-5::before, html:not([lang*="l"]) .flair:hover.flair-S2013-5::before { content: "(2013 Season 5)"; float: right; color: gray; }
+html:not([lang*="l"]) a:hover + .flair.flair-S2013-6::before, html:not([lang*="l"]) .flair:hover.flair-S2013-6::before { content: "(2013 Season 6)"; float: right; color: gray; }
 html:not([lang*="l"]) .icon-menu a { background: none; }
 html:not([lang*="l"]) #search input[type="text"] { background: black; color: #eeeeee !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
 html:not([lang*="l"]) #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #ffcc00; }
@@ -364,12 +364,12 @@ html[lang="ll"] a:hover + .flair.flair-S9::before, html[lang="ll"] .flair:hover.
 html[lang="ll"] a:hover + .flair.flair-S10::before, html[lang="ll"] .flair:hover.flair-S10::before { content: "(Season 10)"; float: right; color: gray; }
 html[lang="ll"] a:hover + .flair.flair-S11::before, html[lang="ll"] .flair:hover.flair-S11::before { content: "(Season 11)"; float: right; color: gray; }
 html[lang="ll"] a:hover + .flair.flair-S12::before, html[lang="ll"] .flair:hover.flair-S12::before { content: "(Season 12)"; float: right; color: gray; }
-html[lang="ll"] a:hover + .flair.flair-S2013-1::before, html[lang="ll"] .flair:hover.flair-S2013-1::before { content: "(Season 2013 1)"; float: right; color: gray; }
-html[lang="ll"] a:hover + .flair.flair-S2013-2::before, html[lang="ll"] .flair:hover.flair-S2013-2::before { content: "(Season 2013 2)"; float: right; color: gray; }
-html[lang="ll"] a:hover + .flair.flair-S2013-3::before, html[lang="ll"] .flair:hover.flair-S2013-3::before { content: "(Season 2013 3)"; float: right; color: gray; }
-html[lang="ll"] a:hover + .flair.flair-S2013-4::before, html[lang="ll"] .flair:hover.flair-S2013-4::before { content: "(Season 2013 4)"; float: right; color: gray; }
-html[lang="ll"] a:hover + .flair.flair-S2013-5::before, html[lang="ll"] .flair:hover.flair-S2013-5::before { content: "(Season 2013 5)"; float: right; color: gray; }
-html[lang="ll"] a:hover + .flair.flair-S2013-6::before, html[lang="ll"] .flair:hover.flair-S2013-6::before { content: "(Season 2013 6)"; float: right; color: gray; }
+html[lang="ll"] a:hover + .flair.flair-S2013-1::before, html[lang="ll"] .flair:hover.flair-S2013-1::before { content: "(2013 Season 1)"; float: right; color: gray; }
+html[lang="ll"] a:hover + .flair.flair-S2013-2::before, html[lang="ll"] .flair:hover.flair-S2013-2::before { content: "(2013 Season 2)"; float: right; color: gray; }
+html[lang="ll"] a:hover + .flair.flair-S2013-3::before, html[lang="ll"] .flair:hover.flair-S2013-3::before { content: "(2013 Season 3)"; float: right; color: gray; }
+html[lang="ll"] a:hover + .flair.flair-S2013-4::before, html[lang="ll"] .flair:hover.flair-S2013-4::before { content: "(2013 Season 4)"; float: right; color: gray; }
+html[lang="ll"] a:hover + .flair.flair-S2013-5::before, html[lang="ll"] .flair:hover.flair-S2013-5::before { content: "(2013 Season 5)"; float: right; color: gray; }
+html[lang="ll"] a:hover + .flair.flair-S2013-6::before, html[lang="ll"] .flair:hover.flair-S2013-6::before { content: "(2013 Season 6)"; float: right; color: gray; }
 html[lang="ll"] .icon-menu a { background: none; }
 html[lang="ll"] #search input[type="text"] { background: white; color: #111111 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
 html[lang="ll"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #de0000; }
@@ -573,12 +573,12 @@ html[lang="lx"] a:hover + .flair.flair-S9::before, html[lang="lx"] .flair:hover.
 html[lang="lx"] a:hover + .flair.flair-S10::before, html[lang="lx"] .flair:hover.flair-S10::before { content: "(Season 10)"; float: right; color: gray; }
 html[lang="lx"] a:hover + .flair.flair-S11::before, html[lang="lx"] .flair:hover.flair-S11::before { content: "(Season 11)"; float: right; color: gray; }
 html[lang="lx"] a:hover + .flair.flair-S12::before, html[lang="lx"] .flair:hover.flair-S12::before { content: "(Season 12)"; float: right; color: gray; }
-html[lang="lx"] a:hover + .flair.flair-S2013-1::before, html[lang="lx"] .flair:hover.flair-S2013-1::before { content: "(Season 2013 1)"; float: right; color: gray; }
-html[lang="lx"] a:hover + .flair.flair-S2013-2::before, html[lang="lx"] .flair:hover.flair-S2013-2::before { content: "(Season 2013 2)"; float: right; color: gray; }
-html[lang="lx"] a:hover + .flair.flair-S2013-3::before, html[lang="lx"] .flair:hover.flair-S2013-3::before { content: "(Season 2013 3)"; float: right; color: gray; }
-html[lang="lx"] a:hover + .flair.flair-S2013-4::before, html[lang="lx"] .flair:hover.flair-S2013-4::before { content: "(Season 2013 4)"; float: right; color: gray; }
-html[lang="lx"] a:hover + .flair.flair-S2013-5::before, html[lang="lx"] .flair:hover.flair-S2013-5::before { content: "(Season 2013 5)"; float: right; color: gray; }
-html[lang="lx"] a:hover + .flair.flair-S2013-6::before, html[lang="lx"] .flair:hover.flair-S2013-6::before { content: "(Season 2013 6)"; float: right; color: gray; }
+html[lang="lx"] a:hover + .flair.flair-S2013-1::before, html[lang="lx"] .flair:hover.flair-S2013-1::before { content: "(2013 Season 1)"; float: right; color: gray; }
+html[lang="lx"] a:hover + .flair.flair-S2013-2::before, html[lang="lx"] .flair:hover.flair-S2013-2::before { content: "(2013 Season 2)"; float: right; color: gray; }
+html[lang="lx"] a:hover + .flair.flair-S2013-3::before, html[lang="lx"] .flair:hover.flair-S2013-3::before { content: "(2013 Season 3)"; float: right; color: gray; }
+html[lang="lx"] a:hover + .flair.flair-S2013-4::before, html[lang="lx"] .flair:hover.flair-S2013-4::before { content: "(2013 Season 4)"; float: right; color: gray; }
+html[lang="lx"] a:hover + .flair.flair-S2013-5::before, html[lang="lx"] .flair:hover.flair-S2013-5::before { content: "(2013 Season 5)"; float: right; color: gray; }
+html[lang="lx"] a:hover + .flair.flair-S2013-6::before, html[lang="lx"] .flair:hover.flair-S2013-6::before { content: "(2013 Season 6)"; float: right; color: gray; }
 html[lang="lx"] .icon-menu a { background: none; }
 html[lang="lx"] #search input[type="text"] { background: white; color: #383824 !important; border: 0px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
 html[lang="lx"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #00141c; }
