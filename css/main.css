@@ -1,5 +1,7 @@
 .md ul { margin: 10px 20px; list-style-image: url(%%arrow%%) !important; }
 
+.listing-page > .content { margin-right: 350px; }
+
 .thing.spam { background: none; border-color: salmon; border-width: 0px 0px 0px 5px; border-style: solid; }
 .thing.reported { background: none; border-color: yellow; border-width: 0px 0px 0px 5px; border-style: solid; margin-left: 10px; padding-left: 15px; }
 
