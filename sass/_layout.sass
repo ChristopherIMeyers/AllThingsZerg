@@ -23,16 +23,18 @@
   .title
     margin: 0
   .domain
-    font-size: 0px
     top: -2px
+    left: -1000px
     position: relative
     padding: 0 5px
     display: inline-block
     a
-      font-size: x-small
+      left: 1000px
+      position: relative
     &::before
+      left: 1000px
+      position: relative
       content: "► "
-      font-size: x-small
   &.self .domain
     &::before
       content: "◄"
