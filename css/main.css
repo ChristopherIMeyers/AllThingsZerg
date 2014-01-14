@@ -5,7 +5,7 @@
 
 .listing-page .thing .title { white-space: nowrap; overflow: hidden; margin: 0; }
 .listing-page .thing .title .title { margin: 0; }
-.listing-page .thing .title .domain { font-size: 0px; top: -2px; position: relative; padding: 5px; height: 10px; display: inline-block; }
+.listing-page .thing .title .domain { font-size: 0px; top: -2px; position: relative; padding: 0 5px; display: inline-block; }
 .listing-page .thing .title .domain a { font-size: x-small; }
 .listing-page .thing .title .domain::before { content: "► "; font-size: x-small; }
 .listing-page .thing .title.self .domain::before { content: "◄"; }
