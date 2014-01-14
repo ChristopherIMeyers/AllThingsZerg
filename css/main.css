@@ -29,7 +29,7 @@ html:not([lang*="l"]) #authorInfoToolTip .blueButton { background-color: #21587e
 html:not([lang*="l"]) .fancy-toggle-button .add { background: #116428 !important; }
 html:not([lang*="l"]) .RES-keyNav-activeElement, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement .md, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: none !important; }
 html:not([lang*="l"]) .side hr { display: none; }
-html:not([lang*="l"]) .side { background: none; z-index: 500; }
+html:not([lang*="l"]) .side { background: black; z-index: 500; }
 html:not([lang*="l"]) .side .titlebox .redditname a { text-transform: uppercase; }
 html:not([lang*="l"]) .side .titlebox .word { display: none; }
 html:not([lang*="l"]) .side .titlebox .subscribers .number::after { content: " locusts"; }
@@ -250,7 +250,7 @@ html[lang="ll"] #authorInfoToolTip .blueButton { background-color: #21587e !impo
 html[lang="ll"] .fancy-toggle-button .add { background: #116428 !important; }
 html[lang="ll"] .RES-keyNav-activeElement, html[lang="ll"] .commentarea .RES-keyNav-activeElement .md, html[lang="ll"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: none !important; }
 html[lang="ll"] .side hr { display: none; }
-html[lang="ll"] .side { background: none; z-index: 500; }
+html[lang="ll"] .side { background: white; z-index: 500; }
 html[lang="ll"] .side .titlebox .redditname a { text-transform: uppercase; }
 html[lang="ll"] .side .titlebox .word { display: none; }
 html[lang="ll"] .side .titlebox .subscribers .number::after { content: " locusts"; }
@@ -459,7 +459,7 @@ html[lang="lx"] #authorInfoToolTip .blueButton { background-color: #21587e !impo
 html[lang="lx"] .fancy-toggle-button .add { background: #116428 !important; }
 html[lang="lx"] .RES-keyNav-activeElement, html[lang="lx"] .commentarea .RES-keyNav-activeElement .md, html[lang="lx"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: none !important; }
 html[lang="lx"] .side hr { display: none; }
-html[lang="lx"] .side { background: none; z-index: 500; }
+html[lang="lx"] .side { background: white; z-index: 500; }
 html[lang="lx"] .side .titlebox .redditname a { text-transform: uppercase; }
 html[lang="lx"] .side .titlebox .word { display: none; }
 html[lang="lx"] .side .titlebox .subscribers .number::after { content: " locusts"; }
