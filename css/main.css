@@ -3,8 +3,8 @@
 .thing.spam { background: none; border-color: salmon; border-width: 0px 0px 0px 5px; border-style: solid; }
 .thing.reported { background: none; border-color: yellow; border-width: 0px 0px 0px 5px; border-style: solid; margin-left: 10px; padding-left: 15px; }
 
-.listing-page .thing .title { height: 22px; }
-.listing-page .thing .title .title { margin: 0px; height: 19px; overflow: hidden; max-width: 800px; }
+.listing-page .thing .title { white-space: nowrap; overflow: hidden; margin: 0; }
+.listing-page .thing .title .title { margin: 0; }
 .listing-page .thing .title .domain { font-size: 0px; top: -2px; position: relative; padding: 5px; height: 10px; display: inline-block; }
 .listing-page .thing .title .domain a { font-size: x-small; }
 .listing-page .thing .title .domain::before { content: "► "; font-size: x-small; }
