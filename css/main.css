@@ -1,8 +1,8 @@
 .md ul { margin: 10px 20px; list-style-image: url(%%arrow%%) !important; }
 
-.listing-page > .content { margin: 0; margin-right: 350px; }
+.content { padding: 7px 5px 0px 5px; margin: 0; }
 
-body:not(.listing-page) > .content { margin: 0; }
+.listing-page > .content { margin-right: 350px; }
 
 .thing.spam { background: none; border-color: salmon; border-width: 0px 0px 0px 5px; border-style: solid; }
 .thing.reported { background: none; border-color: yellow; border-width: 0px 0px 0px 5px; border-style: solid; margin-left: 10px; padding-left: 15px; }
@@ -179,7 +179,7 @@ html:not([lang*="l"]) a { text-decoration: none; color: #aa6600; }
 html:not([lang*="l"]) a:hover { color: #ffcc00; }
 html:not([lang*="l"]) ::selection { color: white; background-color: #1111aa !important; }
 html:not([lang*="l"]) code { color: #37df37; }
-html:not([lang*="l"]) body > .content { padding: 7px 5px 0px 5px; background: none; color: #eeeeee; }
+html:not([lang*="l"]) body > .content { background: none; color: #eeeeee; }
 html:not([lang*="l"]) .comment .md p > a:visited { color: #aa6600 !important; }
 html:not([lang*="l"]) .comment .md p > a:hover { color: #ffcc00 !important; }
 html:not([lang*="l"]) .newComments { color: #ffcc00 !important; }
@@ -400,7 +400,7 @@ html[lang="ll"] a { text-decoration: none; color: #780000; }
 html[lang="ll"] a:hover { color: #de0000; }
 html[lang="ll"] ::selection { color: white; background-color: #1111aa !important; }
 html[lang="ll"] code { color: #00a300; }
-html[lang="ll"] body > .content { padding: 7px 5px 0px 5px; background: none; color: #111111; }
+html[lang="ll"] body > .content { background: none; color: #111111; }
 html[lang="ll"] .comment .md p > a:visited { color: #780000 !important; }
 html[lang="ll"] .comment .md p > a:hover { color: #de0000 !important; }
 html[lang="ll"] .newComments { color: #de0000 !important; }
@@ -609,7 +609,7 @@ html[lang="lx"] a { text-decoration: none; color: #425430; }
 html[lang="lx"] a:hover { color: #00141c; }
 html[lang="lx"] ::selection { color: white; background-color: #1111aa !important; }
 html[lang="lx"] code { color: #00a300; }
-html[lang="lx"] body > .content { padding: 7px 5px 0px 5px; background: none; color: #383824; }
+html[lang="lx"] body > .content { background: none; color: #383824; }
 html[lang="lx"] .comment .md p > a:visited { color: #425430 !important; }
 html[lang="lx"] .comment .md p > a:hover { color: #00141c !important; }
 html[lang="lx"] .newComments { color: #00141c !important; }
