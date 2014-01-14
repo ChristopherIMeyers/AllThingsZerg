@@ -7,7 +7,7 @@
 .thing.spam { background: none; border-color: salmon; border-width: 0px 0px 0px 5px; border-style: solid; }
 .thing.reported { background: none; border-color: yellow; border-width: 0px 0px 0px 5px; border-style: solid; margin-left: 10px; padding-left: 15px; }
 
-.listing-page .thing .title { white-space: nowrap; overflow: hidden; margin: 0; line-height: 24px; }
+.listing-page .thing .title { white-space: nowrap; overflow: hidden; margin: 0; line-height: 24px; height: 24px; }
 .listing-page .thing .title .title { margin: 0; }
 .listing-page .thing .title .domain { vertical-align: middle; left: -1000px; position: relative; padding: 0 5px; }
 .listing-page .thing .title .domain a { left: 1000px; position: relative; }
