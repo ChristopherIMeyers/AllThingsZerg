@@ -7,7 +7,7 @@
 
 .listing-page .thing .title { white-space: nowrap; overflow: hidden; margin: 0; }
 .listing-page .thing .title .title { margin: 0; }
-.listing-page .thing .title .domain { top: -2px; left: -1000px; position: relative; padding: 0 5px; display: inline-block; }
+.listing-page .thing .title .domain { vertical-align: middle; left: -1000px; position: relative; padding: 0 5px; display: inline-block; }
 .listing-page .thing .title .domain a { left: 1000px; position: relative; }
 .listing-page .thing .title .domain::before { left: 1000px; position: relative; content: "► "; }
 .listing-page .thing .title.self .domain::before { content: "◄"; }
