@@ -56,8 +56,8 @@ html:not([lang*="l"]) .side blockquote { border: none !important; padding: 0px; 
 html:not([lang*="l"]) .side blockquote h2 { border-bottom: 3px solid #aa6600; }
 html:not([lang*="l"]) .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html:not([lang*="l"]) .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
-html:not([lang*="l"]) .listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; position: absolute; height: 14px; left: 30px; top: 19px; }
-html:not([lang*="l"]) .listing-page .thing .flat-list { position: absolute; top: 33px; left: 30px; height: 14px; padding: 0px; }
+html:not([lang*="l"]) .listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; }
+html:not([lang*="l"]) .listing-page .thing .flat-list { padding: 0px; }
 html:not([lang*="l"]) .entry .expando-button { background: none !important; cursor: pointer !important; }
 html:not([lang*="l"]) .entry .expando-button.collapsed, html:not([lang*="l"]) .entry .expando-button.collapsedExpando { background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
 html:not([lang*="l"]) .entry .expando-button.collapsed:hover, html:not([lang*="l"]) .entry .expando-button.collapsedExpando:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
@@ -277,8 +277,8 @@ html[lang="ll"] .side blockquote { border: none !important; padding: 0px; margin
 html[lang="ll"] .side blockquote h2 { border-bottom: 3px solid #780000; }
 html[lang="ll"] .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html[lang="ll"] .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
-html[lang="ll"] .listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; position: absolute; height: 14px; left: 30px; top: 19px; }
-html[lang="ll"] .listing-page .thing .flat-list { position: absolute; top: 33px; left: 30px; height: 14px; padding: 0px; }
+html[lang="ll"] .listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; }
+html[lang="ll"] .listing-page .thing .flat-list { padding: 0px; }
 html[lang="ll"] .entry .expando-button { background: none !important; cursor: pointer !important; }
 html[lang="ll"] .entry .expando-button.collapsed, html[lang="ll"] .entry .expando-button.collapsedExpando { background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
 html[lang="ll"] .entry .expando-button.collapsed:hover, html[lang="ll"] .entry .expando-button.collapsedExpando:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
@@ -486,8 +486,8 @@ html[lang="lx"] .side blockquote { border: none !important; padding: 0px; margin
 html[lang="lx"] .side blockquote h2 { border-bottom: 3px solid #425430; }
 html[lang="lx"] .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html[lang="lx"] .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
-html[lang="lx"] .listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; position: absolute; height: 14px; left: 30px; top: 19px; }
-html[lang="lx"] .listing-page .thing .flat-list { position: absolute; top: 33px; left: 30px; height: 14px; padding: 0px; }
+html[lang="lx"] .listing-page .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0px; }
+html[lang="lx"] .listing-page .thing .flat-list { padding: 0px; }
 html[lang="lx"] .entry .expando-button { background: none !important; cursor: pointer !important; }
 html[lang="lx"] .entry .expando-button.collapsed, html[lang="lx"] .entry .expando-button.collapsedExpando { background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
 html[lang="lx"] .entry .expando-button.collapsed:hover, html[lang="lx"] .entry .expando-button.collapsedExpando:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
