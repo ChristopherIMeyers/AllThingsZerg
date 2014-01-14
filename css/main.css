@@ -19,7 +19,7 @@
 
 .listing-page .link { margin-bottom: 15px; }
 .listing-page .link .rank { margin-top: 20px; margin-right: 5px; }
-.listing-page .link .entry { position: relative; min-height: 64px; }
+.listing-page .link .entry { position: relative; }
 
 html:not([lang*="l"]) body { background: url(%%background%%); background-repeat: repeat; }
 html:not([lang*="l"]) .arrow { height: 22px; width: 22px; background-position: 0px 0px !important; background: none; background-repeat: no-repeat; }
