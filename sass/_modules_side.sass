@@ -9,6 +9,8 @@
   background: $background
   z-index: 500
   .titlebox
+    @include contentBox()
+    padding: 5px
     .redditname a
       text-transform: uppercase
     //subscriber count
@@ -36,9 +38,7 @@
       display: none
     //show my flair on this reddit.  It looks like:
     .tagline
-      @include contentBox()
-      padding: 5px
-      margin: 2px 0
+      margin: 10px 0
 
 // submit a link
 .submit-link 
@@ -62,15 +62,6 @@
 // sidebar
 // about
 .side
-  .usertext-body
-    @include contentBox()
-    padding: 5px
-  .usertext
-    margin-top: 5px
-    &::before
-      content: "INFORMATION"
-      color: gray
-      font-size: 13px
   //MODERATION TOOLS/MODERATORS/RECENTLY VIEWED LINKS
   .sidecontentbox .content
     @include contentBox()
