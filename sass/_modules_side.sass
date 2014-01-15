@@ -36,21 +36,18 @@
       display: none
     //show my flair on this reddit.  It looks like:
     .tagline
+      @include contentBox()
       margin: 2px 0
       padding: 5px 0 5px 20px
-      background: $altBackground
-      border: 1px solid $borderColor
 
 // submit a link
 .submit-link 
   display: none
 .morelink
+  @include contentBox()
   color: $altFace
-  background: $altBackground
-  border: 1px solid gray
   &:hover
     background: $background
-    border: 1px solid gray
   a
     color: $linkVisited
   .nub
@@ -67,9 +64,8 @@
 // about
 .side
   .usertext-body
-    border: 1px solid gray
+    @include contentBox()
     padding: 5px
-    background: $altBackground
     color: $altFace
   .usertext
     margin-top: 5px
