@@ -87,7 +87,7 @@ html:not([lang*="l"]) .md a[href$="#spoiler"] { background: black !important; co
 html:not([lang*="l"]) .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html:not([lang*="l"]) .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html:not([lang*="l"]) .linkinfo { background: none; }
-html:not([lang*="l"]) .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; }
+html:not([lang*="l"]) .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; background-color: black; }
 html:not([lang*="l"]) .md blockquote, html:not([lang*="l"]) .help blockquote { border-left: 2px solid #aa6600; }
 html:not([lang*="l"]) .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html:not([lang*="l"]) .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
@@ -224,7 +224,6 @@ html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li a { background-c
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li.selected a { background-color: black; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
 html:not([lang*="l"]) #sr-header-area { background-color: black; color: #eeeeee; }
 html:not([lang*="l"]) #sr-header-area .sr-bar a { color: #aa6600; }
-html:not([lang*="l"]) .link .usertext .md { background-color: black; }
 
 html[lang="ll"] body { background: url(%%background-light%%); background-position: bottom right; background-attachment: fixed; background-repeat: no-repeat; }
 html[lang="ll"] #search input[type="text"] { border: 1px solid black; }
@@ -308,7 +307,7 @@ html[lang="ll"] .md a[href$="#spoiler"] { background: black !important; color: b
 html[lang="ll"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html[lang="ll"] .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html[lang="ll"] .linkinfo { background: none; }
-html[lang="ll"] .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; }
+html[lang="ll"] .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; background-color: white; }
 html[lang="ll"] .md blockquote, html[lang="ll"] .help blockquote { border-left: 2px solid #780000; }
 html[lang="ll"] .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html[lang="ll"] .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
@@ -445,7 +444,6 @@ html[lang="ll"] #header #header-bottom-left ul.tabmenu li a { background-color: 
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: white; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
 html[lang="ll"] #sr-header-area { background-color: white; color: #111111; }
 html[lang="ll"] #sr-header-area .sr-bar a { color: #780000; }
-html[lang="ll"] .link .usertext .md { background-color: white; }
 
 html[lang="lx"] .arrow { display: block; background: url(%%alt-arrows%%); background-repeat: no-repeat; width: 17px; height: 14px; margin: 0 auto; outline: none; background-repeat: no-repeat; margin-bottom: 1px; }
 html[lang="lx"] .arrow.up { background-position: 0 0 !important; }
@@ -517,7 +515,7 @@ html[lang="lx"] .md a[href$="#spoiler"] { background: black !important; color: b
 html[lang="lx"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html[lang="lx"] .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html[lang="lx"] .linkinfo { background: none; }
-html[lang="lx"] .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; }
+html[lang="lx"] .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; background-color: white; }
 html[lang="lx"] .md blockquote, html[lang="lx"] .help blockquote { border-left: 2px solid #425430; }
 html[lang="lx"] .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html[lang="lx"] .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
@@ -654,4 +652,3 @@ html[lang="lx"] #header #header-bottom-left ul.tabmenu li a { background-color: 
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: white; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
 html[lang="lx"] #sr-header-area { background-color: white; color: #383824; }
 html[lang="lx"] #sr-header-area .sr-bar a { color: #425430; }
-html[lang="lx"] .link .usertext .md { background-color: white; }
