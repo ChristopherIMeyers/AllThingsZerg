@@ -9,9 +9,9 @@
 
 .listing-page .thing .title { white-space: nowrap; overflow: hidden; margin: 0; line-height: 24px; height: 24px; }
 .listing-page .thing .title .title { margin: 0; }
-.listing-page .thing .title .domain { vertical-align: middle; left: -1000px; position: relative; padding: 0 5px; }
-.listing-page .thing .title .domain a { left: 1000px; position: relative; }
-.listing-page .thing .title .domain::before { left: 1000px; position: relative; content: "► "; }
+.listing-page .thing .title .domain { vertical-align: middle; left: -2000px; position: relative; padding: 0 5px; }
+.listing-page .thing .title .domain a { left: 2000px; position: relative; }
+.listing-page .thing .title .domain::before { left: 2000px; position: relative; content: "► "; }
 .listing-page .thing .title.self .domain::before { content: "◄"; }
 .listing-page .thing .title.self .domain a { display: none; }
 
