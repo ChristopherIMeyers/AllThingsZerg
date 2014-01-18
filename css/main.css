@@ -16,7 +16,8 @@
 .listing-page .thing .title.self .domain a { display: none; }
 
 .thing .tagline { background-repeat: no-repeat; background-position: -5px -3px; background: none; padding: 0; }
-.thing .flat-list { padding: 0; }
+
+.link .flat-list { padding: 0; }
 
 .compressed .rank { margin-top: 13px; }
 
