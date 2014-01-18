@@ -15,7 +15,7 @@
 .listing-page .thing .title.self .domain::before { content: "◄"; }
 .listing-page .thing .title.self .domain a { display: none; }
 
-.thing .tagline { background: none; padding: 0; white-space: nowrap; line-height: 1.5; }
+.thing .tagline { background: none; padding: 0; white-space: nowrap; font-size: 12px; line-height: 1.5; }
 
 .link .flat-list { padding: 0; white-space: nowrap; }
 
@@ -30,7 +30,7 @@
 .link .rank { line-height: 1.5; }
 
 .entry { margin: 0; }
-.entry .buttons { line-height: 1.5; }
+.entry .buttons { line-height: 1.5; font-size: 12px; }
 .entry .buttons li { line-height: inherit; padding: 0; margin-right: 1em; }
 .entry .buttons li + li { padding-left: 0; }
 
