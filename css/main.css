@@ -27,6 +27,7 @@
 .listing-page .link .entry { position: relative; }
 
 .link { padding: 0; }
+.link .rank { line-height: 1.5; }
 
 .entry { margin: 0; }
 .entry .buttons { line-height: 1.5; }
