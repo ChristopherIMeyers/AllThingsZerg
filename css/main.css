@@ -23,7 +23,7 @@
 
 .listing-page .link { margin-bottom: 15px; }
 .listing-page .link .rank { margin-top: 25px; margin-right: 5px; }
-.listing-page .link .midcol .score { margin: 4px 0; }
+.listing-page .link .midcol .score { margin: 4px 0; font-size: 12px; line-height: 1.5; }
 .listing-page .link .entry { position: relative; }
 
 .link { padding: 0; }
