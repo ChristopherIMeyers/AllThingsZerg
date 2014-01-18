@@ -22,6 +22,10 @@
 .listing-page .link .midcol .score { margin: 4px 0; }
 .listing-page .link .entry { position: relative; }
 
+.link { padding: 0; }
+
+.entry { margin: 0; }
+
 html:not([lang*="l"]) body { background: url(%%background%%); background-repeat: repeat; }
 html:not([lang*="l"]) .arrow { height: 22px; width: 22px; background-position: 0px 0px !important; background: none; background-repeat: no-repeat; }
 html:not([lang*="l"]) .arrow.down { background-image: url(%%arrow-down-off%%); }
