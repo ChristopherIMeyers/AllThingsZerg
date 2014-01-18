@@ -15,7 +15,7 @@
 .listing-page .thing .title.self .domain::before { content: "◄"; }
 .listing-page .thing .title.self .domain a { display: none; }
 
-.thing .tagline { background: none; padding: 0; white-space: nowrap; }
+.thing .tagline { background: none; padding: 0; white-space: nowrap; line-height: 1.5; }
 
 .link .flat-list { padding: 0; white-space: nowrap; }
 
