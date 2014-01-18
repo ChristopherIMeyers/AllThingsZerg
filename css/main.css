@@ -38,6 +38,8 @@
 
 .md { font-size: 12px; line-height: 1.5; }
 
+.comment .score { font-size: inherit; }
+
 html:not([lang*="l"]) body { background: url(%%background%%); background-repeat: repeat; }
 html:not([lang*="l"]) .arrow { height: 22px; width: 22px; background-position: 0px 0px !important; background: none; background-repeat: no-repeat; margin: 2px 0; }
 html:not([lang*="l"]) .arrow.down { background-image: url(%%arrow-down-off%%); }
