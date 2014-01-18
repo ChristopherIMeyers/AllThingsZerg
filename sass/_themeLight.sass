@@ -72,38 +72,36 @@ body
 
 
 
-
-// arrows
-.arrow 
-  display: block
-  background: url(%%alt-arrows%%)
-  background-repeat: no-repeat
-  width: 17px
-  height: 14px
-  margin: 0 auto
-  outline: none
-  background-repeat: no-repeat
-  margin-bottom: 1px
-  &.up 
-    background-position: 0 0 !important
-  &.up:hover
-    background-position: -17px 0 !important
-  &.upmod
-    background-position: -34px 0 !important
-  &.down 
-    background-position: 0 -15px !important
-  &.down:hover
-    background-position: -17px -15px !important
-  &.downmod
-    background-position: -34px -15px !important
-.link .score.dislikes 
-  color: #9452c6
-.link .score.likes 
-  color: #f7941d
-.listing-page .link .rank
-  margin-top: 15px
-  margin-right: 0px
-  text-align: center
+.midcol
+  // arrows
+  .arrow 
+    display: block
+    background: url(%%alt-arrows%%)
+    background-repeat: no-repeat
+    width: 16px
+    height: 14px
+    outline: none
+    margin: 6px 3px
+    &.up 
+      background-position: 0 0
+    &.up:hover
+      background-position: -17px 0
+    &.upmod
+      background-position: -34px 0
+    &.down 
+      background-position: 0 -15px
+    &.down:hover
+      background-position: -17px -15px
+    &.downmod
+      background-position: -34px -15px
+  .link .score.dislikes 
+    color: #9452c6
+  .link .score.likes 
+    color: #f7941d
+  .listing-page .link .rank
+    margin-top: 15px
+    margin-right: 0px
+    text-align: center
 
 .thing .title
   font-weight: bold
