@@ -15,9 +15,9 @@
 .listing-page .thing .title.self .domain::before { content: "◄"; }
 .listing-page .thing .title.self .domain a { display: none; }
 
-.thing .tagline { background: none; padding: 0; }
+.thing .tagline { background: none; padding: 0; white-space: nowrap; }
 
-.link .flat-list { padding: 0; }
+.link .flat-list { padding: 0; white-space: nowrap; }
 
 .compressed .rank { margin-top: 13px; }
 
