@@ -41,6 +41,8 @@
 
 .comment .score { font-size: inherit; }
 
+.side blockquote h2 { border-bottom: 3px solid black; margin-bottom: -3px; line-height: 18px; }
+
 html:not([lang*="l"]) body { background: url(%%background%%); background-repeat: repeat; }
 html:not([lang*="l"]) .arrow { height: 22px; width: 22px; background-position: 0px 0px !important; background: none; background-repeat: no-repeat; margin: 2px 0; }
 html:not([lang*="l"]) .arrow.down { background-image: url(%%arrow-down-off%%); }
@@ -76,7 +78,7 @@ html:not([lang*="l"]) .morelink + .spacer a { display: none; }
 html:not([lang*="l"]) .morelink:hover + .spacer { display: block; }
 html:not([lang*="l"]) .side .sidecontentbox .content { background: #111111; border: 1px solid #222222; color: white; }
 html:not([lang*="l"]) .side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
-html:not([lang*="l"]) .side blockquote h2 { border-bottom: 3px solid #aa6600; }
+html:not([lang*="l"]) .side blockquote h2 { border-bottom-color: #aa6600; }
 html:not([lang*="l"]) .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html:not([lang*="l"]) .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
 html:not([lang*="l"]) .listing-page .thing { background: black; }
@@ -294,7 +296,7 @@ html[lang="ll"] .morelink + .spacer a { display: none; }
 html[lang="ll"] .morelink:hover + .spacer { display: block; }
 html[lang="ll"] .side .sidecontentbox .content { background: #dddddd; border: 1px solid gray; color: #111111; }
 html[lang="ll"] .side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
-html[lang="ll"] .side blockquote h2 { border-bottom: 3px solid #780000; }
+html[lang="ll"] .side blockquote h2 { border-bottom-color: #780000; }
 html[lang="ll"] .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html[lang="ll"] .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
 html[lang="ll"] .listing-page .thing { background: white; }
@@ -500,7 +502,7 @@ html[lang="lx"] .morelink + .spacer a { display: none; }
 html[lang="lx"] .morelink:hover + .spacer { display: block; }
 html[lang="lx"] .side .sidecontentbox .content { background: #222222; border: 1px solid gray; color: #718c44; }
 html[lang="lx"] .side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
-html[lang="lx"] .side blockquote h2 { border-bottom: 3px solid #425430; }
+html[lang="lx"] .side blockquote h2 { border-bottom-color: #425430; }
 html[lang="lx"] .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html[lang="lx"] .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
 html[lang="lx"] .listing-page .thing { background: white; }
