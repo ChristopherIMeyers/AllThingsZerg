@@ -106,7 +106,7 @@ html:not([lang*="l"]) .md a[href$="#spoiler"] { background: black !important; co
 html:not([lang*="l"]) .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html:not([lang*="l"]) .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html:not([lang*="l"]) .linkinfo { background: none; }
-html:not([lang*="l"]) .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; background-color: black; border: 1px solid #222222; }
+html:not([lang*="l"]) .link .usertext .md { background: #111111; border: 1px solid #222222; color: white; max-width: 80em; margin: 0 5px; border-radius: 0; }
 html:not([lang*="l"]) .md blockquote, html:not([lang*="l"]) .help blockquote { border-left: 2px solid #aa6600; }
 html:not([lang*="l"]) .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html:not([lang*="l"]) .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
@@ -324,7 +324,7 @@ html[lang="ll"] .md a[href$="#spoiler"] { background: black !important; color: b
 html[lang="ll"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html[lang="ll"] .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html[lang="ll"] .linkinfo { background: none; }
-html[lang="ll"] .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; background-color: white; border: 1px solid gray; }
+html[lang="ll"] .link .usertext .md { background: #dddddd; border: 1px solid gray; color: #111111; max-width: 80em; margin: 0 5px; border-radius: 0; }
 html[lang="ll"] .md blockquote, html[lang="ll"] .help blockquote { border-left: 2px solid #780000; }
 html[lang="ll"] .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html[lang="ll"] .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
@@ -530,7 +530,7 @@ html[lang="lx"] .md a[href$="#spoiler"] { background: black !important; color: b
 html[lang="lx"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html[lang="lx"] .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html[lang="lx"] .linkinfo { background: none; }
-html[lang="lx"] .link .usertext .md { max-width: 80em; margin: 0 5px; border-radius: 0; background-color: white; border: 1px solid gray; }
+html[lang="lx"] .link .usertext .md { background: #222222; border: 1px solid gray; color: #718c44; max-width: 80em; margin: 0 5px; border-radius: 0; }
 html[lang="lx"] .md blockquote, html[lang="lx"] .help blockquote { border-left: 2px solid #425430; }
 html[lang="lx"] .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html[lang="lx"] .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
