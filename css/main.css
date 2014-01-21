@@ -96,7 +96,7 @@ html:not([lang*="l"]) .link.last-clicked::before { content: "<"; color: gray; he
 html:not([lang*="l"]) .midcol { width: 22px !important; }
 html:not([lang*="l"]) .link .rank { color: #3d3d3d; }
 html:not([lang*="l"]) .entry .buttons li a { font-weight: normal; }
-html:not([lang*="l"]) .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: small; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
+html:not([lang*="l"]) .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: 13px; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
 html:not([lang*="l"]) .side h6 a:hover { text-decoration: underline; }
 html:not([lang*="l"]) .md a[href$="#spoiler"] { background: black !important; color: black !important; border-bottom: 1px dashed red; cursor: help; }
 html:not([lang*="l"]) .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
@@ -310,7 +310,7 @@ html[lang="ll"] .link.last-clicked::before { content: "<"; color: gray; height: 
 html[lang="ll"] .midcol { width: 22px !important; }
 html[lang="ll"] .link .rank { color: #3d3d3d; }
 html[lang="ll"] .entry .buttons li a { font-weight: normal; }
-html[lang="ll"] .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: small; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
+html[lang="ll"] .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: 13px; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
 html[lang="ll"] .side h6 a:hover { text-decoration: underline; }
 html[lang="ll"] .md a[href$="#spoiler"] { background: black !important; color: black !important; border-bottom: 1px dashed red; cursor: help; }
 html[lang="ll"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
@@ -512,7 +512,7 @@ html[lang="lx"] .link.last-clicked::before { content: "<"; color: gray; height: 
 html[lang="lx"] .midcol { width: 22px !important; }
 html[lang="lx"] .link .rank { color: #3d3d3d; }
 html[lang="lx"] .entry .buttons li a { font-weight: normal; }
-html[lang="lx"] .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: small; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
+html[lang="lx"] .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: 13px; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
 html[lang="lx"] .side h6 a:hover { text-decoration: underline; }
 html[lang="lx"] .md a[href$="#spoiler"] { background: black !important; color: black !important; border-bottom: 1px dashed red; cursor: help; }
 html[lang="lx"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
