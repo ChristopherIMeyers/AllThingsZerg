@@ -90,7 +90,6 @@ html:not([lang*="l"]) .entry .expando-button.expanded { background-image: url(%%
 html:not([lang*="l"]) .entry .expando-button.expanded:hover { background-image: url(%%egg-minus-on%%) !important; background-position: -1px -1px !important; }
 html:not([lang*="l"]) .entry .expando-button.video { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
 html:not([lang*="l"]) .entry .expando-button.video:hover { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
-html:not([lang*="l"]) .listing-page .thing .title .title[href*="drop.sc"]::after { position: absolute; left: -4px; top: 19px; }
 html:not([lang*="l"]) .link.last-clicked { border: none; }
 html:not([lang*="l"]) .link.last-clicked::before { content: "<"; color: gray; height: 20px; float: right; }
 html:not([lang*="l"]) .midcol { width: 22px !important; }
@@ -220,7 +219,6 @@ html:not([lang*="l"]) .thing .title { color: #ffcc00 !important; }
 html:not([lang*="l"]) .thing .title:hover { color: yellow !important; }
 html:not([lang*="l"]) .thing .title:visited, html:not([lang*="l"]) .thing .title.click { color: #aa6600 !important; }
 html:not([lang*="l"]) .thing .title:visited:hover, html:not([lang*="l"]) .thing .title.click:hover { color: #ffcc00 !important; }
-html:not([lang*="l"]) .listing-page .thing .title .title[href*="drop.sc"]::after { content: url(%%Video%%); }
 html:not([lang*="l"]) .drop-choices { background: black; }
 html:not([lang*="l"]) .flairselector li { border: none; }
 html:not([lang*="l"]) .NERPageMarker { color: #eeeeee !important; }
@@ -304,7 +302,6 @@ html[lang="ll"] .entry .expando-button.expanded { background-image: url(%%egg-mi
 html[lang="ll"] .entry .expando-button.expanded:hover { background-image: url(%%egg-minus-on%%) !important; background-position: -1px -1px !important; }
 html[lang="ll"] .entry .expando-button.video { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
 html[lang="ll"] .entry .expando-button.video:hover { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
-html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after { position: absolute; left: -4px; top: 19px; }
 html[lang="ll"] .link.last-clicked { border: none; }
 html[lang="ll"] .link.last-clicked::before { content: "<"; color: gray; height: 20px; float: right; }
 html[lang="ll"] .midcol { width: 22px !important; }
@@ -434,7 +431,6 @@ html[lang="ll"] .thing .title { color: #de0000 !important; }
 html[lang="ll"] .thing .title:hover { color: #f70000 !important; }
 html[lang="ll"] .thing .title:visited, html[lang="ll"] .thing .title.click { color: #780000 !important; }
 html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover { color: #de0000 !important; }
-html[lang="ll"] .listing-page .thing .title .title[href*="drop.sc"]::after { content: url(%%Video%%); }
 html[lang="ll"] .drop-choices { background: white; }
 html[lang="ll"] .flairselector li { border: none; }
 html[lang="ll"] .NERPageMarker { color: #111111 !important; }
@@ -506,7 +502,6 @@ html[lang="lx"] .entry .expando-button.expanded { background-image: url(%%egg-mi
 html[lang="lx"] .entry .expando-button.expanded:hover { background-image: url(%%egg-minus-on%%) !important; background-position: -1px -1px !important; }
 html[lang="lx"] .entry .expando-button.video { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
 html[lang="lx"] .entry .expando-button.video:hover { background-image: url(%%Video%%) !important; background-position: -8px -3px !important; }
-html[lang="lx"] .listing-page .thing .title .title[href*="drop.sc"]::after { position: absolute; left: -4px; top: 19px; }
 html[lang="lx"] .link.last-clicked { border: none; }
 html[lang="lx"] .link.last-clicked::before { content: "<"; color: gray; height: 20px; float: right; }
 html[lang="lx"] .midcol { width: 22px !important; }
@@ -636,7 +631,6 @@ html[lang="lx"] .thing .title { color: #00141c !important; }
 html[lang="lx"] .thing .title:hover { color: #00141c !important; }
 html[lang="lx"] .thing .title:visited, html[lang="lx"] .thing .title.click { color: #425430 !important; }
 html[lang="lx"] .thing .title:visited:hover, html[lang="lx"] .thing .title.click:hover { color: #00141c !important; }
-html[lang="lx"] .listing-page .thing .title .title[href*="drop.sc"]::after { content: url(%%Video%%); }
 html[lang="lx"] .drop-choices { background: white; }
 html[lang="lx"] .flairselector li { border: none; }
 html[lang="lx"] .NERPageMarker { color: #383824 !important; }
