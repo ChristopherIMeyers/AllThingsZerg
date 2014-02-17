@@ -228,10 +228,11 @@ a:hover ~ .flair, .flair:hover
         content: $text
         float: right
         color: gray
-  @for $i from 1 through 6
-    &.flair-S2013-#{$i}
-      &::before 
-        $text: "(2013 Season "+$i+")"
-        content: $text
-        float: right
-        color: gray
+  @for $year from 2013 through 2013
+    @for $season from 1 through 6
+      &.flair-S#{$year}-#{$season}
+        &::before
+          $text: "("+$year+" Season "+$season+")"
+          content: $text
+          float: right
+          color: gray
