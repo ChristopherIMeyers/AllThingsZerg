@@ -54,7 +54,7 @@ html:not([lang*="l"]) .neverEndingReddit { background: none !important; border-w
 html:not([lang*="l"]) .neverEndingReddit img { display: none; }
 html:not([lang*="l"]) #authorInfoToolTip .blueButton { background-color: #21587e !important; }
 html:not([lang*="l"]) .fancy-toggle-button .add { background: #116428 !important; }
-html:not([lang*="l"]) .RES-keyNav-activeElement, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement .md, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: none !important; }
+html:not([lang*="l"]) .RES-keyNav-activeElement, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement .md, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #222222 !important; }
 html:not([lang*="l"]) .side hr { display: none; }
 html:not([lang*="l"]) .side { background: none; z-index: 500; }
 html:not([lang*="l"]) .side .titlebox { background: #222222; border: 1px solid #444444; color: white; padding: 5px; }
@@ -272,7 +272,7 @@ html[lang="ll"] .neverEndingReddit { background: none !important; border-width: 
 html[lang="ll"] .neverEndingReddit img { display: none; }
 html[lang="ll"] #authorInfoToolTip .blueButton { background-color: #21587e !important; }
 html[lang="ll"] .fancy-toggle-button .add { background: #116428 !important; }
-html[lang="ll"] .RES-keyNav-activeElement, html[lang="ll"] .commentarea .RES-keyNav-activeElement .md, html[lang="ll"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: none !important; }
+html[lang="ll"] .RES-keyNav-activeElement, html[lang="ll"] .commentarea .RES-keyNav-activeElement .md, html[lang="ll"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #dddddd !important; }
 html[lang="ll"] .side hr { display: none; }
 html[lang="ll"] .side { background: none; z-index: 500; }
 html[lang="ll"] .side .titlebox { background: #dddddd; border: 1px solid gray; color: #111111; padding: 5px; }
@@ -478,7 +478,7 @@ html[lang="lx"] .neverEndingReddit { background: none !important; border-width: 
 html[lang="lx"] .neverEndingReddit img { display: none; }
 html[lang="lx"] #authorInfoToolTip .blueButton { background-color: #21587e !important; }
 html[lang="lx"] .fancy-toggle-button .add { background: #116428 !important; }
-html[lang="lx"] .RES-keyNav-activeElement, html[lang="lx"] .commentarea .RES-keyNav-activeElement .md, html[lang="lx"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: none !important; }
+html[lang="lx"] .RES-keyNav-activeElement, html[lang="lx"] .commentarea .RES-keyNav-activeElement .md, html[lang="lx"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #222222 !important; }
 html[lang="lx"] .side hr { display: none; }
 html[lang="lx"] .side { background: none; z-index: 500; }
 html[lang="lx"] .side .titlebox { background: #222222; border: 1px solid gray; color: #718c44; padding: 5px; }
