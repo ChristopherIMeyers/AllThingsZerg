@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .md ul { margin: 10px 20px; list-style-image: url(%%arrow%%) !important; }
 
 .content { padding: 7px 5px 0px 5px; margin: 0; }
@@ -11,8 +12,8 @@
 .listing-page .thing .title .title { margin: 0; }
 .listing-page .thing .title .domain { vertical-align: middle; left: -2000px; position: relative; padding: 0 5px; }
 .listing-page .thing .title .domain a { left: 2000px; position: relative; }
-.listing-page .thing .title .domain::before { left: 2000px; position: relative; content: "► "; }
-.listing-page .thing .title.self .domain::before { content: "◄"; }
+.listing-page .thing .title .domain::before { left: 2000px; position: relative; content: "Γû║ "; }
+.listing-page .thing .title.self .domain::before { content: "Γùä"; }
 .listing-page .thing .title.self .domain a { display: none; }
 
 .thing .tagline { background: none; padding: 0; white-space: nowrap; font-size: 11px; line-height: 18px; }
@@ -52,12 +53,12 @@ html:not([lang*="l"]) .arrow.upmod { background-image: url(%%arrow-up%%); }
 html:not([lang*="l"]) .NERPageMarker { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 html:not([lang*="l"]) .neverEndingReddit { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 html:not([lang*="l"]) .neverEndingReddit img { display: none; }
-html:not([lang*="l"]) #authorInfoToolTip .blueButton { background-color: #21587e !important; }
+html:not([lang*="l"]) #authorInfoToolTip .blueButton { background-color: #21587E !important; }
 html:not([lang*="l"]) .fancy-toggle-button .add { background: #116428 !important; }
-html:not([lang*="l"]) .RES-keyNav-activeElement, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement .md, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #222222 !important; }
+html:not([lang*="l"]) .RES-keyNav-activeElement, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement .md, html:not([lang*="l"]) .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #222 !important; }
 html:not([lang*="l"]) .side hr { display: none; }
 html:not([lang*="l"]) .side { background: none; z-index: 500; }
-html:not([lang*="l"]) .side .titlebox { background: #222222; border: 1px solid #444444; color: white; padding: 5px; }
+html:not([lang*="l"]) .side .titlebox { background: #222; border: 1px solid #444; color: #fff; padding: 5px; }
 html:not([lang*="l"]) .side .titlebox .redditname a { text-transform: uppercase; }
 html:not([lang*="l"]) .side .titlebox .word { display: none; }
 html:not([lang*="l"]) .side .titlebox .subscribers .number::after { content: " locusts"; }
@@ -69,20 +70,20 @@ html:not([lang*="l"]) .side .titlebox .flairtoggle { background: none; }
 html:not([lang*="l"]) .side .titlebox .bottom { display: none; }
 html:not([lang*="l"]) .side .titlebox .tagline { margin: 10px 0; }
 html:not([lang*="l"]) .submit-link { display: none; }
-html:not([lang*="l"]) .morelink { background: #222222; border: 1px solid #444444; color: white; }
+html:not([lang*="l"]) .morelink { background: #222; border: 1px solid #444; color: #fff; }
 html:not([lang*="l"]) .morelink:hover { background: black; }
-html:not([lang*="l"]) .morelink a { color: #aa6600; }
+html:not([lang*="l"]) .morelink a { color: #A60; }
 html:not([lang*="l"]) .morelink .nub { display: none; }
 html:not([lang*="l"]) .morelink + .spacer { display: none; padding: 0px; }
 html:not([lang*="l"]) .morelink + .spacer a { display: none; }
 html:not([lang*="l"]) .morelink:hover + .spacer { display: block; }
-html:not([lang*="l"]) .side .sidecontentbox .content { background: #222222; border: 1px solid #444444; color: white; }
+html:not([lang*="l"]) .side .sidecontentbox .content { background: #222; border: 1px solid #444; color: #fff; }
 html:not([lang*="l"]) .side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
-html:not([lang*="l"]) .side blockquote h2 { border-bottom-color: #aa6600; }
+html:not([lang*="l"]) .side blockquote h2 { border-bottom-color: #A60; }
 html:not([lang*="l"]) .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html:not([lang*="l"]) .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
 html:not([lang*="l"]) .listing-page .thing { background: black; }
-html:not([lang*="l"]) .listing-page .thing .entry { background: #222222; border: 1px solid #444444; color: white; padding: 7px 6px; }
+html:not([lang*="l"]) .listing-page .thing .entry { background: #222; border: 1px solid #444; color: #fff; padding: 7px 6px; }
 html:not([lang*="l"]) .entry .expando-button { background: none !important; cursor: pointer !important; }
 html:not([lang*="l"]) .entry .expando-button.collapsed, html:not([lang*="l"]) .entry .expando-button.collapsedExpando { background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
 html:not([lang*="l"]) .entry .expando-button.collapsed:hover, html:not([lang*="l"]) .entry .expando-button.collapsedExpando:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
@@ -93,7 +94,7 @@ html:not([lang*="l"]) .entry .expando-button.video:hover { background-image: url
 html:not([lang*="l"]) .link.last-clicked { border: none; }
 html:not([lang*="l"]) .link.last-clicked::before { content: "<"; color: gray; height: 20px; float: right; }
 html:not([lang*="l"]) .midcol { width: 22px !important; }
-html:not([lang*="l"]) .link .rank { color: #3d3d3d; }
+html:not([lang*="l"]) .link .rank { color: #3D3D3D; }
 html:not([lang*="l"]) .entry .buttons li a { font-weight: normal; }
 html:not([lang*="l"]) .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: 13px; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
 html:not([lang*="l"]) .side h6 a:hover { text-decoration: underline; }
@@ -101,11 +102,11 @@ html:not([lang*="l"]) .md a[href$="#spoiler"] { background: black !important; co
 html:not([lang*="l"]) .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html:not([lang*="l"]) .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html:not([lang*="l"]) .linkinfo { background: none; }
-html:not([lang*="l"]) .link .usertext .md { background: #222222; border: 1px solid #444444; color: white; max-width: 80em; margin: 0 5px; border-radius: 0; }
-html:not([lang*="l"]) .md blockquote, html:not([lang*="l"]) .help blockquote { border-left: 2px solid #aa6600; }
+html:not([lang*="l"]) .link .usertext .md { background: #222; border: 1px solid #444; color: #fff; max-width: 80em; margin: 0 5px; border-radius: 0; }
+html:not([lang*="l"]) .md blockquote, html:not([lang*="l"]) .help blockquote { border-left: 2px solid #A60; }
 html:not([lang*="l"]) .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html:not([lang*="l"]) .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
-html:not([lang*="l"]) .searchpane { background: #222222; border: 1px solid #444444; color: white; }
+html:not([lang*="l"]) .searchpane { background: #222; border: 1px solid #444; color: #fff; }
 html:not([lang*="l"]) .commentarea .comment { background: none !important; }
 html:not([lang*="l"]) .commentarea .comment .comment { background: none !important; }
 html:not([lang*="l"]) .commentarea .comment .comment .comment { background: none !important; }
@@ -116,34 +117,34 @@ html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment 
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
 html:not([lang*="l"]) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
-html:not([lang*="l"]) #header { border-bottom: 1px solid #b67d27; background-color: black; height: 145px; margin-bottom: 15px; }
+html:not([lang*="l"]) #header { border-bottom: 1px solid #B67D27; background-color: black; height: 145px; margin-bottom: 15px; }
 html:not([lang*="l"]) #header .pagename.redditname a { background: url(%%banneralt%%); width: 100%; height: 125px; display: inline-block; position: absolute; left: 0px; top: 19px; text-indent: -9999px; z-index: -100; background-repeat: no-repeat; }
 html:not([lang*="l"]) #header-img { opacity: 0.4; position: absolute; bottom: 40px; left: -35px; z-index: 300; height: 44px; width: 66px; }
 html:not([lang*="l"]) #header-img:hover { opacity: 1; left: -15px; }
 html:not([lang*="l"]) .infobar.welcome h1 { color: black; }
-html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h1, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h2, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h3, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h4, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h5, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h6 { color: #eeeeee; }
+html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h1, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h2, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h3, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h4, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h5, html:not([lang*="l"]) .wiki-page .wiki-page-content .md.wiki h6 { color: #eee; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content > hr { border: none; margin-bottom: 20px; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content table { background: black; width: 100%; margin: 0; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h1, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h2, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h3, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h4, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h5, html:not([lang*="l"]) .wiki-page .wiki-page-content blockquote > blockquote > h6 { height: 0px; overflow: hidden; }
-html:not([lang*="l"]) .wiki-page > .content > span { display: inline-block; border-top: 1px solid #b67d27; padding-right: 13px; }
+html:not([lang*="l"]) .wiki-page > .content > span { display: inline-block; border-top: 1px solid #B67D27; padding-right: 13px; }
 html:not([lang*="l"]) .wiki-page > .content > span .wikititle { font-size: 16px; font-size: 14px; font-family: courier, fixed-width; }
 html:not([lang*="l"]) .wiki-page > .content > span .wikititle::before { content: "wiki/"; }
 html:not([lang*="l"]) .wiki-page > .content > span .wikititle strong { font-weight: normal !important; }
 html:not([lang*="l"]) .wiki-page > .content > span .pageactions { border: 1px solid gray; border: none; border-radius: 0px; padding-left: 15px; margin: 0px; }
-html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction-current { background: none; color: orangered; border: 1px solid #b67d27; border-top: none; border-radius: 0px; }
+html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction-current { background: none; color: orangeRed; border: 1px solid #B67D27; border-top: none; border-radius: 0px; }
 html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction { margin-top: 0px; }
 html:not([lang*="l"]) .wiki-page > .content > span .pageactions .wikiaction:hover { background: none; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html:not([lang*="l"]) .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
-html:not([lang*="l"]) .flair.flair-Bronze, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Bronze, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Bronze, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Bronze, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Bronze { background: url(%%allleagues%%) 0 -3088px no-repeat; }
-html:not([lang*="l"]) .flair.flair-Silver, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Silver, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Silver, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Silver, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Silver { background: url(%%allleagues%%) 0 -3056px no-repeat; }
-html:not([lang*="l"]) .flair.flair-Gold, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Gold, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Gold, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Gold, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Gold { background: url(%%allleagues%%) 0 -2928px no-repeat; }
-html:not([lang*="l"]) .flair.flair-Platinum, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Platinum, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Platinum, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Platinum, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Platinum { background: url(%%allleagues%%) 0 -3040px no-repeat; }
-html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
-html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Master, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Master, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
-html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] html:not([lang*="l"]) .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
-html:not([lang*="l"]) .flair { background: none; color: #eeeeee; border: none; margin: 0px; padding: 0px; }
+html:not([lang*="l"]) .flair.flair-Bronze { background: url(%%allleagues%%) 0 -3088px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Silver { background: url(%%allleagues%%) 0 -3056px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Gold { background: url(%%allleagues%%) 0 -2928px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Platinum { background: url(%%allleagues%%) 0 -3040px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
+html:not([lang*="l"]) .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
+html:not([lang*="l"]) .flair { background: none; color: #eee; border: none; margin: 0px; padding: 0px; }
 html:not([lang*="l"]) .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
 html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) .flair.flair-Platinum, html:not([lang*="l"]) .flair.flair-Gold, html:not([lang*="l"]) .flair.flair-Silver, html:not([lang*="l"]) .flair.flair-Bronze { background-repeat: no-repeat; padding-left: 16px; height: 14px; width: 0; margin: 0; text-indent: -9999px; }
 html:not([lang*="l"]) .flair.flair-HotS { color: #9452c6; }
@@ -176,10 +177,10 @@ html:not([lang*="l"]) a:hover ~ .flair.flair-S2014-4::before, html:not([lang*="l
 html:not([lang*="l"]) a:hover ~ .flair.flair-S2014-5::before, html:not([lang*="l"]) .flair:hover.flair-S2014-5::before { content: "(2014 Season 5)"; float: right; color: gray; }
 html:not([lang*="l"]) a:hover ~ .flair.flair-S2014-6::before, html:not([lang*="l"]) .flair:hover.flair-S2014-6::before { content: "(2014 Season 6)"; float: right; color: gray; }
 html:not([lang*="l"]) .icon-menu a { background: none; }
-html:not([lang*="l"]) #search input[type="text"] { background: black; color: #eeeeee !important; border: 1px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
-html:not([lang*="l"]) #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #ffcc00; }
+html:not([lang*="l"]) #search input[type="text"] { background: black; color: #eee !important; border: 1px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
+html:not([lang*="l"]) #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #fc0; }
 html:not([lang*="l"]) #search input[type="text"]:focus { opacity: 1; }
-html:not([lang*="l"]) .infobar { background: none; border-color: #444444; }
+html:not([lang*="l"]) .infobar { background: none; border-color: #444; }
 html:not([lang*="l"]) #sr-header-area { position: relative; z-index: 901; width: 100%; }
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu { position: absolute; bottom: 0px; left: 0px; z-index: 200; }
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li { font-weight: normal; }
@@ -191,59 +192,59 @@ html:not([lang*="l"]) .content.submit .info-notice, html:not([lang*="l"]) .tabme
 html:not([lang*="l"]) .tabmenu.formtab a { border: none; }
 html:not([lang*="l"]) .formtab-content { border-top: 2px solid white; }
 html:not([lang*="l"]) .new-comment .usertext-body { background: none !important; border: none !important; }
-html:not([lang*="l"]) .choice:hover { background: #333333 !important; }
-html:not([lang*="l"]) .voteWeight { color: #eeeeee !important; background: none !important; }
+html:not([lang*="l"]) .choice:hover { background: #333 !important; }
+html:not([lang*="l"]) .voteWeight { color: #eee !important; background: none !important; }
 html:not([lang*="l"]) .nextprev a { background: none; }
 html:not([lang*="l"]) .footer { border: 1px solid gray; border-radius: 0px; }
 html:not([lang*="l"]) body { background-color: black; }
-html:not([lang*="l"]) a { text-decoration: none; color: #aa6600; }
-html:not([lang*="l"]) a:hover { color: #ffcc00; }
-html:not([lang*="l"]) ::selection { color: white; background-color: #1111aa !important; }
+html:not([lang*="l"]) a { text-decoration: none; color: #A60; }
+html:not([lang*="l"]) a:hover { color: #fc0; }
+html:not([lang*="l"]) ::selection { color: white; background-color: #11a !important; }
 html:not([lang*="l"]) code { color: #37df37; }
-html:not([lang*="l"]) body > .content { background: none; color: #eeeeee; }
-html:not([lang*="l"]) .comment .md p > a:visited { color: #aa6600 !important; }
-html:not([lang*="l"]) .comment .md p > a:hover { color: #ffcc00 !important; }
-html:not([lang*="l"]) .newComments { color: #ffcc00 !important; }
+html:not([lang*="l"]) body > .content { background: none; color: #eee; }
+html:not([lang*="l"]) .comment .md p > a:visited { color: #A60 !important; }
+html:not([lang*="l"]) .comment .md p > a:hover { color: #fc0 !important; }
+html:not([lang*="l"]) .newComments { color: #fc0 !important; }
 html:not([lang*="l"]) .entry .buttons li.trial-stamp, html:not([lang*="l"]) .entry .buttons li.reported-stamp { color: black; }
-html:not([lang*="l"]) a.author.submitter { color: #ffcc00 !important; background: none !important; }
-html:not([lang*="l"]) a.author.submitter:hover { color: yellow !important; background: none !important; }
-html:not([lang*="l"]) h2 { color: #dddddd; }
-html:not([lang*="l"]) h2 a { color: #aa6600; }
-html:not([lang*="l"]) p.tagline em { color: #eeeeee; display: none; }
-html:not([lang*="l"]) .generic-table { color: #eeeeee; }
+html:not([lang*="l"]) a.author.submitter { color: #fc0 !important; background: none !important; }
+html:not([lang*="l"]) a.author.submitter:hover { color: #ff0 !important; background: none !important; }
+html:not([lang*="l"]) h2 { color: #ddd; }
+html:not([lang*="l"]) h2 a { color: #A60; }
+html:not([lang*="l"]) p.tagline em { color: #eee; display: none; }
+html:not([lang*="l"]) .generic-table { color: #eee; }
 html:not([lang*="l"]) .usertext.grayed .usertext-body { color: red; background: none; }
 html:not([lang*="l"]) .linefield { background: none; }
 html:not([lang*="l"]) .roundfield { background-color: black; }
-html:not([lang*="l"]) .tagline a { color: #aa6600; text-decoration: none; }
-html:not([lang*="l"]) .tagline a:hover { color: #ffcc00; text-decoration: none; }
-html:not([lang*="l"]) .tagline .submitter { color: #ffcc00; }
-html:not([lang*="l"]) #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #ffcc00 !important; }
-html:not([lang*="l"]) #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: yellow !important; }
-html:not([lang*="l"]) .dropdown.srdrop .selected { color: #eeeeee; }
-html:not([lang*="l"]) #sr-more-link { color: #eeeeee; background-color: black; }
+html:not([lang*="l"]) .tagline a { color: #A60; text-decoration: none; }
+html:not([lang*="l"]) .tagline a:hover { color: #fc0; text-decoration: none; }
+html:not([lang*="l"]) .tagline .submitter { color: #fc0; }
+html:not([lang*="l"]) #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #fc0 !important; }
+html:not([lang*="l"]) #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: #ff0 !important; }
+html:not([lang*="l"]) .dropdown.srdrop .selected { color: #eee; }
+html:not([lang*="l"]) #sr-more-link { color: #eee; background-color: black; }
 html:not([lang*="l"]) .keyHighlight { background: none !important; }
-html:not([lang*="l"]) .thing .title { color: #ffcc00 !important; }
-html:not([lang*="l"]) .thing .title:hover { color: yellow !important; }
-html:not([lang*="l"]) .thing .title:visited, html:not([lang*="l"]) .thing .title.click { color: #aa6600 !important; }
-html:not([lang*="l"]) .thing .title:visited:hover, html:not([lang*="l"]) .thing .title.click:hover { color: #ffcc00 !important; }
+html:not([lang*="l"]) .thing .title { color: #fc0 !important; }
+html:not([lang*="l"]) .thing .title:hover { color: #ff0 !important; }
+html:not([lang*="l"]) .thing .title:visited, html:not([lang*="l"]) .thing .title.click { color: #A60 !important; }
+html:not([lang*="l"]) .thing .title:visited:hover, html:not([lang*="l"]) .thing .title.click:hover { color: #fc0 !important; }
 html:not([lang*="l"]) .drop-choices { background: black; }
 html:not([lang*="l"]) .flairselector li { border: none; }
-html:not([lang*="l"]) .NERPageMarker { color: #eeeeee !important; }
-html:not([lang*="l"]) .neverEndingReddit { background: none !important; color: #eeeeee !important; }
+html:not([lang*="l"]) .NERPageMarker { color: #eee !important; }
+html:not([lang*="l"]) .neverEndingReddit { background: none !important; color: #eee !important; }
 html:not([lang*="l"]) .neverEndingReddit img { display: none; }
-html:not([lang*="l"]) .RESDialogSmall { background-color: black !important; color: #eeeeee !important; }
-html:not([lang*="l"]) .RESDialogSmall > h3 { background-color: #222222 !important; color: white !important; }
+html:not([lang*="l"]) .RESDialogSmall { background-color: black !important; color: #eee !important; }
+html:not([lang*="l"]) .RESDialogSmall > h3 { background-color: #222 !important; color: #fff !important; }
 html:not([lang*="l"]) .RESCloseButton { background: black !important; }
-html:not([lang*="l"]) .RESCloseButton:hover { background: #444444 !important; }
-html:not([lang*="l"]) .side { color: #eeeeee !important; }
-html:not([lang*="l"]) .side .titlebox .redditname a { color: #eeeeee !important; }
-html:not([lang*="l"]) .side h4 { background: black; color: #eeeeee; }
-html:not([lang*="l"]) .side h5 { background: black; color: #eeeeee; }
-html:not([lang*="l"]) .side h6 { background: white; color: #222222; }
+html:not([lang*="l"]) .RESCloseButton:hover { background: #444 !important; }
+html:not([lang*="l"]) .side { color: #eee !important; }
+html:not([lang*="l"]) .side .titlebox .redditname a { color: #eee !important; }
+html:not([lang*="l"]) .side h4 { background: black; color: #eee; }
+html:not([lang*="l"]) .side h5 { background: black; color: #eee; }
+html:not([lang*="l"]) .side h6 { background: #fff; color: #222; }
 html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li a { background-color: black; }
-html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li.selected a { background-color: black; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
-html:not([lang*="l"]) #sr-header-area { background-color: black; color: #eeeeee; }
-html:not([lang*="l"]) #sr-header-area .sr-bar a { color: #aa6600; }
+html:not([lang*="l"]) #header #header-bottom-left ul.tabmenu li.selected a { background-color: black; border: 1px solid gray; box-shadow: 0px 0px 10px #B67D27; }
+html:not([lang*="l"]) #sr-header-area { background-color: black; color: #eee; }
+html:not([lang*="l"]) #sr-header-area .sr-bar a { color: #A60; }
 
 html[lang="ll"] body { background: url(%%background-light%%); background-position: bottom right; background-attachment: fixed; background-repeat: no-repeat; }
 html[lang="ll"] #search input[type="text"] { border: 1px solid black; }
@@ -271,12 +272,12 @@ html[lang="ll"] .thing .title { font-weight: bold; }
 html[lang="ll"] .NERPageMarker { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 html[lang="ll"] .neverEndingReddit { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 html[lang="ll"] .neverEndingReddit img { display: none; }
-html[lang="ll"] #authorInfoToolTip .blueButton { background-color: #21587e !important; }
+html[lang="ll"] #authorInfoToolTip .blueButton { background-color: #21587E !important; }
 html[lang="ll"] .fancy-toggle-button .add { background: #116428 !important; }
-html[lang="ll"] .RES-keyNav-activeElement, html[lang="ll"] .commentarea .RES-keyNav-activeElement .md, html[lang="ll"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #dddddd !important; }
+html[lang="ll"] .RES-keyNav-activeElement, html[lang="ll"] .commentarea .RES-keyNav-activeElement .md, html[lang="ll"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #ddd !important; }
 html[lang="ll"] .side hr { display: none; }
 html[lang="ll"] .side { background: none; z-index: 500; }
-html[lang="ll"] .side .titlebox { background: #dddddd; border: 1px solid gray; color: #111111; padding: 5px; }
+html[lang="ll"] .side .titlebox { background: #ddd; border: 1px solid gray; color: #111; padding: 5px; }
 html[lang="ll"] .side .titlebox .redditname a { text-transform: uppercase; }
 html[lang="ll"] .side .titlebox .word { display: none; }
 html[lang="ll"] .side .titlebox .subscribers .number::after { content: " locusts"; }
@@ -288,20 +289,20 @@ html[lang="ll"] .side .titlebox .flairtoggle { background: none; }
 html[lang="ll"] .side .titlebox .bottom { display: none; }
 html[lang="ll"] .side .titlebox .tagline { margin: 10px 0; }
 html[lang="ll"] .submit-link { display: none; }
-html[lang="ll"] .morelink { background: #dddddd; border: 1px solid gray; color: #111111; }
+html[lang="ll"] .morelink { background: #ddd; border: 1px solid gray; color: #111; }
 html[lang="ll"] .morelink:hover { background: white; }
 html[lang="ll"] .morelink a { color: #780000; }
 html[lang="ll"] .morelink .nub { display: none; }
 html[lang="ll"] .morelink + .spacer { display: none; padding: 0px; }
 html[lang="ll"] .morelink + .spacer a { display: none; }
 html[lang="ll"] .morelink:hover + .spacer { display: block; }
-html[lang="ll"] .side .sidecontentbox .content { background: #dddddd; border: 1px solid gray; color: #111111; }
+html[lang="ll"] .side .sidecontentbox .content { background: #ddd; border: 1px solid gray; color: #111; }
 html[lang="ll"] .side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
 html[lang="ll"] .side blockquote h2 { border-bottom-color: #780000; }
 html[lang="ll"] .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html[lang="ll"] .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
 html[lang="ll"] .listing-page .thing { background: white; }
-html[lang="ll"] .listing-page .thing .entry { background: #dddddd; border: 1px solid gray; color: #111111; padding: 7px 6px; }
+html[lang="ll"] .listing-page .thing .entry { background: #ddd; border: 1px solid gray; color: #111; padding: 7px 6px; }
 html[lang="ll"] .entry .expando-button { background: none !important; cursor: pointer !important; }
 html[lang="ll"] .entry .expando-button.collapsed, html[lang="ll"] .entry .expando-button.collapsedExpando { background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
 html[lang="ll"] .entry .expando-button.collapsed:hover, html[lang="ll"] .entry .expando-button.collapsedExpando:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
@@ -312,7 +313,7 @@ html[lang="ll"] .entry .expando-button.video:hover { background-image: url(%%Vid
 html[lang="ll"] .link.last-clicked { border: none; }
 html[lang="ll"] .link.last-clicked::before { content: "<"; color: gray; height: 20px; float: right; }
 html[lang="ll"] .midcol { width: 22px !important; }
-html[lang="ll"] .link .rank { color: #3d3d3d; }
+html[lang="ll"] .link .rank { color: #3D3D3D; }
 html[lang="ll"] .entry .buttons li a { font-weight: normal; }
 html[lang="ll"] .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: 13px; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
 html[lang="ll"] .side h6 a:hover { text-decoration: underline; }
@@ -320,11 +321,11 @@ html[lang="ll"] .md a[href$="#spoiler"] { background: black !important; color: b
 html[lang="ll"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html[lang="ll"] .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html[lang="ll"] .linkinfo { background: none; }
-html[lang="ll"] .link .usertext .md { background: #dddddd; border: 1px solid gray; color: #111111; max-width: 80em; margin: 0 5px; border-radius: 0; }
+html[lang="ll"] .link .usertext .md { background: #ddd; border: 1px solid gray; color: #111; max-width: 80em; margin: 0 5px; border-radius: 0; }
 html[lang="ll"] .md blockquote, html[lang="ll"] .help blockquote { border-left: 2px solid #780000; }
 html[lang="ll"] .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html[lang="ll"] .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
-html[lang="ll"] .searchpane { background: #dddddd; border: 1px solid gray; color: #111111; }
+html[lang="ll"] .searchpane { background: #ddd; border: 1px solid gray; color: #111; }
 html[lang="ll"] .commentarea .comment { background: none !important; }
 html[lang="ll"] .commentarea .comment .comment { background: none !important; }
 html[lang="ll"] .commentarea .comment .comment .comment { background: none !important; }
@@ -335,34 +336,34 @@ html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comme
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
 html[lang="ll"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
-html[lang="ll"] #header { border-bottom: 1px solid #b67d27; background-color: black; height: 145px; margin-bottom: 15px; }
+html[lang="ll"] #header { border-bottom: 1px solid #B67D27; background-color: black; height: 145px; margin-bottom: 15px; }
 html[lang="ll"] #header .pagename.redditname a { background: url(%%banneralt%%); width: 100%; height: 125px; display: inline-block; position: absolute; left: 0px; top: 19px; text-indent: -9999px; z-index: -100; background-repeat: no-repeat; }
 html[lang="ll"] #header-img { opacity: 0.4; position: absolute; bottom: 40px; left: -35px; z-index: 300; height: 44px; width: 66px; }
 html[lang="ll"] #header-img:hover { opacity: 1; left: -15px; }
 html[lang="ll"] .infobar.welcome h1 { color: black; }
-html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h1, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h2, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h3, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h4, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h5, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h6 { color: #111111; }
+html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h1, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h2, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h3, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h4, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h5, html[lang="ll"] .wiki-page .wiki-page-content .md.wiki h6 { color: #111; }
 html[lang="ll"] .wiki-page .wiki-page-content > hr { border: none; margin-bottom: 20px; }
 html[lang="ll"] .wiki-page .wiki-page-content table { background: white; width: 100%; margin: 0; }
 html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h1, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h2, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h3, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h4, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h5, html[lang="ll"] .wiki-page .wiki-page-content blockquote > blockquote > h6 { height: 0px; overflow: hidden; }
-html[lang="ll"] .wiki-page > .content > span { display: inline-block; border-top: 1px solid #b67d27; padding-right: 13px; }
+html[lang="ll"] .wiki-page > .content > span { display: inline-block; border-top: 1px solid #B67D27; padding-right: 13px; }
 html[lang="ll"] .wiki-page > .content > span .wikititle { font-size: 16px; font-size: 14px; font-family: courier, fixed-width; }
 html[lang="ll"] .wiki-page > .content > span .wikititle::before { content: "wiki/"; }
 html[lang="ll"] .wiki-page > .content > span .wikititle strong { font-weight: normal !important; }
 html[lang="ll"] .wiki-page > .content > span .pageactions { border: 1px solid gray; border: none; border-radius: 0px; padding-left: 15px; margin: 0px; }
-html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction-current { background: none; color: orangered; border: 1px solid #b67d27; border-top: none; border-radius: 0px; }
+html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction-current { background: none; color: orangeRed; border: 1px solid #B67D27; border-top: none; border-radius: 0px; }
 html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction { margin-top: 0px; }
 html[lang="ll"] .wiki-page > .content > span .pageactions .wikiaction:hover { background: none; }
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html[lang="ll"] .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
-html[lang="ll"] html:not([lang*="l"]) .flair.flair-Bronze, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Bronze, html[lang="ll"] .flair.flair-Bronze, html[lang="ll"] html[lang="lx"] .flair.flair-Bronze, html[lang="lx"] html[lang="ll"] .flair.flair-Bronze { background: url(%%allleagues%%) 0 -3088px no-repeat; }
-html[lang="ll"] html:not([lang*="l"]) .flair.flair-Silver, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Silver, html[lang="ll"] .flair.flair-Silver, html[lang="ll"] html[lang="lx"] .flair.flair-Silver, html[lang="lx"] html[lang="ll"] .flair.flair-Silver { background: url(%%allleagues%%) 0 -3056px no-repeat; }
-html[lang="ll"] html:not([lang*="l"]) .flair.flair-Gold, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Gold, html[lang="ll"] .flair.flair-Gold, html[lang="ll"] html[lang="lx"] .flair.flair-Gold, html[lang="lx"] html[lang="ll"] .flair.flair-Gold { background: url(%%allleagues%%) 0 -2928px no-repeat; }
-html[lang="ll"] html:not([lang*="l"]) .flair.flair-Platinum, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Platinum, html[lang="ll"] .flair.flair-Platinum, html[lang="ll"] html[lang="lx"] .flair.flair-Platinum, html[lang="lx"] html[lang="ll"] .flair.flair-Platinum { background: url(%%allleagues%%) 0 -3040px no-repeat; }
-html[lang="ll"] html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] html[lang="ll"] .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
-html[lang="ll"] html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Master, html[lang="ll"] html[lang="lx"] .flair.flair-Master, html[lang="lx"] html[lang="ll"] .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
-html[lang="ll"] html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] html[lang="ll"] .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
-html[lang="ll"] .flair { background: none; color: #111111; border: none; margin: 0px; padding: 0px; }
+html[lang="ll"] .flair.flair-Bronze { background: url(%%allleagues%%) 0 -3088px no-repeat; }
+html[lang="ll"] .flair.flair-Silver { background: url(%%allleagues%%) 0 -3056px no-repeat; }
+html[lang="ll"] .flair.flair-Gold { background: url(%%allleagues%%) 0 -2928px no-repeat; }
+html[lang="ll"] .flair.flair-Platinum { background: url(%%allleagues%%) 0 -3040px no-repeat; }
+html[lang="ll"] .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
+html[lang="ll"] .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
+html[lang="ll"] .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
+html[lang="ll"] .flair { background: none; color: #111; border: none; margin: 0px; padding: 0px; }
 html[lang="ll"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
 html[lang="ll"] .flair.flair-Master, html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] .flair.flair-Platinum, html[lang="ll"] .flair.flair-Gold, html[lang="ll"] .flair.flair-Silver, html[lang="ll"] .flair.flair-Bronze { background-repeat: no-repeat; padding-left: 16px; height: 14px; width: 0; margin: 0; text-indent: -9999px; }
 html[lang="ll"] .flair.flair-HotS { color: #9452c6; }
@@ -395,8 +396,8 @@ html[lang="ll"] a:hover ~ .flair.flair-S2014-4::before, html[lang="ll"] .flair:h
 html[lang="ll"] a:hover ~ .flair.flair-S2014-5::before, html[lang="ll"] .flair:hover.flair-S2014-5::before { content: "(2014 Season 5)"; float: right; color: gray; }
 html[lang="ll"] a:hover ~ .flair.flair-S2014-6::before, html[lang="ll"] .flair:hover.flair-S2014-6::before { content: "(2014 Season 6)"; float: right; color: gray; }
 html[lang="ll"] .icon-menu a { background: none; }
-html[lang="ll"] #search input[type="text"] { background: white; color: #111111 !important; border: 1px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
-html[lang="ll"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #de0000; }
+html[lang="ll"] #search input[type="text"] { background: white; color: #111 !important; border: 1px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
+html[lang="ll"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #DE0000; }
 html[lang="ll"] #search input[type="text"]:focus { opacity: 1; }
 html[lang="ll"] .infobar { background: none; border-color: gray; }
 html[lang="ll"] #sr-header-area { position: relative; z-index: 901; width: 100%; }
@@ -410,58 +411,58 @@ html[lang="ll"] .content.submit .info-notice, html[lang="ll"] .tabmenu.formtab .
 html[lang="ll"] .tabmenu.formtab a { border: none; }
 html[lang="ll"] .formtab-content { border-top: 2px solid white; }
 html[lang="ll"] .new-comment .usertext-body { background: none !important; border: none !important; }
-html[lang="ll"] .choice:hover { background: #333333 !important; }
-html[lang="ll"] .voteWeight { color: #111111 !important; background: none !important; }
+html[lang="ll"] .choice:hover { background: #333 !important; }
+html[lang="ll"] .voteWeight { color: #111 !important; background: none !important; }
 html[lang="ll"] .nextprev a { background: none; }
 html[lang="ll"] .footer { border: 1px solid gray; border-radius: 0px; }
 html[lang="ll"] body { background-color: white; }
 html[lang="ll"] a { text-decoration: none; color: #780000; }
-html[lang="ll"] a:hover { color: #de0000; }
-html[lang="ll"] ::selection { color: white; background-color: #1111aa !important; }
+html[lang="ll"] a:hover { color: #DE0000; }
+html[lang="ll"] ::selection { color: white; background-color: #11a !important; }
 html[lang="ll"] code { color: #00a300; }
-html[lang="ll"] body > .content { background: none; color: #111111; }
+html[lang="ll"] body > .content { background: none; color: #111; }
 html[lang="ll"] .comment .md p > a:visited { color: #780000 !important; }
-html[lang="ll"] .comment .md p > a:hover { color: #de0000 !important; }
-html[lang="ll"] .newComments { color: #de0000 !important; }
+html[lang="ll"] .comment .md p > a:hover { color: #DE0000 !important; }
+html[lang="ll"] .newComments { color: #DE0000 !important; }
 html[lang="ll"] .entry .buttons li.trial-stamp, html[lang="ll"] .entry .buttons li.reported-stamp { color: white; }
-html[lang="ll"] a.author.submitter { color: #de0000 !important; background: none !important; }
-html[lang="ll"] a.author.submitter:hover { color: #f70000 !important; background: none !important; }
-html[lang="ll"] h2 { color: #222222; }
+html[lang="ll"] a.author.submitter { color: #DE0000 !important; background: none !important; }
+html[lang="ll"] a.author.submitter:hover { color: #F70000 !important; background: none !important; }
+html[lang="ll"] h2 { color: #222; }
 html[lang="ll"] h2 a { color: #780000; }
-html[lang="ll"] p.tagline em { color: #111111; display: none; }
-html[lang="ll"] .generic-table { color: #111111; }
+html[lang="ll"] p.tagline em { color: #111; display: none; }
+html[lang="ll"] .generic-table { color: #111; }
 html[lang="ll"] .usertext.grayed .usertext-body { color: red; background: none; }
 html[lang="ll"] .linefield { background: none; }
 html[lang="ll"] .roundfield { background-color: white; }
 html[lang="ll"] .tagline a { color: #780000; text-decoration: none; }
-html[lang="ll"] .tagline a:hover { color: #de0000; text-decoration: none; }
-html[lang="ll"] .tagline .submitter { color: #de0000; }
-html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #de0000 !important; }
-html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: #f70000 !important; }
-html[lang="ll"] .dropdown.srdrop .selected { color: #111111; }
-html[lang="ll"] #sr-more-link { color: #111111; background-color: white; }
+html[lang="ll"] .tagline a:hover { color: #DE0000; text-decoration: none; }
+html[lang="ll"] .tagline .submitter { color: #DE0000; }
+html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #DE0000 !important; }
+html[lang="ll"] #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: #F70000 !important; }
+html[lang="ll"] .dropdown.srdrop .selected { color: #111; }
+html[lang="ll"] #sr-more-link { color: #111; background-color: white; }
 html[lang="ll"] .keyHighlight { background: none !important; }
-html[lang="ll"] .thing .title { color: #de0000 !important; }
-html[lang="ll"] .thing .title:hover { color: #f70000 !important; }
+html[lang="ll"] .thing .title { color: #DE0000 !important; }
+html[lang="ll"] .thing .title:hover { color: #F70000 !important; }
 html[lang="ll"] .thing .title:visited, html[lang="ll"] .thing .title.click { color: #780000 !important; }
-html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover { color: #de0000 !important; }
+html[lang="ll"] .thing .title:visited:hover, html[lang="ll"] .thing .title.click:hover { color: #DE0000 !important; }
 html[lang="ll"] .drop-choices { background: white; }
 html[lang="ll"] .flairselector li { border: none; }
-html[lang="ll"] .NERPageMarker { color: #111111 !important; }
-html[lang="ll"] .neverEndingReddit { background: none !important; color: #111111 !important; }
+html[lang="ll"] .NERPageMarker { color: #111 !important; }
+html[lang="ll"] .neverEndingReddit { background: none !important; color: #111 !important; }
 html[lang="ll"] .neverEndingReddit img { display: none; }
-html[lang="ll"] .RESDialogSmall { background-color: white !important; color: #111111 !important; }
-html[lang="ll"] .RESDialogSmall > h3 { background-color: #dddddd !important; color: #111111 !important; }
+html[lang="ll"] .RESDialogSmall { background-color: white !important; color: #111 !important; }
+html[lang="ll"] .RESDialogSmall > h3 { background-color: #ddd !important; color: #111 !important; }
 html[lang="ll"] .RESCloseButton { background: white !important; }
-html[lang="ll"] .RESCloseButton:hover { background: #444444 !important; }
-html[lang="ll"] .side { color: #111111 !important; }
-html[lang="ll"] .side .titlebox .redditname a { color: #111111 !important; }
-html[lang="ll"] .side h4 { background: white; color: #111111; }
-html[lang="ll"] .side h5 { background: white; color: #111111; }
-html[lang="ll"] .side h6 { background: #111111; color: #dddddd; }
+html[lang="ll"] .RESCloseButton:hover { background: #444 !important; }
+html[lang="ll"] .side { color: #111 !important; }
+html[lang="ll"] .side .titlebox .redditname a { color: #111 !important; }
+html[lang="ll"] .side h4 { background: white; color: #111; }
+html[lang="ll"] .side h5 { background: white; color: #111; }
+html[lang="ll"] .side h6 { background: #111; color: #ddd; }
 html[lang="ll"] #header #header-bottom-left ul.tabmenu li a { background-color: white; }
-html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: white; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
-html[lang="ll"] #sr-header-area { background-color: white; color: #111111; }
+html[lang="ll"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: white; border: 1px solid gray; box-shadow: 0px 0px 10px #B67D27; }
+html[lang="ll"] #sr-header-area { background-color: white; color: #111; }
 html[lang="ll"] #sr-header-area .sr-bar a { color: #780000; }
 
 html[lang="lx"] .arrow { display: block; background: url(%%alt-arrows%%); background-repeat: no-repeat; width: 17px; height: 14px; margin: 0 auto; outline: none; background-repeat: no-repeat; margin-bottom: 1px; }
@@ -478,12 +479,12 @@ html[lang="lx"] .thing .title { font-weight: bold; }
 html[lang="lx"] .NERPageMarker { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 html[lang="lx"] .neverEndingReddit { background: none !important; border-width: 0px 0px 1px 0px !important; border-radius: 0px !important; border-style: dashed !important; padding-top: 0px !important; border-color: gray !important; }
 html[lang="lx"] .neverEndingReddit img { display: none; }
-html[lang="lx"] #authorInfoToolTip .blueButton { background-color: #21587e !important; }
+html[lang="lx"] #authorInfoToolTip .blueButton { background-color: #21587E !important; }
 html[lang="lx"] .fancy-toggle-button .add { background: #116428 !important; }
-html[lang="lx"] .RES-keyNav-activeElement, html[lang="lx"] .commentarea .RES-keyNav-activeElement .md, html[lang="lx"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #222222 !important; }
+html[lang="lx"] .RES-keyNav-activeElement, html[lang="lx"] .commentarea .RES-keyNav-activeElement .md, html[lang="lx"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: #222 !important; }
 html[lang="lx"] .side hr { display: none; }
 html[lang="lx"] .side { background: none; z-index: 500; }
-html[lang="lx"] .side .titlebox { background: #222222; border: 1px solid gray; color: #718c44; padding: 5px; }
+html[lang="lx"] .side .titlebox { background: #222; border: 1px solid gray; color: #718C44; padding: 5px; }
 html[lang="lx"] .side .titlebox .redditname a { text-transform: uppercase; }
 html[lang="lx"] .side .titlebox .word { display: none; }
 html[lang="lx"] .side .titlebox .subscribers .number::after { content: " locusts"; }
@@ -495,20 +496,20 @@ html[lang="lx"] .side .titlebox .flairtoggle { background: none; }
 html[lang="lx"] .side .titlebox .bottom { display: none; }
 html[lang="lx"] .side .titlebox .tagline { margin: 10px 0; }
 html[lang="lx"] .submit-link { display: none; }
-html[lang="lx"] .morelink { background: #222222; border: 1px solid gray; color: #718c44; }
+html[lang="lx"] .morelink { background: #222; border: 1px solid gray; color: #718C44; }
 html[lang="lx"] .morelink:hover { background: white; }
 html[lang="lx"] .morelink a { color: #425430; }
 html[lang="lx"] .morelink .nub { display: none; }
 html[lang="lx"] .morelink + .spacer { display: none; padding: 0px; }
 html[lang="lx"] .morelink + .spacer a { display: none; }
 html[lang="lx"] .morelink:hover + .spacer { display: block; }
-html[lang="lx"] .side .sidecontentbox .content { background: #222222; border: 1px solid gray; color: #718c44; }
+html[lang="lx"] .side .sidecontentbox .content { background: #222; border: 1px solid gray; color: #718C44; }
 html[lang="lx"] .side blockquote { border: none !important; padding: 0px; margin: 0px !important; padding-top: 10px; }
 html[lang="lx"] .side blockquote h2 { border-bottom-color: #425430; }
 html[lang="lx"] .side blockquote blockquote { padding-bottom: 0px; padding-top: 0px; height: 3px; overflow: hidden; }
 html[lang="lx"] .side blockquote:hover blockquote { display: block; height: auto; padding-bottom: 5px; background: none; }
 html[lang="lx"] .listing-page .thing { background: white; }
-html[lang="lx"] .listing-page .thing .entry { background: #222222; border: 1px solid gray; color: #718c44; padding: 7px 6px; }
+html[lang="lx"] .listing-page .thing .entry { background: #222; border: 1px solid gray; color: #718C44; padding: 7px 6px; }
 html[lang="lx"] .entry .expando-button { background: none !important; cursor: pointer !important; }
 html[lang="lx"] .entry .expando-button.collapsed, html[lang="lx"] .entry .expando-button.collapsedExpando { background-image: url(%%egg-plus-off%%) !important; background-position: -1px -1px !important; }
 html[lang="lx"] .entry .expando-button.collapsed:hover, html[lang="lx"] .entry .expando-button.collapsedExpando:hover { background-image: url(%%egg-plus-on%%) !important; background-position: -1px -1px !important; }
@@ -519,7 +520,7 @@ html[lang="lx"] .entry .expando-button.video:hover { background-image: url(%%Vid
 html[lang="lx"] .link.last-clicked { border: none; }
 html[lang="lx"] .link.last-clicked::before { content: "<"; color: gray; height: 20px; float: right; }
 html[lang="lx"] .midcol { width: 22px !important; }
-html[lang="lx"] .link .rank { color: #3d3d3d; }
+html[lang="lx"] .link .rank { color: #3D3D3D; }
 html[lang="lx"] .entry .buttons li a { font-weight: normal; }
 html[lang="lx"] .side h6 { border: none !important; padding: 4px; margin: 0px; position: absolute; top: 25px; left: 295px; z-index: 100; border-radius: 5px; font-size: 13px; max-width: 450px; box-shadow: 0px 0px 15px 0px white; }
 html[lang="lx"] .side h6 a:hover { text-decoration: underline; }
@@ -527,11 +528,11 @@ html[lang="lx"] .md a[href$="#spoiler"] { background: black !important; color: b
 html[lang="lx"] .md a[href$="#spoiler"]::before { color: white !important; content: "Spoiler:"; border-bottom: 1px solid black; margin-right: 5px; }
 html[lang="lx"] .md a[href$="#spoiler"]:hover { color: white !important; border-bottom: 0px solid red; }
 html[lang="lx"] .linkinfo { background: none; }
-html[lang="lx"] .link .usertext .md { background: #222222; border: 1px solid gray; color: #718c44; max-width: 80em; margin: 0 5px; border-radius: 0; }
+html[lang="lx"] .link .usertext .md { background: #222; border: 1px solid gray; color: #718C44; max-width: 80em; margin: 0 5px; border-radius: 0; }
 html[lang="lx"] .md blockquote, html[lang="lx"] .help blockquote { border-left: 2px solid #425430; }
 html[lang="lx"] .usertext.border .usertext-body { background: none; border: solid 4px red; border-color: transparent; border-left-color: red; margin-bottom: -5px; margin-top: -3px; }
 html[lang="lx"] .gilded-comment-icon::before { background-image: url(%%reddit-gold%%); background-position: 0px 0px; height: 13px; width: 16px; }
-html[lang="lx"] .searchpane { background: #222222; border: 1px solid gray; color: #718c44; }
+html[lang="lx"] .searchpane { background: #222; border: 1px solid gray; color: #718C44; }
 html[lang="lx"] .commentarea .comment { background: none !important; }
 html[lang="lx"] .commentarea .comment .comment { background: none !important; }
 html[lang="lx"] .commentarea .comment .comment .comment { background: none !important; }
@@ -542,7 +543,7 @@ html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comme
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
 html[lang="lx"] .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: none !important; }
-html[lang="lx"] #header { border-bottom: 1px solid #b67d27; background-color: black; height: 145px; margin-bottom: 15px; }
+html[lang="lx"] #header { border-bottom: 1px solid #B67D27; background-color: black; height: 145px; margin-bottom: 15px; }
 html[lang="lx"] #header .pagename.redditname a { background: url(%%banneralt%%); width: 100%; height: 125px; display: inline-block; position: absolute; left: 0px; top: 19px; text-indent: -9999px; z-index: -100; background-repeat: no-repeat; }
 html[lang="lx"] #header-img { opacity: 0.4; position: absolute; bottom: 40px; left: -35px; z-index: 300; height: 44px; width: 66px; }
 html[lang="lx"] #header-img:hover { opacity: 1; left: -15px; }
@@ -551,24 +552,24 @@ html[lang="lx"] .wiki-page .wiki-page-content .md.wiki h1, html[lang="lx"] .wiki
 html[lang="lx"] .wiki-page .wiki-page-content > hr { border: none; margin-bottom: 20px; }
 html[lang="lx"] .wiki-page .wiki-page-content table { background: white; width: 100%; margin: 0; }
 html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h1, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h2, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h3, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h4, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h5, html[lang="lx"] .wiki-page .wiki-page-content blockquote > blockquote > h6 { height: 0px; overflow: hidden; }
-html[lang="lx"] .wiki-page > .content > span { display: inline-block; border-top: 1px solid #b67d27; padding-right: 13px; }
+html[lang="lx"] .wiki-page > .content > span { display: inline-block; border-top: 1px solid #B67D27; padding-right: 13px; }
 html[lang="lx"] .wiki-page > .content > span .wikititle { font-size: 16px; font-size: 14px; font-family: courier, fixed-width; }
 html[lang="lx"] .wiki-page > .content > span .wikititle::before { content: "wiki/"; }
 html[lang="lx"] .wiki-page > .content > span .wikititle strong { font-weight: normal !important; }
 html[lang="lx"] .wiki-page > .content > span .pageactions { border: 1px solid gray; border: none; border-radius: 0px; padding-left: 15px; margin: 0px; }
-html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction-current { background: none; color: orangered; border: 1px solid #b67d27; border-top: none; border-radius: 0px; }
+html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction-current { background: none; color: orangeRed; border: 1px solid #B67D27; border-top: none; border-radius: 0px; }
 html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction { margin-top: 0px; }
 html[lang="lx"] .wiki-page > .content > span .pageactions .wikiaction:hover { background: none; }
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul { width: 300px; overflow: hidden; background: none !important; border: 1px solid gray; margin-top: 20px; padding: 4px 10px !important; list-style: none !important; }
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul ul { border: none; }
 html[lang="lx"] .wiki-page .wiki-page-content .wiki .toc > ul::before { display: block !important; content: "INDEX"; font-family: verdana, arial, helvetica, sans-serif; font-size: 13px; color: gray; text-align: left; margin-top: -21px; margin-left: -11px; width: 300px; position: absolute !important; }
-html[lang="lx"] html:not([lang*="l"]) .flair.flair-Bronze, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Bronze, html[lang="lx"] html[lang="ll"] .flair.flair-Bronze, html[lang="ll"] html[lang="lx"] .flair.flair-Bronze, html[lang="lx"] .flair.flair-Bronze { background: url(%%allleagues%%) 0 -3088px no-repeat; }
-html[lang="lx"] html:not([lang*="l"]) .flair.flair-Silver, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Silver, html[lang="lx"] html[lang="ll"] .flair.flair-Silver, html[lang="ll"] html[lang="lx"] .flair.flair-Silver, html[lang="lx"] .flair.flair-Silver { background: url(%%allleagues%%) 0 -3056px no-repeat; }
-html[lang="lx"] html:not([lang*="l"]) .flair.flair-Gold, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Gold, html[lang="lx"] html[lang="ll"] .flair.flair-Gold, html[lang="ll"] html[lang="lx"] .flair.flair-Gold, html[lang="lx"] .flair.flair-Gold { background: url(%%allleagues%%) 0 -2928px no-repeat; }
-html[lang="lx"] html:not([lang*="l"]) .flair.flair-Platinum, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Platinum, html[lang="lx"] html[lang="ll"] .flair.flair-Platinum, html[lang="ll"] html[lang="lx"] .flair.flair-Platinum, html[lang="lx"] .flair.flair-Platinum { background: url(%%allleagues%%) 0 -3040px no-repeat; }
-html[lang="lx"] html:not([lang*="l"]) .flair.flair-Diamond, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] html[lang="ll"] .flair.flair-Diamond, html[lang="ll"] html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
-html[lang="lx"] html:not([lang*="l"]) .flair.flair-Master, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Master, html[lang="lx"] html[lang="ll"] .flair.flair-Master, html[lang="ll"] html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
-html[lang="lx"] html:not([lang*="l"]) .flair.flair-Grandmaster, html:not([lang*="l"]) html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] html[lang="ll"] .flair.flair-Grandmaster, html[lang="ll"] html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
+html[lang="lx"] .flair.flair-Bronze { background: url(%%allleagues%%) 0 -3088px no-repeat; }
+html[lang="lx"] .flair.flair-Silver { background: url(%%allleagues%%) 0 -3056px no-repeat; }
+html[lang="lx"] .flair.flair-Gold { background: url(%%allleagues%%) 0 -2928px no-repeat; }
+html[lang="lx"] .flair.flair-Platinum { background: url(%%allleagues%%) 0 -3040px no-repeat; }
+html[lang="lx"] .flair.flair-Diamond { background: url(%%allleagues%%) 0 -3120px no-repeat; }
+html[lang="lx"] .flair.flair-Master { background: url(%%allleagues%%) 0 -2976px no-repeat; }
+html[lang="lx"] .flair.flair-Grandmaster { background: url(%%allleagues%%) 0 -3024px no-repeat; }
 html[lang="lx"] .flair { background: none; color: #383824; border: none; margin: 0px; padding: 0px; }
 html[lang="lx"] .flair.flair-Mod { border: red solid 1px; border-radius: 0px; border-width: 0px 0px 0px 1px; margin-right: 5px; margin-left: 1px; padding-left: 2px; }
 html[lang="lx"] .flair.flair-Master, html[lang="lx"] .flair.flair-Grandmaster, html[lang="lx"] .flair.flair-Diamond, html[lang="lx"] .flair.flair-Platinum, html[lang="lx"] .flair.flair-Gold, html[lang="lx"] .flair.flair-Silver, html[lang="lx"] .flair.flair-Bronze { background-repeat: no-repeat; padding-left: 16px; height: 14px; width: 0; margin: 0; text-indent: -9999px; }
@@ -603,7 +604,7 @@ html[lang="lx"] a:hover ~ .flair.flair-S2014-5::before, html[lang="lx"] .flair:h
 html[lang="lx"] a:hover ~ .flair.flair-S2014-6::before, html[lang="lx"] .flair:hover.flair-S2014-6::before { content: "(2014 Season 6)"; float: right; color: gray; }
 html[lang="lx"] .icon-menu a { background: none; }
 html[lang="lx"] #search input[type="text"] { background: white; color: #383824 !important; border: 1px solid white; border-radius: 0px; outline: none; padding: 3px 6px; opacity: 0.75; width: 290px; border-radius: 0; }
-html[lang="lx"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #00141c; }
+html[lang="lx"] #search input[type="text"]:hover { box-shadow: 0px 0px 5px 0px #00141C; }
 html[lang="lx"] #search input[type="text"]:focus { opacity: 1; }
 html[lang="lx"] .infobar { background: none; border-color: gray; }
 html[lang="lx"] #sr-header-area { position: relative; z-index: 901; width: 100%; }
@@ -617,22 +618,22 @@ html[lang="lx"] .content.submit .info-notice, html[lang="lx"] .tabmenu.formtab .
 html[lang="lx"] .tabmenu.formtab a { border: none; }
 html[lang="lx"] .formtab-content { border-top: 2px solid white; }
 html[lang="lx"] .new-comment .usertext-body { background: none !important; border: none !important; }
-html[lang="lx"] .choice:hover { background: #333333 !important; }
+html[lang="lx"] .choice:hover { background: #333 !important; }
 html[lang="lx"] .voteWeight { color: #383824 !important; background: none !important; }
 html[lang="lx"] .nextprev a { background: none; }
 html[lang="lx"] .footer { border: 1px solid gray; border-radius: 0px; }
 html[lang="lx"] body { background-color: white; }
 html[lang="lx"] a { text-decoration: none; color: #425430; }
-html[lang="lx"] a:hover { color: #00141c; }
-html[lang="lx"] ::selection { color: white; background-color: #1111aa !important; }
+html[lang="lx"] a:hover { color: #00141C; }
+html[lang="lx"] ::selection { color: white; background-color: #11a !important; }
 html[lang="lx"] code { color: #00a300; }
 html[lang="lx"] body > .content { background: none; color: #383824; }
 html[lang="lx"] .comment .md p > a:visited { color: #425430 !important; }
-html[lang="lx"] .comment .md p > a:hover { color: #00141c !important; }
-html[lang="lx"] .newComments { color: #00141c !important; }
+html[lang="lx"] .comment .md p > a:hover { color: #00141C !important; }
+html[lang="lx"] .newComments { color: #00141C !important; }
 html[lang="lx"] .entry .buttons li.trial-stamp, html[lang="lx"] .entry .buttons li.reported-stamp { color: white; }
-html[lang="lx"] a.author.submitter { color: #00141c !important; background: none !important; }
-html[lang="lx"] a.author.submitter:hover { color: #00141c !important; background: none !important; }
+html[lang="lx"] a.author.submitter { color: #00141C !important; background: none !important; }
+html[lang="lx"] a.author.submitter:hover { color: #00141C !important; background: none !important; }
 html[lang="lx"] h2 { color: #425430; }
 html[lang="lx"] h2 a { color: #425430; }
 html[lang="lx"] p.tagline em { color: #383824; display: none; }
@@ -641,32 +642,32 @@ html[lang="lx"] .usertext.grayed .usertext-body { color: red; background: none; 
 html[lang="lx"] .linefield { background: none; }
 html[lang="lx"] .roundfield { background-color: white; }
 html[lang="lx"] .tagline a { color: #425430; text-decoration: none; }
-html[lang="lx"] .tagline a:hover { color: #00141c; text-decoration: none; }
-html[lang="lx"] .tagline .submitter { color: #00141c; }
-html[lang="lx"] #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #00141c !important; }
-html[lang="lx"] #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: #00141c !important; }
+html[lang="lx"] .tagline a:hover { color: #00141C; text-decoration: none; }
+html[lang="lx"] .tagline .submitter { color: #00141C; }
+html[lang="lx"] #header #RESShortcuts .RESShortcutsCurrentSub:visited { color: #00141C !important; }
+html[lang="lx"] #header #RESShortcuts .RESShortcutsCurrentSub:hover { color: #00141C !important; }
 html[lang="lx"] .dropdown.srdrop .selected { color: #383824; }
 html[lang="lx"] #sr-more-link { color: #383824; background-color: white; }
 html[lang="lx"] .keyHighlight { background: none !important; }
-html[lang="lx"] .thing .title { color: #00141c !important; }
-html[lang="lx"] .thing .title:hover { color: #00141c !important; }
+html[lang="lx"] .thing .title { color: #00141C !important; }
+html[lang="lx"] .thing .title:hover { color: #00141C !important; }
 html[lang="lx"] .thing .title:visited, html[lang="lx"] .thing .title.click { color: #425430 !important; }
-html[lang="lx"] .thing .title:visited:hover, html[lang="lx"] .thing .title.click:hover { color: #00141c !important; }
+html[lang="lx"] .thing .title:visited:hover, html[lang="lx"] .thing .title.click:hover { color: #00141C !important; }
 html[lang="lx"] .drop-choices { background: white; }
 html[lang="lx"] .flairselector li { border: none; }
 html[lang="lx"] .NERPageMarker { color: #383824 !important; }
 html[lang="lx"] .neverEndingReddit { background: none !important; color: #383824 !important; }
 html[lang="lx"] .neverEndingReddit img { display: none; }
 html[lang="lx"] .RESDialogSmall { background-color: white !important; color: #383824 !important; }
-html[lang="lx"] .RESDialogSmall > h3 { background-color: #222222 !important; color: #718c44 !important; }
+html[lang="lx"] .RESDialogSmall > h3 { background-color: #222 !important; color: #718C44 !important; }
 html[lang="lx"] .RESCloseButton { background: white !important; }
-html[lang="lx"] .RESCloseButton:hover { background: #444444 !important; }
+html[lang="lx"] .RESCloseButton:hover { background: #444 !important; }
 html[lang="lx"] .side { color: #383824 !important; }
 html[lang="lx"] .side .titlebox .redditname a { color: #383824 !important; }
 html[lang="lx"] .side h4 { background: white; color: #383824; }
 html[lang="lx"] .side h5 { background: white; color: #383824; }
-html[lang="lx"] .side h6 { background: #718c44; color: #222222; }
+html[lang="lx"] .side h6 { background: #718C44; color: #222; }
 html[lang="lx"] #header #header-bottom-left ul.tabmenu li a { background-color: white; }
-html[lang="lx"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: white; border: 1px solid gray; box-shadow: 0px 0px 10px #b67d27; }
+html[lang="lx"] #header #header-bottom-left ul.tabmenu li.selected a { background-color: white; border: 1px solid gray; box-shadow: 0px 0px 10px #B67D27; }
 html[lang="lx"] #sr-header-area { background-color: white; color: #383824; }
 html[lang="lx"] #sr-header-area .sr-bar a { color: #425430; }
